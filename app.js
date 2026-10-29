@@ -417,6 +417,16 @@
     }, ms || 24);
     el.addEventListener("click", function () { if (i < text.length) { i = text.length; done(); } }, { once: true });
   }
+  // 처음 방문하면 집사 실루엣과 큰 언어 선택부터 보여줍니다. 브라우저 언어로 감지된 언어가 맨 위에 강조되어, 한 번만 누르면 됩니다.
+  function langScreen() {
+    st.mode = "lang";
+    var order = [lang].concat(Q.languages.filter(function (l) { return l !== lang; }));
+    draw(topbar("", true) +
+      '<div class="intro langscreen">' +
+      '<div class="stage silhouette">' + img("hands-behind") + "</div>" +
+      '<h1 class="lang-title">Language</h1>' +
+      '<div class="answers choice">' + order.map(function (l, i) { return '<button class="btn ' + (i === 0 ? "primary" : "strong") + '" data-pick="' + l + '" lang="' + l + '">' + esc(Q.languageNames[l]) + "</button>"; }).join("") + "</div></div>");
+  }
   function intro(keep) {
     if (!keep) st = fresh();
     st.mode = "intro";
@@ -438,7 +448,8 @@
     lang = l; document.documentElement.lang = l; document.title = s("title");
     try { localStorage.setItem("uy-lang", l); } catch (e) {}
     var m = st.mode;
-    if (m === "intro") intro(true);
+    if (m === "lang") langScreen();
+    else if (m === "intro") intro(true);
     else if (m === "brief") brief();
     else if (m === "shop") shop();
     else if (m === "shop2") shop2();
@@ -467,6 +478,7 @@
     var b = e.target.closest("button"); if (!b) return;
     if (b.dataset.globe) { var m = document.getElementById("langmenu"); m.hidden = !m.hidden; b.setAttribute("aria-expanded", m.hidden ? "false" : "true"); return; }
     if (b.dataset.lang) return setLang(b.dataset.lang);
+    if (b.dataset.pick) { st.mode = "intro"; return setLang(b.dataset.pick); }
     if (b.dataset.secret) { var sc = document.getElementById("secret"); sc.hidden = false; b.hidden = true; return; }
     if (b.dataset.card) return makeCard();
     if (b.dataset.savecard) return saveCard();
@@ -494,5 +506,5 @@
 
   document.addEventListener("click", function (e) { var m = document.getElementById("langmenu"); if (m && !m.hidden && !e.target.closest(".langwrap")) m.hidden = true; });
   document.title = s("title");
-  intro();
+  if (localStorage_has()) intro(); else langScreen();
 })();
