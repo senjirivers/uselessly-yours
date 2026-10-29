@@ -440,7 +440,7 @@
     draw(topbar("", true) +
       '<div class="intro langscreen">' +
       '<div class="stage silhouette">' + img("hands-behind") + "</div>" +
-      '<div class="langpick"><button class="btn primary langbtn" data-langopen="1" aria-expanded="false">Language<small>' + esc(Q.languageNames[lang]) + ' ▾</small></button>' +
+      '<div class="langpick"><button class="btn primary langbtn" data-langopen="1" aria-expanded="false">Language <span aria-hidden="true">▾</span></button>' +
       '<div class="langlist" id="langlist" hidden>' + order.map(function (l) { return '<button data-pick="' + l + '" lang="' + l + '"' + (l === lang ? ' aria-current="true"' : "") + ">" + esc(Q.languageNames[l]) + "</button>"; }).join("") + "</div></div></div>");
   }
   function intro(keep) {
