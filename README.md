@@ -9,7 +9,7 @@
   - `strings`: 화면 문구와 제휴 고지 문구
   - `settings`: 최소 질문 수(minQuestions), 최대 질문 수, 추천 수 등
 - 상품 사진: `assets/products/번호.jpg` 로 넣고, `data.js`의 해당 상품에 `"img": "assets/products/번호.jpg"` 를 적습니다.
-- 다른 언어: `languages`에 `"en"` 추가, 문구/질문/상품의 `name`, `line`에 `"en"` 칸 추가. 나라별 링크는 `urlByLang`.
+- 언어: 한국어, English, 中文, 日本語, Español, Português(BR), Français, Deutsch, ไทย. 새 언어는 `languages`와 `languageNames`에 추가하고, 모든 문구·질문·성향·상품의 칸을 채웁니다(빈 칸은 한국어로 대신 나옵니다). 예: `"en"` 추가, 문구/질문/상품의 `name`, `line`에 `"en"` 칸 추가. 나라별 링크는 `urlByLang`.
 - 색/글꼴: `style.css` 맨 위 `:root`
 
 ## 배포

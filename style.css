@@ -7,8 +7,8 @@
   --muted: #6b6b6b;
   --gold: #0d0d0d;      /* 포인트색: 흑백 디자인이라 검정 */
   --gold-ink: #ffffff;
-  --serif: "Noto Serif KR", "Nanum Myeongjo", "Apple SD Gothic Neo", serif;
-  --sans: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --serif: "Noto Serif KR", "Noto Serif Thai", "Nanum Myeongjo", "Apple SD Gothic Neo", serif;
+  --sans: "Noto Sans KR", "Noto Sans Thai", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
   color-scheme: light;
 }
 
@@ -214,3 +214,9 @@ a.btn { display: flex; align-items: center; justify-content: center; text-decora
 .langscreen { gap: 18px; }
 .lang-title { margin: 0; text-align: center; font: 700 clamp(34px, 11vw, 52px)/1.1 var(--serif); letter-spacing: -.02em; }
 .langscreen .answers.choice .btn { text-align: center; font-size: 17px; }
+.langscreen .answers.choice { grid-template-columns: 1fr 1fr; gap: 10px; }
+.langscreen .answers.choice .btn { min-height: 48px; padding: 8px 10px; font-size: 16px; }
+.langscreen .answers.choice .btn.primary { grid-column: 1 / -1; font-size: 18px; }
+.langscreen { gap: 12px; }
+.langscreen.intro .stage { height: min(26dvh, 240px); min-height: 130px; }
+.lang-title { font-size: clamp(30px, 9vw, 44px); }

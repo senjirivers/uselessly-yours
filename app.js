@@ -321,12 +321,15 @@
     return new Promise(function (res) { var i = new Image(); i.onload = function () { res(i); }; i.onerror = function () { res(null); }; i.src = src; });
   }
   function wrapLines(ctx, text, maxW) {
-    var spaced = text.indexOf(" ") > -1, toks = spaced ? text.split(" ") : text.split(""), lines = [], cur = "";
+    var toks;
+    if (lang === "th" && window.Intl && Intl.Segmenter) toks = Array.from(new Intl.Segmenter("th", { granularity: "word" }).segment(text), function (g) { return g.segment; });
+    else toks = text.indexOf(" ") > -1 ? text.split(/(?= )/) : text.split("");
+    var lines = [], cur = "";
     toks.forEach(function (t) {
-      var test = cur ? (spaced ? cur + " " + t : cur + t) : t;
-      if (ctx.measureText(test).width > maxW && cur) { lines.push(cur); cur = t; } else cur = test;
+      var test = cur + t;
+      if (ctx.measureText(test.replace(/\s+$/, "")).width > maxW && cur.trim()) { lines.push(cur.replace(/\s+$/, "")); cur = t.replace(/^\s+/, ""); } else cur = test;
     });
-    if (cur) lines.push(cur);
+    if (cur.trim()) lines.push(cur.replace(/\s+$/, ""));
     return lines;
   }
   function makeCard() {
@@ -335,7 +338,7 @@
     var me = st.traits[0].tr, kw = T(me.kw), serif = getComputedStyle(document.documentElement).getPropertyValue("--serif") || "serif";
     var sans = getComputedStyle(document.documentElement).getPropertyValue("--sans") || "sans-serif";
     var fontsOk = document.fonts && document.fonts.load ? Promise.race([
-      Promise.all([document.fonts.load("700 100px " + serif, kw), document.fonts.load("400 40px " + sans, s("headline"))]),
+      Promise.all([document.fonts.load("700 100px " + serif, kw), document.fonts.load("400 40px " + sans, s("headline")), document.fonts.load("500 40px " + serif, T(me.advice) + s("cardLead") + s("cardRare"))]),
       new Promise(function (r) { setTimeout(r, 2500); })]) : Promise.resolve();
     Promise.all([loadImg("assets/butler/gift.webp"), loadImg("assets/logo/uselessly-yours.png"), fontsOk]).then(function (v) {
       var c = document.createElement("canvas"); c.width = 1080; c.height = 1920;
