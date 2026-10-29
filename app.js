@@ -91,20 +91,40 @@
     ask();
   }
 
-  // 이미 쓰는 쇼핑 앱의 상품은 신규 가입 수수료가 없어서, 다른 쪽 쇼핑몰 상품이 더 자주 나오도록 가중치를 줍니다.
+  // 이미 쓰는 쇼핑몰의 상품은 신규 가입 수수료가 없어서, 해본 곳의 상품은 거의 안 나오게 가중치를 줍니다.
+  var SHOPS = [["temu", "Temu"], ["aliexpress", "AliExpress"], ["amazon", "Amazon"], ["shein", "SHEIN"]];
   function shop() {
     st.mode = "shop";
     render({
       pose: "presenting", head: "",
       bubble: '<div class="bubble" id="bub" aria-live="polite"></div>',
-      body: '<div class="answers choice"><button class="btn strong" data-shop="temu">' + esc(s("shopTemu")) + '</button><button class="btn strong" data-shop="aliexpress">' + esc(s("shopAli")) + '</button><button class="btn strong" data-shop="none">' + esc(s("shopNone")) + "</button></div>",
+      body: '<div class="answers"><button class="btn strong" data-exp="yes">' + esc(s("yes")) + '</button><button class="btn strong" data-exp="no">' + esc(s("no")) + "</button></div>",
+      type: s("shopExp")
+    });
+  }
+  function shop2() {
+    st.mode = "shop2";
+    var on = st.shops || (st.shops = {});
+    render({
+      pose: "presenting", head: "",
+      bubble: '<div class="bubble" id="bub" aria-live="polite"></div>',
+      body: '<div class="answers choice">' + SHOPS.map(function (x) { return '<button class="btn strong shopt' + (on[x[0]] ? " on" : "") + '" data-shopt="' + x[0] + '" aria-pressed="' + (on[x[0]] ? "true" : "false") + '">' + x[1] + "</button>"; }).join("") + '<button class="btn primary wide" data-shopdone="1">' + esc(s("shopDone")) + "</button></div>",
       type: s("shopAsk")
     });
   }
-  function pickShop(v) {
-    var f = S.shopFactor != null ? S.shopFactor : 0.25;
-    if (v !== "none") st.w = st.w.map(function (w, i) { return Q.products[i].shop === v ? w * f : w; });
-    st.shop = v; ask();
+  function pickShop() {
+    var f = S.shopFactor != null ? S.shopFactor : 0.06, on = st.shops || {};
+    st.w = st.w.map(function (w, i) { return on[Q.products[i].shop] ? w * f : w; });
+    ready();
+  }
+  function ready() {
+    st.mode = "ready";
+    render({
+      pose: "presenting", head: "",
+      bubble: '<div class="bubble" id="bub" aria-live="polite"></div>',
+      body: '<div class="answers"><button class="btn primary wide" data-go="1">' + esc(s("start")) + "</button></div>",
+      type: s("shopGo")
+    });
   }
   function brief() {
     st.mode = "brief";
@@ -384,6 +404,8 @@
     if (m === "intro") intro(true);
     else if (m === "brief") brief();
     else if (m === "shop") shop();
+    else if (m === "shop2") shop2();
+    else if (m === "ready") ready();
     else if (m === "ask") ask(true);
     else if (m === "think") think(st.top);
     else if (m === "guess") guess(st.guess);
@@ -415,7 +437,10 @@
     if (b.dataset.mute) return toggleMusic();
     if (b.dataset.start) { startMusic(); return brief(); }
     if (b.dataset.next) return shop();
-    if (b.dataset.shop) return pickShop(b.dataset.shop);
+    if (b.dataset.exp) { st.exp = b.dataset.exp; return shop2(); }
+    if (b.dataset.shopt) { st.shops = st.shops || {}; var k = b.dataset.shopt; st.shops[k] = !st.shops[k]; b.classList.toggle("on", !!st.shops[k]); b.setAttribute("aria-pressed", st.shops[k] ? "true" : "false"); return; }
+    if (b.dataset.shopdone) return pickShop();
+    if (b.dataset.go) return ask();
     if (b.dataset.a) return answer(b.dataset.a);
     if (b.dataset.back) return back();
     if (b.dataset.gans) return guess2(b.dataset.gans);

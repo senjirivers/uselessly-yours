@@ -204,3 +204,5 @@ a.btn { display: flex; align-items: center; justify-content: center; text-decora
 
 .prog { height: 4px; background: #e8e8e8; border-radius: 2px; margin: 0 0 14px; overflow: hidden; }
 .prog i { display: block; height: 100%; background: var(--ink); border-radius: 2px; transition: width .5s ease; }
+.btn.shopt.on { background: var(--gold); border-color: var(--gold); color: var(--gold-ink); font-weight: 700; }
+.btn.shopt.on::before { content: "✓ "; }
