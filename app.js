@@ -329,7 +329,10 @@
       if (lines.length > 1) { x.font = "700 92px " + serif; lines = wrapLines(x, kw, 900); y = 1510; }
       lines.forEach(function (ln, k) { x.fillText(ln, 540, y + k * 118); });
       x.fillStyle = "#6b6b6b"; x.font = "400 38px " + sans; x.fillText(s("cardRare").replace("{p}", me.rarity), 540, 1745);
-      x.font = "400 32px " + sans; x.fillText(location.href.split("#")[0].replace(/^https?:\/\//, "").replace(/\/$/, ""), 540, 1830);
+      var dom = (location.host || "uselesslyyours.netlify.app").replace(/^www\./, ""), dpx = 34;
+      x.fillStyle = "#8a8a8a"; x.font = "400 " + dpx + "px " + sans;
+      while (x.measureText(dom).width > 760 && dpx > 20) { dpx -= 2; x.font = "400 " + dpx + "px " + sans; }
+      x.fillText(dom, 540, 1815);
       st.card = c;
       wrap.innerHTML = '<img class="cardimg" src="' + c.toDataURL("image/png") + '" alt="">' +
         '<div class="answers"><button class="btn" data-savecard="1">' + esc(s("saveCard")) + '</button><button class="btn primary" data-sharecard="1">' + esc(s("shareCard")) + "</button></div>";
