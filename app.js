@@ -334,16 +334,23 @@
       x.textAlign = "center"; x.textBaseline = "alphabetic";
       if (v[1]) { var lw = 560, lh = lw * v[1].height / v[1].width; x.drawImage(v[1], 540 - lw / 2, 120, lw, lh); }
       x.fillStyle = "#6b6b6b"; x.font = "400 38px " + sans; x.fillText(s("headline"), 540, 290);
-      if (v[0]) { var bh = 880, bw = bh * v[0].width / v[0].height; x.drawImage(v[0], 540 - bw / 2, 340, bw, bh); }
-      x.fillStyle = "#6b6b6b"; x.font = "400 44px " + sans; x.fillText(s("cardLead"), 540, 1400);
+      if (v[0]) { var bh = 800, bw = bh * v[0].width / v[0].height; x.drawImage(v[0], 540 - bw / 2, 330, bw, bh); }
+      x.fillStyle = "#6b6b6b"; x.font = "400 44px " + sans; x.fillText(s("cardLead"), 540, 1230);
       x.fillStyle = "#0d0d0d"; x.font = "700 112px " + serif;
-      var lines = wrapLines(x, kw, 900), y = 1530, fs0 = 112;
+      var lines = wrapLines(x, kw, 900), y = 1345, fs0 = 112;
       if (lines.length > 1) {
-        y = 1510;
+        y = 1330;
         [92, 76, 64, 54].some(function (px) { fs0 = px; x.font = "700 " + px + "px " + serif; lines = wrapLines(x, kw, 900); return lines.length <= 2; });
       }
-      lines.forEach(function (ln, k) { x.fillText(ln, 540, y + k * Math.round(fs0 * 1.28)); });
-      x.fillStyle = "#6b6b6b"; x.font = "400 38px " + sans; x.fillText(s("cardRare").replace("{p}", me.rarity), 540, 1745);
+      var pitch = Math.round(fs0 * 1.28);
+      lines.forEach(function (ln, k) { x.fillText(ln, 540, y + k * pitch); });
+      var kb = y + (lines.length - 1) * pitch;
+      x.fillStyle = "#6b6b6b"; x.font = "400 38px " + sans; x.fillText(s("cardRare").replace("{p}", me.rarity), 540, kb + 75);
+      x.fillStyle = "#d4d4d4"; x.fillRect(480, kb + 120, 120, 3);
+      var adv = T(me.advice) || "", apx = 42, alines = [];
+      x.fillStyle = "#0d0d0d";
+      [42, 38, 34, 30].some(function (px) { apx = px; x.font = "500 " + px + "px " + serif; alines = wrapLines(x, adv, 820); return alines.length <= 3; });
+      alines.forEach(function (ln, k) { x.fillText(ln, 540, kb + 195 + k * Math.round(apx * 1.45)); });
       var dom = (location.host || "uselessly-yours.yoonwantsgroove.workers.dev").replace(/^www\./, ""), dpx = 34;
       x.fillStyle = "#8a8a8a"; x.font = "400 " + dpx + "px " + sans;
       while (x.measureText(dom).width > 760 && dpx > 20) { dpx -= 2; x.font = "400 " + dpx + "px " + sans; }

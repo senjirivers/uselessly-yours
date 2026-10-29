@@ -86,7 +86,7 @@ window.QUIZ = {
    "cardLead": "당신은",
    "friendText": "나는 '{kw}' 유형이 나왔어. 너는 뭐가 나올까?",
    "friendMine": "친구의 유형",
-   "cardRare": "나올 확률 약 {p}%",
+   "cardRare": "나올 확률 약 {p}%인 유형",
    "replyYes": "그럴 줄 알았습니다. 저는 틀린 적이 없습니다.",
    "replyNo": "그렇게 말씀하실 줄 알았습니다. 하지만 저는 틀린 적이 없습니다. 이 사실은 곧 증명됩니다."
   },
@@ -157,7 +157,7 @@ window.QUIZ = {
    "cardLead": "You are",
    "friendText": "I got '{kw}'. What will you get?",
    "friendMine": "Your friend's type",
-   "cardRare": "About {p}% get this",
+   "cardRare": "About {p}% of people are this type",
    "guessAsk": "Well? Does that sound about right?",
    "guessYes": "Sounds right",
    "guessNo": "Not at all",
@@ -231,7 +231,7 @@ window.QUIZ = {
    "cardLead": "你是",
    "friendText": "我的结果是「{kw}」。你会是什么呢？",
    "friendMine": "朋友的类型",
-   "cardRare": "出现概率约 {p}%",
+   "cardRare": "出现概率约 {p}% 的类型",
    "guessAsk": "怎么样？说得还算准吧？",
    "guessYes": "好像说中了",
    "guessNo": "完全不是",
@@ -305,7 +305,7 @@ window.QUIZ = {
    "cardLead": "あなたは",
    "friendText": "私は「{kw}」でした。あなたは何が出る？",
    "friendMine": "お友だちのタイプ",
-   "cardRare": "出る確率 約 {p}%",
+   "cardRare": "出る確率 約{p}%のタイプ",
    "guessAsk": "いかがでしょう。だいたい当たっていますか？",
    "guessYes": "当たっている気がします",
    "guessNo": "全然違います",
@@ -379,7 +379,7 @@ window.QUIZ = {
    "cardLead": "Eres",
    "friendText": "Me salió «{kw}». ¿Qué te saldrá a ti?",
    "friendMine": "Tipo de tu amigo",
-   "cardRare": "Sale en un {p}% aprox.",
+   "cardRare": "Un tipo que sale en un {p}% aprox.",
    "guessAsk": "¿Y bien? ¿Voy bastante cerca?",
    "guessYes": "Parece que sí",
    "guessNo": "Para nada",
@@ -6358,7 +6358,14 @@ window.QUIZ = {
    "opp": "calm",
    "match": "human",
    "rarity": 4.3,
-   "need": "laugh"
+   "need": "laugh",
+   "advice": {
+    "ko": "단톡방에 아무 설명 없이 감자 사진을 올려보는 건 어떨까요?",
+    "en": "How about posting a photo of a potato in the group chat with no explanation?",
+    "zh": "要不要在群里不加任何解释地发一张土豆照片？",
+    "ja": "グループチャットに説明なしでジャガイモの写真を投稿してみるのはどうでしょう？",
+    "es": "¿Qué tal subir al chat del grupo una foto de una patata sin dar explicaciones?"
+   }
   },
   {
    "id": "funny_face",
@@ -6388,7 +6395,14 @@ window.QUIZ = {
    "opp": "useful",
    "match": "craft",
    "rarity": 0.7,
-   "need": "welcome"
+   "need": "welcome",
+   "advice": {
+    "ko": "오늘은 일부러 한 가지 정도 틀려보는 건 어떨까요?",
+    "en": "How about getting one thing wrong on purpose today?",
+    "zh": "今天要不要故意错一件事？",
+    "ja": "今日はわざと一つくらい間違えてみるのはどうでしょう？",
+    "es": "¿Qué tal equivocarte a propósito en una cosa hoy?"
+   }
   },
   {
    "id": "costume",
@@ -6420,7 +6434,14 @@ window.QUIZ = {
    "opp": "wall",
    "match": "magic",
    "rarity": 9.1,
-   "need": "role"
+   "need": "role",
+   "advice": {
+    "ko": "이번 주말엔 이름도 말투도 바꿔서 하루 살아보는 건 어떨까요?",
+    "en": "How about spending this weekend for a day with a new name and a new way of talking?",
+    "zh": "这个周末要不要换个名字、换种说话方式过一天？",
+    "ja": "今週末は名前も話し方も変えて一日過ごしてみるのはどうでしょう？",
+    "es": "¿Qué tal pasar un día de este fin de semana con otro nombre y otra forma de hablar?"
+   }
   },
   {
    "id": "magic",
@@ -6450,7 +6471,14 @@ window.QUIZ = {
    "opp": "useful",
    "match": "costume",
    "rarity": 5.2,
-   "need": "wonder"
+   "need": "wonder",
+   "advice": {
+    "ko": "오늘 만난 사람 하나에게 나만의 설정집을 써보는 건 어떨까요?",
+    "en": "How about writing your own lore file for one person you met today?",
+    "zh": "要不要给今天遇到的一个人写一份专属设定集？",
+    "ja": "今日会った人のひとりに、自分だけの設定資料集を書いてみるのはどうでしょう？",
+    "es": "¿Qué tal escribir tu propio libro de lore sobre alguien que conociste hoy?"
+   }
   },
   {
    "id": "scary",
@@ -6480,7 +6508,14 @@ window.QUIZ = {
    "opp": "soft",
    "match": "alien",
    "rarity": 3.4,
-   "need": "stim"
+   "need": "stim",
+   "advice": {
+    "ko": "무서운 영화를 낮에 불 다 켜고 정주행해보는 건 어떨까요?",
+    "en": "How about binge-watching a scary movie in the daytime with every light on?",
+    "zh": "要不要白天开着所有的灯把恐怖片一口气看完？",
+    "ja": "怖い映画を昼間に全部の電気をつけて一気見してみるのはどうでしょう？",
+    "es": "¿Qué tal maratonear una película de miedo de día y con todas las luces encendidas?"
+   }
   },
   {
    "id": "alien",
@@ -6509,7 +6544,14 @@ window.QUIZ = {
    "opp": "tough",
    "match": "magic",
    "rarity": 5.9,
-   "need": "welcome"
+   "need": "welcome",
+   "advice": {
+    "ko": "처음 보는 사람에게 먼저 차 한 잔 권해보는 건 어떨까요?",
+    "en": "How about offering a cup of tea first to someone you have just met?",
+    "zh": "要不要先给刚认识的人递上一杯茶？",
+    "ja": "初めて会った人に、先にお茶を一杯すすめてみるのはどうでしょう？",
+    "es": "¿Qué tal ofrecerle primero una taza de té a alguien que acabas de conocer?"
+   }
   },
   {
    "id": "calm",
@@ -6541,7 +6583,14 @@ window.QUIZ = {
    "opp": "prank",
    "match": "wall",
    "rarity": 6.5,
-   "need": "cool"
+   "need": "cool",
+   "advice": {
+    "ko": "서랍 속 옛날 물건 하나를 꺼내서 오늘 써보는 건 어떨까요?",
+    "en": "How about taking one old thing out of a drawer and using it today?",
+    "zh": "要不要从抽屉里翻出一件旧物，今天就用起来？",
+    "ja": "引き出しの奥の古い物をひとつ出して、今日使ってみるのはどうでしょう？",
+    "es": "¿Qué tal sacar un objeto viejo del cajón y usarlo hoy?"
+   }
   },
   {
    "id": "keep",
@@ -6571,7 +6620,14 @@ window.QUIZ = {
    "opp": "useful",
    "match": "calm",
    "rarity": 0.5,
-   "need": "free"
+   "need": "free",
+   "advice": {
+    "ko": "당당하게 쓸모없는 물건 하나에게 자리를 내어주는 건 어떨까요?",
+    "en": "How about proudly giving one useless thing a place of honor?",
+    "zh": "要不要大大方方地给一件没用的东西留个位置？",
+    "ja": "堂々と、役に立たないものにひとつ居場所をあげてみるのはどうでしょう？",
+    "es": "¿Qué tal darle con orgullo un lugar a una cosa inútil?"
+   }
   },
   {
    "id": "craft",
@@ -6602,7 +6658,14 @@ window.QUIZ = {
    "opp": "sound",
    "match": "keep",
    "rarity": 6.2,
-   "need": "play"
+   "need": "play",
+   "advice": {
+    "ko": "오늘 주운 이상한 조각 하나를 책상에 전시해보는 건 어떨까요?",
+    "en": "How about displaying one odd scrap you picked up today on your desk?",
+    "zh": "要不要把今天捡到的一块奇怪碎片摆在书桌上展览？",
+    "ja": "今日拾った変なかけらをひとつ、机の上に展示してみるのはどうでしょう？",
+    "es": "¿Qué tal exponer en tu escritorio un trozo raro que recogiste hoy?"
+   }
   },
   {
    "id": "soft",
@@ -6633,7 +6696,14 @@ window.QUIZ = {
    "opp": "scary",
    "match": "cat",
    "rarity": 7.2,
-   "need": "comfort"
+   "need": "comfort",
+   "advice": {
+    "ko": "오늘 밤은 말랑한 것 하나 안고 일찍 자보는 건 어떨까요?",
+    "en": "How about hugging something squishy and going to bed early tonight?",
+    "zh": "今晚要不要抱着软软的东西早点睡？",
+    "ja": "今夜はやわらかいものをひとつ抱いて、早めに寝てみるのはどうでしょう？",
+    "es": "¿Qué tal abrazar algo blandito y acostarte pronto esta noche?"
+   }
   },
   {
    "id": "cat",
@@ -6662,7 +6732,14 @@ window.QUIZ = {
    "opp": "tough",
    "match": "soft",
    "rarity": 7.3,
-   "need": "cool"
+   "need": "cool",
+   "advice": {
+    "ko": "고양이처럼 오늘 하루 아무것도 안 해보는 건 어떨까요?",
+    "en": "How about doing absolutely nothing today, like a cat?",
+    "zh": "要不要像猫一样，今天什么都不做？",
+    "ja": "猫のように、今日は一日何もしないでみるのはどうでしょう？",
+    "es": "¿Qué tal no hacer absolutamente nada hoy, como un gato?"
+   }
   },
   {
    "id": "frog",
@@ -6691,7 +6768,14 @@ window.QUIZ = {
    "opp": "outdoor",
    "match": "cat",
    "rarity": 8.1,
-   "need": "free"
+   "need": "free",
+   "advice": {
+    "ko": "비 오는 날 개구리처럼 가만히 앉아 멍때려보는 건 어떨까요?",
+    "en": "How about sitting still and zoning out like a frog on a rainy day?",
+    "zh": "要不要在下雨天像青蛙一样静静坐着发呆？",
+    "ja": "雨の日にカエルのようにじっと座ってぼーっとしてみるのはどうでしょう？",
+    "es": "¿Qué tal sentarte quieto y quedarte en blanco como una rana un día de lluvia?"
+   }
   },
   {
    "id": "animal",
@@ -6723,7 +6807,14 @@ window.QUIZ = {
    "opp": "human",
    "match": "soft",
    "rarity": 0.5,
-   "need": "comfort"
+   "need": "comfort",
+   "advice": {
+    "ko": "산책길에 만난 동물에게 인사부터 해보는 건 어떨까요?",
+    "en": "How about greeting the first animal you meet on a walk?",
+    "zh": "要不要散步时先跟遇到的小动物打个招呼？",
+    "ja": "散歩で出会った動物に、まず挨拶してみるのはどうでしょう？",
+    "es": "¿Qué tal saludar primero al animal que te encuentres en el paseo?"
+   }
   },
   {
    "id": "tough",
@@ -6754,7 +6845,14 @@ window.QUIZ = {
    "opp": "soft",
    "match": "outdoor",
    "rarity": 5.3,
-   "need": "sturdy"
+   "need": "sturdy",
+   "advice": {
+    "ko": "오래 쓴 묵직한 물건 하나를 칭찬해주는 건 어떨까요?",
+    "en": "How about complimenting one heavy old thing you have used for years?",
+    "zh": "要不要夸一夸用了很久的那件沉甸甸的东西？",
+    "ja": "長く使っている重みのある物をひとつ、褒めてあげるのはどうでしょう？",
+    "es": "¿Qué tal elogiar un objeto pesado que llevas años usando?"
+   }
   },
   {
    "id": "sound",
@@ -6784,7 +6882,14 @@ window.QUIZ = {
    "opp": "wall",
    "match": "play",
    "rarity": 5.1,
-   "need": "sound"
+   "need": "sound",
+   "advice": {
+    "ko": "오늘 잠들기 전 소리 하나만 골라서 끝까지 들어보는 건 어떨까요?",
+    "en": "How about picking one sound tonight and listening to it all the way through before sleep?",
+    "zh": "今晚睡前要不要只挑一种声音，从头听到尾？",
+    "ja": "今夜は寝る前に音をひとつ選んで、最後まで聴いてみるのはどうでしょう？",
+    "es": "¿Qué tal elegir un solo sonido esta noche y escucharlo entero antes de dormir?"
+   }
   },
   {
    "id": "play",
@@ -6816,7 +6921,14 @@ window.QUIZ = {
    "opp": "calm",
    "match": "outdoor",
    "rarity": 6.3,
-   "need": "play"
+   "need": "play",
+   "advice": {
+    "ko": "오늘은 손에 뭐든 쥐고 한 시간 만지작거려보는 건 어떨까요?",
+    "en": "How about holding something and fiddling with it for a whole hour today?",
+    "zh": "今天要不要手里握点什么，摆弄上一个小时？",
+    "ja": "今日は何でも手に持って、一時間いじってみるのはどうでしょう？",
+    "es": "¿Qué tal agarrar algo y trastear con ello una hora entera hoy?"
+   }
   },
   {
    "id": "outdoor",
@@ -6845,7 +6957,14 @@ window.QUIZ = {
    "opp": "frog",
    "match": "play",
    "rarity": 1.6,
-   "need": "move"
+   "need": "move",
+   "advice": {
+    "ko": "퇴근길에 한 정거장 먼저 내려서 뛰어가보는 건 어떨까요?",
+    "en": "How about getting off one stop early on the way home and running the rest?",
+    "zh": "下班路上要不要提前一站下车，一路跑回去？",
+    "ja": "帰り道に一駅手前で降りて、走ってみるのはどうでしょう？",
+    "es": "¿Qué tal bajarte una parada antes al volver a casa y correr el resto?"
+   }
   },
   {
    "id": "food",
@@ -6874,7 +6993,14 @@ window.QUIZ = {
    "opp": "scary",
    "match": "tiny",
    "rarity": 1.9,
-   "need": "comfort"
+   "need": "comfort",
+   "advice": {
+    "ko": "오늘 한 끼는 웃는 음식에게 인사하고 먹어보는 건 어떨까요?",
+    "en": "How about saying hello to a smiling meal before eating it today?",
+    "zh": "今天这一顿要不要先跟微笑的食物打个招呼再吃？",
+    "ja": "今日の一食は、笑っている食べ物にあいさつしてから食べてみるのはどうでしょう？",
+    "es": "¿Qué tal saludar a una comida sonriente antes de comerla hoy?"
+   }
   },
   {
    "id": "wall",
@@ -6905,7 +7031,14 @@ window.QUIZ = {
    "opp": "costume",
    "match": "calm",
    "rarity": 7.3,
-   "need": "view"
+   "need": "view",
+   "advice": {
+    "ko": "벽에 걸 물건 하나를 한 달 동안 고민해보는 건 어떨까요?",
+    "en": "How about spending a whole month deciding what to hang on one wall?",
+    "zh": "要不要花一个月，认真想想墙上该挂点什么？",
+    "ja": "壁にかけるものをひとつ、一か月かけて悩んでみるのはどうでしょう？",
+    "es": "¿Qué tal pasar un mes entero decidiendo qué colgar en una pared?"
+   }
   },
   {
    "id": "human",
@@ -6935,7 +7068,14 @@ window.QUIZ = {
    "opp": "animal",
    "match": "prank",
    "rarity": 2.9,
-   "need": "laugh"
+   "need": "laugh",
+   "advice": {
+    "ko": "엄숙한 자리에서 속으로만 효과음을 틀어보는 건 어떨까요?",
+    "en": "How about playing sound effects in your head during a solemn moment?",
+    "zh": "要不要在庄严的场合里，只在心里放音效？",
+    "ja": "厳かな場で、心の中だけで効果音を鳴らしてみるのはどうでしょう？",
+    "es": "¿Qué tal poner efectos de sonido en tu cabeza durante un momento solemne?"
+   }
   },
   {
    "id": "tiny",
@@ -6964,7 +7104,14 @@ window.QUIZ = {
    "opp": "tough",
    "match": "food",
    "rarity": 4.2,
-   "need": "view"
+   "need": "view",
+   "advice": {
+    "ko": "손바닥만 한 물건 하나를 주머니에 넣고 하루 다녀보는 건 어떨까요?",
+    "en": "How about carrying one palm-sized thing in your pocket for the whole day?",
+    "zh": "要不要把一件巴掌大的东西放口袋里带上一整天？",
+    "ja": "手のひらサイズのものをひとつポケットに入れて、一日過ごしてみるのはどうでしょう？",
+    "es": "¿Qué tal llevar en el bolsillo algo del tamaño de la palma durante todo el día?"
+   }
   },
   {
    "id": "useful",
@@ -6994,7 +7141,14 @@ window.QUIZ = {
    "opp": "keep",
    "match": "craft",
    "rarity": 0.5,
-   "need": "free"
+   "need": "free",
+   "advice": {
+    "ko": "사놓은 물건에 거창한 사용 계획서를 써보는 건 어떨까요?",
+    "en": "How about writing a grand usage plan for something you already bought?",
+    "zh": "要不要给已经买下的东西写一份隆重的使用计划书？",
+    "ja": "買ってしまったものに、大げさな使用計画書を書いてみるのはどうでしょう？",
+    "es": "¿Qué tal escribir un gran plan de uso para algo que ya compraste?"
+   }
   },
   {
    "id": "hide",
@@ -7023,7 +7177,14 @@ window.QUIZ = {
    "opp": "prank",
    "match": "calm",
    "rarity": 0.6,
-   "need": "cool"
+   "need": "cool",
+   "advice": {
+    "ko": "오늘 하루는 부캐 이름으로 주문해보는 건 어떨까요?",
+    "en": "How about placing your order today under your alter ego's name?",
+    "zh": "今天要不要用分身的名字下单？",
+    "ja": "今日は一日、サブキャの名前で注文してみるのはどうでしょう？",
+    "es": "¿Qué tal hacer tu pedido hoy con el nombre de tu alter ego?"
+   }
   }
  ],
  "needs": {
