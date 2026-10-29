@@ -711,7 +711,7 @@ window.QUIZ = {
    5,
    9
   ],
-  "maxChoice": 6,
+  "maxChoice": 9,
   "shopFactor": 0.06
  },
  "questions": [
@@ -2005,7 +2005,7 @@ window.QUIZ = {
     "de": "Welche Rolle haben Sie bei Treffen meistens?",
     "th": "เวลาไปงานสังสรรค์ คุณมักรับบทอะไร?"
    },
-   "stage": 2,
+   "stage": 1,
    "yes": [],
    "no": [],
    "options": [
@@ -2076,7 +2076,7 @@ window.QUIZ = {
     "de": "Was haben Sie dieses Wochenende vor?",
     "th": "สุดสัปดาห์นี้คุณมีแผนอะไร?"
    },
-   "stage": 2,
+   "stage": 1,
    "yes": [],
    "no": [],
    "options": [
@@ -2151,7 +2151,7 @@ window.QUIZ = {
     "de": "Wann denken Sie: \"Das ist genau mein Geschmack\"?",
     "th": "เมื่อไหร่ที่คุณคิดว่า \"นี่แหละสไตล์ฉัน\"?"
    },
-   "stage": 2,
+   "stage": 1,
    "yes": [],
    "no": [],
    "options": [
@@ -2224,7 +2224,7 @@ window.QUIZ = {
     "de": "Jemand führt direkt vor Ihnen einen Zaubertrick vor. Was denken Sie innerlich?",
     "th": "มีคนเล่นมายากลต่อหน้าคุณ ในใจคุณคิดอะไร?"
    },
-   "stage": 2,
+   "stage": 1,
    "yes": [],
    "no": [],
    "options": [
@@ -2369,7 +2369,7 @@ window.QUIZ = {
     "de": "Welcher Gesichtsausdruck rührt Sie am meisten?",
     "th": "สีหน้าแบบไหนที่โดนใจคุณที่สุด?"
    },
-   "stage": 2,
+   "stage": 1,
    "yes": [],
    "no": [],
    "options": [
@@ -2441,7 +2441,7 @@ window.QUIZ = {
     "de": "Es regnet und Sie stehen am Fenster. Was ist neben Ihnen?",
     "th": "ฝนตกและคุณอยู่ริมหน้าต่าง ข้าง ๆ คุณมีอะไร?"
    },
-   "stage": 2,
+   "stage": 1,
    "yes": [],
    "no": [],
    "options": [
@@ -2514,7 +2514,7 @@ window.QUIZ = {
     "de": "Sie suchen ein Geburtstagsgeschenk für einen Freund aus. Wonach greifen Sie?",
     "th": "คุณกำลังเลือกของขวัญวันเกิดให้เพื่อน คุณหยิบอะไร?"
    },
-   "stage": 2,
+   "stage": 1,
    "yes": [],
    "no": [],
    "options": [
@@ -2739,7 +2739,7 @@ window.QUIZ = {
     "de": "Wenn es Ihr Profilbild wäre, welches?",
     "th": "ถ้าเป็นรูปโปรไฟล์ของคุณ จะเป็นรูปไหน?"
    },
-   "stage": 2,
+   "stage": 1,
    "yes": [],
    "no": [],
    "options": [
@@ -2886,7 +2886,7 @@ window.QUIZ = {
     "de": "Wenn Sie nach Hause kommen, welches Geräusch würde Sie am meisten freuen?",
     "th": "กลับถึงบ้านแล้วได้ยินเสียงอะไรจะมีความสุขที่สุด?"
    },
-   "stage": 2,
+   "stage": 1,
    "yes": [],
    "no": [],
    "options": [
@@ -3183,7 +3183,7 @@ window.QUIZ = {
     "de": "Womit verbringen Sie in letzter Zeit die meiste Zeit?",
     "th": "ช่วงนี้คุณใช้เวลากับอะไรมากที่สุด?"
    },
-   "stage": 2,
+   "stage": 1,
    "yes": [],
    "no": [],
    "options": [
@@ -4002,6 +4002,1164 @@ window.QUIZ = {
    ],
    "no": [],
    "stage": 2
+  },
+  {
+   "id": "c_morning",
+   "text": {
+    "ko": "아침에 눈을 뜨자마자 가장 먼저 하는 일은 무엇입니까?",
+    "en": "What is the first thing you do when you wake up?",
+    "zh": "早上一睁眼，你最先做什么？",
+    "ja": "朝、目が覚めて最初にすることは何ですか？",
+    "es": "¿Qué es lo primero que haces al despertar?",
+    "pt": "Qual é a primeira coisa que você faz ao acordar?",
+    "fr": "Quelle est la première chose que vous faites en vous réveillant ?",
+    "de": "Was tun Sie als Erstes, wenn Sie aufwachen?",
+    "th": "สิ่งแรกที่คุณทำเมื่อตื่นนอนคืออะไร?"
+   },
+   "stage": 1,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "이불 속에서 멍하니 천장 바라보기",
+      "en": "Stare blankly at the ceiling under the blanket",
+      "zh": "躺在被窝里望着天花板发呆",
+      "ja": "布団の中でぼんやり天井を眺める",
+      "es": "Mirar el techo sin pensar bajo la manta",
+      "pt": "Ficar olhando o teto, sem pensar, debaixo do cobertor",
+      "fr": "Fixer le plafond sans penser à rien sous la couette",
+      "de": "Unter der Decke gedankenlos die Zimmerdecke anstarren",
+      "th": "นอนเหม่อมองเพดานอยู่ในผ้าห่ม"
+     },
+     "tags": [
+      "zen",
+      "frog",
+      "cat"
+     ]
+    },
+    {
+     "text": {
+      "ko": "바로 일어나 몸 움직이기",
+      "en": "Get up right away and move around",
+      "zh": "马上起床活动身体",
+      "ja": "すぐ起きて体を動かす",
+      "es": "Levantarme enseguida y moverme",
+      "pt": "Levantar na hora e me mexer",
+      "fr": "Me lever tout de suite et bouger",
+      "de": "Sofort aufstehen und mich bewegen",
+      "th": "ลุกขึ้นแล้วขยับตัวทันที"
+     },
+     "tags": [
+      "outdoor",
+      "game",
+      "toy"
+     ]
+    },
+    {
+     "text": {
+      "ko": "휴대폰으로 웃긴 것 찾아보기",
+      "en": "Look up something funny on my phone",
+      "zh": "用手机找点好笑的东西",
+      "ja": "スマホで面白いものを探す",
+      "es": "Buscar algo gracioso en el móvil",
+      "pt": "Procurar algo engraçado no celular",
+      "fr": "Chercher quelque chose de drôle sur mon téléphone",
+      "de": "Auf dem Handy etwas Lustiges suchen",
+      "th": "เปิดมือถือหาอะไรตลก ๆ ดู"
+     },
+     "tags": [
+      "funny_face",
+      "prank",
+      "cartoon"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_gifted",
+   "text": {
+    "ko": "생일에 어떤 선물이 도착하면 가장 설렙니까?",
+    "en": "Which birthday gift would excite you most?",
+    "zh": "收到哪种生日礼物最让你心动？",
+    "ja": "誕生日にどんな贈り物が届くと一番わくわくしますか？",
+    "es": "¿Qué regalo de cumpleaños te ilusionaría más?",
+    "pt": "Que presente de aniversário mais te deixaria animado(a)?",
+    "fr": "Quel cadeau d'anniversaire vous ferait le plus plaisir ?",
+    "de": "Welches Geburtstagsgeschenk würde Sie am meisten freuen?",
+    "th": "ของขวัญวันเกิดแบบไหนที่ทำให้คุณตื่นเต้นที่สุด?"
+   },
+   "stage": 1,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "정체를 알 수 없는 작은 상자",
+      "en": "A small box of unknown contents",
+      "zh": "一个不知道里面是什么的小盒子",
+      "ja": "中身のわからない小さな箱",
+      "es": "Una cajita de contenido desconocido",
+      "pt": "Uma caixinha de conteúdo desconhecido",
+      "fr": "Une petite boîte au contenu inconnu",
+      "de": "Eine kleine Schachtel mit unbekanntem Inhalt",
+      "th": "กล่องเล็ก ๆ ที่ไม่รู้ว่าข้างในคืออะไร"
+     },
+     "tags": [
+      "magic",
+      "illusion",
+      "alien"
+     ]
+    },
+    {
+     "text": {
+      "ko": "뜯는 순간 웃음이 터지는 물건",
+      "en": "Something that makes me burst out laughing when I open it",
+      "zh": "拆开瞬间会笑出声的东西",
+      "ja": "開けた瞬間に笑ってしまうもの",
+      "es": "Algo que me hace estallar de risa al abrirlo",
+      "pt": "Algo que me faz cair na gargalhada ao abrir",
+      "fr": "Quelque chose qui me fait éclater de rire en l'ouvrant",
+      "de": "Etwas, bei dem ich beim Auspacken laut loslachen muss",
+      "th": "ของที่แกะแล้วหัวเราะลั่นทันที"
+     },
+     "tags": [
+      "prank",
+      "funny_face",
+      "cartoon"
+     ]
+    },
+    {
+     "text": {
+      "ko": "손에 쥐면 마음이 놓이는 물건",
+      "en": "Something that puts my mind at ease when I hold it",
+      "zh": "握在手里就能安心的东西",
+      "ja": "手に持つと心が落ち着くもの",
+      "es": "Algo que me da paz al sostenerlo",
+      "pt": "Algo que me acalma quando seguro",
+      "fr": "Quelque chose qui m'apaise quand je le tiens",
+      "de": "Etwas, das mich beruhigt, wenn ich es in der Hand halte",
+      "th": "ของที่ถือแล้วใจสงบ"
+     },
+     "tags": [
+      "plush",
+      "cute",
+      "doll"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_walk",
+   "text": {
+    "ko": "산책길에서 저절로 걸음이 멈추는 것은 무엇입니까?",
+    "en": "On a walk, what makes your steps stop on their own?",
+    "zh": "散步时，什么会让你不由自主停下脚步？",
+    "ja": "散歩中、思わず足が止まるのは何ですか？",
+    "es": "En un paseo, ¿qué hace que tus pasos se detengan solos?",
+    "pt": "Numa caminhada, o que faz seus passos pararem sozinhos?",
+    "fr": "En vous promenant, qu'est-ce qui arrête vos pas tout seuls ?",
+    "de": "Was lässt Ihre Schritte beim Spazierengehen von selbst stoppen?",
+    "th": "ระหว่างเดินเล่น อะไรที่ทำให้เท้าคุณหยุดเองโดยไม่รู้ตัว?"
+   },
+   "stage": 1,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "길고양이나 새",
+      "en": "A stray cat or a bird",
+      "zh": "流浪猫或小鸟",
+      "ja": "野良猫や鳥",
+      "es": "Un gato callejero o un pájaro",
+      "pt": "Um gato de rua ou um passarinho",
+      "fr": "Un chat errant ou un oiseau",
+      "de": "Eine Streunerkatze oder ein Vogel",
+      "th": "แมวจรหรือนก"
+     },
+     "tags": [
+      "cat",
+      "bird",
+      "animal"
+     ]
+    },
+    {
+     "text": {
+      "ko": "오래된 간판이나 낡은 건물",
+      "en": "An old signboard or a worn-out building",
+      "zh": "老招牌或破旧的建筑",
+      "ja": "古い看板や古びた建物",
+      "es": "Un cartel viejo o un edificio desgastado",
+      "pt": "Uma placa velha ou um prédio desgastado",
+      "fr": "Une vieille enseigne ou un bâtiment usé",
+      "de": "Ein altes Schild oder ein verwittertes Gebäude",
+      "th": "ป้ายเก่าหรืออาคารทรุดโทรม"
+     },
+     "tags": [
+      "west",
+      "east",
+      "statue"
+     ]
+    },
+    {
+     "text": {
+      "ko": "이상하게 생긴 낙서나 조형물",
+      "en": "An oddly shaped graffiti or sculpture",
+      "zh": "长得奇怪的涂鸦或造型",
+      "ja": "変な形の落書きやオブジェ",
+      "es": "Un grafiti o una escultura de forma rara",
+      "pt": "Um grafite ou uma escultura de formato estranho",
+      "fr": "Un graffiti ou une sculpture de forme étrange",
+      "de": "Ein seltsam geformtes Graffiti oder eine Skulptur",
+      "th": "กราฟฟิตี้หรือประติมากรรมรูปทรงประหลาด"
+     },
+     "tags": [
+      "funny_face",
+      "statue",
+      "art"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_music",
+   "text": {
+    "ko": "작업할 때 곁에 두고 싶은 소리는 무엇입니까?",
+    "en": "Which sound would you like beside you while you work?",
+    "zh": "工作时你想让哪种声音陪在身边？",
+    "ja": "作業中にそばに置きたい音は何ですか？",
+    "es": "¿Qué sonido te gustaría tener cerca mientras trabajas?",
+    "pt": "Que som você gostaria de ter por perto enquanto trabalha?",
+    "fr": "Quel son aimeriez-vous avoir près de vous quand vous travaillez ?",
+    "de": "Welches Geräusch hätten Sie bei der Arbeit gern in der Nähe?",
+    "th": "เสียงแบบไหนที่คุณอยากให้อยู่ข้างตัวตอนทำงาน?"
+   },
+   "stage": 2,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "딸깍, 달그락 같은 작은 소리",
+      "en": "Small clicks and clatters",
+      "zh": "咔嗒、叮当之类的小声音",
+      "ja": "カチッ、カタカタという小さな音",
+      "es": "Pequeños clics y traqueteos",
+      "pt": "Pequenos cliques e barulhinhos",
+      "fr": "De petits clics et cliquetis",
+      "de": "Kleine Klicks und Klappergeräusche",
+      "th": "เสียงแก๊กแก๊กกริ๊งกริ๊งเบา ๆ"
+     },
+     "tags": [
+      "sound",
+      "guitar"
+     ]
+    },
+    {
+     "text": {
+      "ko": "빗소리나 개구리 소리",
+      "en": "Rain or frogs croaking",
+      "zh": "雨声或蛙鸣",
+      "ja": "雨の音やカエルの声",
+      "es": "Lluvia o ranas croando",
+      "pt": "Chuva ou sapos coaxando",
+      "fr": "La pluie ou des grenouilles qui coassent",
+      "de": "Regen oder quakende Frösche",
+      "th": "เสียงฝนหรือเสียงกบร้อง"
+     },
+     "tags": [
+      "zen",
+      "frog"
+     ]
+    },
+    {
+     "text": {
+      "ko": "아무 소리 없는 완전한 고요",
+      "en": "Total, complete silence",
+      "zh": "完全没有声音的寂静",
+      "ja": "まったくの静けさ",
+      "es": "Silencio absoluto",
+      "pt": "Silêncio total",
+      "fr": "Un silence total",
+      "de": "Völlige Stille",
+      "th": "ความเงียบสนิท"
+     },
+     "tags": [
+      "statue",
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_texture",
+   "text": {
+    "ko": "손에 쥐고 싶은 촉감은 무엇입니까?",
+    "en": "Which feel do you want in your hand?",
+    "zh": "你想握在手里的触感是什么？",
+    "ja": "手に握りたい感触はどれですか？",
+    "es": "¿Qué tacto quieres tener en la mano?",
+    "pt": "Que textura você quer na mão?",
+    "fr": "Quelle sensation voulez-vous dans la main ?",
+    "de": "Welche Haptik möchten Sie in der Hand haben?",
+    "th": "สัมผัสแบบไหนที่คุณอยากถือไว้ในมือ?"
+   },
+   "stage": 2,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "말랑말랑 폭신한 것",
+      "en": "Squishy and fluffy",
+      "zh": "软软糯糯、蓬松的",
+      "ja": "ふわふわ、むにむにしたもの",
+      "es": "Blandito y esponjoso",
+      "pt": "Macia e fofinha",
+      "fr": "Doux et moelleux",
+      "de": "Weich und flauschig",
+      "th": "นุ่มนิ่มฟูฟ่อง"
+     },
+     "tags": [
+      "plush",
+      "cute"
+     ]
+    },
+    {
+     "text": {
+      "ko": "차갑고 묵직한 금속이나 돌",
+      "en": "Cold, heavy metal or stone",
+      "zh": "冰凉厚重的金属或石头",
+      "ja": "冷たくて重い金属や石",
+      "es": "Metal o piedra fríos y pesados",
+      "pt": "Metal ou pedra fria e pesada",
+      "fr": "Métal ou pierre froids et lourds",
+      "de": "Kaltes, schweres Metall oder Stein",
+      "th": "โลหะหรือหินเย็น ๆ หนัก ๆ"
+     },
+     "tags": [
+      "metal",
+      "tough",
+      "statue"
+     ]
+    },
+    {
+     "text": {
+      "ko": "매끈하고 단단한 도자기 같은 것",
+      "en": "Smooth, hard ceramic",
+      "zh": "光滑结实的陶瓷",
+      "ja": "つるりと硬い陶器のようなもの",
+      "es": "Cerámica lisa y dura",
+      "pt": "Cerâmica lisa e dura",
+      "fr": "Céramique lisse et dure",
+      "de": "Glatte, harte Keramik",
+      "th": "เซรามิกเรียบลื่นแข็งแรง"
+     },
+     "tags": [
+      "ceramic",
+      "craft",
+      "mold"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_trip",
+   "text": {
+    "ko": "여행지에서 꼭 사 오는 기념품은 무엇입니까?",
+    "en": "What souvenir do you always bring back from a trip?",
+    "zh": "旅行时你一定会带回的纪念品是？",
+    "ja": "旅行で必ず買って帰るお土産は何ですか？",
+    "es": "¿Qué recuerdo traes siempre de un viaje?",
+    "pt": "Que lembrancinha você sempre traz de viagem?",
+    "fr": "Quel souvenir rapportez-vous toujours de voyage ?",
+    "de": "Welches Souvenir bringen Sie von einer Reise immer mit?",
+    "th": "ของที่ระลึกอะไรที่คุณต้องซื้อกลับมาทุกครั้งที่ไปเที่ยว?"
+   },
+   "stage": 2,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "그 나라에서만 파는 이상한 인형",
+      "en": "A strange doll sold only in that country",
+      "zh": "只有当地才卖的奇怪娃娃",
+      "ja": "その国でしか売っていない変な人形",
+      "es": "Una muñeca rara que solo se vende en ese país",
+      "pt": "Uma boneca estranha que só se vende naquele país",
+      "fr": "Une poupée bizarre vendue seulement dans ce pays",
+      "de": "Eine seltsame Puppe, die es nur in diesem Land gibt",
+      "th": "ตุ๊กตาแปลก ๆ ที่ขายเฉพาะประเทศนั้น"
+     },
+     "tags": [
+      "doll",
+      "west",
+      "east"
+     ]
+    },
+    {
+     "text": {
+      "ko": "냉장고에 붙이는 작은 자석이나 열쇠고리",
+      "en": "A small magnet or keychain for the fridge",
+      "zh": "贴在冰箱上的小磁铁或钥匙扣",
+      "ja": "冷蔵庫に貼る小さなマグネットやキーホルダー",
+      "es": "Un imán o llavero pequeño para la nevera",
+      "pt": "Um ímã ou chaveiro pequeno para a geladeira",
+      "fr": "Un petit aimant ou porte-clés pour le frigo",
+      "de": "Einen kleinen Magneten oder Schlüsselanhänger für den Kühlschrank",
+      "th": "แม่เหล็กหรือพวงกุญแจเล็ก ๆ ติดตู้เย็น"
+     },
+     "tags": [
+      "tiny",
+      "cute"
+     ]
+    },
+    {
+     "text": {
+      "ko": "후회할 만큼 큰 조각상",
+      "en": "A statue so big I'll regret it",
+      "zh": "大到会后悔的雕像",
+      "ja": "後悔するほど大きな像",
+      "es": "Una estatua tan grande que acabaré lamentándolo",
+      "pt": "Uma estátua tão grande que vou me arrepender",
+      "fr": "Une statue si grosse que je le regretterai",
+      "de": "Eine Statue, so groß, dass ich es bereuen werde",
+      "th": "รูปปั้นใหญ่จนต้องเสียใจทีหลัง"
+     },
+     "tags": [
+      "statue",
+      "tough",
+      "god"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_drawer",
+   "text": {
+    "ko": "서랍 깊숙한 곳에서 발견될 것 같은 것은 무엇입니까?",
+    "en": "What might be found deep in your drawer?",
+    "zh": "抽屉最深处可能翻出什么？",
+    "ja": "引き出しの奥から出てきそうなものは何ですか？",
+    "es": "¿Qué podría aparecer en el fondo de tu cajón?",
+    "pt": "O que poderia aparecer no fundo da sua gaveta?",
+    "fr": "Que pourrait-on trouver au fond de votre tiroir ?",
+    "de": "Was könnte tief in Ihrer Schublade liegen?",
+    "th": "ในลึก ๆ ของลิ้นชักคุณน่าจะเจออะไร?"
+   },
+   "stage": 1,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "쓰다 만 열쇠고리와 잡동사니",
+      "en": "Half-used keychains and odds and ends",
+      "zh": "用了一半的钥匙扣和杂物",
+      "ja": "使いかけのキーホルダーと雑貨",
+      "es": "Llaveros a medio usar y cachivaches",
+      "pt": "Chaveiros usados pela metade e bugigangas",
+      "fr": "Des porte-clés à moitié utilisés et des bricoles",
+      "de": "Halb benutzte Schlüsselanhänger und Krimskrams",
+      "th": "พวงกุญแจใช้ไม่หมดกับของจุกจิก"
+     },
+     "tags": [
+      "storage",
+      "tiny",
+      "craft"
+     ]
+    },
+    {
+     "text": {
+      "ko": "언제 샀는지 모를 이상한 인형",
+      "en": "A strange doll I can't remember buying",
+      "zh": "不知什么时候买的奇怪娃娃",
+      "ja": "いつ買ったか分からない変な人形",
+      "es": "Una muñeca rara que no recuerdo haber comprado",
+      "pt": "Uma boneca estranha que não lembro de ter comprado",
+      "fr": "Une poupée bizarre dont j'ai oublié l'achat",
+      "de": "Eine seltsame Puppe, an deren Kauf ich mich nicht erinnere",
+      "th": "ตุ๊กตาแปลก ๆ ที่จำไม่ได้ว่าซื้อตอนไหน"
+     },
+     "tags": [
+      "doll",
+      "funny_face",
+      "plush"
+     ]
+    },
+    {
+     "text": {
+      "ko": "아무도 모르는 낡은 사진이나 엽서",
+      "en": "An old photo or postcard nobody knows about",
+      "zh": "没人知道的旧照片或明信片",
+      "ja": "誰も知らない古い写真や絵はがき",
+      "es": "Una foto o postal vieja que nadie conoce",
+      "pt": "Uma foto ou cartão-postal velho que ninguém conhece",
+      "fr": "Une vieille photo ou carte postale que personne ne connaît",
+      "de": "Ein altes Foto oder eine Postkarte, die niemand kennt",
+      "th": "รูปเก่าหรือโปสการ์ดที่ไม่มีใครรู้จัก"
+     },
+     "tags": [
+      "west",
+      "east",
+      "art"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_movie",
+   "text": {
+    "ko": "영화에서 오래 기억에 남는 장면은 어느 쪽입니까?",
+    "en": "Which movie scene stays with you the longest?",
+    "zh": "电影里哪种画面会让你记很久？",
+    "ja": "映画で長く記憶に残る場面はどれですか？",
+    "es": "¿Qué escena de película se te queda más tiempo en la memoria?",
+    "pt": "Que cena de filme fica mais tempo na sua memória?",
+    "fr": "Quelle scène de film reste le plus longtemps dans votre mémoire ?",
+    "de": "Welche Filmszene bleibt Ihnen am längsten im Gedächtnis?",
+    "th": "ฉากไหนในหนังที่คุณจำได้นานที่สุด?"
+   },
+   "stage": 2,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "누군가 크게 웃음이 터지는 장면",
+      "en": "Someone bursting into laughter",
+      "zh": "有人爆笑出声的场面",
+      "ja": "誰かが大笑いする場面",
+      "es": "Alguien estallando en carcajadas",
+      "pt": "Alguém caindo na gargalhada",
+      "fr": "Quelqu'un qui éclate de rire",
+      "de": "Jemand, der in lautes Lachen ausbricht",
+      "th": "ฉากที่ใครสักคนหัวเราะลั่น"
+     },
+     "tags": [
+      "prank",
+      "funny_face",
+      "human"
+     ]
+    },
+    {
+     "text": {
+      "ko": "아무 말 없이 오래 비추는 풍경",
+      "en": "A landscape lingering without a word",
+      "zh": "一言不发、长长停留的风景",
+      "ja": "何も言わずに長く映る風景",
+      "es": "Un paisaje que se detiene sin palabras",
+      "pt": "Uma paisagem que se demora sem uma palavra",
+      "fr": "Un paysage qui s'attarde sans un mot",
+      "de": "Eine Landschaft, die lange wortlos im Bild bleibt",
+      "th": "ฉากทิวทัศน์ที่ค้างอยู่นานโดยไม่มีคำพูด"
+     },
+     "tags": [
+      "zen",
+      "east",
+      "wall"
+     ]
+    },
+    {
+     "text": {
+      "ko": "괴물이 처음 모습을 드러내는 순간",
+      "en": "The moment the monster first appears",
+      "zh": "怪物第一次现身的瞬间",
+      "ja": "怪物が初めて姿を現す瞬間",
+      "es": "El momento en que aparece el monstruo",
+      "pt": "O momento em que o monstro aparece pela primeira vez",
+      "fr": "Le moment où le monstre apparaît pour la première fois",
+      "de": "Der Moment, in dem das Monster zum ersten Mal auftaucht",
+      "th": "ช่วงที่สัตว์ประหลาดปรากฏตัวครั้งแรก"
+     },
+     "tags": [
+      "scary",
+      "alien",
+      "skeleton"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_clothes",
+   "text": {
+    "ko": "옷장에서 가장 눈에 띄는 한 벌은 무엇입니까?",
+    "en": "Which outfit stands out most in your closet?",
+    "zh": "衣柜里最显眼的一件是什么？",
+    "ja": "クローゼットで一番目立つ一着は何ですか？",
+    "es": "¿Qué prenda destaca más en tu armario?",
+    "pt": "Qual peça mais se destaca no seu guarda-roupa?",
+    "fr": "Quelle tenue se remarque le plus dans votre placard ?",
+    "de": "Welches Kleidungsstück fällt in Ihrem Schrank am meisten auf?",
+    "th": "ชุดไหนในตู้เสื้อผ้าที่เด่นที่สุด?"
+   },
+   "stage": 2,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "그림이나 글씨가 큼직한 티셔츠",
+      "en": "A tee with a big picture or lettering",
+      "zh": "印着大图案或文字的T恤",
+      "ja": "大きな絵や文字入りのTシャツ",
+      "es": "Una camiseta con un dibujo o letras grandes",
+      "pt": "Uma camiseta com um desenho ou letras grandes",
+      "fr": "Un tee-shirt avec un grand dessin ou des lettres",
+      "de": "Ein T-Shirt mit großem Bild oder Schriftzug",
+      "th": "เสื้อยืดลายใหญ่หรือตัวหนังสือใหญ่"
+     },
+     "tags": [
+      "cartoon",
+      "wearable"
+     ]
+    },
+    {
+     "text": {
+      "ko": "눈에 띄는 모자나 액세서리",
+      "en": "A striking hat or accessory",
+      "zh": "显眼的帽子或配饰",
+      "ja": "目立つ帽子やアクセサリー",
+      "es": "Un sombrero o accesorio llamativo",
+      "pt": "Um chapéu ou acessório chamativo",
+      "fr": "Un chapeau ou accessoire voyant",
+      "de": "Ein auffälliger Hut oder Accessoire",
+      "th": "หมวกหรือเครื่องประดับสะดุดตา"
+     },
+     "tags": [
+      "headwear",
+      "costume",
+      "wearable"
+     ]
+    },
+    {
+     "text": {
+      "ko": "무난하지만 질 좋은 옷",
+      "en": "Something plain but well made",
+      "zh": "朴素但质量好的衣服",
+      "ja": "地味だけど質のいい服",
+      "es": "Algo sencillo pero de buena calidad",
+      "pt": "Algo simples, mas de boa qualidade",
+      "fr": "Quelque chose de simple mais de bonne qualité",
+      "de": "Etwas Schlichtes, aber Hochwertiges",
+      "th": "ชุดธรรมดาแต่คุณภาพดี"
+     },
+     "tags": [
+      "useful",
+      "tough"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_energy",
+   "text": {
+    "ko": "기운이 바닥났을 때 충전하는 방법은 무엇입니까?",
+    "en": "How do you recharge when you're out of energy?",
+    "zh": "精力耗尽时，你怎么充电？",
+    "ja": "元気がなくなったとき、どう充電しますか？",
+    "es": "¿Cómo recargas cuando se te acaba la energía?",
+    "pt": "Como você recarrega quando a energia acaba?",
+    "fr": "Comment vous rechargez-vous quand vous n'avez plus d'énergie ?",
+    "de": "Wie laden Sie sich auf, wenn die Energie leer ist?",
+    "th": "เวลาพลังหมด คุณชาร์จตัวเองด้วยวิธีไหน?"
+   },
+   "stage": 1,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "작은 동물 영상 보기",
+      "en": "Watching small animal videos",
+      "zh": "看小动物视频",
+      "ja": "小動物の動画を見る",
+      "es": "Viendo vídeos de animalitos",
+      "pt": "Assistindo a vídeos de bichinhos",
+      "fr": "En regardant des vidéos de petits animaux",
+      "de": "Kleine Tiervideos anschauen",
+      "th": "ดูคลิปสัตว์ตัวเล็ก"
+     },
+     "tags": [
+      "animal",
+      "cat",
+      "dog",
+      "cute"
+     ]
+    },
+    {
+     "text": {
+      "ko": "손으로 뭔가 만지작거리기",
+      "en": "Fiddling with something in my hands",
+      "zh": "用手摆弄点什么",
+      "ja": "手で何かをいじる",
+      "es": "Trasteando con algo en las manos",
+      "pt": "Mexendo em alguma coisa com as mãos",
+      "fr": "En tripotant quelque chose entre mes mains",
+      "de": "Mit etwas in den Händen herumspielen",
+      "th": "เล่นอะไรสักอย่างด้วยมือ"
+     },
+     "tags": [
+      "puzzle",
+      "spin",
+      "toy",
+      "game"
+     ]
+    },
+    {
+     "text": {
+      "ko": "아무것도 안 하고 누워 있기",
+      "en": "Lying down and doing nothing",
+      "zh": "什么也不做，躺着",
+      "ja": "何もせず横になる",
+      "es": "Tumbado sin hacer nada",
+      "pt": "Deitando sem fazer nada",
+      "fr": "En restant allongé(e) sans rien faire",
+      "de": "Hinlegen und nichts tun",
+      "th": "นอนเฉย ๆ ไม่ทำอะไร"
+     },
+     "tags": [
+      "zen",
+      "frog",
+      "plush"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_door",
+   "text": {
+    "ko": "현관문을 열면 맞이해줬으면 하는 것은 무엇입니까?",
+    "en": "What would you like to greet you when you open the front door?",
+    "zh": "打开家门，你希望迎接你的是什么？",
+    "ja": "玄関を開けたとき、迎えてほしいものは何ですか？",
+    "es": "¿Qué te gustaría que te recibiera al abrir la puerta de casa?",
+    "pt": "O que você gostaria que te recebesse ao abrir a porta de casa?",
+    "fr": "Qu'aimeriez-vous qui vous accueille quand vous ouvrez la porte d'entrée ?",
+    "de": "Was würden Sie sich wünschen, das Sie beim Öffnen der Haustür begrüßt?",
+    "th": "พอเปิดประตูบ้าน คุณอยากให้อะไรมาต้อนรับ?"
+   },
+   "stage": 2,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "문 앞을 지키는 든든한 조각상",
+      "en": "A sturdy statue guarding the entrance",
+      "zh": "守在门口的可靠雕像",
+      "ja": "玄関を守る頼もしい像",
+      "es": "Una estatua firme que guarde la entrada",
+      "pt": "Uma estátua firme guardando a entrada",
+      "fr": "Une statue solide qui garde l'entrée",
+      "de": "Eine standhafte Statue, die den Eingang bewacht",
+      "th": "รูปปั้นแข็งแรงที่เฝ้าหน้าประตู"
+     },
+     "tags": [
+      "statue",
+      "god",
+      "tough"
+     ]
+    },
+    {
+     "text": {
+      "ko": "반겨주는 작은 인형이나 동물",
+      "en": "A small doll or animal welcoming me",
+      "zh": "迎接我的小娃娃或小动物",
+      "ja": "出迎えてくれる小さな人形や動物",
+      "es": "Una muñeca o animalito que me dé la bienvenida",
+      "pt": "Uma boneca ou bichinho me dando boas-vindas",
+      "fr": "Une petite poupée ou un animal qui m'accueille",
+      "de": "Eine kleine Puppe oder ein Tier, das mich willkommen heißt",
+      "th": "ตุ๊กตาหรือสัตว์ตัวเล็กที่มาต้อนรับ"
+     },
+     "tags": [
+      "plush",
+      "animal",
+      "cute"
+     ]
+    },
+    {
+     "text": {
+      "ko": "놀라서 웃게 되는 작은 장난",
+      "en": "A little prank that surprises me into laughing",
+      "zh": "让人吓一跳又笑出来的小恶作剧",
+      "ja": "驚いて笑ってしまう小さないたずら",
+      "es": "Una pequeña broma que me sorprenda y me haga reír",
+      "pt": "Uma pequena pegadinha que me faz rir de susto",
+      "fr": "Une petite farce qui me fait rire de surprise",
+      "de": "Ein kleiner Streich, der mich überrascht zum Lachen bringt",
+      "th": "การแกล้งเล็ก ๆ ที่ทำให้ตกใจแล้วหัวเราะ"
+     },
+     "tags": [
+      "prank",
+      "funny_face"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_wall",
+   "text": {
+    "ko": "빈 벽 하나가 생겼다면 무엇을 걸겠습니까?",
+    "en": "If you had one blank wall, what would you hang on it?",
+    "zh": "如果多出一面空墙，你会挂什么？",
+    "ja": "何もない壁が一面できたら、何を飾りますか？",
+    "es": "Si tuvieras una pared vacía, ¿qué colgarías?",
+    "pt": "Se você tivesse uma parede vazia, o que penduraria?",
+    "fr": "Si vous aviez un mur vide, que feriez-vous y accrocher ?",
+    "de": "Wenn Sie eine leere Wand hätten, was würden Sie aufhängen?",
+    "th": "ถ้ามีผนังว่างหนึ่งด้าน คุณจะแขวนอะไร?"
+   },
+   "stage": 2,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "그림이나 포스터",
+      "en": "A picture or poster",
+      "zh": "画或海报",
+      "ja": "絵やポスター",
+      "es": "Un cuadro o póster",
+      "pt": "Um quadro ou pôster",
+      "fr": "Un tableau ou une affiche",
+      "de": "Ein Bild oder Poster",
+      "th": "รูปภาพหรือโปสเตอร์"
+     },
+     "tags": [
+      "wall",
+      "art"
+     ]
+    },
+    {
+     "text": {
+      "ko": "벽걸이 달력이나 시계",
+      "en": "A wall calendar or a clock",
+      "zh": "挂历或时钟",
+      "ja": "壁掛けカレンダーや時計",
+      "es": "Un calendario de pared o un reloj",
+      "pt": "Um calendário de parede ou um relógio",
+      "fr": "Un calendrier mural ou une horloge",
+      "de": "Einen Wandkalender oder eine Uhr",
+      "th": "ปฏิทินแขวนผนังหรือนาฬิกา"
+     },
+     "tags": [
+      "calendar",
+      "season"
+     ]
+    },
+    {
+     "text": {
+      "ko": "삐뚤게 붙인 이상한 얼굴",
+      "en": "A strange face stuck on crooked",
+      "zh": "歪歪贴上去的奇怪脸孔",
+      "ja": "斜めに貼った変な顔",
+      "es": "Una cara rara pegada torcida",
+      "pt": "Um rosto esquisito colado torto",
+      "fr": "Une drôle de tête collée de travers",
+      "de": "Ein seltsames Gesicht, schief aufgeklebt",
+      "th": "ใบหน้าแปลก ๆ ที่แปะเอียง ๆ"
+     },
+     "tags": [
+      "funny_face",
+      "maskface",
+      "wall"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_snack",
+   "text": {
+    "ko": "간식 시간, 눈이 먼저 가는 것은 무엇입니까?",
+    "en": "At snack time, what catches your eye first?",
+    "zh": "零食时间，你的目光先落在哪里？",
+    "ja": "おやつの時間、まず目が行くのは何ですか？",
+    "es": "A la hora del tentempié, ¿qué te llama la atención primero?",
+    "pt": "Na hora do lanche, o que chama sua atenção primeiro?",
+    "fr": "À l'heure du goûter, qu'est-ce qui attire votre regard en premier ?",
+    "de": "Was fällt Ihnen in der Snackpause zuerst ins Auge?",
+    "th": "ตอนว่างกินขนม อะไรที่ดึงสายตาคุณก่อน?"
+   },
+   "stage": 2,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "음식 모양이 귀여운 것",
+      "en": "Something food-shaped and cute",
+      "zh": "做成食物形状的可爱东西",
+      "ja": "食べ物の形をしたかわいいもの",
+      "es": "Algo con forma de comida, adorable",
+      "pt": "Algo em forma de comida, fofo",
+      "fr": "Quelque chose en forme de nourriture, mignon",
+      "de": "Etwas in Essensform, niedlich",
+      "th": "ของที่เป็นรูปอาหารน่ารัก ๆ"
+     },
+     "tags": [
+      "food",
+      "cute",
+      "mold"
+     ]
+    },
+    {
+     "text": {
+      "ko": "맵고 자극적인 것",
+      "en": "Something spicy and sharp",
+      "zh": "辣辣的、刺激的东西",
+      "ja": "辛くて刺激的なもの",
+      "es": "Algo picante e intenso",
+      "pt": "Algo apimentado e intenso",
+      "fr": "Quelque chose de piquant et d'intense",
+      "de": "Etwas Scharfes und Kräftiges",
+      "th": "ของเผ็ดแรง ๆ"
+     },
+     "tags": [
+      "spicy",
+      "scary"
+     ]
+    },
+    {
+     "text": {
+      "ko": "차와 조용한 과자",
+      "en": "Tea and a quiet cookie",
+      "zh": "茶和安静的点心",
+      "ja": "お茶と静かなお菓子",
+      "es": "Té y una galleta tranquila",
+      "pt": "Chá e um biscoito tranquilo",
+      "fr": "Du thé et un petit biscuit tranquille",
+      "de": "Tee und ein ruhiger Keks",
+      "th": "ชากับขนมเงียบ ๆ"
+     },
+     "tags": [
+      "zen",
+      "ceramic",
+      "incense"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_secret",
+   "text": {
+    "ko": "아무에게도 말 못 한 취미가 있다면 무엇입니까?",
+    "en": "If you had a hobby you've told no one about, what would it be?",
+    "zh": "如果有个没对任何人说过的爱好，会是什么？",
+    "ja": "誰にも言えない趣味があるとしたら、何ですか？",
+    "es": "Si tuvieras un hobby que no le has contado a nadie, ¿cuál sería?",
+    "pt": "Se você tivesse um hobby que nunca contou a ninguém, qual seria?",
+    "fr": "Si vous aviez un passe-temps dont vous n'avez parlé à personne, ce serait quoi ?",
+    "de": "Wenn Sie ein Hobby hätten, von dem Sie niemandem erzählt haben, was wäre es?",
+    "th": "ถ้ามีงานอดิเรกที่ไม่เคยบอกใคร จะเป็นอะไร?"
+   },
+   "stage": 2,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "이상한 물건 모으기",
+      "en": "Collecting odd things",
+      "zh": "收集奇怪的东西",
+      "ja": "変なものを集めること",
+      "es": "Coleccionar cosas raras",
+      "pt": "Colecionar coisas esquisitas",
+      "fr": "Collectionner des objets bizarres",
+      "de": "Seltsame Dinge sammeln",
+      "th": "สะสมของแปลก ๆ"
+     },
+     "tags": [
+      "doll",
+      "craft",
+      "storage"
+     ]
+    },
+    {
+     "text": {
+      "ko": "혼자 가면 쓰고 놀기",
+      "en": "Playing alone in a mask",
+      "zh": "一个人戴着面具玩",
+      "ja": "一人でお面をかぶって遊ぶこと",
+      "es": "Jugar a solas con una máscara",
+      "pt": "Brincar sozinho(a) de máscara",
+      "fr": "Jouer seul(e) avec un masque",
+      "de": "Allein mit einer Maske spielen",
+      "th": "เล่นคนเดียวโดยใส่หน้ากาก"
+     },
+     "tags": [
+      "maskface",
+      "costume",
+      "hide"
+     ]
+    },
+    {
+     "text": {
+      "ko": "몰래 동물에게 말 걸기",
+      "en": "Secretly talking to animals",
+      "zh": "偷偷跟动物说话",
+      "ja": "こっそり動物に話しかけること",
+      "es": "Hablar a escondidas con los animales",
+      "pt": "Conversar escondido com os animais",
+      "fr": "Parler en cachette aux animaux",
+      "de": "Heimlich mit Tieren reden",
+      "th": "แอบคุยกับสัตว์"
+     },
+     "tags": [
+      "animal",
+      "cat",
+      "bird"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_scale",
+   "text": {
+    "ko": "크기로 고른다면 무엇이 좋겠습니까?",
+    "en": "If you chose by size, what would you like?",
+    "zh": "如果按大小来选，你喜欢哪种？",
+    "ja": "大きさで選ぶなら、どれがいいですか？",
+    "es": "Si eligieras por tamaño, ¿cuál preferirías?",
+    "pt": "Se escolhesse pelo tamanho, qual preferiria?",
+    "fr": "Si vous choisissiez selon la taille, que préféreriez-vous ?",
+    "de": "Wenn Sie nach Größe wählen würden, was hätten Sie gern?",
+    "th": "ถ้าเลือกตามขนาด คุณชอบแบบไหน?"
+   },
+   "stage": 1,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "손바닥에 올라가는 작은 것",
+      "en": "Something small enough to sit on my palm",
+      "zh": "能放在手心的小东西",
+      "ja": "手のひらに乗る小さなもの",
+      "es": "Algo pequeño que quepa en la palma",
+      "pt": "Algo pequeno que cabe na palma da mão",
+      "fr": "Un petit truc qui tient dans la paume",
+      "de": "Etwas Kleines, das auf die Handfläche passt",
+      "th": "ของเล็กที่วางบนฝ่ามือได้"
+     },
+     "tags": [
+      "tiny",
+      "cute"
+     ]
+    },
+    {
+     "text": {
+      "ko": "두 팔로 안아야 하는 큰 것",
+      "en": "Something big I have to hug with both arms",
+      "zh": "要用双臂抱住的大东西",
+      "ja": "両腕で抱える大きなもの",
+      "es": "Algo grande que haya que abrazar con los dos brazos",
+      "pt": "Algo grande que precisa ser abraçado com os dois braços",
+      "fr": "Un gros truc qu'il faut serrer à deux bras",
+      "de": "Etwas Großes, das man mit beiden Armen umarmen muss",
+      "th": "ของใหญ่ที่ต้องกอดสองแขน"
+     },
+     "tags": [
+      "plush",
+      "tough",
+      "statue"
+     ]
+    },
+    {
+     "text": {
+      "ko": "벽 한 면을 차지하는 것",
+      "en": "Something that takes up a whole wall",
+      "zh": "占满一面墙的东西",
+      "ja": "壁一面を占めるもの",
+      "es": "Algo que ocupe toda una pared",
+      "pt": "Algo que ocupa uma parede inteira",
+      "fr": "Un truc qui occupe tout un mur",
+      "de": "Etwas, das eine ganze Wand einnimmt",
+      "th": "ของที่กินพื้นที่ผนังทั้งด้าน"
+     },
+     "tags": [
+      "wall",
+      "art",
+      "calendar"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_late",
+   "text": {
+    "ko": "야근하는 밤, 책상 위에 있었으면 하는 것은 무엇입니까?",
+    "en": "On a late night at work, what do you want on your desk?",
+    "zh": "加班的夜里，你希望桌上有什么？",
+    "ja": "残業の夜、机の上にあってほしいものは何ですか？",
+    "es": "En una noche de horas extra, ¿qué quieres sobre tu escritorio?",
+    "pt": "Numa noite de hora extra, o que você quer em cima da mesa?",
+    "fr": "Lors d'une nuit d'heures sup, que voulez-vous sur votre bureau ?",
+    "de": "Was wünschen Sie sich in einer Überstundennacht auf Ihrem Schreibtisch?",
+    "th": "คืนที่ต้องทำงานดึก คุณอยากมีอะไรบนโต๊ะ?"
+   },
+   "stage": 2,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "응원해주는 작은 인형",
+      "en": "A small doll cheering me on",
+      "zh": "为我加油的小娃娃",
+      "ja": "応援してくれる小さな人形",
+      "es": "Una muñequita que me anime",
+      "pt": "Uma bonequinha torcendo por mim",
+      "fr": "Une petite poupée qui m'encourage",
+      "de": "Eine kleine Puppe, die mich anfeuert",
+      "th": "ตุ๊กตาตัวเล็กที่คอยเชียร์"
+     },
+     "tags": [
+      "plush",
+      "cute",
+      "job"
+     ]
+    },
+    {
+     "text": {
+      "ko": "말없이 지켜보는 눈",
+      "en": "Eyes quietly watching",
+      "zh": "默默注视的眼睛",
+      "ja": "黙って見守る目",
+      "es": "Unos ojos que me miran en silencio",
+      "pt": "Olhos me observando em silêncio",
+      "fr": "Des yeux qui me regardent en silence",
+      "de": "Augen, die mich still beobachten",
+      "th": "ดวงตาที่จ้องมองเงียบ ๆ"
+     },
+     "tags": [
+      "eyes",
+      "anatomy",
+      "scary"
+     ]
+    },
+    {
+     "text": {
+      "ko": "웃음이 터지는 이상한 물건",
+      "en": "A strange thing that makes me laugh",
+      "zh": "让人笑出来的奇怪东西",
+      "ja": "笑ってしまう変なもの",
+      "es": "Algo raro que me haga reír",
+      "pt": "Uma coisa esquisita que me faz rir",
+      "fr": "Un truc bizarre qui me fait rire",
+      "de": "Ein seltsames Ding, das mich zum Lachen bringt",
+      "th": "ของแปลก ๆ ที่ทำให้หัวเราะ"
+     },
+     "tags": [
+      "funny_face",
+      "prank",
+      "cartoon"
+     ]
+    }
+   ]
   }
  ],
  "products": [

@@ -81,8 +81,12 @@
     if (!cands.length) gather(3);
     if (!cands.length) return null;
     cands.sort(function (x, y) { return y.s - x.s; });
-    var top = cands.slice(0, Math.min(3, cands.length));
-    return top[Math.floor((rnd ? rnd() : Math.random()) * top.length)].q;
+    // 점수가 비슷한 후보 여러 개 중에서 점수에 비례해 뽑아서, 같은 질문만 계속 나오지 않고 골고루 돌게 합니다.
+    var cut = cands[0].s * 0.55, pool = cands.filter(function (c) { return c.s >= cut; }).slice(0, 12), tw = 0;
+    pool.forEach(function (c) { tw += c.s; });
+    var r = (rnd ? rnd() : Math.random()) * tw;
+    for (var i = 0; i < pool.length; i++) { r -= pool[i].s; if (r <= 0) return pool[i].q; }
+    return pool[pool.length - 1].q;
   }
   root.QuizEngine = { apply: apply, pick: pick };
 })(typeof window !== "undefined" ? window : globalThis);
