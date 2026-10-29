@@ -1939,32 +1939,32 @@ window.QUIZ = {
    "options": [
     {
      "text": {
-      "ko": "수상하게 웃는 작은 얼굴",
-      "en": "A small, suspiciously smiling face",
-      "zh": "一张笑得可疑的小脸",
-      "ja": "怪しく笑う小さな顔",
-      "es": "Una carita que sonríe con sospecha",
-      "pt": "Um rostinho pequeno com um sorriso suspeito",
-      "fr": "Une petite bouille au sourire suspect",
-      "de": "Ein kleines Gesicht mit verdächtigem Lächeln",
-      "th": "หน้าเล็ก ๆ ที่ยิ้มน่าสงสัย"
+      "ko": "보자마자 피식 웃음이 나는 것",
+      "en": "Something that makes me snort-laugh at first sight",
+      "zh": "一看就忍不住笑出来的东西",
+      "ja": "見た瞬間ふっと笑ってしまうもの",
+      "es": "Algo que me hace soltar una risita nada más verlo",
+      "pt": "Algo que me faz soltar uma risadinha assim que vejo",
+      "fr": "Un truc qui me fait pouffer dès que je le vois",
+      "de": "Etwas, bei dem ich sofort losprusten muss",
+      "th": "ของที่เห็นแล้วหลุดขำทันที"
      },
      "tags": [
       "funny_face",
-      "cute"
+      "prank"
      ]
     },
     {
      "text": {
-      "ko": "조용히 앉아 있는 조각상",
-      "en": "A quietly seated statue",
-      "zh": "安静坐着的雕像",
-      "ja": "静かに座っている像",
-      "es": "Una estatua sentada en silencio",
-      "pt": "Uma estátua sentada, bem quietinha",
-      "fr": "Une statue assise, bien tranquille",
-      "de": "Eine still sitzende Statue",
-      "th": "รูปปั้นที่นั่งสงบนิ่ง"
+      "ko": "말없이 자리를 지키는 묵직한 조각상",
+      "en": "A weighty statue holding its place in silence",
+      "zh": "默默坐镇一方的厚重雕像",
+      "ja": "黙って場所を守る重みのある像",
+      "es": "Una estatua pesada que guarda su sitio en silencio",
+      "pt": "Uma estátua pesada que guarda o seu lugar em silêncio",
+      "fr": "Une statue imposante qui garde sa place en silence",
+      "de": "Eine gewichtige Statue, die schweigend ihren Platz hält",
+      "th": "รูปปั้นหนักแน่นที่เฝ้าที่ของมันอย่างเงียบ ๆ"
      },
      "tags": [
       "statue",
@@ -1974,20 +1974,20 @@ window.QUIZ = {
     },
     {
      "text": {
-      "ko": "묘하게 기괴한데 자꾸 눈이 가는 것",
-      "en": "Something oddly eerie that keeps catching my eye",
-      "zh": "怪异得有点诡，却总忍不住多看两眼的东西",
-      "ja": "妙に不気味なのに、つい目が行くもの",
-      "es": "Algo raro y siniestro que no dejo de mirar",
-      "pt": "Algo estranhamente sinistro que não para de chamar meu olhar",
-      "fr": "Un truc étrangement sinistre qui attire sans cesse mon regard",
-      "de": "Etwas seltsam Unheimliches, das immer wieder meinen Blick anzieht",
-      "th": "อะไรบางอย่างที่ขนลุก ๆ แต่ดึงสายตาตลอด"
+      "ko": "작고 말랑해서 괜히 쓰다듬고 싶은 것",
+      "en": "Something small and soft I'd want to pet for no reason",
+      "zh": "小小软软、莫名想摸一摸的东西",
+      "ja": "小さくてやわらかく、つい撫でたくなるもの",
+      "es": "Algo pequeño y blandito que dan ganas de acariciar sin motivo",
+      "pt": "Algo pequeno e macio que dá vontade de acariciar sem motivo",
+      "fr": "Un petit truc tout doux qu'on a envie de caresser sans raison",
+      "de": "Etwas Kleines, Weiches, das man grundlos streicheln möchte",
+      "th": "ของเล็กนุ่ม ๆ ที่อยากลูบโดยไม่มีเหตุผล"
      },
      "tags": [
-      "scary",
-      "anatomy",
-      "alien"
+      "cute",
+      "plush",
+      "animal"
      ]
     }
    ]
