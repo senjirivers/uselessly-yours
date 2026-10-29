@@ -91,6 +91,21 @@
     ask();
   }
 
+  // 이미 쓰는 쇼핑 앱의 상품은 신규 가입 수수료가 없어서, 다른 쪽 쇼핑몰 상품이 더 자주 나오도록 가중치를 줍니다.
+  function shop() {
+    st.mode = "shop";
+    render({
+      pose: "presenting", head: "",
+      bubble: '<div class="bubble" id="bub" aria-live="polite"></div>',
+      body: '<div class="answers choice"><button class="btn strong" data-shop="temu">' + esc(s("shopTemu")) + '</button><button class="btn strong" data-shop="aliexpress">' + esc(s("shopAli")) + '</button><button class="btn strong" data-shop="none">' + esc(s("shopNone")) + "</button></div>",
+      type: s("shopAsk")
+    });
+  }
+  function pickShop(v) {
+    var f = S.shopFactor != null ? S.shopFactor : 0.25;
+    if (v !== "none") st.w = st.w.map(function (w, i) { return Q.products[i].shop === v ? w * f : w; });
+    st.shop = v; ask();
+  }
   function brief() {
     st.mode = "brief";
     render({
@@ -368,6 +383,7 @@
     var m = st.mode;
     if (m === "intro") intro(true);
     else if (m === "brief") brief();
+    else if (m === "shop") shop();
     else if (m === "ask") ask(true);
     else if (m === "think") think(st.top);
     else if (m === "guess") guess(st.guess);
@@ -398,7 +414,8 @@
     if (b.dataset.sendfriend) return sendFriend(b);
     if (b.dataset.mute) return toggleMusic();
     if (b.dataset.start) { startMusic(); return brief(); }
-    if (b.dataset.next) return ask();
+    if (b.dataset.next) return shop();
+    if (b.dataset.shop) return pickShop(b.dataset.shop);
     if (b.dataset.a) return answer(b.dataset.a);
     if (b.dataset.back) return back();
     if (b.dataset.gans) return guess2(b.dataset.gans);
