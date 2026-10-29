@@ -12,6 +12,5 @@
 - 다른 언어: `languages`에 `"en"` 추가, 문구/질문/상품의 `name`, `line`에 `"en"` 칸 추가. 나라별 링크는 `urlByLang`.
 - 색/글꼴: `style.css` 맨 위 `:root`
 
-## 배포 (무료)
-- Netlify: netlify.com/drop 에 이 폴더를 통째로 끌어다 놓기
-- GitHub Pages: 이 폴더를 저장소에 올리고 Settings > Pages 에서 켜기
+## 배포
+- 이 저장소의 `main` 브랜치에 올리면 Netlify가 자동으로 https://uselesslyyours.netlify.app 에 반영합니다.
