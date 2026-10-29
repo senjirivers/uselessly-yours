@@ -7341,39 +7341,40 @@ window.QUIZ = {
     "human",
     "living",
     "tiny",
-    "cute",
     "decor",
-    "ceramic"
+    "ceramic",
+    "east",
+    "scary"
    ],
    "name": {
-    "ko": "찻잔 가장자리에서 표정을 짓는 못생긴 얼굴",
-    "en": "An Ugly-Cute Face Pulling Expressions on a Teacup Rim",
-    "zh": "挂在茶杯边上做表情的丑萌脑袋",
-    "ja": "湯のみのふちで表情を作る不細工かわいい顔",
-    "es": "Una carita fea y graciosa en el borde de la taza",
-    "pt": "Uma Carinha Feia-Fofa Fazendo Caretas na Borda da Xícara",
-    "fr": "Une bouille laide-mignonne qui fait des grimaces au bord d'une tasse",
-    "de": "Ein hässlich-niedliches Gesicht, das am Tassenrand Grimassen schneidet",
-    "th": "ใบหน้าขี้เหร่น่ารักที่ทำหน้าล้อเลียนบนขอบแก้ว"
+    "ko": "비명을 지르는 자사 얼굴 세 개",
+    "en": "Three Purple-Clay Faces Screaming on Your Tea Tray",
+    "zh": "茶盘上放声尖叫的三个紫砂脑袋",
+    "ja": "茶盤の上で叫ぶ紫泥の顔三つ",
+    "es": "Tres caritas de arcilla púrpura gritando sobre tu bandeja de té",
+    "pt": "Três Carinhas de Argila Roxa Gritando na Bandeja de Chá",
+    "fr": "Trois visages en argile pourpre qui hurlent sur votre plateau à thé",
+    "de": "Drei Gesichter aus Purpurton, die auf Ihrem Teetablett schreien",
+    "th": "ใบหน้าดินม่วงสามหน้าที่กรีดร้องบนถาดชา"
    },
    "line": {
-    "ko": "소소한 일상에 이상한 표정 하나를 걸쳐두고 싶은 분이시군요.",
-    "en": "You like perching one odd expression on everyday life.",
-    "zh": "你想在平凡日常里挂上一个奇怪的表情。",
-    "ja": "ささやかな日常に変な表情を一つ添えたい方ですね。",
-    "es": "Te gusta colgar una expresión rara en lo cotidiano.",
-    "pt": "Você gosta de pousar uma expressão esquisita no dia a dia.",
-    "fr": "Vous aimez poser une expression bizarre sur le quotidien.",
-    "de": "Sie setzen gern einen seltsamen Ausdruck auf den Alltag.",
-    "th": "คุณชอบวางสีหน้าแปลก ๆ ไว้บนชีวิตประจำวัน"
+    "ko": "조용한 찻상 위에서 대신 소리쳐줄 존재가 필요한 분이시군요.",
+    "en": "You want someone to scream on your behalf over a quiet tea tray.",
+    "zh": "你想有个替你在安静茶桌上大声尖叫的存在。",
+    "ja": "静かな茶席で代わりに叫んでくれる存在がほしい方ですね。",
+    "es": "Quieres a alguien que grite por ti sobre una bandeja de té tranquila.",
+    "pt": "Você quer alguém que grite por você numa bandeja de chá tranquila.",
+    "fr": "Vous voulez quelqu'un qui crie à votre place sur un plateau à thé tranquille.",
+    "de": "Sie wünschen sich jemanden, der an Ihrer Stelle auf dem stillen Teetablett schreit.",
+    "th": "คุณอยากมีใครสักคนกรีดร้องแทนคุณบนถาดชาที่เงียบสงบ"
    },
    "origName": "찻잔 장식용 못생긴 듯 귀여운 인간 머리 조각상",
    "url": "https://s.click.aliexpress.com/e/_c2zmAzjV",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/86.webp",
    "prior": 0.183,
-   "need": "mirror"
+   "need": "vent"
   },
   {
    "id": 87,
