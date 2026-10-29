@@ -104,7 +104,7 @@
   function prog() {
     var a = st.asked.length, r = ranked(), tot = sum(r.map(function (x) { return x.w; }));
     var sh = r.length && tot ? r[0].w / tot : 0;
-    var p = Math.max(Math.min((a + 1) / S.minQuestions, sh / (S.guessThreshold * 0.7)), (a + 1) / S.maxQuestions);
+    var p = Math.max(Math.min((a + 1) / S.minQuestions, sh / (S.guessThreshold * 0.9)), (a + 1) / S.maxQuestions);
     st.pmax = Math.max(st.pmax || 0, Math.min(0.97, p));
     return Math.round(st.pmax * 100);
   }

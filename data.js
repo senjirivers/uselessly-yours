@@ -378,7 +378,7 @@ window.QUIZ = {
    5,
    9
   ],
-  "maxChoice": 5
+  "maxChoice": 6
  },
  "questions": [
   {
@@ -649,7 +649,8 @@ window.QUIZ = {
    "yes": [
     "anatomy",
     "scary",
-    "statue"
+    "statue",
+    "skeleton"
    ],
    "no": [
     "cute"
@@ -747,7 +748,8 @@ window.QUIZ = {
     "human",
     "doll",
     "statue",
-    "scary"
+    "scary",
+    "west"
    ],
    "no": [],
    "stage": 2
@@ -799,7 +801,9 @@ window.QUIZ = {
    "yes": [
     "costume",
     "wearable",
-    "scary"
+    "scary",
+    "season",
+    "skeleton"
    ],
    "no": [],
    "stage": 2
@@ -1068,7 +1072,8 @@ window.QUIZ = {
     "human",
     "calendar",
     "wall",
-    "tough"
+    "tough",
+    "job"
    ],
    "no": [],
    "stage": 2
@@ -1225,11 +1230,11 @@ window.QUIZ = {
   {
    "id": "bones",
    "text": {
-    "ko": "몸속을 들여다본다면, 뼈 쪽이 궁금합니까?",
-    "en": "If you could peek inside a body, would you be curious about the bones?",
-    "zh": "如果能看看身体里面，你更好奇骨头吗？",
-    "ja": "体の中をのぞくなら、骨のほうが気になりますか？",
-    "es": "Si pudieras mirar dentro de un cuerpo, ¿te daría más curiosidad el esqueleto?"
+    "ko": "몸속을 들여다볼 수 있다면, 내장보다 뼈 쪽이 더 궁금합니까?",
+    "en": "If you could peek inside a body, would you be more curious about the bones than the organs?",
+    "zh": "如果能看透身体内部，你对骨骼比对内脏更好奇吗？",
+    "ja": "体の中をのぞけるなら、内臓より骨のほうが気になりますか？",
+    "es": "Si pudieras mirar dentro de un cuerpo, ¿te daría más curiosidad el esqueleto que los órganos?"
    },
    "yes": [
     "skeleton"
@@ -2555,6 +2560,432 @@ window.QUIZ = {
    ],
    "no": [],
    "stage": 3
+  },
+  {
+   "id": "job",
+   "text": {
+    "ko": "직업이 뚜렷한 작은 인물이 책상에서 대기 중이면 마음이 놓입니까?",
+    "en": "Does it comfort you to have a small figure with a clear job standing by on your desk?",
+    "zh": "桌上有个职业分明的小人物待命，你会觉得安心吗？",
+    "ja": "職業のはっきりした小さな人形が机でスタンバイしていると、安心しますか？",
+    "es": "¿Te tranquiliza tener sobre el escritorio una figurita con un oficio muy claro?"
+   },
+   "yes": [
+    "job"
+   ],
+   "no": [],
+   "stage": 2
+  },
+  {
+   "id": "season",
+   "text": {
+    "ko": "계절이 지난 장식을 일 년 내내 꺼내두고 싶습니까?",
+    "en": "Do you want to keep seasonal decorations out all year round?",
+    "zh": "你想把过季的装饰一年到头都摆在外面吗？",
+    "ja": "季節を過ぎた飾りを、一年中出しておきたいですか？",
+    "es": "¿Te gustaría dejar la decoración de temporada puesta todo el año?"
+   },
+   "yes": [
+    "season"
+   ],
+   "no": [],
+   "stage": 2
+  },
+  {
+   "id": "eyes",
+   "text": {
+    "ko": "책상 위의 눈알이 나를 쳐다본다고 상상하면 웃음이 납니까?",
+    "en": "Does imagining an eyeball on your desk watching you make you laugh?",
+    "zh": "想象书桌上有颗眼球盯着你，你会笑出来吗？",
+    "ja": "机の上の目玉に見つめられると想像すると、笑ってしまいますか？",
+    "es": "¿Te hace reír imaginar un ojo en tu escritorio que te mira?"
+   },
+   "yes": [
+    "eyes",
+    "funny_face"
+   ],
+   "no": [],
+   "stage": 3
+  },
+  {
+   "id": "c_being",
+   "text": {
+    "ko": "책상 위에 누군가 살게 된다면, 어떤 존재가 좋겠습니까?",
+    "en": "If something were going to live on your desk, what would you want it to be?",
+    "zh": "如果书桌上要住进一位新成员，你希望是什么？",
+    "ja": "机の上に誰かが住みつくなら、どんな存在がいいですか？",
+    "es": "Si algo fuera a vivir en tu escritorio, ¿qué te gustaría que fuera?"
+   },
+   "stage": 1,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "작은 동물이나 생물",
+      "en": "A small animal or creature",
+      "zh": "小动物或小生物",
+      "ja": "小さな動物や生き物",
+      "es": "Un animalito o criatura"
+     },
+     "tags": [
+      "animal",
+      "living",
+      "cute",
+      "frog",
+      "cat"
+     ]
+    },
+    {
+     "text": {
+      "ko": "사람 모양의 작은 인물",
+      "en": "A tiny person-shaped figure",
+      "zh": "人形的小人物",
+      "ja": "人の形をした小さな人物",
+      "es": "Una figurita con forma humana"
+     },
+     "tags": [
+      "human",
+      "statue",
+      "west",
+      "job",
+      "costume"
+     ]
+    },
+    {
+     "text": {
+      "ko": "정체를 알 수 없는 이상한 존재",
+      "en": "Some strange being of unknown identity",
+      "zh": "来历不明的奇怪存在",
+      "ja": "正体不明の変な存在",
+      "es": "Un ser extraño de identidad desconocida"
+     },
+     "tags": [
+      "alien",
+      "scary",
+      "anatomy",
+      "funny_face"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_form",
+   "text": {
+    "ko": "곁에 둔다면 어떤 모습이 가장 끌립니까?",
+    "en": "Which form draws you most?",
+    "zh": "你最被哪种形态吸引？",
+    "ja": "どんな姿にいちばん惹かれますか？",
+    "es": "¿Qué forma te atrae más?"
+   },
+   "stage": 2,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "폭신해서 안고 싶은 것",
+      "en": "Something fluffy I want to hug",
+      "zh": "软绵绵想抱一抱的",
+      "ja": "ふわふわで抱きしめたくなるもの",
+      "es": "Algo mullido que dan ganas de abrazar"
+     },
+     "tags": [
+      "plush",
+      "cute",
+      "doll"
+     ]
+    },
+    {
+     "text": {
+      "ko": "묵직하게 자리를 지키는 조각",
+      "en": "A weighty sculpture that holds its place",
+      "zh": "沉甸甸坐镇一方的雕像",
+      "ja": "どっしりと居座る彫像",
+      "es": "Una escultura pesada que se queda en su sitio"
+     },
+     "tags": [
+      "statue",
+      "metal",
+      "tough",
+      "decor",
+      "ceramic"
+     ]
+    },
+    {
+     "text": {
+      "ko": "손에 쥐고 만지작거리는 물건",
+      "en": "Something to hold and fiddle with",
+      "zh": "握在手里把玩的小物",
+      "ja": "手に持っていじる小物",
+      "es": "Algo para tener en la mano y toquetear"
+     },
+     "tags": [
+      "toy",
+      "tiny",
+      "useful",
+      "game",
+      "sound"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_stress",
+   "text": {
+    "ko": "스트레스 받는 날, 손이 먼저 가는 것은?",
+    "en": "On a stressful day, what do your hands reach for first?",
+    "zh": "压力大的日子，你的手最先伸向什么？",
+    "ja": "ストレスの多い日、まず手が伸びるのは？",
+    "es": "En un día de estrés, ¿qué buscan primero tus manos?"
+   },
+   "stage": 2,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "꽉 쥐면 말랑한 것",
+      "en": "Something squishy to squeeze",
+      "zh": "一捏就软的东西",
+      "ja": "握るとやわらかいもの",
+      "es": "Algo blandito que apretar"
+     },
+     "tags": [
+      "toy",
+      "plush",
+      "cute",
+      "organ"
+     ]
+    },
+    {
+     "text": {
+      "ko": "딸깍 소리가 나는 것",
+      "en": "Something that clicks",
+      "zh": "会发出咔哒声的东西",
+      "ja": "カチッと音がするもの",
+      "es": "Algo que haga clic"
+     },
+     "tags": [
+      "sound",
+      "toy",
+      "tiny",
+      "useful",
+      "game"
+     ]
+    },
+    {
+     "text": {
+      "ko": "멍하니 바라볼 수 있는 것",
+      "en": "Something I can stare at blankly",
+      "zh": "可以发呆盯着看的东西",
+      "ja": "ぼんやり眺めていられるもの",
+      "es": "Algo que pueda mirar sin pensar"
+     },
+     "tags": [
+      "zen",
+      "illusion",
+      "bird",
+      "magic",
+      "decor"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_human",
+   "text": {
+    "ko": "사람 모양 피규어 중에서는 어느 쪽에 마음이 갑니까?",
+    "en": "Among person-shaped figures, which one draws you?",
+    "zh": "在人形摆件里，你更喜欢哪种？",
+    "ja": "人型のフィギュアなら、どれに惹かれますか？",
+    "es": "Entre las figuras con forma humana, ¿cuál te atrae?"
+   },
+   "stage": 3,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "자기 일에 진심인 직업인",
+      "en": "Someone dead serious about their job",
+      "zh": "对自己工作一本正经的职业人",
+      "ja": "仕事に本気の職業人",
+      "es": "Un profesional que se toma muy en serio su oficio"
+     },
+     "tags": [
+      "job",
+      "tough",
+      "human",
+      "statue"
+     ]
+    },
+    {
+     "text": {
+      "ko": "옛 서양 분위기의 신사나 광대",
+      "en": "A gentleman or clown from old Europe",
+      "zh": "旧时欧洲风的绅士或小丑",
+      "ja": "昔の西洋風の紳士やピエロ",
+      "es": "Un caballero o payaso de la vieja Europa"
+     },
+     "tags": [
+      "west",
+      "costume",
+      "human",
+      "doll",
+      "ceramic"
+     ]
+    },
+    {
+     "text": {
+      "ko": "조용히 앉아 있는 사색가나 부처",
+      "en": "A quiet thinker or Buddha",
+      "zh": "安静坐着的思想者或佛像",
+      "ja": "静かに座る考える人や仏像",
+      "es": "Un pensador o Buda sentado en silencio"
+     },
+     "tags": [
+      "zen",
+      "east",
+      "god",
+      "human",
+      "statue"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c_creepy",
+   "text": {
+    "ko": "징그러운 것 중에서 그나마 괜찮은 쪽은 어디입니까?",
+    "en": "Of the creepy things, which is the least bad?",
+    "zh": "在恶心的东西里，哪种还算能接受？",
+    "ja": "気味の悪いものの中で、まだマシなのはどれですか？",
+    "es": "De lo repulsivo, ¿qué es lo menos malo?"
+   },
+   "stage": 3,
+   "yes": [],
+   "no": [],
+   "options": [
+    {
+     "text": {
+      "ko": "손가락이나 뇌 같은 몸의 일부",
+      "en": "Body parts like fingers or a brain",
+      "zh": "手指或大脑之类的身体部位",
+      "ja": "指や脳みそのような体の一部",
+      "es": "Partes del cuerpo como dedos o un cerebro"
+     },
+     "tags": [
+      "anatomy",
+      "organ",
+      "eyes",
+      "scary"
+     ]
+    },
+    {
+     "text": {
+      "ko": "심해나 촉수 같은 바다 괴물",
+      "en": "Sea monsters, deep-sea or tentacled",
+      "zh": "深海或触手之类的海怪",
+      "ja": "深海や触手のような海の怪物",
+      "es": "Monstruos marinos de las profundidades o con tentáculos"
+     },
+     "tags": [
+      "alien",
+      "scary",
+      "animal",
+      "living"
+     ]
+    },
+    {
+     "text": {
+      "ko": "해골이나 박쥐 같은 어둠의 것",
+      "en": "Dark things like skulls or bats",
+      "zh": "骷髅或蝙蝠之类的暗黑之物",
+      "ja": "ドクロやコウモリのような闇のもの",
+      "es": "Cosas oscuras como calaveras o murciélagos"
+     },
+     "tags": [
+      "skeleton",
+      "scary",
+      "season",
+      "animal"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "metal",
+   "text": {
+    "ko": "묵직한 금속이나 돌의 무게를 손으로 확인하는 순간이 좋습니까?",
+    "en": "Do you enjoy the moment of feeling the weight of heavy metal or stone in your hand?",
+    "zh": "你喜欢掂量沉甸甸的金属或石头的那一刻吗？",
+    "ja": "ずしりと重い金属や石を手で確かめる瞬間が好きですか？",
+    "es": "¿Disfrutas notar en la mano el peso de un metal o una piedra?"
+   },
+   "yes": [
+    "metal",
+    "tough",
+    "statue"
+   ],
+   "no": [],
+   "stage": 3
+  },
+  {
+   "id": "loop",
+   "text": {
+    "ko": "같은 동작을 반복하는 물건을 멍하니 바라본 적이 있습니까?",
+    "en": "Have you ever stared blankly at something repeating the same motion?",
+    "zh": "你有没有对着一个重复同样动作的东西发过呆？",
+    "ja": "同じ動きを繰り返すものを、ぼんやり眺めたことがありますか？",
+    "es": "¿Alguna vez te has quedado mirando algo que repite el mismo movimiento?"
+   },
+   "yes": [
+    "bird",
+    "magic",
+    "illusion",
+    "spin",
+    "toy"
+   ],
+   "no": [],
+   "stage": 3
+  },
+  {
+   "id": "westdeco",
+   "text": {
+    "ko": "옛 유럽 영화 속 소품 같은 장식에 마음이 갑니까?",
+    "en": "Are you drawn to decorations that look like props from old European films?",
+    "zh": "你会被像老欧洲电影道具一样的装饰吸引吗？",
+    "ja": "昔のヨーロッパ映画の小道具のような飾りに惹かれますか？",
+    "es": "¿Te atraen los adornos que parecen utilería de una película europea antigua?"
+   },
+   "yes": [
+    "west",
+    "costume",
+    "doll",
+    "statue",
+    "human"
+   ],
+   "no": [],
+   "stage": 3
+  },
+  {
+   "id": "creepyfun",
+   "text": {
+    "ko": "무섭거나 징그러운데 이상하게 웃긴 것을 보면 오히려 반갑습니까?",
+    "en": "Does something creepy yet oddly funny make you more glad than grossed out?",
+    "zh": "看到又恶心又好笑的东西，你反而觉得高兴吗？",
+    "ja": "不気味なのになぜか笑えるものを見ると、むしろうれしくなりますか？",
+    "es": "¿Algo repulsivo pero curiosamente gracioso te alegra más que te asquea?"
+   },
+   "yes": [
+    "scary",
+    "anatomy",
+    "funny_face",
+    "alien"
+   ],
+   "no": [],
+   "stage": 2
   }
  ],
  "products": [
@@ -2585,7 +3016,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gh0wnhe5gj7",
    "urlByLang": {},
    "img": "",
-   "prior": 0.612
+   "prior": 0.719,
+   "shop": "temu"
   },
   {
    "id": 2,
@@ -2612,7 +3044,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g5m76zx2jyv",
    "urlByLang": {},
    "img": "",
-   "prior": 1.344
+   "prior": 4.239,
+   "shop": "temu"
   },
   {
    "id": 3,
@@ -2642,7 +3075,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gc3d8ohed3t",
    "urlByLang": {},
    "img": "",
-   "prior": 2.461
+   "prior": 2.903,
+   "shop": "temu"
   },
   {
    "id": 4,
@@ -2670,7 +3104,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gwyxrwctne0",
    "urlByLang": {},
    "img": "",
-   "prior": 5.074
+   "prior": 7.045,
+   "shop": "temu"
   },
   {
    "id": 5,
@@ -2699,7 +3134,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g5n2llvb5e9",
    "urlByLang": {},
    "img": "",
-   "prior": 2.449
+   "prior": 3.724,
+   "shop": "temu"
   },
   {
    "id": 6,
@@ -2729,7 +3165,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g3btbvz9v6y",
    "urlByLang": {},
    "img": "",
-   "prior": 1.136
+   "prior": 0.963,
+   "shop": "temu"
   },
   {
    "id": 7,
@@ -2759,7 +3196,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gn89gymx4fm",
    "urlByLang": {},
    "img": "",
-   "prior": 1.694
+   "prior": 1.794,
+   "shop": "temu"
   },
   {
    "id": 8,
@@ -2792,7 +3230,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gphkzc2nm8v",
    "urlByLang": {},
    "img": "",
-   "prior": 1.78
+   "prior": 2.477,
+   "shop": "temu"
   },
   {
    "id": 9,
@@ -2820,7 +3259,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g1gu7wtho5h",
    "urlByLang": {},
    "img": "",
-   "prior": 1.355
+   "prior": 2.575,
+   "shop": "temu"
   },
   {
    "id": 10,
@@ -2849,7 +3289,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gb5mfr5t20s",
    "urlByLang": {},
    "img": "",
-   "prior": 1.417
+   "prior": 2.277,
+   "shop": "temu"
   },
   {
    "id": 11,
@@ -2880,7 +3321,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gyfcu3precy",
    "urlByLang": {},
    "img": "",
-   "prior": 1.346
+   "prior": 2.843,
+   "shop": "temu"
   },
   {
    "id": 12,
@@ -2911,7 +3353,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gdqs14dnz3k",
    "urlByLang": {},
    "img": "",
-   "prior": 8.188
+   "prior": 9.196,
+   "shop": "temu"
   },
   {
    "id": 13,
@@ -2942,7 +3385,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gvngrfdpn4p",
    "urlByLang": {},
    "img": "",
-   "prior": 1.017
+   "prior": 1.293,
+   "shop": "temu"
   },
   {
    "id": 14,
@@ -2968,7 +3412,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gtjzhdatng5",
    "urlByLang": {},
    "img": "",
-   "prior": 27.195000000000004
+   "prior": 39.847,
+   "shop": "temu"
   },
   {
    "id": 15,
@@ -2997,7 +3442,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gp5wbp5hn92",
    "urlByLang": {},
    "img": "",
-   "prior": 2.859
+   "prior": 3.93,
+   "shop": "temu"
   },
   {
    "id": 16,
@@ -3023,7 +3469,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gkap10ee4zg",
    "urlByLang": {},
    "img": "",
-   "prior": 27.195000000000004
+   "prior": 39.847,
+   "shop": "temu"
   },
   {
    "id": 17,
@@ -3052,7 +3499,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g7jo7dkcw9x",
    "urlByLang": {},
    "img": "",
-   "prior": 2.68
+   "prior": 5.166,
+   "shop": "temu"
   },
   {
    "id": 18,
@@ -3082,7 +3530,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g2h9mdyj5jd",
    "urlByLang": {},
    "img": "",
-   "prior": 1.393
+   "prior": 1.826,
+   "shop": "temu"
   },
   {
    "id": 19,
@@ -3111,7 +3560,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g8f13ydajxt",
    "urlByLang": {},
    "img": "",
-   "prior": 2.331
+   "prior": 2.321,
+   "shop": "temu"
   },
   {
    "id": 20,
@@ -3143,7 +3593,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/goh6p081nnf",
    "urlByLang": {},
    "img": "",
-   "prior": 2.637
+   "prior": 2.516,
+   "shop": "temu"
   },
   {
    "id": 21,
@@ -3173,7 +3624,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g0nx61gojln",
    "urlByLang": {},
    "img": "",
-   "prior": 1.308
+   "prior": 1.623,
+   "shop": "temu"
   },
   {
    "id": 22,
@@ -3199,7 +3651,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gzhqgm69hk6",
    "urlByLang": {},
    "img": "",
-   "prior": 27.195000000000004
+   "prior": 39.847,
+   "shop": "temu"
   },
   {
    "id": 23,
@@ -3229,7 +3682,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gan2a1ti4zq",
    "urlByLang": {},
    "img": "",
-   "prior": 2.943
+   "prior": 6.339,
+   "shop": "temu"
   },
   {
    "id": 24,
@@ -3260,7 +3714,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gnmkkgys7e6",
    "urlByLang": {},
    "img": "",
-   "prior": 0.629
+   "prior": 0.711,
+   "shop": "temu"
   },
   {
    "id": 25,
@@ -3290,7 +3745,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g5jq5sn4e8d",
    "urlByLang": {},
    "img": "",
-   "prior": 1.336
+   "prior": 1.362,
+   "shop": "temu"
   },
   {
    "id": 26,
@@ -3321,7 +3777,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gqouwvheybj",
    "urlByLang": {},
    "img": "",
-   "prior": 0.091
+   "prior": 0.31,
+   "shop": "temu"
   },
   {
    "id": 27,
@@ -3351,7 +3808,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gqwp3largv7",
    "urlByLang": {},
    "img": "",
-   "prior": 1.304
+   "prior": 1.184,
+   "shop": "temu"
   },
   {
    "id": 28,
@@ -3381,7 +3839,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g2cyohbk0ph",
    "urlByLang": {},
    "img": "",
-   "prior": 2.39
+   "prior": 3.326,
+   "shop": "temu"
   },
   {
    "id": 29,
@@ -3410,7 +3869,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gq2gr278ikr",
    "urlByLang": {},
    "img": "",
-   "prior": 1.381
+   "prior": 2.027,
+   "shop": "temu"
   },
   {
    "id": 30,
@@ -3437,7 +3897,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gbiac19pkv8",
    "urlByLang": {},
    "img": "",
-   "prior": 5.271
+   "prior": 7.047,
+   "shop": "temu"
   },
   {
    "id": 31,
@@ -3464,7 +3925,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g6ciot9tkzn",
    "urlByLang": {},
    "img": "",
-   "prior": 1.544
+   "prior": 1.373,
+   "shop": "temu"
   },
   {
    "id": 32,
@@ -3494,7 +3956,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gcazhxnrono",
    "urlByLang": {},
    "img": "",
-   "prior": 0.365
+   "prior": 0.54,
+   "shop": "temu"
   },
   {
    "id": 33,
@@ -3522,7 +3985,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/ge39ju6kurr",
    "urlByLang": {},
    "img": "",
-   "prior": 0.375
+   "prior": 0.738,
+   "shop": "temu"
   },
   {
    "id": 34,
@@ -3551,7 +4015,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gq7n9uw3a2x",
    "urlByLang": {},
    "img": "",
-   "prior": 1.331
+   "prior": 2.067,
+   "shop": "temu"
   },
   {
    "id": 35,
@@ -3581,7 +4046,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gehwn6mxg9w",
    "urlByLang": {},
    "img": "",
-   "prior": 0.987
+   "prior": 0.805,
+   "shop": "temu"
   },
   {
    "id": 36,
@@ -3608,7 +4074,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gij3f5bglqh",
    "urlByLang": {},
    "img": "",
-   "prior": 5.725
+   "prior": 5.749,
+   "shop": "temu"
   },
   {
    "id": 37,
@@ -3640,7 +4107,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gxzwhzqge6w",
    "urlByLang": {},
    "img": "",
-   "prior": 1.751
+   "prior": 2.673,
+   "shop": "temu"
   },
   {
    "id": 38,
@@ -3669,7 +4137,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/glvgza3k4u4",
    "urlByLang": {},
    "img": "",
-   "prior": 0.54
+   "prior": 1.175,
+   "shop": "temu"
   },
   {
    "id": 39,
@@ -3699,7 +4168,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gx6868s5vq1",
    "urlByLang": {},
    "img": "",
-   "prior": 0.837
+   "prior": 0.424,
+   "shop": "temu"
   },
   {
    "id": 40,
@@ -3727,7 +4197,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gkp5qhk5mv5",
    "urlByLang": {},
    "img": "",
-   "prior": 3.043
+   "prior": 2.942,
+   "shop": "temu"
   },
   {
    "id": 41,
@@ -3760,7 +4231,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gicia035i15",
    "urlByLang": {},
    "img": "",
-   "prior": 0.251
+   "prior": 0.534,
+   "shop": "temu"
   },
   {
    "id": 42,
@@ -3790,7 +4262,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g85mvtn3b9f",
    "urlByLang": {},
    "img": "",
-   "prior": 2.818
+   "prior": 1.607,
+   "shop": "temu"
   },
   {
    "id": 43,
@@ -3820,7 +4293,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/ghm480s8akx",
    "urlByLang": {},
    "img": "",
-   "prior": 1.029
+   "prior": 1.002,
+   "shop": "temu"
   },
   {
    "id": 44,
@@ -3851,7 +4325,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g6yzrgb4fho",
    "urlByLang": {},
    "img": "",
-   "prior": 0.528
+   "prior": 0.529,
+   "shop": "temu"
   },
   {
    "id": 45,
@@ -3882,7 +4357,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/ggxw7a62i4m",
    "urlByLang": {},
    "img": "",
-   "prior": 1.146
+   "prior": 0.848,
+   "shop": "temu"
   },
   {
    "id": 46,
@@ -3913,7 +4389,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/giylttelg0e",
    "urlByLang": {},
    "img": "",
-   "prior": 2.469
+   "prior": 3.614,
+   "shop": "temu"
   },
   {
    "id": 47,
@@ -3943,7 +4420,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gogx1sondoe",
    "urlByLang": {},
    "img": "",
-   "prior": 3.388
+   "prior": 2.514,
+   "shop": "temu"
   },
   {
    "id": 48,
@@ -3974,7 +4452,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/genw3omutdg",
    "urlByLang": {},
    "img": "",
-   "prior": 2.768
+   "prior": 2.252,
+   "shop": "temu"
   },
   {
    "id": 49,
@@ -4004,7 +4483,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/ge09don4r55",
    "urlByLang": {},
    "img": "",
-   "prior": 0.468
+   "prior": 0.587,
+   "shop": "temu"
   },
   {
    "id": 50,
@@ -4031,7 +4511,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/g4q6oynp7ku",
    "urlByLang": {},
    "img": "",
-   "prior": 6.832
+   "prior": 8.554,
+   "shop": "temu"
   },
   {
    "id": 51,
@@ -4059,7 +4540,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gbindt66qm5",
    "urlByLang": {},
    "img": "",
-   "prior": 0.64
+   "prior": 0.686,
+   "shop": "temu"
   },
   {
    "id": 52,
@@ -4087,7 +4569,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gy31v71pqe7",
    "urlByLang": {},
    "img": "",
-   "prior": 0.661
+   "prior": 1.001,
+   "shop": "temu"
   },
   {
    "id": 53,
@@ -4117,7 +4600,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gz6wiezi8gj",
    "urlByLang": {},
    "img": "",
-   "prior": 0.372
+   "prior": 0.695,
+   "shop": "temu"
   },
   {
    "id": 54,
@@ -4146,7 +4630,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gxpreyo79m4",
    "urlByLang": {},
    "img": "",
-   "prior": 0.983
+   "prior": 0.849,
+   "shop": "temu"
   },
   {
    "id": 55,
@@ -4176,7 +4661,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gludcc6fsk7",
    "urlByLang": {},
    "img": "",
-   "prior": 1.145
+   "prior": 0.814,
+   "shop": "temu"
   },
   {
    "id": 56,
@@ -4204,7 +4690,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/ggid53p4h6x",
    "urlByLang": {},
    "img": "",
-   "prior": 0.137
+   "prior": 0.146,
+   "shop": "temu"
   },
   {
    "id": 57,
@@ -4232,7 +4719,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gdtit5ahcwh",
    "urlByLang": {},
    "img": "",
-   "prior": 0.907
+   "prior": 1.339,
+   "shop": "temu"
   },
   {
    "id": 58,
@@ -4263,7 +4751,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gh3yrdgeb0i",
    "urlByLang": {},
    "img": "",
-   "prior": 2.114
+   "prior": 2.225,
+   "shop": "temu"
   },
   {
    "id": 59,
@@ -4294,7 +4783,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gxw9wtqhdbz",
    "urlByLang": {},
    "img": "",
-   "prior": 0.183
+   "prior": 0.201,
+   "shop": "temu"
   },
   {
    "id": 60,
@@ -4325,7 +4815,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/grr3q4u6fl7",
    "urlByLang": {},
    "img": "",
-   "prior": 0.527
+   "prior": 0.737,
+   "shop": "temu"
   },
   {
    "id": 61,
@@ -4356,7 +4847,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gonz508bf8l",
    "urlByLang": {},
    "img": "",
-   "prior": 1.4
+   "prior": 1.508,
+   "shop": "temu"
   },
   {
    "id": 62,
@@ -4385,7 +4877,8 @@ window.QUIZ = {
    "url": "https://temu.to/k/gp2vm3y0gni",
    "urlByLang": {},
    "img": "",
-   "prior": 1.624
+   "prior": 0.773,
+   "shop": "temu"
   },
   {
    "id": 63,
@@ -4417,7 +4910,1358 @@ window.QUIZ = {
    "url": "https://temu.to/k/gl9sal8yrfy",
    "urlByLang": {},
    "img": "",
-   "prior": 0.184
+   "prior": 0.535,
+   "shop": "temu"
+  },
+  {
+   "id": 64,
+   "tags": [
+    "statue",
+    "west",
+    "tough",
+    "decor",
+    "human",
+    "job"
+   ],
+   "name": {
+    "ko": "책상 위를 묵묵히 지키는 중세 기사",
+    "en": "A Medieval Knight Silently Guarding Your Desk",
+    "zh": "默默守着书桌的中世纪骑士",
+    "ja": "机の上を黙って守る中世の騎士",
+    "es": "Un caballero medieval que vigila tu escritorio en silencio"
+   },
+   "line": {
+    "ko": "아무도 시키지 않았는데 지켜주는 존재에게 약하시군요.",
+    "en": "You're weak for guardians nobody asked to guard.",
+    "zh": "没人拜托，却默默守护你的存在，最让你心软。",
+    "ja": "頼んでもいないのに守ってくれる存在に弱い方ですね。",
+    "es": "Te ablandan quienes te protegen sin que nadie se lo pida."
+   },
+   "origName": "드래곤 플라잉 래빗 댄스 중세 기사 데스크탑 장식품",
+   "url": "https://s.click.aliexpress.com/e/_c3hCQEWJ",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/64.webp",
+   "prior": 0.886
+  },
+  {
+   "id": 65,
+   "tags": [
+    "east",
+    "craft",
+    "useful",
+    "scary",
+    "decor",
+    "tiny"
+   ],
+   "name": {
+    "ko": "이름을 새기면 괴수가 지켜주는 도장",
+    "en": "A Name Seal Guarded by a Carved Beast",
+    "zh": "刻上名字就有怪兽守护的印章",
+    "ja": "名前を刻むと怪獣が守ってくれる印章",
+    "es": "Un sello con tu nombre custodiado por una bestia tallada"
+   },
+   "line": {
+    "ko": "이름 하나 찍는 일에도 의식을 치르고 싶은 분이시군요.",
+    "en": "You like turning even stamping your name into a ritual.",
+    "zh": "连盖个名字，你也想弄得像一场仪式。",
+    "ja": "名前を押すだけでも儀式にしたい方ですね。",
+    "es": "Quieres convertir hasta el gesto de sellar tu nombre en un ritual."
+   },
+   "origName": "쇼산석 맞춤 이름 인장 각인 스탬프",
+   "url": "https://s.click.aliexpress.com/e/_c4kxBzBV",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/65.webp",
+   "prior": 1.752
+  },
+  {
+   "id": 66,
+   "tags": [
+    "east",
+    "statue",
+    "scary",
+    "decor",
+    "tough",
+    "metal"
+   ],
+   "name": {
+    "ko": "아무도 이기지 못할 것 같은 귀면 투구",
+    "en": "A Fearsome Demon-Faced Helmet Nobody Could Beat",
+    "zh": "感觉谁也打不赢的鬼面头盔",
+    "ja": "誰にも負けなさそうな鬼面の兜",
+    "es": "Un casco de rostro demoníaco al que nadie parece poder vencer"
+   },
+   "line": {
+    "ko": "무서운 얼굴 뒤에 숨어 있을 때 마음이 놓이는 분이시군요.",
+    "en": "You feel safest hiding behind a frightening face.",
+    "zh": "躲在可怕的面孔后面，你才觉得安心。",
+    "ja": "怖い顔の後ろに隠れていると落ち着く方ですね。",
+    "es": "Te sientes a salvo escondido tras una cara que asusta."
+   },
+   "origName": "고대 헬멧 완성 모델 가정 장식 공예품",
+   "url": "https://s.click.aliexpress.com/e/_c3xtXtcn",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/66.webp",
+   "prior": 1.173
+  },
+  {
+   "id": 67,
+   "tags": [
+    "animal",
+    "living",
+    "calendar",
+    "wall",
+    "funny_face",
+    "useful"
+   ],
+   "name": {
+    "ko": "열두 달 내내 셀카를 찍는 못생긴 동물들",
+    "en": "Ugly Animals Taking Selfies All Twelve Months",
+    "zh": "十二个月天天自拍的丑萌动物",
+    "ja": "十二か月ずっと自撮りする不細工な動物たち",
+    "es": "Animales feos haciéndose selfies los doce meses"
+   },
+   "line": {
+    "ko": "못생긴 얼굴이 매달 말을 걸어주길 바라는 분이시군요.",
+    "en": "You want a funny face to greet you every month.",
+    "zh": "你希望每个月都有一张丑萌的脸跟你打招呼。",
+    "ja": "毎月、変な顔に話しかけてほしい方ですね。",
+    "es": "Quieres que una cara graciosa te salude cada mes."
+   },
+   "origName": "2027 못생긴 동물들의 셀카 벽걸이 달력",
+   "url": "https://s.click.aliexpress.com/e/_c3h32qg7",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/67.webp",
+   "prior": 3.077
+  },
+  {
+   "id": 68,
+   "tags": [
+    "plush",
+    "animal",
+    "living",
+    "scary",
+    "cute",
+    "season"
+   ],
+   "name": {
+    "ko": "거꾸로 매달려도 당당한 박쥐 인형",
+    "en": "A Plush Bat Who Hangs Upside Down with Pride",
+    "zh": "倒挂也理直气壮的蝙蝠玩偶",
+    "ja": "逆さまでも堂々としたコウモリのぬいぐるみ",
+    "es": "Un murciélago de peluche que cuelga boca abajo con orgullo"
+   },
+   "line": {
+    "ko": "세상을 뒤집어 보는 시간이 필요한 분이시군요.",
+    "en": "You sometimes need time to see the world upside down.",
+    "zh": "你偶尔需要把世界倒过来看一会儿。",
+    "ja": "世界を逆さまに見る時間が必要な方ですね。",
+    "es": "A veces necesitas ver el mundo del revés."
+   },
+   "origName": "박쥐 플러시 장난감 뱀파이어 박쥐 인형",
+   "url": "https://s.click.aliexpress.com/e/_c3vhc2U3",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/68.webp",
+   "prior": 4.143
+  },
+  {
+   "id": 69,
+   "tags": [
+    "cat",
+    "animal",
+    "living",
+    "ceramic",
+    "funny_face",
+    "useful",
+    "food"
+   ],
+   "name": {
+    "ko": "콧물처럼 말차를 흘리는 고양이 사발",
+    "en": "A Cat Bowl That Drips Matcha Like a Runny Nose",
+    "zh": "像流鼻涕一样淌抹茶的猫咪碗",
+    "ja": "鼻水のように抹茶をたらす猫の器",
+    "es": "Un cuenco de gato que gotea matcha como un moco"
+   },
+   "line": {
+    "ko": "품위와 엉망 사이에서 편안해지는 분이시군요.",
+    "en": "You relax somewhere between elegance and a mess.",
+    "zh": "你在体面和狼狈之间反而最自在。",
+    "ja": "上品さと散らかりの間で落ち着く方ですね。",
+    "es": "Te sientes a gusto entre la elegancia y el desastre."
+   },
+   "origName": "고양이 모양 말차 볼 세라믹 따르는 컵",
+   "url": "https://s.click.aliexpress.com/e/_c33XB7ST",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/69.webp",
+   "prior": 4.493
+  },
+  {
+   "id": 70,
+   "tags": [
+    "human",
+    "living",
+    "toy",
+    "funny_face",
+    "decor"
+   ],
+   "name": {
+    "ko": "빨간 팬티 한 장으로 당당한 말랑 아저씨",
+    "en": "A Squishy Man Confident in Nothing but Red Briefs",
+    "zh": "只穿一条红内裤也很坦荡的软萌大叔",
+    "ja": "赤いパンツ一枚で堂々としたぷにぷにおじさん",
+    "es": "Un hombre blandito muy digno con solo unos calzoncillos rojos"
+   },
+   "line": {
+    "ko": "체면을 내려놓은 존재에게 은근히 위로받는 분이시군요.",
+    "en": "You find quiet comfort in someone who dropped all pretense.",
+    "zh": "你会从放下体面的存在身上悄悄获得安慰。",
+    "ja": "体面を手放した存在に、ひそかに慰められる方ですね。",
+    "es": "Te consuela en secreto quien ha soltado las apariencias."
+   },
+   "origName": "스트레스 해소용 말랑 장난감 큰 캐릭터",
+   "url": "https://s.click.aliexpress.com/e/_c3S3eEtl",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/70.webp",
+   "prior": 1.51
+  },
+  {
+   "id": 71,
+   "tags": [
+    "scary",
+    "anatomy",
+    "living",
+    "decor",
+    "statue",
+    "alien"
+   ],
+   "name": {
+    "ko": "손가락으로 기어 다니는 게",
+    "en": "A Crab That Scuttles on Human Fingers",
+    "zh": "用人类手指爬行的螃蟹",
+    "ja": "人の指で這い回るカニ",
+    "es": "Un cangrejo que se arrastra sobre dedos humanos"
+   },
+   "line": {
+    "ko": "징그러운 것에서 이상하게 안도하는 분이시군요.",
+    "en": "Something about the creepy oddly reassures you.",
+    "zh": "你会从毛骨悚然的东西里莫名获得安心。",
+    "ja": "気味の悪いものに、なぜか安心する方ですね。",
+    "es": "Lo repulsivo te tranquiliza de un modo extraño."
+   },
+   "origName": "수지 손가락 게 현실적인 공포 모델 동상",
+   "url": "https://s.click.aliexpress.com/e/_c2xOQpIL",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/71.webp",
+   "prior": 0.661
+  },
+  {
+   "id": 72,
+   "tags": [
+    "sound",
+    "scary",
+    "useful",
+    "skeleton",
+    "decor",
+    "metal"
+   ],
+   "name": {
+    "ko": "한 번 불면 모두가 돌아보는 해골 호루라기",
+    "en": "A Skull Whistle That Makes Everyone Turn Around",
+    "zh": "一吹全场回头的骷髅哨",
+    "ja": "ひと吹きで全員が振り返るドクロの笛",
+    "es": "Un silbato de calavera que hace girar todas las cabezas"
+   },
+   "line": {
+    "ko": "사람들이 깜짝 놀라는 순간을 은근히 기다리는 분이시군요.",
+    "en": "You quietly wait for the moment people jump.",
+    "zh": "你悄悄期待着别人被吓一跳的那一刻。",
+    "ja": "人が飛び上がる瞬間を、こっそり待っている方ですね。",
+    "es": "Esperas en secreto el momento en que todos se sobresaltan."
+   },
+   "origName": "아즈텍 데스 휘슬 할로윈 소리 소품",
+   "url": "https://s.click.aliexpress.com/e/_c31kiPtZ",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/72.webp",
+   "prior": 5.058
+  },
+  {
+   "id": 73,
+   "tags": [
+    "funny_face",
+    "ceramic",
+    "toy",
+    "scary",
+    "decor"
+   ],
+   "name": {
+    "ko": "여드름이 돋아난 청자 얼굴",
+    "en": "A Celadon Face with Pimples",
+    "zh": "冒出痘痘的青瓷脸",
+    "ja": "ニキビができた青磁の顔",
+    "es": "Una cara de celadón llena de granitos"
+   },
+   "line": {
+    "ko": "완벽하지 않은 얼굴을 만지작거리며 마음을 푸는 분이시군요.",
+    "en": "You loosen up by fiddling with an imperfect face.",
+    "zh": "你会摆弄一张不完美的脸来放松心情。",
+    "ja": "完璧でない顔をいじりながら心をほぐす方ですね。",
+    "es": "Te relajas toqueteando una cara imperfecta."
+   },
+   "origName": "여드름 제거 장난감 스트레스 해소",
+   "url": "https://s.click.aliexpress.com/e/_c3xQvf5v",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/73.webp",
+   "prior": 0.289
+  },
+  {
+   "id": 74,
+   "tags": [
+    "frog",
+    "animal",
+    "living",
+    "ceramic",
+    "zen",
+    "east",
+    "decor",
+    "statue"
+   ],
+   "name": {
+    "ko": "합장하고 차를 기다리는 청자 개구리",
+    "en": "A Celadon Frog Praying While It Waits for Tea",
+    "zh": "合掌等茶的青瓷青蛙",
+    "ja": "合掌してお茶を待つ青磁のカエル",
+    "es": "Una rana de celadón en oración esperando el té"
+   },
+   "line": {
+    "ko": "서두르지 않는 존재 옆에서 숨이 쉬어지는 분이시군요.",
+    "en": "You breathe easier next to someone in no hurry.",
+    "zh": "待在不慌不忙的存在身边，你才呼吸得顺畅。",
+    "ja": "急がない存在のそばで息ができる方ですね。",
+    "es": "Respiras mejor junto a quien no tiene prisa."
+   },
+   "origName": "도자기 요가 양서류 조형물 징더전 공예품",
+   "url": "https://s.click.aliexpress.com/e/_c3ukkPfd",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/74.webp",
+   "prior": 1.215
+  },
+  {
+   "id": 75,
+   "tags": [
+    "anatomy",
+    "organ",
+    "ceramic",
+    "useful",
+    "food",
+    "decor"
+   ],
+   "name": {
+    "ko": "머릿속을 그대로 마시는 뇌 머그컵",
+    "en": "A Brain Mug for Drinking Straight from Your Thoughts",
+    "zh": "把脑袋直接喝下去的大脑马克杯",
+    "ja": "頭の中をそのまま飲む脳みそマグカップ",
+    "es": "Una taza-cerebro para beberte los pensamientos"
+   },
+   "line": {
+    "ko": "생각이 너무 많은 날을 유머로 넘기는 분이시군요.",
+    "en": "You get through overthinking days with humor.",
+    "zh": "你用幽默度过想太多的日子。",
+    "ja": "考えすぎる日をユーモアで乗り越える方ですね。",
+    "es": "Superas los días de darle demasiadas vueltas con humor."
+   },
+   "origName": "세라믹 공포 테마 머그컵",
+   "url": "https://s.click.aliexpress.com/e/_c3uTCvCR",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/75.webp",
+   "prior": 7.054
+  },
+  {
+   "id": 76,
+   "tags": [
+    "funny_face",
+    "useful",
+    "decor",
+    "alien"
+   ],
+   "name": {
+    "ko": "발로 밟아도 표정이 변하지 않는 배 얼굴 매트",
+    "en": "A Pear-Faced Mat That Keeps Its Expression Even Underfoot",
+    "zh": "踩上去表情也不变的梨脸地垫",
+    "ja": "踏んでも表情が変わらない洋梨顔のマット",
+    "es": "Un felpudo con cara de pera que no cambia de gesto ni pisado"
+   },
+   "line": {
+    "ko": "무표정한 얼굴 앞에서 오히려 웃음이 나는 분이시군요.",
+    "en": "A deadpan face somehow makes you laugh.",
+    "zh": "面对一张面无表情的脸，你反而想笑。",
+    "ja": "無表情の顔の前で、むしろ笑ってしまう方ですね。",
+    "es": "Una cara inexpresiva te da risa."
+   },
+   "origName": "이상한 배 모양 인간 얼굴 도어매트",
+   "url": "https://s.click.aliexpress.com/e/_c3GFJfn9",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/76.webp",
+   "prior": 3.123
+  },
+  {
+   "id": 77,
+   "tags": [
+    "plush",
+    "human",
+    "living",
+    "funny_face",
+    "toy",
+    "craft"
+   ],
+   "name": {
+    "ko": "내 얼굴을 얹은 구부러지는 인형",
+    "en": "A Bendy Doll Wearing Your Own Face",
+    "zh": "顶着我自己脸的可弯曲玩偶",
+    "ja": "自分の顔をのせた曲がる人形",
+    "es": "Un muñeco flexible con tu propia cara"
+   },
+   "line": {
+    "ko": "나 자신을 장난감으로 만들 용기가 있는 분이시군요.",
+    "en": "You have the nerve to turn yourself into a toy.",
+    "zh": "你有把自己做成玩具的勇气。",
+    "ja": "自分をおもちゃにできる勇気のある方ですね。",
+    "es": "Tienes el valor de convertirte a ti mismo en juguete."
+   },
+   "origName": "구부릴 수 있는 봉제인형 맞춤 이미지 프린팅",
+   "url": "https://s.click.aliexpress.com/e/_c3yZid5t",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/77.webp",
+   "prior": 1.07
+  },
+  {
+   "id": 78,
+   "tags": [
+    "animal",
+    "living",
+    "cute",
+    "funny_face",
+    "tiny",
+    "plush"
+   ],
+   "name": {
+    "ko": "앞니 두 개로 버티는 땅다람쥐 키링",
+    "en": "A Groundhog Keychain Holding On with Two Buck Teeth",
+    "zh": "靠两颗门牙撑着的土拨鼠钥匙扣",
+    "ja": "前歯二本でがんばるジリスのキーホルダー",
+    "es": "Un llavero de marmota que se sostiene con dos dientes"
+   },
+   "line": {
+    "ko": "허술해 보이는 존재의 필사적인 표정에 약한 분이시군요.",
+    "en": "You're weak for the desperate face of something clumsy.",
+    "zh": "你对笨拙小家伙拼命的表情毫无抵抗力。",
+    "ja": "不器用な存在の必死な顔に弱い方ですね。",
+    "es": "Te derrite la cara desesperada de algo torpe."
+   },
+   "origName": "실감 나는 땅다람쥐 인형 펜던트 키링",
+   "url": "https://s.click.aliexpress.com/e/_c34i7NwL",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/78.webp",
+   "prior": 0.827
+  },
+  {
+   "id": 79,
+   "tags": [
+    "human",
+    "living",
+    "statue",
+    "funny_face",
+    "decor",
+    "craft"
+   ],
+   "name": {
+    "ko": "코를 막고 서 있는 두 사람",
+    "en": "Two Figures Pinching Their Noses",
+    "zh": "捏着鼻子站着的两个人",
+    "ja": "鼻をつまんで立つ二人",
+    "es": "Dos figuras tapándose la nariz"
+   },
+   "line": {
+    "ko": "말하지 못한 불편함을 표정으로 나눠 갖고 싶은 분이시군요.",
+    "en": "You'd like to share unspoken discomfort through a shared face.",
+    "zh": "你想用表情分担那些没说出口的不舒服。",
+    "ja": "言えない居心地の悪さを、表情で分かち合いたい方ですね。",
+    "es": "Quieres compartir con un gesto la incomodidad que no dices."
+   },
+   "origName": "코를 꼬집는 모습의 레진 조형물",
+   "url": "https://s.click.aliexpress.com/e/_c3H9ok1d",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/79.webp",
+   "prior": 0.85
+  },
+  {
+   "id": 80,
+   "tags": [
+    "animal",
+    "living",
+    "alien",
+    "cute",
+    "tiny",
+    "toy",
+    "decor"
+   ],
+   "name": {
+    "ko": "심해에서 올라온 동그란 생물 다섯 마리",
+    "en": "Five Round Creatures Who Floated Up from the Deep Sea",
+    "zh": "从深海浮上来的五只圆滚滚生物",
+    "ja": "深海から上がってきた丸い生き物五匹",
+    "es": "Cinco criaturas redondas salidas de las profundidades"
+   },
+   "line": {
+    "ko": "처음 보는 생물에게 이름부터 붙여주는 분이시군요.",
+    "en": "You name a creature the moment you meet it.",
+    "zh": "第一次见到新生物，你就先给它起名字。",
+    "ja": "初めて見る生き物に、まず名前をつける方ですね。",
+    "es": "Le pones nombre a una criatura nada más verla."
+   },
+   "origName": "발광 심해 동물 피규어 가샤폰 이상한 물고기",
+   "url": "https://s.click.aliexpress.com/e/_c2RoDTfN",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/80.webp",
+   "prior": 1.254
+  },
+  {
+   "id": 81,
+   "tags": [
+    "toy",
+    "human",
+    "living",
+    "cute",
+    "funny_face"
+   ],
+   "name": {
+    "ko": "속이 훤히 비치는 말랑한 투명 인간",
+    "en": "A Squishy See-Through Little Person",
+    "zh": "里外全透明的软乎乎透明人",
+    "ja": "中まで透けて見えるぷにぷに透明人間",
+    "es": "Un muñequito transparente y blandito"
+   },
+   "line": {
+    "ko": "숨기는 것 없이 말랑한 존재에게 마음이 풀리는 분이시군요.",
+    "en": "You soften around anything squishy and hiding nothing.",
+    "zh": "面对毫无隐藏、软乎乎的存在，你的心就化了。",
+    "ja": "隠し事のないぷにぷにした存在に、心がほどける方ですね。",
+    "es": "Te ablandas ante lo mullido que no esconde nada."
+   },
+   "origName": "스퀴시 투명 젤리 스퀴즈 장난감",
+   "url": "https://s.click.aliexpress.com/e/_c3T5b8dV",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/81.webp",
+   "prior": 1.044
+  },
+  {
+   "id": 82,
+   "tags": [
+    "food",
+    "funny_face",
+    "decor",
+    "magic",
+    "scary",
+    "statue",
+    "eyes"
+   ],
+   "name": {
+    "ko": "눈이 하나 달린 노란 바나나",
+    "en": "A Yellow Banana with a Single Eye",
+    "zh": "只有一只眼睛的黄香蕉",
+    "ja": "目が一つだけついた黄色いバナナ",
+    "es": "Un plátano amarillo con un solo ojo"
+   },
+   "line": {
+    "ko": "과일에게서 시선을 느끼는 것도 나쁘지 않은 분이시군요.",
+    "en": "You don't mind being watched by your fruit.",
+    "zh": "被水果盯着看，你也不觉得讨厌。",
+    "ja": "果物に見つめられるのも悪くない方ですね。",
+    "es": "No te molesta que te mire tu fruta."
+   },
+   "origName": "매직 바나나 수지 소품",
+   "url": "https://s.click.aliexpress.com/e/_c3OCvmYb",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/82.webp",
+   "prior": 0.326
+  },
+  {
+   "id": 83,
+   "tags": [
+    "frog",
+    "animal",
+    "living",
+    "funny_face",
+    "ceramic",
+    "decor",
+    "statue"
+   ],
+   "name": {
+    "ko": "눈이 튀어나온 초록 양서류 가족",
+    "en": "A Bug-Eyed Green Amphibian Family",
+    "zh": "眼睛鼓出来的绿色两栖一家",
+    "ja": "目が飛び出した緑の両生類ファミリー",
+    "es": "Una familia de anfibios verdes de ojos saltones"
+   },
+   "line": {
+    "ko": "놀란 표정이 평소 얼굴인 존재에게 동질감을 느끼는 분이시군요.",
+    "en": "You relate to anyone whose default face is surprise.",
+    "zh": "你会对那些一脸惊讶就是日常的存在产生共鸣。",
+    "ja": "驚いた顔が通常運転の存在に、親近感を覚える方ですね。",
+    "es": "Te sientes identificado con quien tiene cara de sorpresa permanente."
+   },
+   "origName": "만화 캐릭터 양서류 화분 창의적인 동물 조형물",
+   "url": "https://s.click.aliexpress.com/e/_c3ldfexD",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/83.webp",
+   "prior": 1.01
+  },
+  {
+   "id": 84,
+   "tags": [
+    "art",
+    "decor",
+    "useful",
+    "illusion",
+    "tiny"
+   ],
+   "name": {
+    "ko": "꿈에서 본 듯한 이상한 스티커 예순네 장",
+    "en": "Sixty-Four Strange Stickers Like Scenes from a Dream",
+    "zh": "像梦里见过的六十四张奇怪贴纸",
+    "ja": "夢で見たような奇妙なステッカー六十四枚",
+    "es": "Sesenta y cuatro pegatinas raras como escenas de un sueño"
+   },
+   "line": {
+    "ko": "어디서 본 건지 모를 풍경에 이끌리는 분이시군요.",
+    "en": "You're drawn to places you can't remember seeing.",
+    "zh": "你被说不清在哪见过的风景吸引。",
+    "ja": "どこで見たか分からない風景に惹かれる方ですね。",
+    "es": "Te atraen paisajes que no recuerdas haber visto."
+   },
+   "origName": "드림코어 스타일 SF 아트 스티커 세트 64개",
+   "url": "https://s.click.aliexpress.com/e/_c38mAZ6T",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/84.webp",
+   "prior": 7.445
+  },
+  {
+   "id": 85,
+   "tags": [
+    "scary",
+    "alien",
+    "living",
+    "decor",
+    "useful",
+    "statue",
+    "funny_face"
+   ],
+   "name": {
+    "ko": "촉수로 화분을 끌어안은 괴물",
+    "en": "A Tentacled Monster Hugging Its Plant Pot",
+    "zh": "用触手抱着花盆的怪物",
+    "ja": "触手で植木鉢を抱きしめる怪物",
+    "es": "Un monstruo de tentáculos abrazando su maceta"
+   },
+   "line": {
+    "ko": "초록 식물 옆에서도 서늘한 분위기를 놓지 않는 분이시군요.",
+    "en": "Even next to greenery, you keep a little chill.",
+    "zh": "即便在绿植旁边，你也保留着一丝凉意。",
+    "ja": "緑の植物の隣でも、ひんやりした気配を手放さない方ですね。",
+    "es": "Hasta junto a las plantas conservas un aire sombrío."
+   },
+   "origName": "괴물 문어 촉수 레진 화분",
+   "url": "https://s.click.aliexpress.com/e/_c3i07HB5",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/85.webp",
+   "prior": 0.71
+  },
+  {
+   "id": 86,
+   "tags": [
+    "funny_face",
+    "human",
+    "living",
+    "tiny",
+    "cute",
+    "decor",
+    "ceramic"
+   ],
+   "name": {
+    "ko": "찻잔 가장자리에서 표정을 짓는 못생긴 얼굴",
+    "en": "An Ugly-Cute Face Pulling Expressions on a Teacup Rim",
+    "zh": "挂在茶杯边上做表情的丑萌脑袋",
+    "ja": "湯のみのふちで表情を作る不細工かわいい顔",
+    "es": "Una carita fea y graciosa en el borde de la taza"
+   },
+   "line": {
+    "ko": "소소한 일상에 이상한 표정 하나를 걸쳐두고 싶은 분이시군요.",
+    "en": "You like perching one odd expression on everyday life.",
+    "zh": "你想在平凡日常里挂上一个奇怪的表情。",
+    "ja": "ささやかな日常に変な表情を一つ添えたい方ですね。",
+    "es": "Te gusta colgar una expresión rara en lo cotidiano."
+   },
+   "origName": "찻잔 장식용 못생긴 듯 귀여운 인간 머리 조각상",
+   "url": "https://s.click.aliexpress.com/e/_c2zmAzjV",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 0.183
+  },
+  {
+   "id": 87,
+   "tags": [
+    "plush",
+    "god",
+    "east",
+    "cute",
+    "funny_face",
+    "zen"
+   ],
+   "name": {
+    "ko": "배 속에 깨달음을 담아둔 회색 부처 인형",
+    "en": "A Gray Plush Buddha Storing Enlightenment in Its Belly",
+    "zh": "把顿悟装进肚子里的灰色佛像玩偶",
+    "ja": "お腹に悟りをためた灰色の仏さまぬいぐるみ",
+    "es": "Un Buda de peluche gris con la iluminación en la barriga"
+   },
+   "line": {
+    "ko": "큰 배처럼 너그러운 존재에게 안기고 싶은 분이시군요.",
+    "en": "You want to lean on someone generous as a big belly.",
+    "zh": "你想靠在像大肚子一样宽厚的存在身上。",
+    "ja": "大きなお腹のように寛大な存在に寄りかかりたい方ですね。",
+    "es": "Quieres apoyarte en alguien tan generoso como una gran barriga."
+   },
+   "origName": "못생기고 귀여운 힐링 미륵불 플러시 인형",
+   "url": "https://s.click.aliexpress.com/e/_c3xNEG6X",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/87.webp",
+   "prior": 1.882
+  },
+  {
+   "id": 88,
+   "tags": [
+    "plush",
+    "animal",
+    "living",
+    "cute",
+    "funny_face"
+   ],
+   "name": {
+    "ko": "입꼬리가 처진 채로 세상을 이해한 심해어",
+    "en": "A Deep-Sea Fish That Understood the World with a Droopy Mouth",
+    "zh": "嘴角下垂却看透世界的深海鱼",
+    "ja": "口角が下がったまま世の中を理解した深海魚",
+    "es": "Un pez abisal que entendió el mundo con la boca caída"
+   },
+   "line": {
+    "ko": "처진 표정에서 오히려 위안을 얻는 분이시군요.",
+    "en": "A drooping face is oddly comforting to you.",
+    "zh": "你反而从垮着的表情里获得安慰。",
+    "ja": "垂れた表情に、かえって慰められる方ですね。",
+    "es": "Una cara caída te consuela, curiosamente."
+   },
+   "origName": "만화 큰 입 블롭피쉬 봉제인형 못난이 베개",
+   "url": "https://s.click.aliexpress.com/e/_c2Q1KPOb",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/88.webp",
+   "prior": 0.906
+  },
+  {
+   "id": 89,
+   "tags": [
+    "prank",
+    "useful",
+    "funny_face",
+    "decor"
+   ],
+   "name": {
+    "ko": "침대 위에 놓인 방지턱 베개",
+    "en": "A Speed Bump Pillow Laid Across Your Bed",
+    "zh": "放在床上的减速带抱枕",
+    "ja": "ベッドの上に置かれた減速帯クッション",
+    "es": "Un cojín-resalto de velocidad sobre tu cama"
+   },
+   "line": {
+    "ko": "일상의 과속을 장난으로 멈춰 세우고 싶은 분이시군요.",
+    "en": "You want to slow down daily life with a prank.",
+    "zh": "你想用恶作剧让日常的急速慢下来。",
+    "ja": "日常の速度超過を、いたずらで止めたい方ですね。",
+    "es": "Quieres frenar la prisa diaria con una broma."
+   },
+   "origName": "속도 감속 장치 모양 장난용 베개",
+   "url": "https://s.click.aliexpress.com/e/_c3r0CSrD",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/89.webp",
+   "prior": 2.694
+  },
+  {
+   "id": 90,
+   "tags": [
+    "anatomy",
+    "organ",
+    "scary",
+    "toy",
+    "tiny"
+   ],
+   "name": {
+    "ko": "꽉 쥘수록 생각이 새어 나오는 뇌 공",
+    "en": "A Brain Ball That Leaks Thoughts the Harder You Squeeze",
+    "zh": "越捏越会漏出想法的大脑球",
+    "ja": "握るほど考えがにじみ出る脳みそボール",
+    "es": "Una pelota-cerebro que suelta ideas cuanto más la aprietas"
+   },
+   "line": {
+    "ko": "머리가 복잡한 날 손부터 바빠지는 분이시군요.",
+    "en": "When your head is busy, your hands get busy too.",
+    "zh": "脑子乱的日子，你的手先忙起来。",
+    "ja": "頭が複雑な日は、まず手が忙しくなる方ですね。",
+    "es": "Cuando tu cabeza está liada, tus manos se ponen a trabajar."
+   },
+   "origName": "부드러운 고무 뇌 모양 스트레스볼",
+   "url": "https://s.click.aliexpress.com/e/_c3IoSQlH",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 1.969
+  },
+  {
+   "id": 91,
+   "tags": [
+    "toy",
+    "bird",
+    "animal",
+    "living",
+    "magic",
+    "illusion",
+    "decor"
+   ],
+   "name": {
+    "ko": "영원히 고개를 숙이며 물을 마시는 새",
+    "en": "A Bird That Bows and Drinks Water Forever",
+    "zh": "永远低头喝水的小鸟",
+    "ja": "いつまでもおじぎをして水を飲む鳥",
+    "es": "Un pájaro que bebe agua inclinándose eternamente"
+   },
+   "line": {
+    "ko": "같은 행동을 끝없이 지켜보는 시간이 편한 분이시군요.",
+    "en": "You find watching one motion on repeat restful.",
+    "zh": "你觉得盯着同一个动作看个没完很舒服。",
+    "ja": "同じ動きをずっと眺める時間が心地よい方ですね。",
+    "es": "Mirar un mismo movimiento sin fin te resulta relajante."
+   },
+   "origName": "음주하는 새 무지개 깜빡이는 유리잔 행운의 새",
+   "url": "https://s.click.aliexpress.com/e/_c3y7uzJl",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 3.932
+  },
+  {
+   "id": 92,
+   "tags": [
+    "scary",
+    "anatomy",
+    "useful",
+    "decor",
+    "funny_face",
+    "tiny",
+    "eyes"
+   ],
+   "name": {
+    "ko": "클립을 쥐고 당신을 바라보는 눈알",
+    "en": "An Eyeball That Holds Your Paperclips and Watches You",
+    "zh": "握着回形针盯着你的眼球",
+    "ja": "クリップを握ってあなたを見つめる目玉",
+    "es": "Un ojo que sujeta tus clips y te mira"
+   },
+   "line": {
+    "ko": "누군가 지켜보는 듯한 기분이 은근히 든든한 분이시군요.",
+    "en": "Being quietly watched oddly reassures you.",
+    "zh": "被人默默注视的感觉，对你来说居然有点踏实。",
+    "ja": "誰かに見守られている感じが、なぜか心強い方ですね。",
+    "es": "Que te vigilen en silencio te da una extraña tranquilidad."
+   },
+   "origName": "페이퍼클립 스탠드 레트로 눈알 장식품",
+   "url": "https://s.click.aliexpress.com/e/_c45hNnPN",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 0.851
+  },
+  {
+   "id": 93,
+   "tags": [
+    "human",
+    "living",
+    "statue",
+    "decor",
+    "funny_face",
+    "tiny",
+    "west",
+    "job"
+   ],
+   "name": {
+    "ko": "청진기를 목에 건 채 대기 중인 미니 의사",
+    "en": "A Mini Doctor Waiting with a Stethoscope Around the Neck",
+    "zh": "脖子挂着听诊器待命的迷你医生",
+    "ja": "聴診器を首にかけて待機中のミニ先生",
+    "es": "Un mini médico en espera con el estetoscopio al cuello"
+   },
+   "line": {
+    "ko": "누군가 괜찮냐고 물어봐 주길 기다리는 분이시군요.",
+    "en": "You're waiting for someone to ask if you're okay.",
+    "zh": "你在等一个人问你一句“还好吗”。",
+    "ja": "誰かに「大丈夫？」と聞いてほしい方ですね。",
+    "es": "Esperas a que alguien te pregunte si estás bien."
+   },
+   "origName": "재미있는 의사/간호사 피규어 청진기",
+   "url": "https://s.click.aliexpress.com/e/_c3HOa1f9",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 0.828
+  },
+  {
+   "id": 94,
+   "tags": [
+    "human",
+    "living",
+    "statue",
+    "decor",
+    "tough",
+    "tiny",
+    "funny_face",
+    "job"
+   ],
+   "name": {
+    "ko": "드릴과 전구를 들고 서 있는 전기 기술자",
+    "en": "An Electrician Standing with a Drill and a Light Bulb",
+    "zh": "拿着电钻和灯泡站着的电工",
+    "ja": "ドリルと電球を持って立つ電気技師",
+    "es": "Un electricista con taladro y bombilla"
+   },
+   "line": {
+    "ko": "맡기면 해결해줄 것 같은 존재가 곁에 있길 바라는 분이시군요.",
+    "en": "You like having someone who'd fix things standing nearby.",
+    "zh": "你希望身边有个“交给他就行”的存在。",
+    "ja": "任せれば何とかしてくれそうな存在がそばにほしい方ですね。",
+    "es": "Te gusta tener cerca a alguien que lo arregle todo."
+   },
+   "origName": "재미있는 전기 기술자 피규어 드릴 전구",
+   "url": "https://s.click.aliexpress.com/e/_c37KCyAn",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 0.35
+  },
+  {
+   "id": 95,
+   "tags": [
+    "human",
+    "living",
+    "ceramic",
+    "statue",
+    "decor",
+    "west",
+    "funny_face",
+    "costume"
+   ],
+   "name": {
+    "ko": "웃음을 멈출 줄 모르는 도자기 광대",
+    "en": "A Porcelain Clown Who Can't Stop Laughing",
+    "zh": "停不下来笑的陶瓷小丑",
+    "ja": "笑いが止まらない陶器のピエロ",
+    "es": "Un payaso de porcelana que no puede dejar de reír"
+   },
+   "line": {
+    "ko": "웃는 얼굴 뒤가 궁금해지는 분이시군요.",
+    "en": "You wonder what's behind a laughing face.",
+    "zh": "你总会好奇笑脸背后是什么。",
+    "ja": "笑顔の裏が気になってしまう方ですね。",
+    "es": "Te intriga lo que hay detrás de una cara sonriente."
+   },
+   "origName": "서커스 세라믹 웃는 광대 인형 장식품",
+   "url": "https://s.click.aliexpress.com/e/_c3VYIj6x",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 0.696
+  },
+  {
+   "id": 96,
+   "tags": [
+    "human",
+    "living",
+    "statue",
+    "decor",
+    "west",
+    "funny_face",
+    "season"
+   ],
+   "name": {
+    "ko": "불이 들어오는 장난기 많은 산타",
+    "en": "A Mischievous Santa That Lights Up",
+    "zh": "会亮灯的调皮圣诞老人",
+    "ja": "明かりがともるいたずら好きなサンタ",
+    "es": "Un Papá Noel travieso que se ilumina"
+   },
+   "line": {
+    "ko": "계절이 지나도 장난기를 간직하는 분이시군요.",
+    "en": "You keep your playfulness long after the season ends.",
+    "zh": "节日过了，你依然留着那份顽皮。",
+    "ja": "季節が過ぎても遊び心を手放さない方ですね。",
+    "es": "Conservas la picardía mucho después de la temporada."
+   },
+   "origName": "재미있는 산타클로스 장식품 불빛 크리스마스",
+   "url": "https://s.click.aliexpress.com/e/_c36IPW5l",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 0.892
+  },
+  {
+   "id": 97,
+   "tags": [
+    "skeleton",
+    "scary",
+    "anatomy",
+    "decor",
+    "statue",
+    "west",
+    "tiny",
+    "season"
+   ],
+   "name": {
+    "ko": "책상 위에 눌러앉은 미니 해골",
+    "en": "A Tiny Skull That Moved In on Your Desk",
+    "zh": "赖在书桌上不走的迷你骷髅",
+    "ja": "机の上に居座るミニドクロ",
+    "es": "Una mini calavera instalada en tu escritorio"
+   },
+   "line": {
+    "ko": "죽음도 귀엽게 소화해내는 분이시군요.",
+    "en": "You can make even mortality look a bit cute.",
+    "zh": "你连死亡都能消化得有点可爱。",
+    "ja": "死さえもかわいく受け止められる方ですね。",
+    "es": "Hasta la muerte te parece un poco adorable."
+   },
+   "origName": "고딕 할로윈 해골 장식 레진 미니 해골",
+   "url": "https://s.click.aliexpress.com/e/_c33s9YU3",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 0.575
+  },
+  {
+   "id": 98,
+   "tags": [
+    "frog",
+    "animal",
+    "living",
+    "zen",
+    "east",
+    "decor",
+    "statue",
+    "metal"
+   ],
+   "name": {
+    "ko": "요가하는 황동 개구리",
+    "en": "A Brass Frog Doing Yoga",
+    "zh": "做瑜伽的黄铜青蛙",
+    "ja": "ヨガをする真鍮のカエル",
+    "es": "Una rana de latón haciendo yoga"
+   },
+   "line": {
+    "ko": "굳어도 평온한 존재를 곁에 두고 싶은 분이시군요.",
+    "en": "You'd like something calm, even when set in metal, near you.",
+    "zh": "你想把那个就算凝固成金属也依然平静的存在放在身边。",
+    "ja": "金属になっても穏やかな存在をそばに置きたい方ですね。",
+    "es": "Quieres cerca algo que sigue en calma aun hecho de metal."
+   },
+   "origName": "황동 요가 개구리 조각상",
+   "url": "https://s.click.aliexpress.com/e/_c3sSuLhv",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 0.998
+  },
+  {
+   "id": 99,
+   "tags": [
+    "alien",
+    "living",
+    "statue",
+    "decor",
+    "funny_face",
+    "tiny"
+   ],
+   "name": {
+    "ko": "맥주 한 캔에 지구를 용서한 외계인",
+    "en": "An Alien Who Forgave Earth over a Beer",
+    "zh": "一罐啤酒就原谅了地球的外星人",
+    "ja": "ビール一杯で地球を許した宇宙人",
+    "es": "Un extraterrestre que perdonó a la Tierra con una cerveza"
+   },
+   "line": {
+    "ko": "퇴근길 한 잔에 모든 걸 용서하는 분이시군요.",
+    "en": "One drink after work forgives everything for you.",
+    "zh": "下班后一杯酒，你就能原谅一切。",
+    "ja": "仕事帰りの一杯で、すべてを許せる方ですね。",
+    "es": "Una copa tras el trabajo te hace perdonarlo todo."
+   },
+   "origName": "독특한 외계인 맥주 마시는 레진 피규어",
+   "url": "https://s.click.aliexpress.com/e/_c31jtKOf",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 0.58
+  },
+  {
+   "id": 100,
+   "tags": [
+    "human",
+    "living",
+    "statue",
+    "funny_face",
+    "decor",
+    "zen",
+    "west",
+    "useful"
+   ],
+   "name": {
+    "ko": "변기 위에서 인류를 고민하는 사색가",
+    "en": "A Thinker on the Toilet Pondering Humanity",
+    "zh": "坐在马桶上思考人类的思想者",
+    "ja": "便座の上で人類を悩む考える人",
+    "es": "Un pensador sobre el inodoro meditando sobre la humanidad"
+   },
+   "line": {
+    "ko": "가장 편한 자리에서 가장 깊게 생각하는 분이시군요.",
+    "en": "You think deepest in the most comfortable spot.",
+    "zh": "你在最舒服的地方想得最深。",
+    "ja": "いちばん楽な場所で、いちばん深く考える方ですね。",
+    "es": "Piensas más hondo en el lugar más cómodo."
+   },
+   "origName": "변기상의 사색하는 인물 조각상",
+   "url": "https://s.click.aliexpress.com/e/_c4qXnexD",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 1.206
+  },
+  {
+   "id": 101,
+   "tags": [
+    "toy",
+    "game",
+    "prank",
+    "scary",
+    "sound"
+   ],
+   "name": {
+    "ko": "손대는 순간 찌릿해지는 전기 미로",
+    "en": "An Electric Maze That Zaps the Moment You Touch",
+    "zh": "一碰就触电的电击迷宫",
+    "ja": "触れた瞬間びりっとする電気迷路",
+    "es": "Un laberinto eléctrico que da calambre al tocar"
+   },
+   "line": {
+    "ko": "살짝 아플 줄 알면서도 도전하는 분이시군요.",
+    "en": "You take the challenge even knowing it'll sting a bit.",
+    "zh": "明知会有点疼，你还是会去挑战。",
+    "ja": "少し痛いと分かっていても挑戦する方ですね。",
+    "es": "Aceptas el reto aunque sepas que picará un poco."
+   },
+   "origName": "어린이 충격 전기 장난감 터치 미로 게임",
+   "url": "https://s.click.aliexpress.com/e/_c4ngroqX",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 0.155
+  },
+  {
+   "id": 102,
+   "tags": [
+    "sound",
+    "toy",
+    "tiny",
+    "wearable",
+    "useful",
+    "east",
+    "zen",
+    "animal",
+    "living"
+   ],
+   "name": {
+    "ko": "딸깍 소리로 번뇌를 끊는 나무 물고기",
+    "en": "A Wooden Fish That Clicks Your Worries Away",
+    "zh": "用咔哒声斩断烦恼的木鱼",
+    "ja": "カチカチ音で煩悩を断つ木の魚",
+    "es": "Un pez de madera que corta las preocupaciones con un clic"
+   },
+   "line": {
+    "ko": "작은 소리 하나로 마음을 비우는 분이시군요.",
+    "en": "One small sound can empty your mind.",
+    "zh": "一个小小的声音就能让你放空心思。",
+    "ja": "小さな音一つで心を空にできる方ですね。",
+    "es": "Un solo sonido pequeño te vacía la mente."
+   },
+   "origName": "스트레스 해소 나무 물고기 키링 키캡 클릭커",
+   "url": "https://s.click.aliexpress.com/e/_c4t4QAeB",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 1.909
+  },
+  {
+   "id": 103,
+   "tags": [
+    "statue",
+    "funny_face",
+    "decor",
+    "useful",
+    "tough",
+    "storage"
+   ],
+   "name": {
+    "ko": "팔짱 끼고 연기를 내뿜는 모아이 재떨이",
+    "en": "A Moai Ashtray Standing Arms Crossed with a Smoke",
+    "zh": "抱着胳膊吞云吐雾的摩艾烟灰缸",
+    "ja": "腕を組んで煙をくゆらすモアイの灰皿",
+    "es": "Un cenicero moai con los brazos cruzados y un cigarrillo"
+   },
+   "line": {
+    "ko": "쉬어가는 시간에 혼자 팔짱 끼고 서 있고 싶은 분이시군요.",
+    "en": "You like standing alone with your arms crossed during a break.",
+    "zh": "休息时，你喜欢一个人抱着胳膊站着。",
+    "ja": "休憩時間に、一人で腕を組んで立っていたい方ですね。",
+    "es": "En los descansos te gusta quedarte solo con los brazos cruzados."
+   },
+   "origName": "창의적이고 귀여운 독특한 남자 모양 담배 재떨이 장식",
+   "url": "https://s.click.aliexpress.com/e/_c3WSukpH",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "assets/products/103.webp",
+   "prior": 1.614
+  },
+  {
+   "id": 104,
+   "tags": [
+    "animal",
+    "living",
+    "bird",
+    "funny_face",
+    "prank",
+    "decor",
+    "statue"
+   ],
+   "name": {
+    "ko": "가운뎃손가락을 세우고 유유히 헤엄치는 오리",
+    "en": "A Duck Calmly Swimming with Its Middle Finger Up",
+    "zh": "竖着中指悠然游动的鸭子",
+    "ja": "中指を立ててゆうゆうと泳ぐアヒル",
+    "es": "Un pato nadando tranquilo con el dedo medio en alto"
+   },
+   "line": {
+    "ko": "하고 싶은 말을 대신 해주는 존재가 반가운 분이시군요.",
+    "en": "You're glad when something says what you can't.",
+    "zh": "有谁替你说出想说的话，你会很高兴。",
+    "ja": "言いたいことを代わりに言ってくれる存在が嬉しい方ですね。",
+    "es": "Te alegra que algo diga lo que tú no puedes."
+   },
+   "origName": "중간 손가락 장식이 있는 오리 장식품",
+   "url": "https://s.click.aliexpress.com/e/_c2zrSIg7",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 0.262
+  },
+  {
+   "id": 105,
+   "tags": [
+    "human",
+    "living",
+    "statue",
+    "funny_face",
+    "decor",
+    "west",
+    "magic",
+    "outdoor"
+   ],
+   "name": {
+    "ko": "연기를 내뿜으며 정원을 지키는 마법사 난쟁이",
+    "en": "A Wizard Gnome Puffing Smoke While Guarding the Garden",
+    "zh": "吞云吐雾守护花园的魔法师地精",
+    "ja": "煙をくゆらせながら庭を守る魔法使いのノーム",
+    "es": "Un gnomo mago que echa humo mientras guarda el jardín"
+   },
+   "line": {
+    "ko": "느긋한 존재가 정원에 있으면 마음이 편해지는 분이시군요.",
+    "en": "You feel at ease when something laid-back guards the garden.",
+    "zh": "花园里有个悠闲的家伙，你就觉得安心。",
+    "ja": "のんびりした存在が庭にいると、心が落ち着く方ですね。",
+    "es": "Te tranquiliza que algo relajado vigile el jardín."
+   },
+   "origName": "재미있는 흡연 난쟁이 정원 조각 장식품",
+   "url": "https://s.click.aliexpress.com/e/_c45wwZJz",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 0.601
+  },
+  {
+   "id": 106,
+   "tags": [
+    "toy",
+    "tiny",
+    "funny_face",
+    "useful",
+    "sound"
+   ],
+   "name": {
+    "ko": "한 개비씩 터뜨리는 담뱃갑 모양 버블 장난감",
+    "en": "A Cigarette-Box Bubble Toy You Pop One at a Time",
+    "zh": "一个个捏破的烟盒造型泡泡玩具",
+    "ja": "一本ずつ弾けるたばこの箱型バブルおもちゃ",
+    "es": "Un juguete de burbujas con forma de cajetilla que se revienta de a uno"
+   },
+   "line": {
+    "ko": "손에 쥘 것이 필요한 순간을 안전하게 넘기는 분이시군요.",
+    "en": "You get through restless moments with something harmless in your hand.",
+    "zh": "手上需要有点东西的时候，你会用无害的方式度过。",
+    "ja": "手持ち無沙汰な時間を、害のないもので乗り切る方ですね。",
+    "es": "Superas los momentos de inquietud con algo inofensivo entre las manos."
+   },
+   "origName": "담배갑 버블 장난감 스트레스 해소",
+   "url": "https://s.click.aliexpress.com/e/_c3UYOlrl",
+   "shop": "aliexpress",
+   "urlByLang": {},
+   "img": "",
+   "prior": 0.841
   }
  ],
  "languageNames": {
@@ -4455,7 +6299,7 @@ window.QUIZ = {
    },
    "opp": "calm",
    "match": "human",
-   "rarity": 3.5
+   "rarity": 4.3
   },
   {
    "id": "funny_face",
@@ -4484,7 +6328,7 @@ window.QUIZ = {
    },
    "opp": "useful",
    "match": "craft",
-   "rarity": 2.2
+   "rarity": 0.7
   },
   {
    "id": "costume",
@@ -4515,7 +6359,7 @@ window.QUIZ = {
    },
    "opp": "wall",
    "match": "magic",
-   "rarity": 9.7
+   "rarity": 9.1
   },
   {
    "id": "magic",
@@ -4544,7 +6388,7 @@ window.QUIZ = {
    },
    "opp": "useful",
    "match": "costume",
-   "rarity": 5.9
+   "rarity": 5.2
   },
   {
    "id": "scary",
@@ -4573,7 +6417,7 @@ window.QUIZ = {
    },
    "opp": "soft",
    "match": "alien",
-   "rarity": 5.9
+   "rarity": 3.4
   },
   {
    "id": "alien",
@@ -4601,7 +6445,7 @@ window.QUIZ = {
    },
    "opp": "tough",
    "match": "magic",
-   "rarity": 4
+   "rarity": 5.9
   },
   {
    "id": "calm",
@@ -4632,7 +6476,7 @@ window.QUIZ = {
    },
    "opp": "prank",
    "match": "wall",
-   "rarity": 5.5
+   "rarity": 6.5
   },
   {
    "id": "keep",
@@ -4661,7 +6505,7 @@ window.QUIZ = {
    },
    "opp": "useful",
    "match": "calm",
-   "rarity": 0.7
+   "rarity": 0.5
   },
   {
    "id": "craft",
@@ -4691,7 +6535,7 @@ window.QUIZ = {
    },
    "opp": "sound",
    "match": "keep",
-   "rarity": 9.2
+   "rarity": 6.2
   },
   {
    "id": "soft",
@@ -4721,7 +6565,7 @@ window.QUIZ = {
    },
    "opp": "scary",
    "match": "cat",
-   "rarity": 4.7
+   "rarity": 7.2
   },
   {
    "id": "cat",
@@ -4749,7 +6593,7 @@ window.QUIZ = {
    },
    "opp": "tough",
    "match": "soft",
-   "rarity": 7.2
+   "rarity": 7.3
   },
   {
    "id": "frog",
@@ -4777,7 +6621,7 @@ window.QUIZ = {
    },
    "opp": "outdoor",
    "match": "cat",
-   "rarity": 4.9
+   "rarity": 8.1
   },
   {
    "id": "animal",
@@ -4838,7 +6682,7 @@ window.QUIZ = {
    },
    "opp": "soft",
    "match": "outdoor",
-   "rarity": 4
+   "rarity": 5.3
   },
   {
    "id": "sound",
@@ -4867,7 +6711,7 @@ window.QUIZ = {
    },
    "opp": "wall",
    "match": "play",
-   "rarity": 4.1
+   "rarity": 5.1
   },
   {
    "id": "play",
@@ -4898,7 +6742,7 @@ window.QUIZ = {
    },
    "opp": "calm",
    "match": "outdoor",
-   "rarity": 4.7
+   "rarity": 6.3
   },
   {
    "id": "outdoor",
@@ -4926,7 +6770,7 @@ window.QUIZ = {
    },
    "opp": "frog",
    "match": "play",
-   "rarity": 1.1
+   "rarity": 1.6
   },
   {
    "id": "food",
@@ -4954,7 +6798,7 @@ window.QUIZ = {
    },
    "opp": "scary",
    "match": "tiny",
-   "rarity": 2.7
+   "rarity": 1.9
   },
   {
    "id": "wall",
@@ -4984,7 +6828,7 @@ window.QUIZ = {
    },
    "opp": "costume",
    "match": "calm",
-   "rarity": 10.9
+   "rarity": 7.3
   },
   {
    "id": "human",
@@ -5013,7 +6857,7 @@ window.QUIZ = {
    },
    "opp": "animal",
    "match": "prank",
-   "rarity": 2.3
+   "rarity": 2.9
   },
   {
    "id": "tiny",
@@ -5041,7 +6885,7 @@ window.QUIZ = {
    },
    "opp": "tough",
    "match": "food",
-   "rarity": 5
+   "rarity": 4.2
   },
   {
    "id": "useful",
@@ -5070,7 +6914,7 @@ window.QUIZ = {
    },
    "opp": "keep",
    "match": "craft",
-   "rarity": 1.1
+   "rarity": 0.5
   },
   {
    "id": "hide",
@@ -5098,7 +6942,7 @@ window.QUIZ = {
    },
    "opp": "prank",
    "match": "calm",
-   "rarity": 0.8
+   "rarity": 0.6
   }
  ]
 };
