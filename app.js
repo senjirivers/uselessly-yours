@@ -246,7 +246,7 @@
       '<div class="bubble" aria-live="polite"><span id="bub"></span></div>' +
       '<h2 class="found">' + esc(s("found")) + '</h2><p class="leadline">' + esc(s("traitLead")) + "</p>" +
       '<div class="answers late"><button class="btn primary wide" data-reveal="1">' + esc(s("reveal")) + "</button></div>");
-    typeInto(document.getElementById("bub"), s(ans === "yes" ? "replyYes" : "replyNo"));
+    typeInto(document.getElementById("bub"), s(ans === "yes" ? "replyYes" : "replyNo"), null, 12);
   }
 
   function friendCase(mine) {
@@ -366,7 +366,7 @@
   }
   function draw(html) { clearInterval(timer); app.innerHTML = html; }
   function rich(t) { return esc(t).replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>").replace(/\n/g, "<br><span class=\"gap\"></span>"); }
-  function typeInto(el, text, cb) {
+  function typeInto(el, text, cb, ms) {
     var i = 0, plain = text.replace(/\*\*/g, ""), reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
     el.setAttribute("aria-label", plain);
     if (reduce) { el.innerHTML = rich(text); if (cb) cb(); return; }
@@ -377,7 +377,7 @@
       if ((part.match(/\*\*/g) || []).length % 2) part += "**";
       el.innerHTML = rich(part);
       if (i >= text.length) { clearInterval(timer); el.innerHTML = rich(text); if (cb) cb(); }
-    }, 24);
+    }, ms || 24);
     el.addEventListener("click", function () { if (i < text.length) { i = text.length; done(); } }, { once: true });
   }
   function intro(keep) {
