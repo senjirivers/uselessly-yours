@@ -5805,7 +5805,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c3IoSQlH",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/90.webp",
    "prior": 1.969
   },
   {
@@ -5837,7 +5837,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c3y7uzJl",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/91.webp",
    "prior": 3.932
   },
   {
@@ -5869,7 +5869,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c45hNnPN",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/92.webp",
    "prior": 0.851
   },
   {
@@ -5902,7 +5902,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c3HOa1f9",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/93.webp",
    "prior": 0.828
   },
   {
@@ -5935,7 +5935,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c37KCyAn",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/94.webp",
    "prior": 0.35
   },
   {
@@ -5968,7 +5968,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c3VYIj6x",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/95.webp",
    "prior": 0.696
   },
   {
@@ -6000,7 +6000,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c36IPW5l",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/96.webp",
    "prior": 0.892
   },
   {
@@ -6033,7 +6033,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c33s9YU3",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/97.webp",
    "prior": 0.575
   },
   {
@@ -6066,7 +6066,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c3sSuLhv",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/98.webp",
    "prior": 0.998
   },
   {
@@ -6097,7 +6097,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c31jtKOf",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/99.webp",
    "prior": 0.58
   },
   {
@@ -6130,7 +6130,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c4qXnexD",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/100.webp",
    "prior": 1.206
   },
   {
@@ -6160,7 +6160,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c4ngroqX",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/101.webp",
    "prior": 0.155
   },
   {
@@ -6194,7 +6194,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c4t4QAeB",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/102.webp",
    "prior": 1.909
   },
   {
@@ -6257,7 +6257,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c2zrSIg7",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/104.webp",
    "prior": 0.262
   },
   {
@@ -6290,7 +6290,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c45wwZJz",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/105.webp",
    "prior": 0.601
   },
   {
@@ -6320,7 +6320,7 @@ window.QUIZ = {
    "url": "https://s.click.aliexpress.com/e/_c3UYOlrl",
    "shop": "aliexpress",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/106.webp",
    "prior": 0.841
   }
  ],
