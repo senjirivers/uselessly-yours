@@ -440,8 +440,8 @@
     draw(topbar("", true) +
       '<div class="intro langscreen">' +
       '<div class="stage silhouette">' + img("hands-behind") + "</div>" +
-      '<h1 class="lang-title">Language</h1>' +
-      '<div class="answers choice">' + order.map(function (l, i) { return '<button class="btn ' + (i === 0 ? "primary" : "strong") + '" data-pick="' + l + '" lang="' + l + '">' + esc(Q.languageNames[l]) + "</button>"; }).join("") + "</div></div>");
+      '<div class="langpick"><button class="btn primary langbtn" data-langopen="1" aria-expanded="false">Language<small>' + esc(Q.languageNames[lang]) + ' ▾</small></button>' +
+      '<div class="langlist" id="langlist" hidden>' + order.map(function (l) { return '<button data-pick="' + l + '" lang="' + l + '"' + (l === lang ? ' aria-current="true"' : "") + ">" + esc(Q.languageNames[l]) + "</button>"; }).join("") + "</div></div></div>");
   }
   function intro(keep) {
     if (!keep) st = fresh();
@@ -495,6 +495,7 @@
     var b = e.target.closest("button"); if (!b) return;
     if (b.dataset.globe) { var m = document.getElementById("langmenu"); m.hidden = !m.hidden; b.setAttribute("aria-expanded", m.hidden ? "false" : "true"); return; }
     if (b.dataset.lang) return setLang(b.dataset.lang);
+    if (b.dataset.langopen) { var ll = document.getElementById("langlist"); ll.hidden = !ll.hidden; b.setAttribute("aria-expanded", ll.hidden ? "false" : "true"); if (!ll.hidden) { var cur = ll.querySelector("[aria-current]"); if (cur) ll.scrollTop = 0; ll.scrollIntoView({ block: "nearest" }); } return; }
     if (b.dataset.pick) { track("lang", { lang: b.dataset.pick }); st.mode = "intro"; return setLang(b.dataset.pick); }
     if (b.dataset.secret) { var sc = document.getElementById("secret"); sc.hidden = false; b.hidden = true; return; }
     if (b.dataset.card) return makeCard();
