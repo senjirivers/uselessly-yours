@@ -331,9 +331,12 @@
       if (v[0]) { var bh = 880, bw = bh * v[0].width / v[0].height; x.drawImage(v[0], 540 - bw / 2, 340, bw, bh); }
       x.fillStyle = "#6b6b6b"; x.font = "400 44px " + sans; x.fillText(s("cardLead"), 540, 1400);
       x.fillStyle = "#0d0d0d"; x.font = "700 112px " + serif;
-      var lines = wrapLines(x, kw, 900), y = 1530;
-      if (lines.length > 1) { x.font = "700 92px " + serif; lines = wrapLines(x, kw, 900); y = 1510; }
-      lines.forEach(function (ln, k) { x.fillText(ln, 540, y + k * 118); });
+      var lines = wrapLines(x, kw, 900), y = 1530, fs0 = 112;
+      if (lines.length > 1) {
+        y = 1510;
+        [92, 76, 64, 54].some(function (px) { fs0 = px; x.font = "700 " + px + "px " + serif; lines = wrapLines(x, kw, 900); return lines.length <= 2; });
+      }
+      lines.forEach(function (ln, k) { x.fillText(ln, 540, y + k * Math.round(fs0 * 1.28)); });
       x.fillStyle = "#6b6b6b"; x.font = "400 38px " + sans; x.fillText(s("cardRare").replace("{p}", me.rarity), 540, 1745);
       var dom = (location.host || "uselessly-yours.yoonwantsgroove.workers.dev").replace(/^www\./, ""), dpx = 34;
       x.fillStyle = "#8a8a8a"; x.font = "400 " + dpx + "px " + sans;
