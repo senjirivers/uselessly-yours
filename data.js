@@ -3075,7 +3075,7 @@ window.QUIZ = {
    "origName": "핸드메이드 세라믹 미니 흙 인형",
    "url": "https://temu.to/k/gh0wnhe5gj7",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/1.webp",
    "prior": 0.719,
    "shop": "temu"
   },
@@ -3103,7 +3103,7 @@ window.QUIZ = {
    "origName": "웃는 표정 레진 바나나 피규어",
    "url": "https://temu.to/k/g5m76zx2jyv",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/2.webp",
    "prior": 4.239,
    "shop": "temu"
   },
@@ -3134,7 +3134,7 @@ window.QUIZ = {
    "origName": "나무 개구리 타악기(귀로)",
    "url": "https://temu.to/k/gc3d8ohed3t",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/3.webp",
    "prior": 2.903,
    "shop": "temu"
   },
@@ -3163,7 +3163,7 @@ window.QUIZ = {
    "origName": "웃긴 얼굴 2D 폰케이스",
    "url": "https://temu.to/k/gwyxrwctne0",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/4.webp",
    "prior": 7.045,
    "shop": "temu"
   },
@@ -3193,7 +3193,7 @@ window.QUIZ = {
    "origName": "3D프린팅 스타 마스크",
    "url": "https://temu.to/k/g5n2llvb5e9",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/5.webp",
    "prior": 3.724,
    "shop": "temu"
   },
@@ -3224,7 +3224,7 @@ window.QUIZ = {
    "origName": "2027 개구리 벽걸이 달력",
    "url": "https://temu.to/k/g3btbvz9v6y",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/6.webp",
    "prior": 0.963,
    "shop": "temu"
   },
@@ -3255,7 +3255,7 @@ window.QUIZ = {
    "origName": "근육 복싱 곰 레진 조각상",
    "url": "https://temu.to/k/gn89gymx4fm",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/7.webp",
    "prior": 1.794,
    "shop": "temu"
   },
@@ -3289,7 +3289,7 @@ window.QUIZ = {
    "origName": "고양이·개 전신 골격 해부 모델",
    "url": "https://temu.to/k/gphkzc2nm8v",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/8.webp",
    "prior": 2.477,
    "shop": "temu"
   },
@@ -3318,7 +3318,7 @@ window.QUIZ = {
    "origName": "웃긴 얼굴 실리콘 몰드",
    "url": "https://temu.to/k/g1gu7wtho5h",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/9.webp",
    "prior": 2.575,
    "shop": "temu"
   },
@@ -3348,7 +3348,7 @@ window.QUIZ = {
    "origName": "플루트 부는 외계인 조각상",
    "url": "https://temu.to/k/gb5mfr5t20s",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/10.webp",
    "prior": 2.277,
    "shop": "temu"
   },
@@ -3380,7 +3380,7 @@ window.QUIZ = {
    "origName": "근육 복싱 캥거루 피규어",
    "url": "https://temu.to/k/gyfcu3precy",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/11.webp",
    "prior": 2.843,
    "shop": "temu"
   },
@@ -3412,7 +3412,7 @@ window.QUIZ = {
    "origName": "청동색 개구리 향로",
    "url": "https://temu.to/k/gdqs14dnz3k",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/12.webp",
    "prior": 9.196,
    "shop": "temu"
   },
@@ -3444,7 +3444,7 @@ window.QUIZ = {
    "origName": "2027 멀렛 헤어 벽걸이 달력",
    "url": "https://temu.to/k/gvngrfdpn4p",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/13.webp",
    "prior": 1.293,
    "shop": "temu"
   },
@@ -3471,7 +3471,7 @@ window.QUIZ = {
    "origName": "만화 프린트 티셔츠 A",
    "url": "https://temu.to/k/gtjzhdatng5",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/14.webp",
    "prior": 39.847,
    "shop": "temu"
   },
@@ -3501,7 +3501,7 @@ window.QUIZ = {
    "origName": "부자 신 향로+빈티지 주전자 2개 세트",
    "url": "https://temu.to/k/gp5wbp5hn92",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/15.webp",
    "prior": 3.93,
    "shop": "temu"
   },
@@ -3528,7 +3528,7 @@ window.QUIZ = {
    "origName": "만화 프린트 티셔츠 B",
    "url": "https://temu.to/k/gkap10ee4zg",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/16.webp",
    "prior": 39.847,
    "shop": "temu"
   },
@@ -3558,7 +3558,7 @@ window.QUIZ = {
    "origName": "고추 모자 코스튬",
    "url": "https://temu.to/k/g7jo7dkcw9x",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/17.webp",
    "prior": 5.166,
    "shop": "temu"
   },
@@ -3589,7 +3589,7 @@ window.QUIZ = {
    "origName": "원숭이 얼굴 베이킹 몰드",
    "url": "https://temu.to/k/g2h9mdyj5jd",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/18.webp",
    "prior": 1.826,
    "shop": "temu"
   },
@@ -3619,7 +3619,7 @@ window.QUIZ = {
    "origName": "햄버거 회전 핸드 장난감",
    "url": "https://temu.to/k/g8f13ydajxt",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/19.webp",
    "prior": 2.321,
    "shop": "temu"
   },
@@ -3652,7 +3652,7 @@ window.QUIZ = {
    "origName": "4D 개 장기 해부 모델",
    "url": "https://temu.to/k/goh6p081nnf",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/20.webp",
    "prior": 2.516,
    "shop": "temu"
   },
@@ -3683,7 +3683,7 @@ window.QUIZ = {
    "origName": "졸린 개구리 안경 거치대",
    "url": "https://temu.to/k/g0nx61gojln",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/21.webp",
    "prior": 1.623,
    "shop": "temu"
   },
@@ -3710,7 +3710,7 @@ window.QUIZ = {
    "origName": "만화 프린트 티셔츠 C",
    "url": "https://temu.to/k/gzhqgm69hk6",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/22.webp",
    "prior": 39.847,
    "shop": "temu"
   },
@@ -3741,7 +3741,7 @@ window.QUIZ = {
    "origName": "2027 동물 엉덩이 벽걸이 달력",
    "url": "https://temu.to/k/gan2a1ti4zq",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/23.webp",
    "prior": 6.339,
    "shop": "temu"
   },
@@ -3773,7 +3773,7 @@ window.QUIZ = {
    "origName": "힐리아 여신 미니 조각상",
    "url": "https://temu.to/k/gnmkkgys7e6",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/24.webp",
    "prior": 0.711,
    "shop": "temu"
   },
@@ -3804,7 +3804,7 @@ window.QUIZ = {
    "origName": "마법 고양이 아미구루미 코바늘 키트",
    "url": "https://temu.to/k/g5jq5sn4e8d",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/25.webp",
    "prior": 1.362,
    "shop": "temu"
   },
@@ -3836,7 +3836,7 @@ window.QUIZ = {
    "origName": "노란 정장 남자 양면 레진 피규어",
    "url": "https://temu.to/k/gqouwvheybj",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/26.webp",
    "prior": 0.31,
    "shop": "temu"
   },
@@ -3867,7 +3867,7 @@ window.QUIZ = {
    "origName": "개구리 변기 볼트 캡 2개",
    "url": "https://temu.to/k/gqwp3largv7",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/27.webp",
    "prior": 1.184,
    "shop": "temu"
   },
@@ -3898,7 +3898,7 @@ window.QUIZ = {
    "origName": "명상 개구리 양초 몰드",
    "url": "https://temu.to/k/g2cyohbk0ph",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/28.webp",
    "prior": 3.326,
    "shop": "temu"
   },
@@ -3928,7 +3928,7 @@ window.QUIZ = {
    "origName": "2027 건설 노동자 벽걸이 달력",
    "url": "https://temu.to/k/gq2gr278ikr",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/29.webp",
    "prior": 2.027,
    "shop": "temu"
   },
@@ -3956,7 +3956,7 @@ window.QUIZ = {
    "origName": "프레임리스 캔버스 포스터",
    "url": "https://temu.to/k/gbiac19pkv8",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/30.webp",
    "prior": 7.047,
    "shop": "temu"
   },
@@ -3984,7 +3984,7 @@ window.QUIZ = {
    "origName": "아즈텍 데스 휘슬",
    "url": "https://temu.to/k/g6ciot9tkzn",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/31.webp",
    "prior": 1.373,
    "shop": "temu"
   },
@@ -4015,7 +4015,7 @@ window.QUIZ = {
    "origName": "비명 얼굴 세라믹 향로",
    "url": "https://temu.to/k/gcazhxnrono",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/32.webp",
    "prior": 0.54,
    "shop": "temu"
   },
@@ -4044,7 +4044,7 @@ window.QUIZ = {
    "origName": "잠자는 모아이 요가 장식",
    "url": "https://temu.to/k/ge39ju6kurr",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/33.webp",
    "prior": 0.738,
    "shop": "temu"
   },
@@ -4074,7 +4074,7 @@ window.QUIZ = {
    "origName": "큰 눈 기생충 데스크 피규어",
    "url": "https://temu.to/k/gq7n9uw3a2x",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/34.webp",
    "prior": 2.067,
    "shop": "temu"
   },
@@ -4105,7 +4105,7 @@ window.QUIZ = {
    "origName": "2027 카피바라 벽걸이 달력",
    "url": "https://temu.to/k/gehwn6mxg9w",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/35.webp",
    "prior": 0.805,
    "shop": "temu"
   },
@@ -4133,7 +4133,7 @@ window.QUIZ = {
    "origName": "Sam Hyde 스타일 드로스트링 백팩",
    "url": "https://temu.to/k/gij3f5bglqh",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/36.webp",
    "prior": 5.749,
    "shop": "temu"
   },
@@ -4166,7 +4166,7 @@ window.QUIZ = {
    "origName": "2027 못생긴 강아지 초상화 달력",
    "url": "https://temu.to/k/gxzwhzqge6w",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/37.webp",
    "prior": 2.673,
    "shop": "temu"
   },
@@ -4196,7 +4196,7 @@ window.QUIZ = {
    "origName": "웃는 땅콩 피규어",
    "url": "https://temu.to/k/glvgza3k4u4",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/38.webp",
    "prior": 1.175,
    "shop": "temu"
   },
@@ -4227,7 +4227,7 @@ window.QUIZ = {
    "origName": "개구리 균형 쌓기 게임",
    "url": "https://temu.to/k/gx6868s5vq1",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/39.webp",
    "prior": 0.424,
    "shop": "temu"
   },
@@ -4256,7 +4256,7 @@ window.QUIZ = {
    "origName": "SONICAKE 기타 멀티 이펙터",
    "url": "https://temu.to/k/gkp5qhk5mv5",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/40.webp",
    "prior": 2.942,
    "shop": "temu"
   },
@@ -4290,7 +4290,7 @@ window.QUIZ = {
    "origName": "명상하는 황동 아기 고양이",
    "url": "https://temu.to/k/gicia035i15",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/41.webp",
    "prior": 0.534,
    "shop": "temu"
   },
@@ -4321,7 +4321,7 @@ window.QUIZ = {
    "origName": "초현실 개구리 봉제 인형",
    "url": "https://temu.to/k/g85mvtn3b9f",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/42.webp",
    "prior": 1.607,
    "shop": "temu"
   },
@@ -4352,7 +4352,7 @@ window.QUIZ = {
    "origName": "아즈텍 데스 휘슬 오랑우탄",
    "url": "https://temu.to/k/ghm480s8akx",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/43.webp",
    "prior": 1.002,
    "shop": "temu"
   },
@@ -4384,7 +4384,7 @@ window.QUIZ = {
    "origName": "유럽풍 빈티지 순환 인형 레진",
    "url": "https://temu.to/k/g6yzrgb4fho",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/44.webp",
    "prior": 0.529,
    "shop": "temu"
   },
@@ -4416,7 +4416,7 @@ window.QUIZ = {
    "origName": "개구리 3D프린팅 쥬얼리 트레이",
    "url": "https://temu.to/k/ggxw7a62i4m",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/45.webp",
    "prior": 0.848,
    "shop": "temu"
   },
@@ -4448,7 +4448,7 @@ window.QUIZ = {
    "origName": "큰 입 초록 개구리 접시",
    "url": "https://temu.to/k/giylttelg0e",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/46.webp",
    "prior": 3.614,
    "shop": "temu"
   },
@@ -4479,7 +4479,7 @@ window.QUIZ = {
    "origName": "우유소 금속 정리함",
    "url": "https://temu.to/k/gogx1sondoe",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/47.webp",
    "prior": 2.514,
    "shop": "temu"
   },
@@ -4511,7 +4511,7 @@ window.QUIZ = {
    "origName": "고양이 장기·골격 해부 모델",
    "url": "https://temu.to/k/genw3omutdg",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/48.webp",
    "prior": 2.252,
    "shop": "temu"
   },
@@ -4542,7 +4542,7 @@ window.QUIZ = {
    "origName": "8자 갈색 자체 접착 콧수염 소품",
    "url": "https://temu.to/k/ge09don4r55",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/49.webp",
    "prior": 0.587,
    "shop": "temu"
   },
@@ -4570,7 +4570,7 @@ window.QUIZ = {
    "origName": "3D 미라스코프 환상 상자",
    "url": "https://temu.to/k/g4q6oynp7ku",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/50.webp",
    "prior": 8.554,
    "shop": "temu"
   },
@@ -4599,7 +4599,7 @@ window.QUIZ = {
    "origName": "깨짐 소리 효과 장치 2개",
    "url": "https://temu.to/k/gbindt66qm5",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/51.webp",
    "prior": 0.686,
    "shop": "temu"
   },
@@ -4628,7 +4628,7 @@ window.QUIZ = {
    "origName": "텐요 마법 검",
    "url": "https://temu.to/k/gy31v71pqe7",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/52.webp",
    "prior": 1.001,
    "shop": "temu"
   },
@@ -4659,7 +4659,7 @@ window.QUIZ = {
    "origName": "크리스마스 옛날 의상 세트 7종",
    "url": "https://temu.to/k/gz6wiezi8gj",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/53.webp",
    "prior": 0.695,
    "shop": "temu"
   },
@@ -4689,7 +4689,7 @@ window.QUIZ = {
    "origName": "어린이 야외 스포츠 공 장난감 6개",
    "url": "https://temu.to/k/gxpreyo79m4",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/54.webp",
    "prior": 0.849,
    "shop": "temu"
   },
@@ -4720,7 +4720,7 @@ window.QUIZ = {
    "origName": "80세 고양이 봉제 인형",
    "url": "https://temu.to/k/gludcc6fsk7",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/55.webp",
    "prior": 0.814,
    "shop": "temu"
   },
@@ -4749,7 +4749,7 @@ window.QUIZ = {
    "origName": "장난용 폭발 골프공 3개",
    "url": "https://temu.to/k/ggid53p4h6x",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/56.webp",
    "prior": 0.146,
    "shop": "temu"
   },
@@ -4778,7 +4778,7 @@ window.QUIZ = {
    "origName": "시야 뒤집기 안경 게임",
    "url": "https://temu.to/k/gdtit5ahcwh",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/57.webp",
    "prior": 1.339,
    "shop": "temu"
   },
@@ -4810,7 +4810,7 @@ window.QUIZ = {
    "origName": "게으른 뚱뚱한 고양이 퍼즐 500/1000피스",
    "url": "https://temu.to/k/gh3yrdgeb0i",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/58.webp",
    "prior": 2.225,
    "shop": "temu"
   },
@@ -4842,7 +4842,7 @@ window.QUIZ = {
    "origName": "남성용 개구리 코스튬 점프수트",
    "url": "https://temu.to/k/gxw9wtqhdbz",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/59.webp",
    "prior": 0.201,
    "shop": "temu"
   },
@@ -4874,7 +4874,7 @@ window.QUIZ = {
    "origName": "높은 대머리 모자 외계인 머리 덮개",
    "url": "https://temu.to/k/grr3q4u6fl7",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/60.webp",
    "prior": 0.737,
    "shop": "temu"
   },
@@ -4906,7 +4906,7 @@ window.QUIZ = {
    "origName": "매직 새소리 호루라기",
    "url": "https://temu.to/k/gonz508bf8l",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/61.webp",
    "prior": 1.508,
    "shop": "temu"
   },
@@ -4936,7 +4936,7 @@ window.QUIZ = {
    "origName": "지아추프와 작은 외계인 몬스터 인형 세트",
    "url": "https://temu.to/k/gp2vm3y0gni",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/62.webp",
    "prior": 0.773,
    "shop": "temu"
   },
@@ -4969,7 +4969,7 @@ window.QUIZ = {
    "origName": "사실적인 스핑크스 고양이 조각상",
    "url": "https://temu.to/k/gl9sal8yrfy",
    "urlByLang": {},
-   "img": "",
+   "img": "assets/products/63.webp",
    "prior": 0.535,
    "shop": "temu"
   },
