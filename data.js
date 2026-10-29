@@ -4697,16 +4697,16 @@ window.QUIZ = {
     "cat",
     "animal",
     "living",
+    "plush",
     "cute",
-    "funny_face",
-    "statue"
+    "funny_face"
    ],
    "name": {
-    "ko": "주먹을 쥐고 폼을 잡는 아기 고양이",
-    "en": "A Kitten Striking a Tough Pose",
-    "zh": "摆出架势的小猫咪",
-    "ja": "ファイティングポーズをとる子猫",
-    "es": "Un gatito en pose de pelea"
+    "ko": "주먹을 쥐고 폼을 잡는 아기 고양이 인형",
+    "en": "A Kitten Plush Striking a Tough Pose",
+    "zh": "摆出架势的小猫咪玩偶",
+    "ja": "ファイティングポーズをとる子猫のぬいぐるみ",
+    "es": "Un gatito de peluche en pose de pelea"
    },
    "line": {
     "ko": "작고 순해 보이는데 속으로는 한가락 한다고 믿고 싶은 분이시군요.",
@@ -4715,7 +4715,7 @@ window.QUIZ = {
     "ja": "小さくて優しそうなのに、実は腕が立つと信じたい方ですね。",
     "es": "Quieres creer que algo pequeño y dulce también sabe defenderse."
    },
-   "origName": "아기 고양이 포즈 피규어",
+   "origName": "아기 고양이 포즈 봉제 인형",
    "url": "https://temu.to/k/gludcc6fsk7",
    "urlByLang": {},
    "img": "assets/products/55.webp",
