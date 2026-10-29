@@ -4427,20 +4427,20 @@ window.QUIZ = {
     },
     {
      "text": {
-      "ko": "책상에 올릴 묵직한 조각상 하나",
-      "en": "One weighty statue for my desk",
-      "zh": "一尊放在书桌上的厚重雕像",
-      "ja": "机に置く重みのある像",
-      "es": "Una estatua pesada para mi escritorio",
-      "pt": "Uma estátua pesada para a minha mesa",
-      "fr": "Une statue imposante pour mon bureau",
-      "de": "Eine gewichtige Statue für meinen Schreibtisch",
-      "th": "รูปปั้นหนักแน่นไว้วางบนโต๊ะ"
+      "ko": "어느 나라 것인지 모를 전통 공예품",
+      "en": "A traditional craft of unknown origin",
+      "zh": "不知来自哪国的传统手工艺品",
+      "ja": "どこの国のものか分からない伝統工芸品",
+      "es": "Una artesanía tradicional de origen desconocido",
+      "pt": "Um artesanato tradicional de origem desconhecida",
+      "fr": "Un artisanat traditionnel d'origine inconnue",
+      "de": "Ein traditionelles Kunsthandwerk unbekannter Herkunft",
+      "th": "งานฝีมือดั้งเดิมที่ไม่รู้ว่ามาจากประเทศไหน"
      },
      "tags": [
-      "statue",
-      "tough",
-      "god"
+      "craft",
+      "east",
+      "statue"
      ]
     }
    ]
