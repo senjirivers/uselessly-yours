@@ -410,11 +410,11 @@ window.QUIZ = {
   {
    "id": "useful",
    "text": {
-    "ko": "쓸모없는 것을 좋아하는 것도 사랑입니다. 아무짝에도 쓸모없는 것까지, 당신은 받아들일 수 있습니까?",
-    "en": "Loving useless things is still love. Can you accept even the utterly, completely useless?",
-    "zh": "喜欢没用的东西，也是一种爱。就连彻头彻尾毫无用处的东西，你也能接受吗？",
-    "ja": "役に立たないものを愛するのも、愛です。まったく何の役にも立たないものまで、受け入れられますか？",
-    "es": "Amar lo inútil también es amar. ¿Podrías aceptar incluso lo completamente, absolutamente inútil?"
+    "ko": "방이나 책상 위를 꾸미는 일이, 당신에게는 쉬는 시간처럼 느껴집니까?",
+    "en": "Does decorating your room or desk feel like a way of resting?",
+    "zh": "布置房间或书桌，对你来说像是一种休息吗？",
+    "ja": "部屋や机の上を飾ることは、あなたにとって休息のように感じられますか？",
+    "es": "¿Decorar tu cuarto o tu escritorio te parece una forma de descansar?"
    },
    "yes": [
     "decor"
@@ -2266,11 +2266,11 @@ window.QUIZ = {
   {
    "id": "c_keep",
    "text": {
-    "ko": "소중한 쓸데없는 물건이 생겼습니다. 어디에 둡니까?",
-    "en": "You now own a precious, useless thing. Where does it go?",
-    "zh": "你有了一件珍贵又没用的东西，会放在哪里？",
-    "ja": "大切な役立たずの物ができました。どこに置きますか？",
-    "es": "Tienes un objeto inútil y precioso. ¿Dónde lo pones?"
+    "ko": "아끼는 작은 물건이 생겼습니다. 어디에 둡니까?",
+    "en": "You have a small thing you treasure. Where do you put it?",
+    "zh": "你有了一件珍爱的小物件。会把它放在哪里？",
+    "ja": "大切にしたい小さな物ができました。どこに置きますか？",
+    "es": "Tienes un objeto pequeño que aprecias. ¿Dónde lo pones?"
    },
    "stage": 3,
    "yes": [],
@@ -2438,11 +2438,11 @@ window.QUIZ = {
   {
    "id": "mall",
    "text": {
-    "ko": "쇼핑몰에서 아무 쓸모 없는 물건 앞에 한참 서 있던 적이 있습니까?",
-    "en": "Have you ever stood for ages in front of something completely pointless in a store?",
-    "zh": "你有没有在商场里对着某个毫无用处的东西站了很久？",
-    "ja": "お店で、まったく役に立たない物の前にしばらく立ち尽くしたことはありますか？",
-    "es": "¿Alguna vez te has quedado un buen rato frente a algo totalmente inútil en una tienda?"
+    "ko": "쇼핑몰에 가면 살 것을 정해두기보다, 구경하며 시간을 보내는 쪽입니까?",
+    "en": "At a shopping mall, do you wander and look rather than go in with a list?",
+    "zh": "去商场的时候，你是边逛边看，而不是带着清单去买吗？",
+    "ja": "ショッピングモールでは、買うものを決めるより、見て回って過ごすほうですか？",
+    "es": "En un centro comercial, ¿prefieres pasear y mirar en vez de ir con una lista?"
    },
    "yes": [
     "funny_face",
@@ -2457,11 +2457,11 @@ window.QUIZ = {
   {
    "id": "giftstay",
    "text": {
-    "ko": "쓸데없다고 생각했던 선물이 의외로 오래 곁에 남은 적이 있습니까?",
-    "en": "Has a gift you thought was pointless ended up staying with you for years?",
-    "zh": "你有没有收到过一件觉得没用的礼物，结果却意外留在身边很多年？",
-    "ja": "役に立たないと思った贈り物が、意外と長く手元に残ったことはありますか？",
-    "es": "¿Algún regalo que creías inútil se quedó contigo muchísimo tiempo?"
+    "ko": "선물은 가격보다, 그 선물을 고른 마음이 오래 기억에 남습니까?",
+    "en": "With a gift, do you remember the thought behind it longer than the price?",
+    "zh": "收到礼物时，比起价格，你更久地记得挑选它的心意吗？",
+    "ja": "プレゼントは、値段よりも選んでくれた気持ちのほうが長く記憶に残りますか？",
+    "es": "En un regalo, ¿recuerdas más tiempo la intención que el precio?"
    },
    "yes": [
     "decor",
@@ -2531,11 +2531,11 @@ window.QUIZ = {
   {
    "id": "whatfor",
    "text": {
-    "ko": "\"그건 어디에 쓰는 거야?\"라는 질문을 받고 대답을 못 한 적이 있습니까?",
-    "en": "Has anyone ever asked \"what is that even for?\" and you had no answer?",
-    "zh": "有人问过你“那个是用来干嘛的？”而你答不上来吗？",
-    "ja": "「それ、何に使うの？」と聞かれて、答えられなかったことはありますか？",
-    "es": "¿Alguien te ha preguntado \"¿y eso para qué sirve?\" sin que supieras responder?"
+    "ko": "취향이 독특하다는 말을 들어본 적이 있습니까?",
+    "en": "Has anyone told you that your taste is unusual?",
+    "zh": "有人说过你的品味很独特吗？",
+    "ja": "趣味が独特だと言われたことはありますか？",
+    "es": "¿Alguna vez te han dicho que tu gusto es peculiar?"
    },
    "yes": [
     "funny_face",
@@ -2552,11 +2552,11 @@ window.QUIZ = {
   {
    "id": "usefulgift",
    "text": {
-    "ko": "쓸모 있는 선물을 받으면, 고맙지만 살짝 아쉽습니까?",
-    "en": "When you get a useful gift, are you grateful but a little disappointed?",
-    "zh": "收到实用的礼物时，你会既感谢又有点小失望吗？",
-    "ja": "実用的な贈り物をもらうと、ありがたいけれど少しだけ物足りないですか？",
-    "es": "Si te regalan algo útil, ¿lo agradeces pero te deja un poco con ganas de más?"
+    "ko": "선물을 고를 때, 실용적인 것보다 분위기 있는 것에 먼저 손이 갑니까?",
+    "en": "When choosing a gift, do you reach first for something with character rather than something practical?",
+    "zh": "挑选礼物时，比起实用的东西，你会先伸手去拿有氛围感的吗？",
+    "ja": "プレゼントを選ぶとき、実用的なものより雰囲気のあるものに先に手が伸びますか？",
+    "es": "Al elegir un regalo, ¿te decantas antes por algo con encanto que por algo práctico?"
    },
    "yes": [
     "decor",
@@ -3009,6 +3009,40 @@ window.QUIZ = {
     "anatomy",
     "funny_face",
     "alien"
+   ],
+   "no": [],
+   "stage": 2
+  },
+  {
+   "id": "homebody",
+   "text": {
+    "ko": "쉬는 날에는 밖에 나가기보다, 집에서 혼자 만지작거리며 노는 쪽입니까?",
+    "en": "On a day off, do you stay home and fiddle with things alone rather than go out?",
+    "zh": "休息日，你更愿意待在家里自己摆弄东西，而不是出门吗？",
+    "ja": "休みの日は、外に出るより、家で一人でいじって過ごすほうですか？",
+    "es": "En un día libre, ¿prefieres quedarte en casa trasteando a solas antes que salir?"
+   },
+   "yes": [
+    "toy",
+    "puzzle",
+    "craft"
+   ],
+   "no": [],
+   "stage": 2
+  },
+  {
+   "id": "firstsight",
+   "text": {
+    "ko": "물건을 고를 때, 후기나 평점보다 첫눈에 반하는 느낌을 더 믿습니까?",
+    "en": "When choosing things, do you trust love at first sight over reviews and ratings?",
+    "zh": "挑选东西时，比起评价和评分，你更相信一见钟情的感觉吗？",
+    "ja": "物を選ぶとき、レビューや評価より、ひと目惚れの感覚を信じますか？",
+    "es": "Al elegir cosas, ¿confías más en el flechazo que en las reseñas y las puntuaciones?"
+   },
+   "yes": [
+    "decor",
+    "magic",
+    "doll"
    ],
    "no": [],
    "stage": 2

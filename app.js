@@ -154,7 +154,7 @@
       bubble: '<div class="bubble" aria-live="polite"><div class="prog" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + prog() + '"><i style="width:' + prog() + '%"></i></div><span id="bub"></span></div>',
       body: '<div class="answers' + (q.options ? " choice" : "") + '">' + (q.options ?
         q.options.map(function (o, j) { return '<button class="btn strong" data-a="o' + j + '">' + esc(T(o.text)) + "</button>"; }).join("") :
-        '<button class="btn primary" data-a="yes">' + esc(s("yes")) + "</button>" +
+        '<button class="btn strong" data-a="yes">' + esc(s("yes")) + "</button>" +
         '<button class="btn strong" data-a="no">' + esc(s("no")) + "</button>") +
         (st.hist.length ? '<button class="btn link wide" data-back="1">' + esc(s("back")) + "</button>" : "") +
         "</div>",
