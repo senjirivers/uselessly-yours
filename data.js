@@ -2357,17 +2357,17 @@ window.QUIZ = {
    ]
   },
   {
-   "id": "c_face",
+   "id": "c_pet",
    "text": {
-    "ko": "어떤 표정에 가장 마음이 갑니까?",
-    "en": "Which expression gets to you most?",
-    "zh": "哪种表情最让你心动？",
-    "ja": "どんな表情にいちばん心が動きますか？",
-    "es": "¿Qué expresión te conmueve más?",
-    "pt": "Qual expressão mais mexe com você?",
-    "fr": "Quelle expression vous touche le plus ?",
-    "de": "Welcher Gesichtsausdruck rührt Sie am meisten?",
-    "th": "สีหน้าแบบไหนที่โดนใจคุณที่สุด?"
+    "ko": "책상 옆에서 함께 산다면 어떤 동물이 좋겠습니까?",
+    "en": "If an animal lived beside your desk, which would you want?",
+    "zh": "如果书桌旁养一只动物，你想要哪种？",
+    "ja": "机のそばで動物と暮らすなら、どれがいいですか？",
+    "es": "Si un animal viviera junto a tu escritorio, ¿cuál querrías?",
+    "pt": "Se um animal vivesse ao lado da sua mesa, qual você gostaria?",
+    "fr": "Si un animal vivait près de votre bureau, lequel voudriez-vous ?",
+    "de": "Wenn ein Tier neben Ihrem Schreibtisch wohnen würde, welches wünschen Sie sich?",
+    "th": "ถ้ามีสัตว์มาอยู่ข้างโต๊ะ คุณอยากได้ตัวไหน?"
    },
    "stage": 1,
    "yes": [],
@@ -2375,55 +2375,74 @@ window.QUIZ = {
    "options": [
     {
      "text": {
-      "ko": "당황한 얼굴",
-      "en": "A flustered face",
-      "zh": "慌张的脸",
-      "ja": "慌てた顔",
-      "es": "Una cara de apuro",
-      "pt": "Uma cara toda atrapalhada",
-      "fr": "Une tête toute paniquée",
-      "de": "Ein völlig verdutztes Gesicht",
-      "th": "หน้าตกใจลนลาน"
+      "ko": "느긋하게 늘어진 고양이",
+      "en": "A lazily sprawled cat",
+      "zh": "懒洋洋摊开的猫",
+      "ja": "だらんと伸びたネコ",
+      "es": "Un gato despatarrado y perezoso",
+      "pt": "Um gato esparramado e preguiçoso",
+      "fr": "Un chat vautré paresseusement",
+      "de": "Eine faul hingeräkelte Katze",
+      "th": "แมวนอนแผ่สบาย ๆ"
      },
      "tags": [
-      "funny_face",
-      "human"
+      "cat",
+      "plush",
+      "cute"
      ]
     },
     {
      "text": {
-      "ko": "무표정한 정면",
-      "en": "A blank, straight-on stare",
-      "zh": "面无表情的正脸",
-      "ja": "無表情の正面顔",
-      "es": "Una mirada de frente sin expresión",
-      "pt": "Um olhar fixo e vazio",
-      "fr": "Un regard fixe et vide",
-      "de": "Ein leerer, direkter Blick",
-      "th": "สายตานิ่ง ๆ มองตรงไปเฉย ๆ"
-     },
-     "tags": [
-      "statue",
-      "god",
-      "cat"
-     ]
-    },
-    {
-     "text": {
-      "ko": "졸린 얼굴",
-      "en": "A sleepy face",
-      "zh": "困倦的脸",
-      "ja": "眠そうな顔",
-      "es": "Una cara somnolienta",
-      "pt": "Uma cara de sono",
-      "fr": "Une tête ensommeillée",
-      "de": "Ein verschlafenes Gesicht",
-      "th": "หน้าง่วงนอน"
+      "ko": "말없이 앉아 있는 개구리",
+      "en": "A frog sitting silently",
+      "zh": "默默坐着的青蛙",
+      "ja": "黙って座っているカエル",
+      "es": "Una rana sentada en silencio",
+      "pt": "Um sapo sentado em silêncio",
+      "fr": "Une grenouille assise en silence",
+      "de": "Ein still sitzender Frosch",
+      "th": "กบที่นั่งเงียบ ๆ"
      },
      "tags": [
       "frog",
-      "cat",
-      "cute"
+      "zen"
+     ]
+    },
+    {
+     "text": {
+      "ko": "듬직하게 곁을 지키는 개나 곰",
+      "en": "A dependable dog or bear by my side",
+      "zh": "稳稳守在身边的狗或熊",
+      "ja": "どっしり寄り添うイヌやクマ",
+      "es": "Un perro u oso fiable a mi lado",
+      "pt": "Um cachorro ou urso confiável ao meu lado",
+      "fr": "Un chien ou un ours fiable à mes côtés",
+      "de": "Ein verlässlicher Hund oder Bär an meiner Seite",
+      "th": "หมาหรือหมีที่คอยอยู่ข้างกายอย่างพึ่งพาได้"
+     },
+     "tags": [
+      "dog",
+      "bear",
+      "kangaroo",
+      "tough"
+     ]
+    },
+    {
+     "text": {
+      "ko": "장난기 많은 원숭이나 새",
+      "en": "A mischievous monkey or bird",
+      "zh": "调皮的猴子或小鸟",
+      "ja": "いたずら好きなサルや鳥",
+      "es": "Un mono o pájaro travieso",
+      "pt": "Um macaco ou passarinho travesso",
+      "fr": "Un singe ou un oiseau espiègle",
+      "de": "Ein verspielter Affe oder Vogel",
+      "th": "ลิงหรือนกจอมซน"
+     },
+     "tags": [
+      "monkey",
+      "bird",
+      "prank"
      ]
     }
    ]
@@ -2431,15 +2450,15 @@ window.QUIZ = {
   {
    "id": "c_rain",
    "text": {
-    "ko": "비 오는 날, 창가에서 당신 곁에 있는 것은?",
-    "en": "It's raining and you're by the window. What's next to you?",
-    "zh": "下雨天，你在窗边，身旁是什么？",
-    "ja": "雨の日、窓辺のあなたのそばにあるのは？",
-    "es": "Llueve y estás junto a la ventana. ¿Qué tienes al lado?",
-    "pt": "Está chovendo e você está na janela. O que está ao seu lado?",
-    "fr": "Il pleut et vous êtes à la fenêtre. Qu'y a-t-il à côté de vous ?",
-    "de": "Es regnet und Sie stehen am Fenster. Was ist neben Ihnen?",
-    "th": "ฝนตกและคุณอยู่ริมหน้าต่าง ข้าง ๆ คุณมีอะไร?"
+    "ko": "비 오는 날, 집에서 가장 하고 싶은 것은 무엇입니까?",
+    "en": "On a rainy day, what do you most want to do at home?",
+    "zh": "下雨天，你在家最想做什么？",
+    "ja": "雨の日、家でいちばんしたいことは何ですか？",
+    "es": "En un día de lluvia, ¿qué es lo que más te apetece hacer en casa?",
+    "pt": "Num dia de chuva, o que você mais quer fazer em casa?",
+    "fr": "Un jour de pluie, que voulez-vous le plus faire chez vous ?",
+    "de": "Was möchten Sie an einem Regentag zu Hause am liebsten tun?",
+    "th": "วันฝนตก คุณอยากทำอะไรที่บ้านมากที่สุด?"
    },
    "stage": 1,
    "yes": [],
@@ -2447,56 +2466,56 @@ window.QUIZ = {
    "options": [
     {
      "text": {
-      "ko": "개구리 울음소리 같은 빗소리",
-      "en": "Rain sounding like a chorus of frogs",
-      "zh": "像蛙鸣一样的雨声",
-      "ja": "カエルの合唱みたいな雨音",
-      "es": "Una lluvia que suena a coro de ranas",
-      "pt": "A chuva soando como um coro de sapos",
-      "fr": "La pluie qui sonne comme un chœur de grenouilles",
-      "de": "Regen, der wie ein Froschchor klingt",
-      "th": "เสียงฝนที่ฟังเหมือนคณะประสานเสียงกบ"
+      "ko": "이불 속에서 빗소리 들으며 멍하니 있기",
+      "en": "Zone out under the blanket listening to the rain",
+      "zh": "窝在被子里听雨发呆",
+      "ja": "布団の中で雨音を聞きながらぼんやりする",
+      "es": "Desconectar bajo la manta escuchando la lluvia",
+      "pt": "Ficar sem pensar debaixo do cobertor ouvindo a chuva",
+      "fr": "Me laisser aller sous la couette en écoutant la pluie",
+      "de": "Unter der Decke dem Regen lauschen und abschalten",
+      "th": "นอนเหม่อฟังเสียงฝนใต้ผ้าห่ม"
      },
      "tags": [
       "frog",
       "sound",
-      "living"
+      "zen"
      ]
     },
     {
      "text": {
-      "ko": "무릎 위에 올라온 고양이",
-      "en": "A cat that climbed into my lap",
-      "zh": "爬到膝盖上的猫",
-      "ja": "膝に乗ってきた猫",
-      "es": "Un gato que se sube a mi regazo",
-      "pt": "Um gato que subiu no meu colo",
-      "fr": "Un chat monté sur mes genoux",
-      "de": "Eine Katze, die mir auf den Schoß gesprungen ist",
-      "th": "แมวที่ปีนขึ้นมานอนบนตัก"
+      "ko": "고양이나 인형을 끌어안고 뒹굴기",
+      "en": "Roll around hugging a cat or a plush",
+      "zh": "抱着猫或玩偶打滚",
+      "ja": "猫やぬいぐるみを抱いて転がる",
+      "es": "Revolcarme abrazando un gato o un peluche",
+      "pt": "Rolar abraçando um gato ou uma pelúcia",
+      "fr": "Me rouler en serrant un chat ou une peluche",
+      "de": "Mit einer Katze oder einem Plüschtier im Arm herumkugeln",
+      "th": "กอดแมวหรือตุ๊กตากลิ้งไปมา"
      },
      "tags": [
       "cat",
-      "animal",
-      "cute",
-      "plush"
+      "plush",
+      "cute"
      ]
     },
     {
      "text": {
-      "ko": "조용히 피어오르는 향",
-      "en": "A quietly rising scent of incense",
-      "zh": "静静升起的香",
-      "ja": "静かに立ちのぼるお香",
-      "es": "El humo tranquilo de un incienso",
-      "pt": "O cheiro de incenso subindo bem de leve",
-      "fr": "Un parfum d'encens qui monte doucement",
-      "de": "Ein leise aufsteigender Weihrauchduft",
-      "th": "กลิ่นธูปที่ลอยขึ้นมาเบา ๆ"
+      "ko": "향을 피우고 차를 천천히 마시기",
+      "en": "Light incense and sip tea slowly",
+      "zh": "点上香慢慢喝茶",
+      "ja": "お香を焚いてゆっくりお茶を飲む",
+      "es": "Encender incienso y beber té despacio",
+      "pt": "Acender incenso e tomar chá devagar",
+      "fr": "Allumer de l'encens et boire un thé lentement",
+      "de": "Räucherwerk anzünden und langsam Tee trinken",
+      "th": "จุดธูปแล้วจิบชาช้า ๆ"
      },
      "tags": [
       "incense",
-      "zen"
+      "zen",
+      "ceramic"
      ]
     }
    ]
@@ -2654,15 +2673,15 @@ window.QUIZ = {
   {
    "id": "c_island",
    "text": {
-    "ko": "무인도에 딱 하나만 가져간다면?",
-    "en": "You can take just one thing to a desert island. Which?",
-    "zh": "只能带一样东西去无人岛，你选哪个？",
-    "ja": "無人島に一つだけ持っていくなら？",
-    "es": "Solo puedes llevar una cosa a una isla desierta. ¿Cuál?",
-    "pt": "Você pode levar só uma coisa para uma ilha deserta. Qual?",
-    "fr": "Vous ne pouvez emporter qu'un seul objet sur une île déserte. Lequel ?",
-    "de": "Sie dürfen nur eine Sache auf eine einsame Insel mitnehmen. Welche?",
-    "th": "คุณเอาไปเกาะร้างได้แค่อย่างเดียว เลือกอะไร?"
+    "ko": "무인도에서 심심하지 않으려면 무엇이 있어야 합니까?",
+    "en": "To avoid boredom on a desert island, what would you need?",
+    "zh": "在荒岛上想不无聊，需要有什么？",
+    "ja": "無人島で退屈しないためには、何が必要ですか？",
+    "es": "Para no aburrirte en una isla desierta, ¿qué necesitarías?",
+    "pt": "Para não ficar entediado(a) numa ilha deserta, o que você precisaria ter?",
+    "fr": "Pour ne pas vous ennuyer sur une île déserte, de quoi auriez-vous besoin ?",
+    "de": "Was bräuchten Sie, um sich auf einer einsamen Insel nicht zu langweilen?",
+    "th": "ถ้าจะไม่เบื่อบนเกาะร้าง คุณต้องมีอะไร?"
    },
    "stage": 3,
    "yes": [],
@@ -2670,56 +2689,55 @@ window.QUIZ = {
    "options": [
     {
      "text": {
-      "ko": "살아 있는 것",
-      "en": "Something alive",
-      "zh": "活的东西",
-      "ja": "生きているもの",
-      "es": "Algo vivo",
-      "pt": "Algo vivo",
-      "fr": "Quelque chose de vivant",
-      "de": "Etwas Lebendiges",
-      "th": "สิ่งมีชีวิต"
+      "ko": "말동무가 되어줄 작은 생물",
+      "en": "A small creature to talk to",
+      "zh": "能陪我聊天的小生物",
+      "ja": "話し相手になってくれる小さな生き物",
+      "es": "Una pequeña criatura con quien hablar",
+      "pt": "Uma pequena criatura para conversar",
+      "fr": "Une petite créature avec qui parler",
+      "de": "Ein kleines Wesen zum Reden",
+      "th": "สิ่งมีชีวิตตัวเล็กไว้คุยด้วย"
      },
      "tags": [
-      "living",
       "animal",
-      "cute"
+      "living",
+      "cute",
+      "frog"
      ]
     },
     {
      "text": {
-      "ko": "소리 나는 것",
-      "en": "Something that makes sound",
-      "zh": "会发出声音的东西",
-      "ja": "音が出るもの",
-      "es": "Algo que suene",
-      "pt": "Algo que faça som",
-      "fr": "Quelque chose qui fait du bruit",
-      "de": "Etwas, das Geräusche macht",
-      "th": "ของที่มีเสียง"
+      "ko": "혼자 가지고 놀 장난감이나 게임",
+      "en": "A toy or game to play with alone",
+      "zh": "一个人玩的玩具或游戏",
+      "ja": "一人で遊べるおもちゃやゲーム",
+      "es": "Un juguete o juego para jugar solo",
+      "pt": "Um brinquedo ou jogo para brincar sozinho(a)",
+      "fr": "Un jouet ou un jeu pour jouer seul(e)",
+      "de": "Ein Spielzeug oder Spiel zum Alleinspielen",
+      "th": "ของเล่นหรือเกมไว้เล่นคนเดียว"
      },
      "tags": [
-      "sound",
-      "guitar",
+      "toy",
       "game",
-      "toy"
+      "puzzle"
      ]
     },
     {
      "text": {
-      "ko": "보고만 있어도 웃긴 것",
-      "en": "Something funny just to look at",
-      "zh": "光是看着就好笑的东西",
-      "ja": "見ているだけで笑えるもの",
-      "es": "Algo que da risa solo con mirarlo",
-      "pt": "Algo engraçado só de olhar",
-      "fr": "Quelque chose de drôle rien qu'à regarder",
-      "de": "Etwas, das schon beim Ansehen lustig ist",
-      "th": "ของที่ดูแล้วขำ"
+      "ko": "보기만 해도 웃음이 나는 이상한 얼굴",
+      "en": "A strange face that makes me laugh just by looking",
+      "zh": "看一眼就想笑的奇怪脸孔",
+      "ja": "見るだけで笑ってしまう変な顔",
+      "es": "Una cara rara que me haga reír solo con mirarla",
+      "pt": "Um rosto esquisito que me faz rir só de olhar",
+      "fr": "Une drôle de tête qui me fait rire rien qu'en la regardant",
+      "de": "Ein seltsames Gesicht, das mich schon beim Ansehen zum Lachen bringt",
+      "th": "ใบหน้าแปลก ๆ ที่แค่มองก็หัวเราะ"
      },
      "tags": [
       "funny_face",
-      "statue",
       "human",
       "cartoon"
      ]
@@ -2799,76 +2817,74 @@ window.QUIZ = {
    ]
   },
   {
-   "id": "c_hat",
+   "id": "c_attach",
    "text": {
-    "ko": "새 모자를 산다면, 어느 쪽에 손이 갑니까?",
-    "en": "If you were buying a new hat, which would you reach for?",
-    "zh": "如果要买一顶新帽子，你会伸手拿哪顶？",
-    "ja": "新しい帽子を買うなら、どれに手が伸びますか？",
-    "es": "Si te compraras un sombrero nuevo, ¿cuál tomarías?",
-    "pt": "Se fosse comprar um chapéu novo, qual pegaria?",
-    "fr": "Si vous achetiez un nouveau chapeau, lequel prendriez-vous ?",
-    "de": "Wenn Sie einen neuen Hut kaufen würden, wonach würden Sie greifen?",
-    "th": "ถ้าจะซื้อหมวกใบใหม่ คุณจะหยิบแบบไหน?"
+    "ko": "가방이나 옷에 하나 달 수 있다면 무엇을 달겠습니까?",
+    "en": "If you could attach one thing to your bag or clothes, what would it be?",
+    "zh": "如果能在包或衣服上挂一样东西，你会挂什么？",
+    "ja": "バッグや服に一つだけ付けるなら、何を付けますか？",
+    "es": "Si pudieras colgar una cosa en tu bolso o ropa, ¿cuál sería?",
+    "pt": "Se pudesse pendurar uma coisa na bolsa ou na roupa, o que seria?",
+    "fr": "Si vous pouviez accrocher un objet à votre sac ou vos vêtements, ce serait quoi ?",
+    "de": "Wenn Sie nur eine Sache an Tasche oder Kleidung anbringen könnten, was wäre es?",
+    "th": "ถ้าห้อยของได้หนึ่งอย่างที่กระเป๋าหรือเสื้อผ้า คุณจะห้อยอะไร?"
    },
-   "stage": 3,
+   "stage": 2,
    "yes": [],
    "no": [],
    "options": [
     {
      "text": {
-      "ko": "동물 귀가 달린 것",
-      "en": "One with animal ears",
-      "zh": "带动物耳朵的",
-      "ja": "動物の耳がついたもの",
-      "es": "Uno con orejas de animal",
-      "pt": "Um com orelhinhas de bicho",
-      "fr": "Un avec des oreilles d'animal",
-      "de": "Einen mit Tierohren",
-      "th": "แบบมีหูสัตว์"
+      "ko": "작은 인형 키링",
+      "en": "A small doll keychain",
+      "zh": "小玩偶挂件",
+      "ja": "小さな人形のキーホルダー",
+      "es": "Un llavero de muñeco pequeño",
+      "pt": "Um chaveiro de bonequinho",
+      "fr": "Un porte-clés en petite poupée",
+      "de": "Ein kleiner Puppen-Schlüsselanhänger",
+      "th": "พวงกุญแจตุ๊กตาตัวเล็ก"
      },
      "tags": [
-      "headwear",
-      "animal",
       "plush",
       "cute",
-      "costume"
+      "doll",
+      "tiny"
      ]
     },
     {
      "text": {
-      "ko": "눈에 확 띄는 이상한 것",
-      "en": "Something strange that stands out",
-      "zh": "一眼就很显眼的怪帽子",
-      "ja": "一目で目立つ変わったもの",
-      "es": "Algo raro que llame la atención",
-      "pt": "Algo estranho que chame atenção",
-      "fr": "Un truc étrange qui se remarque",
-      "de": "Etwas Seltsames, das auffällt",
-      "th": "แบบแปลกตาที่โดดเด่น"
+      "ko": "웃긴 그림이 그려진 배지",
+      "en": "A badge with a funny drawing",
+      "zh": "印着搞笑图案的徽章",
+      "ja": "面白い絵のバッジ",
+      "es": "Una chapa con un dibujo gracioso",
+      "pt": "Um bóton com um desenho engraçado",
+      "fr": "Un badge avec un dessin drôle",
+      "de": "Ein Button mit lustiger Zeichnung",
+      "th": "เข็มกลัดลายตลก ๆ"
      },
      "tags": [
-      "headwear",
-      "funny_face",
-      "costume"
+      "cartoon",
+      "funny_face"
      ]
     },
     {
      "text": {
-      "ko": "조용히 어울리는 것",
-      "en": "Something that quietly suits me",
-      "zh": "安静地很合适的",
-      "ja": "静かに似合うもの",
-      "es": "Algo que me quede bien sin hacer ruido",
-      "pt": "Algo que combine comigo sem alarde",
-      "fr": "Quelque chose qui me va tout en discrétion",
-      "de": "Etwas, das mir unauffällig steht",
-      "th": "แบบที่เข้ากับฉันแบบเงียบ ๆ"
+      "ko": "묵직한 금속 장식",
+      "en": "A weighty metal charm",
+      "zh": "有分量的金属饰品",
+      "ja": "ずっしりした金属の飾り",
+      "es": "Un colgante de metal con peso",
+      "pt": "Um pingente de metal pesado",
+      "fr": "Une breloque en métal bien lourde",
+      "de": "Ein schwerer Metallanhänger",
+      "th": "เครื่องประดับโลหะหนัก ๆ"
      },
      "tags": [
-      "wearable",
-      "useful",
-      "east"
+      "metal",
+      "tough",
+      "jewelry"
      ]
     }
    ]
@@ -2950,15 +2966,15 @@ window.QUIZ = {
   {
    "id": "c_dream",
    "text": {
-    "ko": "어젯밤 꿈에 이상한 것이 나왔습니다. 무엇이었을 것 같습니까?",
-    "en": "Something strange showed up in last night's dream. What was it?",
-    "zh": "昨晚的梦里出现了奇怪的东西，你觉得是什么？",
-    "ja": "昨夜の夢に変なものが出てきました。何だったと思いますか？",
-    "es": "Anoche algo extraño apareció en tu sueño. ¿Qué crees que fue?",
-    "pt": "Algo estranho apareceu no sonho de ontem à noite. O que foi?",
-    "fr": "Quelque chose d'étrange est apparu dans votre rêve cette nuit. C'était quoi ?",
-    "de": "In Ihrem Traum letzte Nacht tauchte etwas Seltsames auf. Was war es?",
-    "th": "เมื่อคืนมีสิ่งแปลก ๆ โผล่มาในฝัน มันคืออะไร?"
+    "ko": "꿈에서 누군가 말을 걸어온다면 누구일 것 같습니까?",
+    "en": "If someone spoke to you in a dream, who would it be?",
+    "zh": "如果梦里有人跟你说话，会是谁？",
+    "ja": "夢の中で誰かに話しかけられるなら、誰だと思いますか？",
+    "es": "Si alguien te hablara en un sueño, ¿quién sería?",
+    "pt": "Se alguém falasse com você num sonho, quem seria?",
+    "fr": "Si quelqu'un vous parlait dans un rêve, ce serait qui ?",
+    "de": "Wenn im Traum jemand mit Ihnen spräche, wer wäre es?",
+    "th": "ถ้าในฝันมีใครมาคุยด้วย จะเป็นใคร?"
    },
    "stage": 3,
    "yes": [],
@@ -2966,15 +2982,15 @@ window.QUIZ = {
    "options": [
     {
      "text": {
-      "ko": "말을 거는 동물",
-      "en": "An animal that talked to me",
-      "zh": "跟我说话的动物",
-      "ja": "話しかけてくる動物",
-      "es": "Un animal que me hablaba",
-      "pt": "Um animal que falava comigo",
-      "fr": "Un animal qui me parlait",
-      "de": "Ein Tier, das mit mir sprach",
-      "th": "สัตว์ที่พูดกับฉัน"
+      "ko": "말하는 동물",
+      "en": "A talking animal",
+      "zh": "会说话的动物",
+      "ja": "しゃべる動物",
+      "es": "Un animal que habla",
+      "pt": "Um animal falante",
+      "fr": "Un animal qui parle",
+      "de": "Ein sprechendes Tier",
+      "th": "สัตว์ที่พูดได้"
      },
      "tags": [
       "animal",
@@ -2986,39 +3002,37 @@ window.QUIZ = {
     },
     {
      "text": {
-      "ko": "거대한 얼굴이나 신상",
-      "en": "A giant face or idol",
-      "zh": "巨大的脸或神像",
-      "ja": "巨大な顔や神像",
-      "es": "Una cara gigante o un ídolo",
-      "pt": "Um rosto gigante ou um ídolo",
-      "fr": "Un visage géant ou une idole",
-      "de": "Ein riesiges Gesicht oder ein Idol",
-      "th": "ใบหน้ายักษ์หรือไอดอล"
+      "ko": "거대한 신상이나 조각상",
+      "en": "A giant divine statue",
+      "zh": "巨大的神像或雕像",
+      "ja": "巨大な神像や彫像",
+      "es": "Una estatua divina gigante",
+      "pt": "Uma estátua divina gigante",
+      "fr": "Une statue divine géante",
+      "de": "Eine riesige Götterstatue",
+      "th": "รูปปั้นเทพองค์ยักษ์"
      },
      "tags": [
       "god",
       "statue",
-      "human",
       "scary"
      ]
     },
     {
      "text": {
-      "ko": "처음 보는 신기한 도구",
-      "en": "A strange tool I'd never seen",
-      "zh": "从没见过的神奇道具",
-      "ja": "見たことのない不思議な道具",
-      "es": "Una herramienta extraña que nunca vi",
-      "pt": "Uma ferramenta esquisita que eu nunca tinha visto",
-      "fr": "Un drôle d'outil que je n'avais jamais vu",
-      "de": "Ein merkwürdiges Werkzeug, das ich nie gesehen hatte",
-      "th": "เครื่องมือประหลาดที่ไม่เคยเห็น"
+      "ko": "처음 보는 외계 생물",
+      "en": "An alien creature I've never seen",
+      "zh": "从没见过的外星生物",
+      "ja": "見たことのない宇宙生物",
+      "es": "Una criatura alienígena que nunca he visto",
+      "pt": "Uma criatura alienígena que nunca vi",
+      "fr": "Une créature extraterrestre jamais vue",
+      "de": "Ein Außerirdischer, den ich noch nie gesehen habe",
+      "th": "มนุษย์ต่างดาวที่ไม่เคยเห็น"
      },
      "tags": [
-      "toy",
-      "game",
-      "alien"
+      "alien",
+      "illusion"
      ]
     }
    ]
@@ -4418,15 +4432,15 @@ window.QUIZ = {
     },
     {
      "text": {
-      "ko": "후회할 만큼 큰 조각상",
-      "en": "A statue so big I'll regret it",
-      "zh": "大到会后悔的雕像",
-      "ja": "後悔するほど大きな像",
-      "es": "Una estatua tan grande que acabaré lamentándolo",
-      "pt": "Uma estátua tão grande que vou me arrepender",
-      "fr": "Une statue si grosse que je le regretterai",
-      "de": "Eine Statue, so groß, dass ich es bereuen werde",
-      "th": "รูปปั้นใหญ่จนต้องเสียใจทีหลัง"
+      "ko": "책상에 올릴 묵직한 조각상 하나",
+      "en": "One weighty statue for my desk",
+      "zh": "一尊放在书桌上的厚重雕像",
+      "ja": "机に置く重みのある像",
+      "es": "Una estatua pesada para mi escritorio",
+      "pt": "Uma estátua pesada para a minha mesa",
+      "fr": "Une statue imposante pour mon bureau",
+      "de": "Eine gewichtige Statue für meinen Schreibtisch",
+      "th": "รูปปั้นหนักแน่นไว้วางบนโต๊ะ"
      },
      "tags": [
       "statue",
@@ -5125,20 +5139,20 @@ window.QUIZ = {
     },
     {
      "text": {
-      "ko": "말없이 지켜보는 눈",
-      "en": "Eyes quietly watching",
-      "zh": "默默注视的眼睛",
-      "ja": "黙って見守る目",
-      "es": "Unos ojos que me miran en silencio",
-      "pt": "Olhos me observando em silêncio",
-      "fr": "Des yeux qui me regardent en silence",
-      "de": "Augen, die mich still beobachten",
-      "th": "ดวงตาที่จ้องมองเงียบ ๆ"
+      "ko": "묵직하게 곁을 지켜주는 작은 조각상",
+      "en": "A small statue standing steadily by me",
+      "zh": "沉稳守在身边的小雕像",
+      "ja": "どっしり寄り添ってくれる小さな像",
+      "es": "Una pequeña estatua que me acompaña con firmeza",
+      "pt": "Uma pequena estátua que me acompanha com firmeza",
+      "fr": "Une petite statue qui reste solidement à mes côtés",
+      "de": "Eine kleine Statue, die standhaft bei mir bleibt",
+      "th": "รูปปั้นเล็ก ๆ ที่อยู่เคียงข้างอย่างมั่นคง"
      },
      "tags": [
-      "eyes",
-      "anatomy",
-      "scary"
+      "statue",
+      "job",
+      "tough"
      ]
     },
     {
