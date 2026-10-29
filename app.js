@@ -284,7 +284,20 @@
       '<p class="why">' + esc(T(x.p.line)) + "</p>" +
       '<a class="btn" data-pid="' + x.p.id + '" data-kind="secret" href="' + esc(url(x.p)) + '" target="_blank" rel="sponsored noopener noreferrer">' + esc(s("resultBuy")) + "</a></div>";
   }
-  function needLine(tr) { var n = tr && tr.need && Q.needs && Q.needs[tr.need]; return n ? T(n) : ""; }
+  // 물건 앞에 붙는 한 줄: 상품 태그와 가장 잘 맞는 문장을 고르고, 성향이 가리키는 문장에 가산점을 줍니다. 태그가 흔할수록 점수는 낮습니다.
+  function needLine(tr, p) {
+    var needs = Q.needs || {}, keys = Object.keys(needs), base = tr && tr.need;
+    if (!p || !p.tags || !keys.length) { var n0 = base && needs[base]; return n0 ? T(n0) : ""; }
+    if (!Q._tagFreq) { Q._tagFreq = {}; Q.products.forEach(function (x) { (x.tags || []).forEach(function (t) { Q._tagFreq[t] = (Q._tagFreq[t] || 0) + 1; }); }); }
+    var total = Q.products.length, best = [], top = 0;
+    keys.forEach(function (k) {
+      var sc = 0; (needs[k].tags || []).forEach(function (t) { if (p.tags.indexOf(t) > -1) sc += Math.log(total / (Q._tagFreq[t] || 1)); });
+      if (k === base) sc += 1;
+      if (sc > top + 0.05) { top = sc; best = [k]; } else if (sc > 0 && Math.abs(sc - top) <= 0.05) best.push(k);
+    });
+    var pick = p.need && needs[p.need] ? p.need : best.length ? best[(p.id || 0) % best.length] : base;
+    var n = pick && needs[pick]; return n ? T(n) : "";
+  }
   function result(main) {
     st.mode = "result";
     var r = ranked(); if (!main) main = r[0];
@@ -295,7 +308,7 @@
     var secret = r.filter(function (x) { return x.p.id !== main.p.id; })[0];
     var p = main.p, fc = friendCase(st.traits);
     var html = '<div class="stage big">' + img("gift") + "</div>" +
-      '<div class="card"><span class="lead need">' + esc(needLine(st.traits[0] && st.traits[0].tr) || s("resultLead")) + "</span>" +
+      '<div class="card"><span class="lead need">' + esc(needLine(st.traits[0] && st.traits[0].tr, main.p) || s("resultLead")) + "</span>" +
       "<h2>" + esc(T(p.name)) + "</h2>" +
       (p.img ? '<img class="pimg" src="' + esc(p.img) + '" alt="' + esc(T(p.name)) + '">' : "") +
       '<p class="why">' + esc(T(p.line)) + "</p>" +

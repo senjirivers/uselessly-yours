@@ -4116,7 +4116,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/3.webp",
    "prior": 2.903,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "vent"
   },
   {
    "id": 4,
@@ -4153,7 +4154,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/4.webp",
    "prior": 7.045,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "mirror"
   },
   {
    "id": 5,
@@ -4191,7 +4193,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/5.webp",
    "prior": 3.724,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "role"
   },
   {
    "id": 6,
@@ -4348,7 +4351,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/9.webp",
    "prior": 2.575,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "play"
   },
   {
    "id": 10,
@@ -4386,7 +4390,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/10.webp",
    "prior": 2.277,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "sound"
   },
   {
    "id": 11,
@@ -4506,7 +4511,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/13.webp",
    "prior": 1.293,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "time"
   },
   {
    "id": 14,
@@ -4541,7 +4547,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/14.webp",
    "prior": 39.847,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "story"
   },
   {
    "id": 15,
@@ -4614,7 +4621,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/16.webp",
    "prior": 39.847,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "story"
   },
   {
    "id": 17,
@@ -4652,7 +4660,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/17.webp",
    "prior": 5.166,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "stim"
   },
   {
    "id": 18,
@@ -4691,7 +4700,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/18.webp",
    "prior": 1.826,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "taste"
   },
   {
    "id": 19,
@@ -4809,7 +4819,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/21.webp",
    "prior": 1.623,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "fix"
   },
   {
    "id": 22,
@@ -4844,7 +4855,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/22.webp",
    "prior": 39.847,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "story"
   },
   {
    "id": 23,
@@ -4923,7 +4935,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/24.webp",
    "prior": 0.711,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "awe"
   },
   {
    "id": 25,
@@ -4962,7 +4975,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/25.webp",
    "prior": 1.362,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "play"
   },
   {
    "id": 26,
@@ -5002,7 +5016,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/26.webp",
    "prior": 0.31,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "mirror"
   },
   {
    "id": 27,
@@ -5041,7 +5056,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/27.webp",
    "prior": 1.184,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "guard"
   },
   {
    "id": 28,
@@ -5080,7 +5096,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/28.webp",
    "prior": 3.326,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "calm"
   },
   {
    "id": 29,
@@ -5229,7 +5246,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/32.webp",
    "prior": 0.54,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "vent"
   },
   {
    "id": 33,
@@ -5266,7 +5284,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/33.webp",
    "prior": 0.738,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "calm"
   },
   {
    "id": 34,
@@ -5304,7 +5323,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/34.webp",
    "prior": 2.067,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "gaze"
   },
   {
    "id": 35,
@@ -5343,7 +5363,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/35.webp",
    "prior": 0.805,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "calm"
   },
   {
    "id": 36,
@@ -5379,7 +5400,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/36.webp",
    "prior": 5.749,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "move"
   },
   {
    "id": 37,
@@ -5420,7 +5442,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/37.webp",
    "prior": 2.673,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "brag"
   },
   {
    "id": 38,
@@ -5497,7 +5520,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/39.webp",
    "prior": 0.424,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "play"
   },
   {
    "id": 40,
@@ -5732,7 +5756,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/45.webp",
    "prior": 0.848,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "fix"
   },
   {
    "id": 46,
@@ -5772,7 +5797,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/46.webp",
    "prior": 3.614,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "fix"
   },
   {
    "id": 47,
@@ -5890,7 +5916,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/49.webp",
    "prior": 0.587,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "role"
   },
   {
    "id": 50,
@@ -5963,7 +5990,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/51.webp",
    "prior": 0.686,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "vent"
   },
   {
    "id": 52,
@@ -6000,7 +6028,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/52.webp",
    "prior": 1.001,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "trick"
   },
   {
    "id": 53,
@@ -6116,7 +6145,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/55.webp",
    "prior": 0.814,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "sturdy"
   },
   {
    "id": 56,
@@ -6153,7 +6183,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/56.webp",
    "prior": 0.146,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "trick"
   },
   {
    "id": 57,
@@ -6270,7 +6301,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/59.webp",
    "prior": 0.201,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "role"
   },
   {
    "id": 60,
@@ -6350,7 +6382,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/61.webp",
    "prior": 1.508,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "sound"
   },
   {
    "id": 62,
@@ -6429,7 +6462,8 @@ window.QUIZ = {
    "urlByLang": {},
    "img": "assets/products/63.webp",
    "prior": 0.535,
-   "shop": "temu"
+   "shop": "temu",
+   "need": "wonder"
   },
   {
    "id": 64,
@@ -6507,7 +6541,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/65.webp",
-   "prior": 1.752
+   "prior": 1.752,
+   "need": "guard"
   },
   {
    "id": 66,
@@ -6780,7 +6815,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/72.webp",
-   "prior": 5.058
+   "prior": 5.058,
+   "need": "vent"
   },
   {
    "id": 73,
@@ -6818,7 +6854,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/73.webp",
-   "prior": 0.289
+   "prior": 0.289,
+   "need": "welcome"
   },
   {
    "id": 74,
@@ -6898,7 +6935,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/75.webp",
-   "prior": 7.054
+   "prior": 7.054,
+   "need": "cool"
   },
   {
    "id": 76,
@@ -6935,7 +6973,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/76.webp",
-   "prior": 3.123
+   "prior": 3.123,
+   "need": "laugh"
   },
   {
    "id": 77,
@@ -6974,7 +7013,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/77.webp",
-   "prior": 1.07
+   "prior": 1.07,
+   "need": "mirror"
   },
   {
    "id": 78,
@@ -7130,7 +7170,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/81.webp",
-   "prior": 1.044
+   "prior": 1.044,
+   "need": "comfort"
   },
   {
    "id": 82,
@@ -7210,7 +7251,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/83.webp",
-   "prior": 1.01
+   "prior": 1.01,
+   "need": "laugh"
   },
   {
    "id": 84,
@@ -7248,7 +7290,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/84.webp",
-   "prior": 7.445
+   "prior": 7.445,
+   "need": "wonder"
   },
   {
    "id": 85,
@@ -7288,7 +7331,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/85.webp",
-   "prior": 0.71
+   "prior": 0.71,
+   "need": "company"
   },
   {
    "id": 86,
@@ -7328,7 +7372,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "",
-   "prior": 0.183
+   "prior": 0.183,
+   "need": "mirror"
   },
   {
    "id": 87,
@@ -7442,7 +7487,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/89.webp",
-   "prior": 2.694
+   "prior": 2.694,
+   "need": "trick"
   },
   {
    "id": 90,
@@ -7480,7 +7526,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/90.webp",
-   "prior": 1.969
+   "prior": 1.969,
+   "need": "play"
   },
   {
    "id": 91,
@@ -7520,7 +7567,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/91.webp",
-   "prior": 3.932
+   "prior": 3.932,
+   "need": "cool"
   },
   {
    "id": 92,
@@ -7601,7 +7649,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/93.webp",
-   "prior": 0.828
+   "prior": 0.828,
+   "need": "comfort"
   },
   {
    "id": 94,
@@ -7642,7 +7691,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/94.webp",
-   "prior": 0.35
+   "prior": 0.35,
+   "need": "fix"
   },
   {
    "id": 95,
@@ -7844,7 +7894,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/99.webp",
-   "prior": 0.58
+   "prior": 0.58,
+   "need": "cool"
   },
   {
    "id": 100,
@@ -7885,7 +7936,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/100.webp",
-   "prior": 1.206
+   "prior": 1.206,
+   "need": "cool"
   },
   {
    "id": 101,
@@ -7965,7 +8017,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/102.webp",
-   "prior": 1.909
+   "prior": 1.909,
+   "need": "calm"
   },
   {
    "id": 103,
@@ -8044,7 +8097,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/104.webp",
-   "prior": 0.262
+   "prior": 0.262,
+   "need": "laugh"
   },
   {
    "id": 105,
@@ -8085,7 +8139,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/105.webp",
-   "prior": 0.601
+   "prior": 0.601,
+   "need": "guard"
   },
   {
    "id": 106,
@@ -8123,7 +8178,8 @@ window.QUIZ = {
    "shop": "aliexpress",
    "urlByLang": {},
    "img": "assets/products/106.webp",
-   "prior": 0.841
+   "prior": 0.841,
+   "need": "play"
   }
  ],
  "languageNames": {
@@ -9373,7 +9429,13 @@ window.QUIZ = {
    "pt": "O que você precisa é de um tempinho para esfriar a cabeça.",
    "fr": "Ce dont vous avez besoin, c'est d'un peu de temps pour vous rafraîchir les idées.",
    "de": "Was Sie brauchen, ist ein bisschen Zeit, um den Kopf abzukühlen.",
-   "th": "สิ่งที่คุณต้องการคือเวลาสักหน่อยให้หัวเย็นลง"
+   "th": "สิ่งที่คุณต้องการคือเวลาสักหน่อยให้หัวเย็นลง",
+   "tags": [
+    "zen",
+    "frog",
+    "incense",
+    "ceramic"
+   ]
   },
   "stim": {
    "ko": "당신에겐 따분한 일상을 달래줄 자극이 필요합니다.",
@@ -9384,7 +9446,13 @@ window.QUIZ = {
    "pt": "O que você precisa é de uma faísca para suavizar uma rotina sem graça.",
    "fr": "Ce dont vous avez besoin, c'est d'une étincelle pour adoucir une routine terne.",
    "de": "Was Sie brauchen, ist ein Funke, der einen faden Alltag besänftigt.",
-   "th": "สิ่งที่คุณต้องการคือประกายเล็ก ๆ ที่ปลอบประโลมชีวิตประจำวันอันน่าเบื่อ"
+   "th": "สิ่งที่คุณต้องการคือประกายเล็ก ๆ ที่ปลอบประโลมชีวิตประจำวันอันน่าเบื่อ",
+   "tags": [
+    "scary",
+    "spicy",
+    "prank",
+    "game"
+   ]
   },
   "laugh": {
    "ko": "당신에겐 아무 이유 없이 크게 웃을 일이 필요합니다.",
@@ -9395,7 +9463,14 @@ window.QUIZ = {
    "pt": "O que você precisa é de algo para rir sem motivo nenhum.",
    "fr": "Ce dont vous avez besoin, c'est de quelque chose pour rire sans aucune raison.",
    "de": "Was Sie brauchen, ist etwas, worüber Sie grundlos lachen können.",
-   "th": "สิ่งที่คุณต้องการคือเรื่องให้หัวเราะโดยไม่มีเหตุผลเลย"
+   "th": "สิ่งที่คุณต้องการคือเรื่องให้หัวเราะโดยไม่มีเหตุผลเลย",
+   "tags": [
+    "funny_face",
+    "prank",
+    "human",
+    "cartoon",
+    "monkey"
+   ]
   },
   "comfort": {
    "ko": "당신에겐 말없이 기대어도 되는 존재가 필요합니다.",
@@ -9406,7 +9481,13 @@ window.QUIZ = {
    "pt": "O que você precisa é de algo em que se apoiar sem dizer uma palavra.",
    "fr": "Ce dont vous avez besoin, c'est de quelque chose sur quoi vous appuyer sans un mot.",
    "de": "Was Sie brauchen, ist etwas, an das Sie sich ohne ein Wort anlehnen können.",
-   "th": "สิ่งที่คุณต้องการคือสิ่งที่พิงได้โดยไม่ต้องพูดสักคำ"
+   "th": "สิ่งที่คุณต้องการคือสิ่งที่พิงได้โดยไม่ต้องพูดสักคำ",
+   "tags": [
+    "plush",
+    "cute",
+    "animal",
+    "cat"
+   ]
   },
   "play": {
    "ko": "당신에겐 아무 목적 없이 손을 움직이는 시간이 필요합니다.",
@@ -9417,7 +9498,13 @@ window.QUIZ = {
    "pt": "O que você precisa é de um tempo para mexer as mãos sem propósito nenhum.",
    "fr": "Ce dont vous avez besoin, c'est d'un moment pour bouger les mains sans aucun but.",
    "de": "Was Sie brauchen, ist Zeit, die Hände völlig zwecklos zu bewegen.",
-   "th": "สิ่งที่คุณต้องการคือเวลาให้ขยับมือเล่นโดยไม่มีจุดประสงค์ใด ๆ"
+   "th": "สิ่งที่คุณต้องการคือเวลาให้ขยับมือเล่นโดยไม่มีจุดประสงค์ใด ๆ",
+   "tags": [
+    "toy",
+    "game",
+    "puzzle",
+    "spin"
+   ]
   },
   "move": {
    "ko": "당신에겐 책상에서 일어나 뛰어놀 핑계가 필요합니다.",
@@ -9428,7 +9515,12 @@ window.QUIZ = {
    "pt": "O que você precisa é de uma desculpa para largar a mesa e ir brincar.",
    "fr": "Ce dont vous avez besoin, c'est d'une excuse pour quitter le bureau et aller jouer.",
    "de": "Was Sie brauchen, ist eine Ausrede, den Schreibtisch zu verlassen und spielen zu gehen.",
-   "th": "สิ่งที่คุณต้องการคือข้ออ้างให้ลุกจากโต๊ะไปเล่น"
+   "th": "สิ่งที่คุณต้องการคือข้ออ้างให้ลุกจากโต๊ะไปเล่น",
+   "tags": [
+    "outdoor",
+    "game",
+    "toy"
+   ]
   },
   "role": {
    "ko": "당신에겐 잠시 다른 누군가가 되어볼 기회가 필요합니다.",
@@ -9439,7 +9531,13 @@ window.QUIZ = {
    "pt": "O que você precisa é da chance de ser outra pessoa por um tempo.",
    "fr": "Ce dont vous avez besoin, c'est de la chance d'être quelqu'un d'autre un moment.",
    "de": "Was Sie brauchen, ist die Chance, eine Weile jemand anderes zu sein.",
-   "th": "สิ่งที่คุณต้องการคือโอกาสได้เป็นคนอื่นสักพัก"
+   "th": "สิ่งที่คุณต้องการคือโอกาสได้เป็นคนอื่นสักพัก",
+   "tags": [
+    "costume",
+    "headwear",
+    "maskface",
+    "celebrity"
+   ]
   },
   "wonder": {
    "ko": "당신에겐 세상이 아직 신비롭다는 작은 증거가 필요합니다.",
@@ -9450,7 +9548,13 @@ window.QUIZ = {
    "pt": "O que você precisa é de uma pequena prova de que o mundo ainda é misterioso.",
    "fr": "Ce dont vous avez besoin, c'est d'une petite preuve que le monde reste mystérieux.",
    "de": "Was Sie brauchen, ist ein kleiner Beweis dafür, dass die Welt noch geheimnisvoll ist.",
-   "th": "สิ่งที่คุณต้องการคือหลักฐานเล็ก ๆ ว่าโลกยังลึกลับอยู่"
+   "th": "สิ่งที่คุณต้องการคือหลักฐานเล็ก ๆ ว่าโลกยังลึกลับอยู่",
+   "tags": [
+    "magic",
+    "illusion",
+    "alien",
+    "egypt"
+   ]
   },
   "sound": {
    "ko": "당신에겐 귓가를 채워줄 작은 소리가 필요합니다.",
@@ -9461,7 +9565,11 @@ window.QUIZ = {
    "pt": "O que você precisa é de um som pequeno para encher seus ouvidos.",
    "fr": "Ce dont vous avez besoin, c'est d'un petit son pour remplir vos oreilles.",
    "de": "Was Sie brauchen, ist ein kleiner Klang, der Ihre Ohren füllt.",
-   "th": "สิ่งที่คุณต้องการคือเสียงเล็ก ๆ มาเติมเต็มหู"
+   "th": "สิ่งที่คุณต้องการคือเสียงเล็ก ๆ มาเติมเต็มหู",
+   "tags": [
+    "sound",
+    "guitar"
+   ]
   },
   "free": {
    "ko": "당신에겐 쓸모를 따지지 않고 좋아해도 된다는 허락이 필요합니다.",
@@ -9472,7 +9580,8 @@ window.QUIZ = {
    "pt": "O que você precisa é da permissão de gostar de algo sem perguntar para que serve.",
    "fr": "Ce dont vous avez besoin, c'est de la permission d'aimer quelque chose sans demander à quoi ça sert.",
    "de": "Was Sie brauchen, ist die Erlaubnis, etwas zu mögen, ohne zu fragen, wozu es gut ist.",
-   "th": "สิ่งที่คุณต้องการคือการอนุญาตให้ชอบอะไรได้โดยไม่ต้องถามว่าใช้ทำอะไร"
+   "th": "สิ่งที่คุณต้องการคือการอนุญาตให้ชอบอะไรได้โดยไม่ต้องถามว่าใช้ทำอะไร",
+   "tags": []
   },
   "view": {
    "ko": "당신에겐 눈길이 머물 작은 풍경이 필요합니다.",
@@ -9483,7 +9592,12 @@ window.QUIZ = {
    "pt": "O que você precisa é de uma pequena paisagem onde seus olhos possam descansar.",
    "fr": "Ce dont vous avez besoin, c'est d'un petit paysage où poser le regard.",
    "de": "Was Sie brauchen, ist eine kleine Aussicht, auf der Ihr Blick ruhen kann.",
-   "th": "สิ่งที่คุณต้องการคือวิวเล็ก ๆ ให้สายตาได้พัก"
+   "th": "สิ่งที่คุณต้องการคือวิวเล็ก ๆ ให้สายตาได้พัก",
+   "tags": [
+    "wall",
+    "painting",
+    "art"
+   ]
   },
   "welcome": {
    "ko": "당신에겐 이상하고 어설퍼도 환영받는 자리가 필요합니다.",
@@ -9494,7 +9608,11 @@ window.QUIZ = {
    "pt": "O que você precisa é de um lugar onde ser esquisito e desajeitado seja bem-vindo.",
    "fr": "Ce dont vous avez besoin, c'est d'un endroit où l'on est bienvenu même bizarre et maladroit.",
    "de": "Was Sie brauchen, ist ein Ort, an dem man auch seltsam und unbeholfen willkommen ist.",
-   "th": "สิ่งที่คุณต้องการคือที่ที่แปลกและซุ่มซ่ามก็ยังได้รับการต้อนรับ"
+   "th": "สิ่งที่คุณต้องการคือที่ที่แปลกและซุ่มซ่ามก็ยังได้รับการต้อนรับ",
+   "tags": [
+    "craft",
+    "funny_face"
+   ]
   },
   "sturdy": {
    "ko": "당신에겐 오늘 하루 단단히 붙잡아 줄 든든한 무언가가 필요합니다.",
@@ -9505,7 +9623,277 @@ window.QUIZ = {
    "pt": "O que você precisa é de algo firme em que se agarrar hoje.",
    "fr": "Ce dont vous avez besoin, c'est de quelque chose de solide à quoi vous accrocher aujourd'hui.",
    "de": "Was Sie brauchen, ist heute etwas Stabiles zum Festhalten.",
-   "th": "สิ่งที่คุณต้องการวันนี้คือสิ่งที่มั่นคงให้เกาะ"
+   "th": "สิ่งที่คุณต้องการวันนี้คือสิ่งที่มั่นคงให้เกาะ",
+   "tags": [
+    "tough",
+    "metal",
+    "bear",
+    "kangaroo"
+   ]
+  },
+  "guard": {
+   "tags": [
+    "job",
+    "tough",
+    "metal",
+    "statue",
+    "god"
+   ],
+   "ko": "당신에겐 책상 위를 말없이 지켜줄 든든한 존재가 필요합니다.",
+   "en": "What you need is a steady presence to quietly watch over your desk.",
+   "zh": "你需要的是一个默默守护书桌的可靠存在。",
+   "ja": "あなたに必要なのは、机の上を黙って見守ってくれる頼もしい存在です。",
+   "es": "Lo que necesitas es una presencia firme que vigile tu escritorio en silencio.",
+   "pt": "O que você precisa é de uma presença firme para vigiar sua mesa em silêncio.",
+   "fr": "Ce dont vous avez besoin, c'est d'une présence solide qui veille en silence sur votre bureau.",
+   "de": "Was Sie brauchen, ist eine verlässliche Präsenz, die still über Ihren Schreibtisch wacht.",
+   "th": "สิ่งที่คุณต้องการคือผู้เฝ้าที่พึ่งพาได้ คอยเฝ้าโต๊ะของคุณอย่างเงียบ ๆ"
+  },
+  "awe": {
+   "tags": [
+    "god",
+    "zen",
+    "east",
+    "incense",
+    "statue"
+   ],
+   "ko": "당신에겐 가끔 올려다보며 숨을 고를 작은 존재가 필요합니다.",
+   "en": "What you need is a small presence to look up to and catch your breath.",
+   "zh": "你需要的是一个偶尔可以仰望、让你喘口气的小小存在。",
+   "ja": "あなたに必要なのは、ときどき見上げて息をつける小さな存在です。",
+   "es": "Lo que necesitas es una pequeña presencia a la que mirar hacia arriba para tomar aire.",
+   "pt": "O que você precisa é de uma pequena presença para olhar para cima e tomar fôlego.",
+   "fr": "Ce dont vous avez besoin, c'est d'une petite présence vers qui lever les yeux pour reprendre votre souffle.",
+   "de": "Was Sie brauchen, ist ein kleines Wesen, zu dem Sie aufblicken und durchatmen können.",
+   "th": "สิ่งที่คุณต้องการคือสิ่งเล็ก ๆ ให้เงยหน้ามองแล้วได้หายใจโล่ง"
+  },
+  "calm": {
+   "tags": [
+    "zen",
+    "incense",
+    "frog",
+    "ceramic",
+    "east"
+   ],
+   "ko": "당신에겐 아무것도 안 해도 되는 조용한 구석이 필요합니다.",
+   "en": "What you need is a quiet corner where you don't have to do anything.",
+   "zh": "你需要的是一个什么都不用做的安静角落。",
+   "ja": "あなたに必要なのは、何もしなくていい静かな片隅です。",
+   "es": "Lo que necesitas es un rincón tranquilo donde no tengas que hacer nada.",
+   "pt": "O que você precisa é de um cantinho tranquilo onde não precise fazer nada.",
+   "fr": "Ce dont vous avez besoin, c'est d'un coin tranquille où l'on n'a rien à faire.",
+   "de": "Was Sie brauchen, ist eine ruhige Ecke, in der Sie nichts tun müssen.",
+   "th": "สิ่งที่คุณต้องการคือมุมเงียบ ๆ ที่ไม่ต้องทำอะไรเลย"
+  },
+  "company": {
+   "tags": [
+    "animal",
+    "cat",
+    "dog",
+    "bird",
+    "plush",
+    "doll",
+    "cute"
+   ],
+   "ko": "당신에겐 책상 위에서 함께해줄 말 없는 동료가 필요합니다.",
+   "en": "What you need is a wordless colleague to keep you company on your desk.",
+   "zh": "你需要的是一位在书桌上默默陪伴你的同伴。",
+   "ja": "あなたに必要なのは、机の上で黙って一緒にいてくれる仲間です。",
+   "es": "Lo que necesitas es un compañero sin palabras que te acompañe en tu escritorio.",
+   "pt": "O que você precisa é de um colega sem palavras para te fazer companhia na mesa.",
+   "fr": "Ce dont vous avez besoin, c'est d'un collègue sans paroles pour vous tenir compagnie sur votre bureau.",
+   "de": "Was Sie brauchen, ist ein wortloser Kollege, der Ihnen am Schreibtisch Gesellschaft leistet.",
+   "th": "สิ่งที่คุณต้องการคือเพื่อนร่วมงานที่ไม่พูดอะไร คอยอยู่เป็นเพื่อนบนโต๊ะ"
+  },
+  "trick": {
+   "tags": [
+    "prank",
+    "illusion",
+    "magic",
+    "hide"
+   ],
+   "ko": "당신에겐 아무도 모르게 벌일 작은 장난이 필요합니다.",
+   "en": "What you need is a small prank to pull when nobody is looking.",
+   "zh": "你需要的是一个趁没人注意时开的小玩笑。",
+   "ja": "あなたに必要なのは、誰にも気づかれずに仕掛ける小さないたずらです。",
+   "es": "Lo que necesitas es una pequeña broma para gastar cuando nadie mire.",
+   "pt": "O que você precisa é de uma pequena pegadinha para aprontar quando ninguém estiver olhando.",
+   "fr": "Ce dont vous avez besoin, c'est d'une petite farce à faire quand personne ne regarde.",
+   "de": "Was Sie brauchen, ist ein kleiner Streich, den Sie spielen, wenn niemand hinsieht.",
+   "th": "สิ่งที่คุณต้องการคือการแกล้งเล็ก ๆ ที่ทำตอนไม่มีใครเห็น"
+  },
+  "mirror": {
+   "tags": [
+    "funny_face",
+    "maskface",
+    "celebrity",
+    "human",
+    "monkey"
+   ],
+   "ko": "당신에겐 당신보다 더 어이없는 표정을 지어줄 존재가 필요합니다.",
+   "en": "What you need is someone who can pull a more ridiculous face than you.",
+   "zh": "你需要的是一个比你表情更离谱的存在。",
+   "ja": "あなたに必要なのは、あなたよりもっと間抜けな顔をしてくれる存在です。",
+   "es": "Lo que necesitas es alguien que ponga una cara más ridícula que la tuya.",
+   "pt": "O que você precisa é de alguém que faça uma cara mais ridícula que a sua.",
+   "fr": "Ce dont vous avez besoin, c'est de quelqu'un qui fait une tête encore plus ridicule que la vôtre.",
+   "de": "Was Sie brauchen, ist jemand, der ein noch lächerlicheres Gesicht macht als Sie.",
+   "th": "สิ่งที่คุณต้องการคือใครสักคนที่ทำหน้าไร้สาระกว่าคุณ"
+  },
+  "story": {
+   "tags": [
+    "cartoon",
+    "costume",
+    "headwear"
+   ],
+   "ko": "당신에겐 입는 순간 이야기가 시작되는 한 벌이 필요합니다.",
+   "en": "What you need is something to wear that starts a story the moment it's on.",
+   "zh": "你需要的是一件穿上就开始有故事的东西。",
+   "ja": "あなたに必要なのは、身につけた瞬間に物語が始まる一着です。",
+   "es": "Lo que necesitas es algo que ponerte que empiece una historia en cuanto lo llevas.",
+   "pt": "O que você precisa é de algo para vestir que comece uma história assim que você o coloca.",
+   "fr": "Ce dont vous avez besoin, c'est de quelque chose à porter qui lance une histoire dès qu'on l'enfile.",
+   "de": "Was Sie brauchen, ist etwas zum Anziehen, das sofort eine Geschichte beginnt.",
+   "th": "สิ่งที่คุณต้องการคือของที่ใส่แล้วเรื่องเล่าเริ่มทันที"
+  },
+  "time": {
+   "tags": [
+    "calendar"
+   ],
+   "ko": "당신에겐 한 해를 웃으며 넘길 달력이 필요합니다.",
+   "en": "What you need is a calendar to get through the year with a smile.",
+   "zh": "你需要的是一本能笑着过完一年的日历。",
+   "ja": "あなたに必要なのは、笑いながら一年を越せるカレンダーです。",
+   "es": "Lo que necesitas es un calendario para pasar el año con una sonrisa.",
+   "pt": "O que você precisa é de um calendário para atravessar o ano sorrindo.",
+   "fr": "Ce dont vous avez besoin, c'est d'un calendrier pour traverser l'année en souriant.",
+   "de": "Was Sie brauchen, ist ein Kalender, mit dem Sie lächelnd durchs Jahr kommen.",
+   "th": "สิ่งที่คุณต้องการคือปฏิทินที่ช่วยให้ผ่านทั้งปีไปพร้อมรอยยิ้ม"
+  },
+  "fix": {
+   "tags": [
+    "storage",
+    "job"
+   ],
+   "ko": "당신에겐 책상 위의 사소한 혼란을 맡아줄 존재가 필요합니다.",
+   "en": "What you need is someone to take charge of the small chaos on your desk.",
+   "zh": "你需要的是一个替你管着书桌上琐碎混乱的存在。",
+   "ja": "あなたに必要なのは、机の上のささやかな散らかりを引き受けてくれる存在です。",
+   "es": "Lo que necesitas es alguien que se encargue del pequeño caos de tu escritorio.",
+   "pt": "O que você precisa é de alguém para cuidar do pequeno caos da sua mesa.",
+   "fr": "Ce dont vous avez besoin, c'est de quelqu'un qui prend en charge le petit chaos de votre bureau.",
+   "de": "Was Sie brauchen, ist jemand, der das kleine Chaos auf Ihrem Schreibtisch übernimmt.",
+   "th": "สิ่งที่คุณต้องการคือคนที่รับผิดชอบความวุ่นวายจุกจิกบนโต๊ะแทนคุณ"
+  },
+  "spook": {
+   "tags": [
+    "scary",
+    "skeleton",
+    "anatomy",
+    "organ"
+   ],
+   "ko": "당신에겐 안전한 거리에서 만나는 작은 오싹함이 필요합니다.",
+   "en": "What you need is a small shiver, met from a safe distance.",
+   "zh": "你需要的是一点在安全距离之外遇见的小小寒意。",
+   "ja": "あなたに必要なのは、安全な距離で出会える小さなぞくっとする感覚です。",
+   "es": "Lo que necesitas es un pequeño escalofrío, vivido desde una distancia segura.",
+   "pt": "O que você precisa é de um pequeno arrepio, vivido a uma distância segura.",
+   "fr": "Ce dont vous avez besoin, c'est d'un petit frisson, vécu à bonne distance.",
+   "de": "Was Sie brauchen, ist ein kleiner Schauer, aus sicherer Entfernung erlebt.",
+   "th": "สิ่งที่คุณต้องการคือความขนลุกเล็ก ๆ ที่เจอได้จากระยะปลอดภัย"
+  },
+  "vent": {
+   "tags": [
+    "sound",
+    "guitar",
+    "spicy"
+   ],
+   "ko": "당신에겐 소리를 한번 크게 내볼 핑계가 필요합니다.",
+   "en": "What you need is an excuse to make one big noise.",
+   "zh": "你需要的是一个放声发出一次巨响的借口。",
+   "ja": "あなたに必要なのは、一度大きな音を出してみる口実です。",
+   "es": "Lo que necesitas es una excusa para hacer un ruido enorme.",
+   "pt": "O que você precisa é de uma desculpa para fazer um barulhão.",
+   "fr": "Ce dont vous avez besoin, c'est d'une excuse pour faire un grand bruit.",
+   "de": "Was Sie brauchen, ist eine Ausrede, einmal richtig Lärm zu machen.",
+   "th": "สิ่งที่คุณต้องการคือข้ออ้างให้ส่งเสียงดัง ๆ สักครั้ง"
+  },
+  "taste": {
+   "tags": [
+    "food",
+    "mold"
+   ],
+   "ko": "당신에겐 먹을 수 없어서 더 사랑스러운 것이 필요합니다.",
+   "en": "What you need is something all the more lovable because you can't eat it.",
+   "zh": "你需要的是一样因为不能吃而更可爱的东西。",
+   "ja": "あなたに必要なのは、食べられないからこそ愛おしいものです。",
+   "es": "Lo que necesitas es algo más adorable precisamente porque no se puede comer.",
+   "pt": "O que você precisa é de algo ainda mais adorável justamente por não poder ser comido.",
+   "fr": "Ce dont vous avez besoin, c'est de quelque chose d'autant plus adorable qu'on ne peut pas le manger.",
+   "de": "Was Sie brauchen, ist etwas, das gerade deshalb liebenswert ist, weil man es nicht essen kann.",
+   "th": "สิ่งที่คุณต้องการคือของที่น่ารักยิ่งขึ้นเพราะกินไม่ได้"
+  },
+  "nostalgia": {
+   "tags": [
+    "west",
+    "doll",
+    "egypt"
+   ],
+   "ko": "당신에겐 어디선가 본 듯한 옛 시절의 한 조각이 필요합니다.",
+   "en": "What you need is a fragment of some old era you feel you've seen before.",
+   "zh": "你需要的是一块似曾相识的旧时光碎片。",
+   "ja": "あなたに必要なのは、どこかで見たことがあるような昔の一片です。",
+   "es": "Lo que necesitas es un fragmento de una época antigua que sientes haber visto antes.",
+   "pt": "O que você precisa é de um fragmento de uma época antiga que parece já ter visto.",
+   "fr": "Ce dont vous avez besoin, c'est d'un fragment d'une époque ancienne que vous croyez avoir déjà vue.",
+   "de": "Was Sie brauchen, ist ein Stück einer alten Zeit, das Ihnen irgendwie bekannt vorkommt.",
+   "th": "สิ่งที่คุณต้องการคือเศษเสี้ยวของยุคเก่าที่รู้สึกเหมือนเคยเห็นมาก่อน"
+  },
+  "brag": {
+   "tags": [
+    "pricey",
+    "art",
+    "jewelry",
+    "painting"
+   ],
+   "ko": "당신에겐 괜히 자랑하고 싶어지는 한 점이 필요합니다.",
+   "en": "What you need is one piece you'll want to show off for no good reason.",
+   "zh": "你需要的是一件让你莫名想炫耀的东西。",
+   "ja": "あなたに必要なのは、なぜか自慢したくなる一点です。",
+   "es": "Lo que necesitas es una pieza que te den ganas de presumir sin razón.",
+   "pt": "O que você precisa é de uma peça que dê vontade de exibir sem motivo nenhum.",
+   "fr": "Ce dont vous avez besoin, c'est d'une pièce que vous aurez envie de montrer sans raison.",
+   "de": "Was Sie brauchen, ist ein Stück, mit dem Sie ohne Grund angeben möchten.",
+   "th": "สิ่งที่คุณต้องการคือชิ้นหนึ่งที่อยากอวดโดยไม่มีเหตุผล"
+  },
+  "gaze": {
+   "tags": [
+    "eyes",
+    "anatomy"
+   ],
+   "ko": "당신에겐 책상에서 마주칠 시선이 필요합니다.",
+   "en": "What you need is a pair of eyes to meet across your desk.",
+   "zh": "你需要的是一道能在书桌上与你对视的目光。",
+   "ja": "あなたに必要なのは、机の上で目が合う視線です。",
+   "es": "Lo que necesitas es una mirada con la que cruzarte en tu escritorio.",
+   "pt": "O que você precisa é de um olhar para cruzar com o seu na mesa.",
+   "fr": "Ce dont vous avez besoin, c'est d'un regard qui croise le vôtre sur votre bureau.",
+   "de": "Was Sie brauchen, ist ein Blick, der Ihrem am Schreibtisch begegnet.",
+   "th": "สิ่งที่คุณต้องการคือสายตาคู่หนึ่งที่สบกันบนโต๊ะ"
+  },
+  "tinyworld": {
+   "tags": [
+    "tiny"
+   ],
+   "ko": "당신에겐 손바닥만 한 세상이 필요합니다.",
+   "en": "What you need is a world the size of your palm.",
+   "zh": "你需要的是一个巴掌大的世界。",
+   "ja": "あなたに必要なのは、手のひらサイズの世界です。",
+   "es": "Lo que necesitas es un mundo del tamaño de tu palma.",
+   "pt": "O que você precisa é de um mundo do tamanho da palma da mão.",
+   "fr": "Ce dont vous avez besoin, c'est d'un monde de la taille de votre paume.",
+   "de": "Was Sie brauchen, ist eine Welt in der Größe Ihrer Handfläche.",
+   "th": "สิ่งที่คุณต้องการคือโลกใบเล็กขนาดฝ่ามือ"
   }
  }
 };
