@@ -4810,15 +4810,15 @@ window.QUIZ = {
   {
    "id": "c_snack",
    "text": {
-    "ko": "간식 시간, 눈이 먼저 가는 것은 무엇입니까?",
-    "en": "At snack time, what catches your eye first?",
-    "zh": "零食时间，你的目光先落在哪里？",
-    "ja": "おやつの時間、まず目が行くのは何ですか？",
-    "es": "A la hora del tentempié, ¿qué te llama la atención primero?",
-    "pt": "Na hora do lanche, o que chama sua atenção primeiro?",
-    "fr": "À l'heure du goûter, qu'est-ce qui attire votre regard en premier ?",
-    "de": "Was fällt Ihnen in der Snackpause zuerst ins Auge?",
-    "th": "ตอนว่างกินขนม อะไรที่ดึงสายตาคุณก่อน?"
+    "ko": "간식 시간, 가장 먹고 싶은 것은 무엇입니까?",
+    "en": "At snack time, what do you most want to eat?",
+    "zh": "零食时间，你最想吃什么？",
+    "ja": "おやつの時間、一番食べたいものは何ですか？",
+    "es": "A la hora del tentempié, ¿qué es lo que más te apetece comer?",
+    "pt": "Na hora do lanche, o que você mais quer comer?",
+    "fr": "À l'heure du goûter, que voulez-vous manger en premier ?",
+    "de": "Zur Snackzeit: Worauf haben Sie am meisten Appetit?",
+    "th": "ช่วงเวลาของว่าง คุณอยากกินอะไรมากที่สุด?"
    },
    "stage": 2,
    "yes": [],
@@ -4826,7 +4826,7 @@ window.QUIZ = {
    "options": [
     {
      "text": {
-      "ko": "음식 모양이 귀여운 것",
+      "ko": "귀여운 모양으로 만든 달콤한 것",
       "en": "Something food-shaped and cute",
       "zh": "做成食物形状的可爱东西",
       "ja": "食べ物の形をしたかわいいもの",
