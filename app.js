@@ -226,6 +226,11 @@
     if (!good.length) good = out.filter(function (x) { return x.hit; });
     return good.length ? good : out;
   }
+  function relNote(tr, tpl) {
+    var d = tr[lang] != null ? tr[lang] : tr.ko;
+    if (lang === "zh") d = d.replace(/的$/, "");
+    return s(tpl).replace("{d}", d);
+  }
   function relCard(label, tr, note) {
     return '<div class="relcard"><span class="rl">' + esc(label) + "</span><strong>" + esc(T(tr.kw)) + '</strong><span class="rn">' + esc(note) + "</span></div>";
   }
@@ -236,7 +241,7 @@
     var text = s(me.rarity < 5 ? "rarityOpen" : "rarityOpen2").replace("{p}", me.rarity) + " " + s("kwFmt").replace("{kw}", T(me.kw)) + "\n" + T(me.inf);
     draw(topbar("") + '<div class="stage compact">' + img("presenting") + "</div>" +
       '<div class="bubble long" aria-live="polite"><span id="bub"></span></div>' +
-      '<div class="hold" id="gask"><div class="rel">' + relCard(s("oppLabel"), opp, s("oppNote")) + relCard(s("matchLabel"), mat, s("matchNote")) + '</div><p class="leadline plain">' + esc(s("guessAsk")) + "</p>" +
+      '<div class="hold" id="gask"><div class="rel">' + relCard(s("oppLabel"), opp, relNote(opp, "oppNote")) + relCard(s("matchLabel"), mat, relNote(mat, "matchNote")) + '</div><p class="leadline plain">' + esc(s("guessAsk")) + "</p>" +
       '<div class="answers"><button class="btn" data-gans="yes">' + esc(s("guessYes")) + '</button><button class="btn" data-gans="no">' + esc(s("guessNo")) + "</button></div></div>");
     typeInto(document.getElementById("bub"), text, function () { var g = document.getElementById("gask"); if (g) g.classList.add("show"); }, 9);
   }
