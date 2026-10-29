@@ -1280,9 +1280,7 @@ window.QUIZ = {
      },
      "tags": [
       "craft",
-      "ceramic",
       "tiny",
-      "storage",
       "useful"
      ]
     },
@@ -1296,10 +1294,7 @@ window.QUIZ = {
      },
      "tags": [
       "funny_face",
-      "prank",
-      "cartoon",
-      "phone",
-      "costume"
+      "cartoon"
      ]
     },
     {
@@ -1313,9 +1308,7 @@ window.QUIZ = {
      "tags": [
       "food",
       "cute",
-      "plush",
-      "frog",
-      "toy"
+      "frog"
      ]
     }
    ]
@@ -1357,7 +1350,6 @@ window.QUIZ = {
      },
      "tags": [
       "useful",
-      "storage",
       "wall",
       "calendar"
      ]
@@ -1371,10 +1363,8 @@ window.QUIZ = {
       "es": "Elijo algo divertido para reírnos juntos"
      },
      "tags": [
-      "prank",
       "sound",
-      "scary",
-      "magic"
+      "scary"
      ]
     }
    ]
@@ -1402,9 +1392,7 @@ window.QUIZ = {
      },
      "tags": [
       "funny_face",
-      "doll",
-      "cute",
-      "plush"
+      "cute"
      ]
     },
     {
@@ -1417,7 +1405,6 @@ window.QUIZ = {
      },
      "tags": [
       "statue",
-      "zen",
       "god",
       "east"
      ]
@@ -1460,9 +1447,6 @@ window.QUIZ = {
       "es": "El que anima el ambiente"
      },
      "tags": [
-      "prank",
-      "costume",
-      "game",
       "sound",
       "funny_face"
      ]
@@ -1476,7 +1460,6 @@ window.QUIZ = {
       "es": "Observando en silencio desde un rincón"
      },
      "tags": [
-      "zen",
       "cat",
       "wall",
       "decor"
@@ -1492,7 +1475,6 @@ window.QUIZ = {
      },
      "tags": [
       "food",
-      "storage",
       "useful"
      ]
     }
@@ -1536,9 +1518,7 @@ window.QUIZ = {
      },
      "tags": [
       "craft",
-      "mold",
-      "puzzle",
-      "ceramic"
+      "mold"
      ]
     },
     {
@@ -1597,9 +1577,7 @@ window.QUIZ = {
      "tags": [
       "east",
       "god",
-      "statue",
-      "ceramic",
-      "doll"
+      "statue"
      ]
     },
     {
@@ -1613,8 +1591,6 @@ window.QUIZ = {
      "tags": [
       "cute",
       "tiny",
-      "plush",
-      "doll",
       "frog"
      ]
     }
@@ -1713,7 +1689,6 @@ window.QUIZ = {
      "tags": [
       "statue",
       "tiny",
-      "doll",
       "decor"
      ]
     },
@@ -1757,8 +1732,7 @@ window.QUIZ = {
      },
      "tags": [
       "funny_face",
-      "human",
-      "prank"
+      "human"
      ]
     },
     {
@@ -1771,7 +1745,6 @@ window.QUIZ = {
      },
      "tags": [
       "statue",
-      "zen",
       "god",
       "cat"
      ]
@@ -1787,8 +1760,7 @@ window.QUIZ = {
      "tags": [
       "frog",
       "cat",
-      "cute",
-      "zen"
+      "cute"
      ]
     }
    ]
@@ -1845,8 +1817,7 @@ window.QUIZ = {
      },
      "tags": [
       "incense",
-      "zen",
-      "ceramic"
+      "zen"
      ]
     }
    ]
@@ -1875,8 +1846,7 @@ window.QUIZ = {
      "tags": [
       "costume",
       "headwear",
-      "funny_face",
-      "prank"
+      "funny_face"
      ]
     },
     {
@@ -1888,10 +1858,8 @@ window.QUIZ = {
       "es": "Un juguete o juego para jugar juntos"
      },
      "tags": [
-      "prank",
       "toy",
-      "game",
-      "magic"
+      "game"
      ]
     },
     {
@@ -1904,7 +1872,6 @@ window.QUIZ = {
      },
      "tags": [
       "craft",
-      "ceramic",
       "tiny",
       "storage"
      ]
@@ -1951,7 +1918,6 @@ window.QUIZ = {
      },
      "tags": [
       "funny_face",
-      "prank",
       "cartoon",
       "human"
      ]
@@ -2056,8 +2022,7 @@ window.QUIZ = {
      },
      "tags": [
       "funny_face",
-      "human",
-      "prank"
+      "human"
      ]
     },
     {
@@ -2085,9 +2050,7 @@ window.QUIZ = {
      },
      "tags": [
       "decor",
-      "wall",
-      "zen",
-      "ceramic"
+      "wall"
      ]
     }
    ]
@@ -2132,8 +2095,7 @@ window.QUIZ = {
      "tags": [
       "headwear",
       "funny_face",
-      "costume",
-      "prank"
+      "costume"
      ]
     },
     {
@@ -2264,7 +2226,6 @@ window.QUIZ = {
      },
      "tags": [
       "toy",
-      "magic",
       "game",
       "alien"
      ]
@@ -2324,7 +2285,6 @@ window.QUIZ = {
      "tags": [
       "hide",
       "storage",
-      "prank",
       "scary"
      ]
     }
@@ -2366,7 +2326,6 @@ window.QUIZ = {
       "es": "Con miedo, pero me río"
      },
      "tags": [
-      "prank",
       "funny_face",
       "cartoon"
      ]
@@ -2411,7 +2370,6 @@ window.QUIZ = {
      },
      "tags": [
       "funny_face",
-      "prank",
       "toy"
      ]
     },
@@ -2425,7 +2383,6 @@ window.QUIZ = {
      },
      "tags": [
       "craft",
-      "ceramic",
       "tiny"
      ]
     },
@@ -2628,7 +2585,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gh0wnhe5gj7",
    "urlByLang": {},
    "img": "",
-   "prior": 0.221
+   "prior": 0.612
   },
   {
    "id": 2,
@@ -2655,7 +2612,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g5m76zx2jyv",
    "urlByLang": {},
    "img": "",
-   "prior": 2.132
+   "prior": 1.344
   },
   {
    "id": 3,
@@ -2685,7 +2642,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gc3d8ohed3t",
    "urlByLang": {},
    "img": "",
-   "prior": 3.222
+   "prior": 2.461
   },
   {
    "id": 4,
@@ -2713,7 +2670,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gwyxrwctne0",
    "urlByLang": {},
    "img": "",
-   "prior": 4.716
+   "prior": 5.074
   },
   {
    "id": 5,
@@ -2742,7 +2699,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g5n2llvb5e9",
    "urlByLang": {},
    "img": "",
-   "prior": 4.173
+   "prior": 2.449
   },
   {
    "id": 6,
@@ -2772,7 +2729,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g3btbvz9v6y",
    "urlByLang": {},
    "img": "",
-   "prior": 1.267
+   "prior": 1.136
   },
   {
    "id": 7,
@@ -2802,7 +2759,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gn89gymx4fm",
    "urlByLang": {},
    "img": "",
-   "prior": 1.689
+   "prior": 1.694
   },
   {
    "id": 8,
@@ -2835,7 +2792,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gphkzc2nm8v",
    "urlByLang": {},
    "img": "",
-   "prior": 2.576
+   "prior": 1.78
   },
   {
    "id": 9,
@@ -2863,7 +2820,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g1gu7wtho5h",
    "urlByLang": {},
    "img": "",
-   "prior": 1.954
+   "prior": 1.355
   },
   {
    "id": 10,
@@ -2892,7 +2849,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gb5mfr5t20s",
    "urlByLang": {},
    "img": "",
-   "prior": 1.851
+   "prior": 1.417
   },
   {
    "id": 11,
@@ -2923,7 +2880,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gyfcu3precy",
    "urlByLang": {},
    "img": "",
-   "prior": 2.648
+   "prior": 1.346
   },
   {
    "id": 12,
@@ -2954,7 +2911,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gdqs14dnz3k",
    "urlByLang": {},
    "img": "",
-   "prior": 10.455
+   "prior": 8.188
   },
   {
    "id": 13,
@@ -2985,7 +2942,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gvngrfdpn4p",
    "urlByLang": {},
    "img": "",
-   "prior": 1.079
+   "prior": 1.017
   },
   {
    "id": 14,
@@ -3011,7 +2968,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gtjzhdatng5",
    "urlByLang": {},
    "img": "",
-   "prior": 33.63
+   "prior": 27.195000000000004
   },
   {
    "id": 15,
@@ -3040,7 +2997,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gp5wbp5hn92",
    "urlByLang": {},
    "img": "",
-   "prior": 3.621
+   "prior": 2.859
   },
   {
    "id": 16,
@@ -3066,7 +3023,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gkap10ee4zg",
    "urlByLang": {},
    "img": "",
-   "prior": 33.63
+   "prior": 27.195000000000004
   },
   {
    "id": 17,
@@ -3095,7 +3052,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g7jo7dkcw9x",
    "urlByLang": {},
    "img": "",
-   "prior": 4.158
+   "prior": 2.68
   },
   {
    "id": 18,
@@ -3125,7 +3082,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g2h9mdyj5jd",
    "urlByLang": {},
    "img": "",
-   "prior": 2.047
+   "prior": 1.393
   },
   {
    "id": 19,
@@ -3154,7 +3111,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g8f13ydajxt",
    "urlByLang": {},
    "img": "",
-   "prior": 2.815
+   "prior": 2.331
   },
   {
    "id": 20,
@@ -3186,7 +3143,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/goh6p081nnf",
    "urlByLang": {},
    "img": "",
-   "prior": 2.756
+   "prior": 2.637
   },
   {
    "id": 21,
@@ -3216,7 +3173,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g0nx61gojln",
    "urlByLang": {},
    "img": "",
-   "prior": 1.665
+   "prior": 1.308
   },
   {
    "id": 22,
@@ -3242,7 +3199,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gzhqgm69hk6",
    "urlByLang": {},
    "img": "",
-   "prior": 33.63
+   "prior": 27.195000000000004
   },
   {
    "id": 23,
@@ -3272,7 +3229,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gan2a1ti4zq",
    "urlByLang": {},
    "img": "",
-   "prior": 5.055
+   "prior": 2.943
   },
   {
    "id": 24,
@@ -3303,7 +3260,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gnmkkgys7e6",
    "urlByLang": {},
    "img": "",
-   "prior": 0.721
+   "prior": 0.629
   },
   {
    "id": 25,
@@ -3333,7 +3290,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g5jq5sn4e8d",
    "urlByLang": {},
    "img": "",
-   "prior": 1.287
+   "prior": 1.336
   },
   {
    "id": 26,
@@ -3364,7 +3321,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gqouwvheybj",
    "urlByLang": {},
    "img": "",
-   "prior": 0.071
+   "prior": 0.091
   },
   {
    "id": 27,
@@ -3394,7 +3351,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gqwp3largv7",
    "urlByLang": {},
    "img": "",
-   "prior": 1.784
+   "prior": 1.304
   },
   {
    "id": 28,
@@ -3424,7 +3381,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g2cyohbk0ph",
    "urlByLang": {},
    "img": "",
-   "prior": 2.257
+   "prior": 2.39
   },
   {
    "id": 29,
@@ -3453,7 +3410,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gq2gr278ikr",
    "urlByLang": {},
    "img": "",
-   "prior": 1.659
+   "prior": 1.381
   },
   {
    "id": 30,
@@ -3480,7 +3437,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gbiac19pkv8",
    "urlByLang": {},
    "img": "",
-   "prior": 5.611
+   "prior": 5.271
   },
   {
    "id": 31,
@@ -3507,7 +3464,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g6ciot9tkzn",
    "urlByLang": {},
    "img": "",
-   "prior": 1.365
+   "prior": 1.544
   },
   {
    "id": 32,
@@ -3537,7 +3494,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gcazhxnrono",
    "urlByLang": {},
    "img": "",
-   "prior": 0.374
+   "prior": 0.365
   },
   {
    "id": 33,
@@ -3565,7 +3522,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/ge39ju6kurr",
    "urlByLang": {},
    "img": "",
-   "prior": 0.546
+   "prior": 0.375
   },
   {
    "id": 34,
@@ -3594,7 +3551,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gq7n9uw3a2x",
    "urlByLang": {},
    "img": "",
-   "prior": 2.314
+   "prior": 1.331
   },
   {
    "id": 35,
@@ -3624,7 +3581,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gehwn6mxg9w",
    "urlByLang": {},
    "img": "",
-   "prior": 1.23
+   "prior": 0.987
   },
   {
    "id": 36,
@@ -3651,7 +3608,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gij3f5bglqh",
    "urlByLang": {},
    "img": "",
-   "prior": 6.328
+   "prior": 5.725
   },
   {
    "id": 37,
@@ -3683,7 +3640,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gxzwhzqge6w",
    "urlByLang": {},
    "img": "",
-   "prior": 2.189
+   "prior": 1.751
   },
   {
    "id": 38,
@@ -3712,7 +3669,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/glvgza3k4u4",
    "urlByLang": {},
    "img": "",
-   "prior": 0.802
+   "prior": 0.54
   },
   {
    "id": 39,
@@ -3742,7 +3699,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gx6868s5vq1",
    "urlByLang": {},
    "img": "",
-   "prior": 0.68
+   "prior": 0.837
   },
   {
    "id": 40,
@@ -3770,7 +3727,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gkp5qhk5mv5",
    "urlByLang": {},
    "img": "",
-   "prior": 3.569
+   "prior": 3.043
   },
   {
    "id": 41,
@@ -3803,7 +3760,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gicia035i15",
    "urlByLang": {},
    "img": "",
-   "prior": 0.275
+   "prior": 0.251
   },
   {
    "id": 42,
@@ -3833,7 +3790,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g85mvtn3b9f",
    "urlByLang": {},
    "img": "",
-   "prior": 1.744
+   "prior": 2.818
   },
   {
    "id": 43,
@@ -3863,7 +3820,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/ghm480s8akx",
    "urlByLang": {},
    "img": "",
-   "prior": 0.978
+   "prior": 1.029
   },
   {
    "id": 44,
@@ -3894,7 +3851,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g6yzrgb4fho",
    "urlByLang": {},
    "img": "",
-   "prior": 0.41
+   "prior": 0.528
   },
   {
    "id": 45,
@@ -3925,7 +3882,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/ggxw7a62i4m",
    "urlByLang": {},
    "img": "",
-   "prior": 0.49
+   "prior": 1.146
   },
   {
    "id": 46,
@@ -3956,7 +3913,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/giylttelg0e",
    "urlByLang": {},
    "img": "",
-   "prior": 1.427
+   "prior": 2.469
   },
   {
    "id": 47,
@@ -3986,7 +3943,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gogx1sondoe",
    "urlByLang": {},
    "img": "",
-   "prior": 1.058
+   "prior": 3.388
   },
   {
    "id": 48,
@@ -4017,7 +3974,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/genw3omutdg",
    "urlByLang": {},
    "img": "",
-   "prior": 2.035
+   "prior": 2.768
   },
   {
    "id": 49,
@@ -4047,7 +4004,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/ge09don4r55",
    "urlByLang": {},
    "img": "",
-   "prior": 0.429
+   "prior": 0.468
   },
   {
    "id": 50,
@@ -4074,7 +4031,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/g4q6oynp7ku",
    "urlByLang": {},
    "img": "",
-   "prior": 10.404
+   "prior": 6.832
   },
   {
    "id": 51,
@@ -4102,7 +4059,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gbindt66qm5",
    "urlByLang": {},
    "img": "",
-   "prior": 0.581
+   "prior": 0.64
   },
   {
    "id": 52,
@@ -4130,7 +4087,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gy31v71pqe7",
    "urlByLang": {},
    "img": "",
-   "prior": 0.289
+   "prior": 0.661
   },
   {
    "id": 53,
@@ -4160,7 +4117,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gz6wiezi8gj",
    "urlByLang": {},
    "img": "",
-   "prior": 0.328
+   "prior": 0.372
   },
   {
    "id": 54,
@@ -4189,7 +4146,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gxpreyo79m4",
    "urlByLang": {},
    "img": "",
-   "prior": 2.071
+   "prior": 0.983
   },
   {
    "id": 55,
@@ -4219,7 +4176,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gludcc6fsk7",
    "urlByLang": {},
    "img": "",
-   "prior": 1.04
+   "prior": 1.145
   },
   {
    "id": 56,
@@ -4247,7 +4204,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/ggid53p4h6x",
    "urlByLang": {},
    "img": "",
-   "prior": 0.066
+   "prior": 0.137
   },
   {
    "id": 57,
@@ -4275,7 +4232,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gdtit5ahcwh",
    "urlByLang": {},
    "img": "",
-   "prior": 0.866
+   "prior": 0.907
   },
   {
    "id": 58,
@@ -4306,7 +4263,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gh3yrdgeb0i",
    "urlByLang": {},
    "img": "",
-   "prior": 2.812
+   "prior": 2.114
   },
   {
    "id": 59,
@@ -4337,7 +4294,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gxw9wtqhdbz",
    "urlByLang": {},
    "img": "",
-   "prior": 0.168
+   "prior": 0.183
   },
   {
    "id": 60,
@@ -4368,7 +4325,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/grr3q4u6fl7",
    "urlByLang": {},
    "img": "",
-   "prior": 0.436
+   "prior": 0.527
   },
   {
    "id": 61,
@@ -4399,7 +4356,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gonz508bf8l",
    "urlByLang": {},
    "img": "",
-   "prior": 1.396
+   "prior": 1.4
   },
   {
    "id": 62,
@@ -4428,7 +4385,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gp2vm3y0gni",
    "urlByLang": {},
    "img": "",
-   "prior": 1.346
+   "prior": 1.624
   },
   {
    "id": 63,
@@ -4460,7 +4417,7 @@ window.QUIZ = {
    "url": "https://temu.to/k/gl9sal8yrfy",
    "urlByLang": {},
    "img": "",
-   "prior": 0.225
+   "prior": 0.184
   }
  ],
  "languageNames": {
@@ -4498,7 +4455,7 @@ window.QUIZ = {
    },
    "opp": "calm",
    "match": "human",
-   "rarity": 4.4
+   "rarity": 3.5
   },
   {
    "id": "funny_face",
@@ -4527,7 +4484,7 @@ window.QUIZ = {
    },
    "opp": "useful",
    "match": "craft",
-   "rarity": 1.7
+   "rarity": 2.2
   },
   {
    "id": "costume",
@@ -4558,7 +4515,7 @@ window.QUIZ = {
    },
    "opp": "wall",
    "match": "magic",
-   "rarity": 12
+   "rarity": 9.7
   },
   {
    "id": "magic",
@@ -4587,7 +4544,7 @@ window.QUIZ = {
    },
    "opp": "useful",
    "match": "costume",
-   "rarity": 6.3
+   "rarity": 5.9
   },
   {
    "id": "scary",
@@ -4616,7 +4573,7 @@ window.QUIZ = {
    },
    "opp": "soft",
    "match": "alien",
-   "rarity": 4.5
+   "rarity": 5.9
   },
   {
    "id": "alien",
@@ -4644,7 +4601,7 @@ window.QUIZ = {
    },
    "opp": "tough",
    "match": "magic",
-   "rarity": 3.8
+   "rarity": 4
   },
   {
    "id": "calm",
@@ -4675,7 +4632,7 @@ window.QUIZ = {
    },
    "opp": "prank",
    "match": "wall",
-   "rarity": 5.7
+   "rarity": 5.5
   },
   {
    "id": "keep",
@@ -4704,7 +4661,7 @@ window.QUIZ = {
    },
    "opp": "useful",
    "match": "calm",
-   "rarity": 0.6
+   "rarity": 0.7
   },
   {
    "id": "craft",
@@ -4734,7 +4691,7 @@ window.QUIZ = {
    },
    "opp": "sound",
    "match": "keep",
-   "rarity": 11.1
+   "rarity": 9.2
   },
   {
    "id": "soft",
@@ -4764,7 +4721,7 @@ window.QUIZ = {
    },
    "opp": "scary",
    "match": "cat",
-   "rarity": 6.3
+   "rarity": 4.7
   },
   {
    "id": "cat",
@@ -4792,7 +4749,7 @@ window.QUIZ = {
    },
    "opp": "tough",
    "match": "soft",
-   "rarity": 6.4
+   "rarity": 7.2
   },
   {
    "id": "frog",
@@ -4820,7 +4777,7 @@ window.QUIZ = {
    },
    "opp": "outdoor",
    "match": "cat",
-   "rarity": 3.2
+   "rarity": 4.9
   },
   {
    "id": "animal",
@@ -4881,7 +4838,7 @@ window.QUIZ = {
    },
    "opp": "soft",
    "match": "outdoor",
-   "rarity": 3.8
+   "rarity": 4
   },
   {
    "id": "sound",
@@ -4910,7 +4867,7 @@ window.QUIZ = {
    },
    "opp": "wall",
    "match": "play",
-   "rarity": 3.5
+   "rarity": 4.1
   },
   {
    "id": "play",
@@ -4941,7 +4898,7 @@ window.QUIZ = {
    },
    "opp": "calm",
    "match": "outdoor",
-   "rarity": 3.4
+   "rarity": 4.7
   },
   {
    "id": "outdoor",
@@ -4969,7 +4926,7 @@ window.QUIZ = {
    },
    "opp": "frog",
    "match": "play",
-   "rarity": 1
+   "rarity": 1.1
   },
   {
    "id": "food",
@@ -4997,7 +4954,7 @@ window.QUIZ = {
    },
    "opp": "scary",
    "match": "tiny",
-   "rarity": 3.4
+   "rarity": 2.7
   },
   {
    "id": "wall",
@@ -5027,7 +4984,7 @@ window.QUIZ = {
    },
    "opp": "costume",
    "match": "calm",
-   "rarity": 10.2
+   "rarity": 10.9
   },
   {
    "id": "human",
@@ -5056,7 +5013,7 @@ window.QUIZ = {
    },
    "opp": "animal",
    "match": "prank",
-   "rarity": 1.9
+   "rarity": 2.3
   },
   {
    "id": "tiny",
@@ -5084,7 +5041,7 @@ window.QUIZ = {
    },
    "opp": "tough",
    "match": "food",
-   "rarity": 4.5
+   "rarity": 5
   },
   {
    "id": "useful",
@@ -5113,7 +5070,7 @@ window.QUIZ = {
    },
    "opp": "keep",
    "match": "craft",
-   "rarity": 1.5
+   "rarity": 1.1
   },
   {
    "id": "hide",
@@ -5141,7 +5098,7 @@ window.QUIZ = {
    },
    "opp": "prank",
    "match": "calm",
-   "rarity": 0.7
+   "rarity": 0.8
   }
  ]
 };
