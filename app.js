@@ -62,6 +62,7 @@
   }
 
   function answer(ans) {
+    if (st.mode !== "ask") return;
     st.hist.push(JSON.stringify({ w: st.w, asked: st.asked, guesses: st.guesses, lastGuessAt: st.lastGuessAt }));
     st.asked = st.asked.concat(st.cur.id);
     st.log.push({ q: st.cur, a: ans });
@@ -73,7 +74,7 @@
     var h = JSON.parse(st.hist.pop());
     st.log.pop();
     st.w = h.w; st.asked = h.asked; st.guesses = h.guesses; st.lastGuessAt = h.lastGuessAt;
-    st.cur = null; ask();
+    st.cur = null; st.pmax = 0; ask();
   }
   function advance() {
     var n = st.asked.length, r = ranked();
@@ -81,7 +82,11 @@
     var share = r[0].w / sum(r.map(function (x) { return x.w; }));
     var canGuess = st.guesses < S.maxGuesses && n - st.lastGuessAt >= 3;
     var want = n >= S.minQuestions && (share >= S.guessThreshold || n >= S.maxQuestions);
-    if (canGuess && want) return think(r[0]);
+    if (canGuess && want) {
+      st.mode = "wait";
+      var bar = document.querySelector(".prog i"); if (bar) bar.style.width = "100%";
+      return setTimeout(function () { think(r[0]); }, 420);
+    }
     if (n >= S.maxQuestions) return result(null);
     ask();
   }
@@ -95,8 +100,14 @@
       type: s("intro")
     });
   }
-  // 몇 문항에서 끝날지는 답에 따라 달라서, 평균 길이를 기준으로 막대를 채우고 95%를 넘기지 않습니다.
-  function prog(n) { return Math.min(95, Math.round((n - 1) / (S.minQuestions + 3) * 100)); }
+  // 끝나는 조건(최소 질문 수와 확신 정도)을 그대로 막대로 보여줍니다. 마지막 답을 누르는 순간 100%가 됩니다.
+  function prog() {
+    var a = st.asked.length, r = ranked(), tot = sum(r.map(function (x) { return x.w; }));
+    var sh = r.length && tot ? r[0].w / tot : 0;
+    var p = Math.max(Math.min((a + 1) / S.minQuestions, sh / (S.guessThreshold * 0.7)), (a + 1) / S.maxQuestions);
+    st.pmax = Math.max(st.pmax || 0, Math.min(0.97, p));
+    return Math.round(st.pmax * 100);
+  }
   function ask(keep) {
     var q = keep && st.cur ? st.cur : pickQuestion();
     if (!q) { var r = ranked(); return r.length && st.guesses < S.maxGuesses ? think(r[0]) : result(null); }
@@ -105,7 +116,7 @@
     render({
       pose: POSES[(n - 1) % POSES.length],
       head: "",
-      bubble: '<div class="bubble" aria-live="polite"><div class="prog" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + prog(n) + '"><i style="width:' + prog(n) + '%"></i></div><span id="bub"></span></div>',
+      bubble: '<div class="bubble" aria-live="polite"><div class="prog" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + prog() + '"><i style="width:' + prog() + '%"></i></div><span id="bub"></span></div>',
       body: '<div class="answers' + (q.options ? " choice" : "") + '">' + (q.options ?
         q.options.map(function (o, j) { return '<button class="btn strong" data-a="o' + j + '">' + esc(T(o.text)) + "</button>"; }).join("") :
         '<button class="btn primary" data-a="yes">' + esc(s("yes")) + "</button>" +
