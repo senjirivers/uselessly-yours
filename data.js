@@ -4916,15 +4916,15 @@ window.QUIZ = {
     },
     {
      "text": {
-      "ko": "혼자 가면 쓰고 놀기",
-      "en": "Playing alone in a mask",
-      "zh": "一个人戴着面具玩",
-      "ja": "一人でお面をかぶって遊ぶこと",
-      "es": "Jugar a solas con una máscara",
-      "pt": "Brincar sozinho(a) de máscara",
-      "fr": "Jouer seul(e) avec un masque",
-      "de": "Allein mit einer Maske spielen",
-      "th": "เล่นคนเดียวโดยใส่หน้ากาก"
+      "ko": "혼자 상황극 하기",
+      "en": "Acting out little scenes alone",
+      "zh": "一个人演情景剧",
+      "ja": "一人でごっこ遊びをすること",
+      "es": "Interpretar escenitas a solas",
+      "pt": "Encenar pequenas cenas sozinho",
+      "fr": "Jouer de petites scènes en solo",
+      "de": "Allein kleine Szenen nachspielen",
+      "th": "เล่นละครสถานการณ์คนเดียว"
      },
      "tags": [
       "maskface",
