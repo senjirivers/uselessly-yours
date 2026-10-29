@@ -6317,7 +6317,7 @@ window.QUIZ = {
     "es": "un pequeño bromista"
    },
    "inf": {
-    "ko": "누군가 심각해지려 하면, 당신이 먼저 분위기를 풀어버리지 않습니까? 회의 중 엄숙한 침묵이 흐를 때 '지금 누가 의자를 삐걱거리면 전설이겠다'고 상상해 본 적도 있으실 겁니다. 긴장을 웃음으로 바꾸는 능력이고, 사람들은 모르는 사이에 당신 덕분에 숨을 쉽니다.",
+    "ko": "당신은 세상을 너무 진지하게만 보면 숨이 막힌다는 것을 본능으로 압니다. 분위기가 무거워지면 가장 먼저 그것을 감지하고, 말 한마디나 표정 하나로 공기를 풀어버립니다. 사람들은 이를 가벼움이라 부르지만, 사실은 상당한 눈치와 배려가 필요한 기술입니다.\n그래서 곁에 있으면 편안한 사람, 모임에 한 명쯤 있어야 하는 사람으로 통합니다. 반면 정작 본인이 힘들 때는 농담으로 넘겨버리는 버릇이 있어서, 진짜 속마음은 아무도 모르는 경우가 많습니다. 웃기는 사람이 늘 괜찮은 것은 아닙니다.\n마음속으로 가장 바라는 것은 장난을 쳐도 미움받지 않는 안전한 자리, 그리고 같이 웃어줄 단 한 사람입니다.",
     "en": "When someone is about to get serious, aren't you the first to lighten the mood? During a solemn silence in a meeting, you've probably imagined how legendary it would be if a chair creaked right now. You turn tension into laughter, and people breathe easier around you without knowing why.",
     "zh": "每当有人要变得严肃，抢先把气氛化开的不就是你吗？会议上一片肃穆的沉默时，你大概还想象过：“这时候谁的椅子吱呀一声，那就传奇了。”你擅长把紧张变成笑声，别人在不知不觉中，因为你才喘得过气。",
     "ja": "誰かが深刻になりかけると、先に空気をほぐしてしまうのはあなたではありませんか？会議で厳かな沈黙が流れたとき、「今だれかの椅子がきしんだら伝説だな」と想像したこともあるでしょう。緊張を笑いに変える力であり、周りの人は知らないうちにあなたのおかげで息ができています。",
@@ -6325,7 +6325,8 @@ window.QUIZ = {
    },
    "opp": "calm",
    "match": "human",
-   "rarity": 4.3
+   "rarity": 4.3,
+   "need": "laugh"
   },
   {
    "id": "funny_face",
@@ -6346,7 +6347,7 @@ window.QUIZ = {
     "es": "un amante de lo imperfecto"
    },
    "inf": {
-    "ko": "완벽하게 잘생긴 것보다, 어딘가 한 군데 사고 친 듯한 얼굴에 정이 가지 않습니까? 길 가다 이상하게 생긴 간판이나 표정을 발견하면 속으로 저장해 두는 편이실 겁니다. 완벽하지 않은 것을 너그럽게 보는 마음이고, 당신은 자신의 빈틈에도 은근히 관대한 사람입니다.",
+    "ko": "당신은 완벽한 것보다 허술한 것에서 더 큰 위안을 받습니다. 매끈하게 잘 만든 물건 앞에서는 어쩐지 긴장하고, 어딘가 빠져 보이는 표정 앞에서는 마음이 놓입니다. 이는 자신에게도 같은 관대함을 허락하고 싶은 마음의 반영입니다.\n사람을 볼 때도 비슷합니다. 잘난 척하지 않는 사람, 실수를 웃어넘기는 사람에게 정을 느끼고, 그런 이들과 오래 갑니다. 타인의 모자란 구석을 흠이 아니라 매력으로 읽는 눈은 흔치 않은 재능입니다.\n다만 스스로에게는 의외로 엄격할 때가 있습니다. 남의 허술함은 귀엽게 보면서 자신의 허술함은 용서하지 못하는 모순이 남몰래 있습니다.",
     "en": "Don't you warm up more to a face that looks like it just caused trouble than to a perfectly handsome one? When you spot a strangely shaped sign or an odd expression on the street, you probably save it in your head. You look kindly on imperfection, which means you're quietly generous with your own flaws too.",
     "zh": "比起完美的帅气，你是不是更对一张像刚闯过祸的脸有好感？走在路上看到长得奇怪的招牌或表情，你大概会在心里默默收藏。你对不完美的东西很宽容，说明你对自己的破绽也悄悄地很宽容。",
     "ja": "完璧に整った顔より、どこか一つやらかしたような顔に情が湧きませんか？道で変わった形の看板や表情を見つけると、心の中に保存しておくタイプでしょう。完璧でないものに寛容な心の持ち主で、自分の隙にもひそかに優しい人です。",
@@ -6354,7 +6355,8 @@ window.QUIZ = {
    },
    "opp": "useful",
    "match": "craft",
-   "rarity": 0.7
+   "rarity": 0.7,
+   "need": "welcome"
   },
   {
    "id": "costume",
@@ -6377,7 +6379,7 @@ window.QUIZ = {
     "es": "un aspirante a vidas de prueba"
    },
    "inf": {
-    "ko": "가끔 '지금과 완전히 다른 사람으로 하루만 살아보면 어떨까' 하고 상상하지 않습니까? 거울 앞에서 모자 하나만 써도 표정이 달라지는 걸 은근히 즐기시지요. 지금의 나를 잠시 내려놓고 쉬고 싶은 마음이자, 새로운 가능성을 놓지 않는 호기심입니다.",
+    "ko": "당신의 머릿속에는 지금의 나 말고도 여러 명의 내가 대기하고 있습니다. 다른 직업, 다른 말투, 다른 도시에서 사는 나를 상상하는 일이 즐거운 사람입니다. 호기심이 많고 상상력이 풍부하며, 한 가지 모습으로 고정되는 것을 은근히 답답해합니다.\n이 성향은 새로운 환경에 적응하는 속도로 나타납니다. 처음 보는 자리에서도 그 자리에 맞는 사람이 되는 데 능숙합니다. 대신 어느 쪽이 진짜 나인지 문득 헷갈리는 순간이 오기도 합니다. 정체성을 찾는 일은 평생의 숙제처럼 따라다닙니다.\n마음 깊은 곳에서는 평가받지 않고 아무 역할이나 마음껏 해볼 수 있는 무대를 원합니다. 단 하루라도 좋으니 말입니다.",
     "en": "Do you sometimes wonder what it would be like to live as a completely different person for one day? Putting on a single hat in front of the mirror and watching your expression change is a small joy for you. It's a wish to set yourself down for a moment, and a curiosity that never gives up on new possibilities.",
     "zh": "你有时会不会想：“如果能做一天完全不同的人会怎样？”在镜子前只戴上一顶帽子，表情就变了，你悄悄享受这一点。这既是想暂时放下现在的自己、歇一歇的心情，也是不放弃新可能的好奇心。",
     "ja": "ときどき「今とまったく違う人として一日だけ生きてみたら」と想像しませんか？鏡の前で帽子を一つかぶるだけで表情が変わるのを、ひそかに楽しんでいるはずです。今の自分をしばらく下ろして休みたい気持ちであり、新しい可能性を手放さない好奇心でもあります。",
@@ -6385,7 +6387,8 @@ window.QUIZ = {
    },
    "opp": "wall",
    "match": "magic",
-   "rarity": 9.1
+   "rarity": 9.1,
+   "need": "role"
   },
   {
    "id": "magic",
@@ -6406,7 +6409,7 @@ window.QUIZ = {
     "es": "un coleccionista de maravillas"
    },
    "inf": {
-    "ko": "'눈에 보이는 것이 전부'라는 말을 들으면 속으로 '글쎄요' 하고 대답하는 분입니다. 마술사가 손수건을 흔들면 트릭을 밝혀내기보다 일단 놀라는 쪽을 택하시지요. 호기심이 쉽게 마르지 않는다는 증거이며, 세상을 조금 더 재미있게 보는 재능입니다.",
+    "ko": "당신은 세상에 설명되지 않는 구석이 남아 있기를 은근히 바랍니다. 모든 것이 데이터와 이유로 풀리는 세상이 조금 심심하고, 우연히 맞아떨어지는 순간이나 이상하게 좋은 예감을 가볍게 넘기지 않습니다. 현실감각이 없는 것이 아니라, 경이로움을 느낄 줄 아는 감각을 지키고 있는 것입니다.\n그래서 감수성이 섬세하고 분위기의 변화를 잘 읽습니다. 같은 장소에서도 남들이 못 보는 것을 보는 편이며, 그 덕에 창의적인 발상이 자주 나옵니다. 다만 기대가 큰 만큼 현실이 시시할 때 실망도 깊은 편입니다.\n속마음은 평범한 일상 속에서도 작은 기적 하나쯤은 일어날 수 있다고 믿고 싶어 합니다. 그 믿음은 약점이 아니라 당신의 가장 좋은 동력입니다.",
     "en": "When someone says what you see is all there is, you quietly answer 'well, I'm not so sure.' When a magician waves a handkerchief, you'd rather be amazed than expose the trick. Your curiosity doesn't dry up easily, and it's a talent for seeing the world as a little more fun.",
     "zh": "听到“眼见为实”，你心里会回一句：“未必吧。”魔术师挥动手帕时，比起拆穿把戏，你更愿意先惊讶一下。这证明你的好奇心不容易枯竭，也是一种把世界看得更有趣的天赋。",
     "ja": "「見えるものがすべて」と言われると、心の中で「どうでしょう」と返す人です。マジシャンがハンカチを振れば、タネを暴くより先に驚くほうを選びますね。好奇心が簡単には枯れない証拠で、世界を少し面白く見る才能です。",
@@ -6414,7 +6417,8 @@ window.QUIZ = {
    },
    "opp": "useful",
    "match": "costume",
-   "rarity": 5.2
+   "rarity": 5.2,
+   "need": "wonder"
   },
   {
    "id": "scary",
@@ -6435,7 +6439,7 @@ window.QUIZ = {
     "es": "alguien que no puede dejar lo aterrador"
    },
    "inf": {
-    "ko": "무서운 장면이 나오면 눈을 가리면서도 손가락 사이로 끝까지 보는 분입니다. 오싹한 것 앞에서 이상하게 눈이 반짝이지요. 두려운 것을 일부러 들여다보는 건 불안을 다루는 꽤 건강한 방법이고, 당신은 무서움마저 취향으로 소화하는 사람입니다.",
+    "ko": "당신은 불편한 것에서 눈을 돌리기보다 한 번 더 들여다보는 쪽입니다. 무섭거나 기괴한 것 앞에서 겁먹으면서도 이상하게 끌리는 것은, 두려움을 안전한 거리에서 다뤄보고 싶은 호기심과 용기가 섞여 있기 때문입니다.\n성격은 의외로 차분하고 관찰력이 좋습니다. 감정이 큰 일이 생겨도 겉으로는 담담하지만, 속에서는 모든 것을 꼼꼼히 곱씹는 타입입니다. 사람에 대해서도 겉모습보다 어두운 이면과 사연에 관심이 갑니다. 그래서 깊은 대화를 나누기에 믿을 만한 상대입니다.\n마음속 욕구는 평소 숨겨둔 자신의 그늘까지 이해받고 싶다는 것입니다. 착한 모습만이 아니라 조금 기묘한 구석도 받아들여 주는 사람을 오랫동안 기다려 왔습니다.",
     "en": "At a scary scene, you cover your eyes and still watch to the end through your fingers. Something chilling makes your eyes oddly sparkle. Looking straight at what frightens you is a rather healthy way to handle anxiety, and you're someone who turns even fear into a taste.",
     "zh": "出现恐怖画面时，你一边捂眼，一边还是从指缝里看到最后。面对毛骨悚然的东西，你的眼睛反而会发亮。主动直视害怕的东西，是处理不安相当健康的方式，你甚至能把恐惧消化成自己的品味。",
     "ja": "怖いシーンでは目を覆いながら、指の間から最後まで見てしまう人です。ぞっとするものを前にすると、なぜか目が輝きますね。怖いものをあえて見つめるのは、不安と付き合うかなり健康な方法で、あなたは恐怖さえ好みに変えられる人です。",
@@ -6443,7 +6447,8 @@ window.QUIZ = {
    },
    "opp": "soft",
    "match": "alien",
-   "rarity": 3.4
+   "rarity": 3.4,
+   "need": "stim"
   },
   {
    "id": "alien",
@@ -6463,7 +6468,7 @@ window.QUIZ = {
     "es": "un amigo natural de los extraterrestres"
    },
    "inf": {
-    "ko": "외계 생명체가 문을 두드린다면, 당신은 도망치기 전에 일단 차부터 대접할 분입니다. 낯선 존재를 경계보다 호기심으로 맞이하는 쪽이지요. 마음이 넓게 열려 있다는 뜻이고, 다만 가끔은 마음을 너무 쉽게 내주지 않도록 조심하셔야 합니다.",
+    "ko": "당신은 낯선 존재 앞에서 경계보다 호기심이 먼저 반응합니다. 나와 다른 생김새, 다른 사고방식, 다른 문화를 만나면 거부감보다 \"저건 어떤 세계일까\" 하는 궁금증이 앞섭니다. 열린 마음과 넓은 포용력이 타고난 장점입니다.\n사람들 사이에서는 주류에 속하지 않아도 불안해하지 않는 편이며, 오히려 소외된 사람이나 어색한 사람 곁에 자연스럽게 앉습니다. 그 덕에 당신 곁에는 독특한 사람들이 모입니다. 다만 본인도 가끔은 이 세상에 어색하게 와 있는 사람처럼 느낄 때가 있습니다.\n속마음은 나를 설명하지 않아도 있는 그대로 받아들여지는 곳을 찾고 있습니다. 어쩌면 당신 자신이 누군가에게는 가장 편안한 외계인일지도 모릅니다.",
     "en": "If an alien knocked on your door, you'd offer it tea before even thinking of running. You greet strangers with curiosity instead of suspicion. It means your heart is wide open, though you might want to be careful not to give it away too easily.",
     "zh": "如果外星生物来敲门，你会在逃跑之前先给它泡杯茶。面对陌生的存在，你用好奇而不是戒备去迎接。这说明你的心门开得很大，只是偶尔也要小心，别把心交出去得太轻易。",
     "ja": "もし宇宙人がドアを叩いたら、逃げる前にまずお茶を出す人です。見知らぬ存在を、警戒より好奇心で迎えるタイプですね。心が広く開いている証拠ですが、ときどきは心をあまり簡単に差し出さないようご注意を。",
@@ -6471,7 +6476,8 @@ window.QUIZ = {
    },
    "opp": "tough",
    "match": "magic",
-   "rarity": 5.9
+   "rarity": 5.9,
+   "need": "welcome"
   },
   {
    "id": "calm",
@@ -6494,7 +6500,7 @@ window.QUIZ = {
     "es": "un amante de la quietud"
    },
    "inf": {
-    "ko": "빠른 세상에서 오래되고 조용한 것 앞에 서면 걸음이 저절로 느려지지 않습니까? 시끄러운 하루 끝에 아무 말 없이 한곳을 바라보는 시간이 가장 편하시지요. 쉴 곳을 찾는 마음이고, 당신은 조용함을 일부러 챙길 줄 아는 사람입니다.",
+    "ko": "당신은 빠르게 변하는 세상에서도 자기만의 속도를 지키는 사람입니다. 오래된 것과 조용한 것 앞에서 걸음이 느려지고, 그 순간 마음이 가장 안정됩니다. 소란에 휩쓸리지 않고 중심을 잡는 힘은 당신의 큰 강점입니다.\n사고방식은 신중하고 깊습니다. 결정을 내리기 전에 오래 생각하고, 한번 마음먹으면 쉽게 흔들리지 않습니다. 관계에서도 많은 사람보다 몇 안 되는 깊은 관계를 택합니다. 다만 변화가 필요한 순간에 너무 오래 머무르는 것은 조심하셔야 합니다.\n속마음은 아무도 재촉하지 않는 시간을 원합니다. 조용한 것을 곁에 두는 일은 단순한 취향이 아니라, 일상을 버티게 하는 작은 충전소입니다.",
     "en": "In a fast world, don't your steps slow down in front of something old and quiet? After a noisy day, the time you spend staring at one spot without a word is the most comfortable. It's the heart looking for a place to rest, and you know how to protect your quiet on purpose.",
     "zh": "在飞快的世界里，站在古老安静的东西面前，脚步是不是会不自觉放慢？吵闹的一天结束后，一句话也不说、静静望着一处的时间最让你舒服。这是在寻找歇脚之处的心，你懂得有意识地为自己留一份安静。",
     "ja": "速い世の中で、古くて静かなものの前に立つと、歩みが自然とゆっくりになりませんか？騒がしい一日の終わりに、何も言わず一か所を眺める時間がいちばん落ち着くはずです。休める場所を探す心であり、あなたは静けさをわざわざ確保できる人です。",
@@ -6502,7 +6508,8 @@ window.QUIZ = {
    },
    "opp": "prank",
    "match": "wall",
-   "rarity": 6.5
+   "rarity": 6.5,
+   "need": "cool"
   },
   {
    "id": "keep",
@@ -6523,7 +6530,7 @@ window.QUIZ = {
     "es": "un guardián de lo inútil"
    },
    "inf": {
-    "ko": "쓸모가 없다는 이유만으로 물건을 버리지 못한 적이 있으시지요. 이사할 때마다 '이건 어디에 쓰지' 하면서도 결국 박스에 다시 넣습니다. 효율보다 애착을 믿는 사람의 방식이고, 당신 곁에 오래 머무는 것들에는 다 이유가 있습니다.",
+    "ko": "당신은 쓸모의 기준으로 물건을 판단하지 않습니다. 기능이 없어도 의미가 있다면 남기고, 효율이 떨어져도 정이 가면 곁에 둡니다. 이는 낭비가 아니라 가치의 기준이 남들과 다르다는 뜻이며, 감정과 기억을 소중히 다루는 성향의 증거입니다.\n관계에서도 비슷합니다. 한번 마음을 준 사람과 인연을 쉽게 정리하지 못하고, 오래된 친구를 소중히 합니다. 그래서 신뢰받는 사람이 되지만, 놓아야 할 것을 놓지 못해 마음이 무거워지는 일도 있습니다.\n마음 깊은 곳의 바람은 효율과 성과로 평가되지 않는 것들도 이 세상에 있어도 된다는 확인입니다. 당신은 쓸모없는 것들의 가장 믿음직한 수호자입니다.",
     "en": "You've held onto things for no reason other than that they're useless. Every time you move, you ask 'what is this even for?' and still put it back in the box. It's the way of someone who trusts attachment over efficiency, and everything that stays near you has its reasons.",
     "zh": "你有没有因为“没用”而舍不得扔掉某样东西？每次搬家都念叨“这个能拿来干嘛”，最后还是放回箱子。这是相信眷恋胜过效率的人的做法，留在你身边的东西，每一件都有它的理由。",
     "ja": "役に立たないというだけの理由で、物を捨てられなかったことがありますよね。引っ越しのたびに「これ何に使うんだろう」と言いながら、結局また箱に戻します。効率より愛着を信じる人のやり方で、あなたのそばに長くいるものには、すべて理由があります。",
@@ -6531,7 +6538,8 @@ window.QUIZ = {
    },
    "opp": "useful",
    "match": "calm",
-   "rarity": 0.5
+   "rarity": 0.5,
+   "need": "free"
   },
   {
    "id": "craft",
@@ -6553,7 +6561,7 @@ window.QUIZ = {
     "es": "un catador de torpezas"
    },
    "inf": {
-    "ko": "반듯한 공장제품보다 손으로 빚은 삐뚤빼뚤한 것에 마음이 가는 분입니다. 어딘가 어설픈 흔적에서 '사람이 만들었구나' 하는 온기를 느끼시지요. 사람 냄새 나는 것에서 위로를 받는다는 뜻이고, 완벽하지 않은 것을 귀하게 여기는 눈을 가지셨습니다.",
+    "ko": "당신은 매끈한 완성품보다 손의 흔적이 남은 것에 마음이 움직입니다. 삐뚤어진 선, 어딘가 어긋난 비율에서 만든 이의 정성과 사정이 느껴지기 때문입니다. 결과보다 과정을, 완벽함보다 진심을 읽어내는 감각이 뛰어납니다.\n사람을 대할 때도 겉으로 번지르르한 사람보다 서툴러도 성의 있는 사람을 신뢰합니다. 따뜻하고 인간적인 판단 기준이라 할 수 있습니다. 반면 스스로 무언가 만들거나 보여줄 때는 완성도가 부족하다는 불안이 앞서서 시작을 미루기도 합니다.\n속마음은 어설퍼도 괜찮다는 허락을 누군가에게서, 혹은 자신에게서 받고 싶어 합니다. 당신이 어설픈 것을 사랑하는 일은 곧 자신을 사랑하는 연습입니다.",
     "en": "You're drawn to a wobbly handmade thing more than a neat factory product. In a slightly clumsy trace, you feel the warmth of 'a person made this.' It means you find comfort in things that feel human, and you have an eye that treasures the imperfect.",
     "zh": "比起方方正正的工厂制品，你更偏爱手工捏出来歪歪扭扭的东西。从有点笨拙的痕迹里，你能感到“这是人做的”那种温度。这说明你从有人味的东西里获得安慰，也有一双珍惜不完美的眼睛。",
     "ja": "整った工場製品より、手で作ったいびつなものに心が向く人です。どこか不器用な跡に「人が作ったんだな」というぬくもりを感じますね。人の匂いがするものに慰められるということで、完璧でないものを大切にする目を持っています。",
@@ -6561,7 +6569,8 @@ window.QUIZ = {
    },
    "opp": "sound",
    "match": "keep",
-   "rarity": 6.2
+   "rarity": 6.2,
+   "need": "play"
   },
   {
    "id": "soft",
@@ -6583,7 +6592,7 @@ window.QUIZ = {
     "es": "un adicto a lo blandito"
    },
    "inf": {
-    "ko": "스트레스가 쌓인 날, 폭신한 것을 아무 이유 없이 꽉 안고 있지 않습니까? 손에 닿는 말랑한 감촉이 하루치 긴장을 조금 풀어주지요. 포근함에 기대는 건 안정감을 찾는 가장 오래된 방법으로, 부끄러워하실 일이 아니라 꽤 영리한 자기 돌봄입니다.",
+    "ko": "당신은 부드럽고 작은 것에서 안정을 얻는 섬세한 사람입니다. 하루 동안 쌓인 긴장과 피로를 풀어줄 확실한 무언가가 곁에 있을 때 마음이 가라앉습니다. 이는 약함이 아니라 자신의 감정 상태를 정확히 알고 돌보는 능력입니다.\n성격은 온화하고 공감 능력이 높아 타인의 기분에 민감합니다. 그래서 주변에 편안함을 주지만, 남의 감정까지 떠안아 혼자 지치는 일이 많습니다. 거절하는 일이 어렵고, 괜찮은 척하는 데 능숙합니다.\n마음속 욕구는 누군가를 챙기는 쪽이 아니라 챙김을 받는 쪽이 되어보고 싶다는 것입니다. 오늘만큼은 당신이 기대어도 되는 존재를 하나쯤 가져도 좋겠습니다.",
     "en": "On a stressful day, don't you hug something fluffy tightly for no reason at all? That squishy feel in your hands loosens a day's worth of tension. Leaning on softness is one of the oldest ways to find calm, and it's no embarrassment but rather clever self-care.",
     "zh": "压力大的日子，你是不是会无缘无故紧紧抱着软绵绵的东西？手里那种软软的触感，能让一天的紧绷松开一点。依靠柔软是寻找安全感最古老的方法之一，这不是丢脸的事，而是相当聪明的自我照顾。",
     "ja": "ストレスの多い日、理由もなくふわふわしたものをぎゅっと抱きしめていませんか？手に触れるやわらかい感触が、一日分の緊張を少しほどいてくれます。やわらかさに頼るのは安心を得るいちばん古い方法で、恥ずかしいことではなく、なかなか賢いセルフケアです。",
@@ -6591,7 +6600,8 @@ window.QUIZ = {
    },
    "opp": "scary",
    "match": "cat",
-   "rarity": 7.2
+   "rarity": 7.2,
+   "need": "comfort"
   },
   {
    "id": "cat",
@@ -6611,7 +6621,7 @@ window.QUIZ = {
     "es": "un admirador de lo altivo"
    },
    "inf": {
-    "ko": "당신은 먼저 다가오는 존재보다 '내가 허락하면 곁에 있게 해주겠다'는 태도의 존재에게 끌립니다. 도도한 눈빛에 무시당해도 이상하게 기분이 나쁘지 않으시지요. 가까워지는 데 시간이 걸려도 오래 가는 관계를 좋아한다는 뜻이고, 한번 마음을 주면 꽤 깊은 분입니다.",
+    "ko": "당신은 자기 속도와 거리를 중요하게 여깁니다. 도도하고 게으른 것을 보면 이상하게 마음이 가는 것은, 눈치 보지 않고 자기 방식대로 사는 모습에 대한 동경이 있기 때문입니다. 평소에는 배려하느라 못 했던 것을 그 존재가 대신 해주는 셈입니다.\n사람들과는 적당한 거리를 유지하는 편이고, 친해지면 의외로 다정합니다. 독립심이 강하고 혼자 있는 시간에서 에너지를 얻습니다. 다만 거리를 두는 습관이 때로는 다가오려는 사람을 밀어내는 것으로 오해받기도 합니다.\n속마음은 아무에게도 설명하지 않고 쉬어도 되는 자유를 원합니다. 조금 게으르게 살아도 괜찮다는 허락이 당신에게 가장 필요한 것입니다.",
     "en": "You're drawn less to those who rush toward you and more to those with an attitude of 'I'll let you stay near me if I allow it.' Even when a haughty glance ignores you, it oddly doesn't bother you. It means you like relationships that take time but last, and once you give your heart, you go deep.",
     "zh": "比起主动凑过来的存在，你更被那种“我允许了你才能待在旁边”的态度吸引。就算被傲慢的眼神无视，你也莫名不觉得难受。这说明你喜欢需要时间却能长久的关系，一旦交出真心，就相当深。",
     "ja": "あなたは、すぐ寄ってくる存在より「私が許したらそばにいさせてあげる」という態度の存在に惹かれます。気高い視線に無視されても、なぜか嫌な気分になりませんね。親しくなるのに時間がかかっても長続きする関係が好きということで、一度心を許すとかなり深い人です。",
@@ -6619,7 +6629,8 @@ window.QUIZ = {
    },
    "opp": "tough",
    "match": "soft",
-   "rarity": 7.3
+   "rarity": 7.3,
+   "need": "cool"
   },
   {
    "id": "frog",
@@ -6639,7 +6650,7 @@ window.QUIZ = {
     "es": "un entusiasta de las ranas"
    },
    "inf": {
-    "ko": "개구리는 웅크렸다가 뛰는 존재입니다. 당신도 도약 전에 충분히 웅크리는 시간이 필요한 분이 아닙니까? 남들에게는 가만히 있는 것처럼 보여도, 속으로는 점프 준비가 한창이시지요. 조급해하지 않고 때를 기다릴 줄 아는 태도는 은근한 장점입니다.",
+    "ko": "당신은 남들이 크게 주목하지 않는 존재에게서 매력을 발견하는 사람입니다. 개구리처럼 화려하지 않지만 묘하게 정이 가는 것을 알아보는 눈은, 사람과 상황을 겉이 아니라 결로 읽는 감각에서 옵니다.\n성격은 소박하고 유머 감각이 있으며, 거창한 목표보다 소소한 즐거움을 소중히 합니다. 유행에 휩쓸리지 않고 자신만의 기준을 가지고 있어서 오래 봐야 진가가 드러나는 타입입니다. 다만 겸손이 지나쳐 자신의 매력을 낮게 평가하는 경향이 있습니다.\n속마음은 특별해 보이지 않아도 괜찮다는 확인을 받고 싶어 합니다. 눈에 띄지 않는 것을 사랑하는 사람은, 결국 눈에 띄지 않는 자신도 사랑할 수 있게 됩니다.",
     "en": "A frog crouches before it leaps. Aren't you someone who needs plenty of crouching time before a jump? To others you may look like you're just sitting still, but inside the jump preparations are in full swing. Waiting for the right moment without rushing is a quiet strength.",
     "zh": "青蛙是先蹲下再跳起来的存在。你是不是也需要充分蹲伏之后才跳得起来？在别人眼里你好像一动不动，其实心里的起跳准备正忙得热火朝天。不着急、懂得等待时机，是一项悄悄的优点。",
     "ja": "カエルはうずくまってから跳ぶ生き物です。あなたも、跳ぶ前にたっぷりうずくまる時間が必要な人ではありませんか？周りには静かにしているように見えても、心の中ではジャンプの準備が真っ最中です。焦らず時を待てる姿勢は、さりげない長所です。",
@@ -6647,7 +6658,8 @@ window.QUIZ = {
    },
    "opp": "outdoor",
    "match": "cat",
-   "rarity": 8.1
+   "rarity": 8.1,
+   "need": "free"
   },
   {
    "id": "animal",
@@ -6670,7 +6682,7 @@ window.QUIZ = {
     "es": "alguien indefenso ante los animales"
    },
    "inf": {
-    "ko": "동물 영상 하나에 하루의 피로가 풀린 적이 있으시지요. 평소에는 감정을 꽤 단단히 눌러두면서도, 동물 앞에서는 말투부터 달라집니다. 마음 한구석에 아무 조건 없이 다정해지고 싶은 부분이 있다는 신호이고, 당신의 가장 부드러운 면은 그곳에 숨어 있습니다.",
+    "ko": "당신은 말이 통하지 않아도 마음이 통하는 존재 앞에서 가장 솔직해집니다. 사람 앞에서는 계산하고 조절하던 감정이 동물 앞에서는 그냥 풀려버립니다. 이는 당신이 평소 얼마나 많은 감정을 조심스럽게 다루고 있는지를 보여줍니다.\n성격은 따뜻하고 순수한 면이 있어서 약한 존재를 지나치지 못합니다. 그래서 책임감이 강한 편이고, 한번 마음을 주면 끝까지 챙깁니다. 다만 감정이입이 커서 타인의 아픔에 쉽게 지치고, 자신을 돌보는 일은 뒷전이 되기도 합니다.\n속마음은 조건 없이 받아들여지는 관계를 갈망합니다. 판단도, 기대도 없이 곁에 있어주는 존재가 당신에게는 가장 큰 위로입니다.",
     "en": "A single animal video has melted away a whole day's fatigue for you. You usually keep your feelings pressed down quite firmly, yet around animals even your way of speaking changes. It signals a corner of your heart that wants to be unconditionally tender, and your softest side hides there.",
     "zh": "你有过看一条动物视频就消解了一整天疲惫的时候。平时你把情绪压得很紧，可在动物面前，连说话的语气都变了。这说明心里有一角，想毫无条件地温柔，而你最柔软的一面就藏在那里。",
     "ja": "動物の動画一つで、一日の疲れが取れたことがありますよね。普段は感情をかなりしっかり抑えているのに、動物の前では口調から変わります。心の片隅に、何の条件もなく優しくなりたい部分があるというサインで、あなたのいちばん柔らかい面はそこに隠れています。",
@@ -6678,7 +6690,8 @@ window.QUIZ = {
    },
    "opp": "human",
    "match": "soft",
-   "rarity": 0.5
+   "rarity": 0.5,
+   "need": "comfort"
   },
   {
    "id": "tough",
@@ -6700,7 +6713,7 @@ window.QUIZ = {
     "es": "un creyente en la fiabilidad"
    },
    "inf": {
-    "ko": "화려한 것보다 투박해도 믿음직한 존재 쪽에 눈이 갑니다. 말없이 곁을 지키는 든든함 앞에서 마음이 놓이시지요. 겉모습보다 행동을 믿는 사람이라는 뜻이고, 당신 자신도 은근히 그런 든든한 사람으로 기억되고 있을 겁니다.",
+    "ko": "당신은 화려한 것보다 믿을 수 있는 것을 중시하는 현실적인 낭만가입니다. 투박해도 단단하고 든든한 존재에게 마음이 가는 것은, 쉽게 흔들리지 않는 안정감을 삶에서 가장 높게 치기 때문입니다.\n사람을 대할 때도 말을 많이 하는 사람보다 행동으로 보여주는 사람을 신뢰합니다. 본인 역시 필요할 때 묵묵히 나서주는 든든한 사람으로 통합니다. 다만 의지가 되는 입장에만 오래 서 있다 보니, 자신이 힘들다는 말은 꺼내기 어려워합니다.\n속마음은 늘 단단해야 한다는 부담에서 잠시 벗어나고 싶습니다. 든든한 사람도 누군가에게 기대어도 된다는 것을 기억하셨으면 합니다.",
     "en": "Your eyes go to something rugged but dependable rather than something flashy. You feel at ease before a sturdy presence that stays by your side without a word. It means you trust actions over appearances, and you yourself are probably quietly remembered as that kind of dependable person.",
     "zh": "比起华丽的东西，你的目光更落在粗犷却可靠的存在上。面对默默守在身边的踏实感，你会安下心来。这说明你相信行动胜过外表，而你自己在别人心里，大概也悄悄是那样可靠的人。",
     "ja": "華やかなものより、無骨でも頼もしい存在に目が向きます。黙ってそばを守ってくれる心強さの前で、気持ちが落ち着きますね。見た目より行動を信じる人ということで、あなた自身もひそかにそんな頼もしい人として記憶されているはずです。",
@@ -6708,7 +6721,8 @@ window.QUIZ = {
    },
    "opp": "soft",
    "match": "outdoor",
-   "rarity": 5.3
+   "rarity": 5.3,
+   "need": "sturdy"
   },
   {
    "id": "sound",
@@ -6729,7 +6743,7 @@ window.QUIZ = {
     "es": "un coleccionista de sonidos"
    },
    "inf": {
-    "ko": "당신은 어떤 소리 하나에 갑자기 기분이 바뀌는 분입니다. 빗소리나 개구리 울음, 혹은 평소 못 듣던 이상한 효과음에 귀가 먼저 반응하시지요. 감각이 섬세하고 분위기에 민감하다는 뜻이고, 같은 하루도 당신에게는 남들보다 풍성하게 들립니다.",
+    "ko": "당신은 눈보다 귀로 세상을 받아들이는 감각이 예민한 사람입니다. 어떤 소리 하나가 기분과 기억을 통째로 바꾸어 놓는 경험이 잦고, 분위기를 소리로 먼저 파악합니다. 감수성이 풍부하고 감정의 결이 섬세하다는 증거입니다.\n사람과의 관계에서도 말의 내용보다 말투와 목소리의 온도에 반응합니다. 그래서 상대의 기분 변화를 빨리 알아채고, 진심인지 아닌지도 직감적으로 구분합니다. 반면 소음이나 불편한 소리에 쉽게 지치는 편이라 조용한 휴식이 꼭 필요합니다.\n속마음은 말로 다 설명하지 못하는 감정을 소리로라도 전하고 싶어 합니다. 당신의 마음을 가장 잘 아는 것은 어쩌면 말이 아니라 소리일 것입니다.",
     "en": "A single sound can suddenly change your mood. Rain, a frog's croak, or some strange sound effect you never hear makes your ears react first. It means your senses are delicate and attuned to atmosphere, and the same day sounds richer to you than to others.",
     "zh": "某一个声音，就能让你的心情骤然改变。雨声、蛙鸣，或者平时听不到的奇怪音效，你的耳朵总是最先有反应。这说明你感官细腻、对氛围敏感，同样的一天，在你耳中比别人听起来更丰富。",
     "ja": "あなたは、ある音一つで急に気分が変わる人です。雨音やカエルの鳴き声、普段聞かない妙な効果音に、耳が先に反応しますね。感覚が繊細で雰囲気に敏感ということで、同じ一日でも、あなたには人より豊かに聞こえています。",
@@ -6737,7 +6751,8 @@ window.QUIZ = {
    },
    "opp": "wall",
    "match": "play",
-   "rarity": 5.1
+   "rarity": 5.1,
+   "need": "sound"
   },
   {
    "id": "play",
@@ -6760,7 +6775,7 @@ window.QUIZ = {
     "es": "un maestro del trasteo"
    },
    "inf": {
-    "ko": "회의 중에 손에 쥔 펜을 계속 돌리거나, 아무 생각 없이 뭔가를 맞추고 만지는 시간이 좋으시지요. 손이 바빠야 머리가 쉬는 타입입니다. 손을 쓰며 노는 시간은 생각을 잠시 쉬게 하는 가장 좋은 방법이고, 당신은 그것을 본능적으로 알고 있습니다.",
+    "ko": "당신은 머리보다 손으로 생각하는 사람입니다. 무언가를 만지고 맞추고 돌려보는 동안 복잡했던 생각이 정리되고, 그 시간 자체가 휴식이 됩니다. 집중력이 높고 몰입하면 시간을 잊는 타입입니다.\n성격은 호기심이 많고 작은 디테일에 만족을 느끼는 편입니다. 결과를 빨리 내라는 압박보다는 자기 페이스로 가지고 놀 수 있는 여유가 있을 때 가장 창의적입니다. 다만 몰입이 깊은 만큼 해야 할 일을 미루고 소소한 즐거움으로 도피하는 일도 있습니다.\n속마음은 생산적이어야 한다는 압박 없이 그저 놀아도 된다는 허락을 원합니다. 손장난은 시간 낭비가 아니라 당신의 마음을 정리하는 가장 정직한 방법입니다.",
     "en": "In meetings you keep spinning the pen in your hand, and you love time spent fitting and fiddling with things without thinking. You're the type whose head rests only when the hands are busy. Playing with your hands is the best way to give your thoughts a break, and you know it by instinct.",
     "zh": "开会时你总在手里转笔，也喜欢什么都不想、只管拼拼摸摸的时间。你是手忙起来，脑子才能休息的类型。动手玩耍是让思绪歇一歇的最好方法，而你凭本能就知道这一点。",
     "ja": "会議中に手に持ったペンをずっと回したり、何も考えずに何かを組み合わせたり触ったりする時間が好きですよね。手が忙しいと頭が休まるタイプです。手を使って遊ぶ時間は、考えをしばらく休ませる最高の方法で、あなたはそれを本能的に知っています。",
@@ -6768,7 +6783,8 @@ window.QUIZ = {
    },
    "opp": "calm",
    "match": "outdoor",
-   "rarity": 6.3
+   "rarity": 6.3,
+   "need": "play"
   },
   {
    "id": "outdoor",
@@ -6788,7 +6804,7 @@ window.QUIZ = {
     "es": "un niño adulto"
    },
    "inf": {
-    "ko": "어른이 되었지만 놀이터 앞을 지나가면 발이 먼저 반응하는 분입니다. 공을 던지고 몸을 움직이며 노는 시간이 결코 유치하지 않다는 걸 아시지요. 노는 법을 잊지 않은 어른은 스트레스를 훨씬 가볍게 지나가고, 당신은 그 점에서 이미 한 수 위입니다.",
+    "ko": "당신은 어른이 되어도 몸을 움직이며 노는 즐거움을 놓지 않은 사람입니다. 책상 앞에서 생각만 하기보다 직접 뛰어들고 부딪치며 배우는 성향이고, 에너지가 넘칩니다. 어린 시절의 순수한 감각을 지키고 있다는 것은 큰 자산입니다.\n사람을 사귀는 방식도 시원시원하고 편견이 적어서 금세 친해집니다. 분위기를 활기차게 만들지만, 가만히 있어야 하는 시간이나 오래 앉아 있는 일에는 답답함을 크게 느낍니다. 쉬는 것을 게으름으로 여기는 습관도 조심하셔야 합니다.\n속마음은 의무와 책임에 짓눌리지 않고 마음껏 뛰어놀던 시절의 자유로 돌아가고 싶어 합니다. 당신에게 놀이는 사치가 아니라 생기를 되찾는 방법입니다.",
     "en": "You're grown up, but walking past a playground still makes your feet react first. You know that throwing a ball and moving around isn't childish at all. Adults who haven't forgotten how to play get through stress far more lightly, and you're already a step ahead there.",
     "zh": "虽然已经是大人，路过游乐场时你的脚还是会先有反应。你明白，扔球、活动身体地玩耍一点也不幼稚。没有忘记怎么玩的大人，面对压力要轻松得多，在这一点上你已经高出一筹。",
     "ja": "大人になったのに、遊び場の前を通ると足が先に反応する人です。ボールを投げて体を動かして遊ぶ時間が、決して子どもっぽくないと知っていますね。遊び方を忘れない大人はストレスをずっと軽く乗り越えられ、その点であなたはすでに一枚上手です。",
@@ -6796,7 +6812,8 @@ window.QUIZ = {
    },
    "opp": "frog",
    "match": "play",
-   "rarity": 1.6
+   "rarity": 1.6,
+   "need": "move"
   },
   {
    "id": "food",
@@ -6816,7 +6833,7 @@ window.QUIZ = {
     "es": "un empático con la comida"
    },
    "inf": {
-    "ko": "음식 모양 장난감이 웃고 있으면 왠지 먹기 미안해지는 분입니다. 사물에도 표정이 있다고 믿고, 그 표정에 쉽게 마음을 빼앗기시지요. 공감 능력이 남들보다 넓게 작동한다는 뜻이고, 그래서 당신 곁의 사람들은 이해받는다는 기분을 자주 느낍니다.",
+    "ko": "당신은 대상에 감정을 이입하는 능력이 뛰어난 사람입니다. 음식이든 물건이든 표정이 있으면 사람처럼 대하게 되고, 그 때문에 함부로 다루지 못합니다. 이는 따뜻하고 상상력이 풍부한 마음에서 나오는 성향입니다.\n일상에서는 사소한 것에도 의미를 부여하고 즐거움을 찾는 능력이 있습니다. 남들이 지나치는 장면에서 이야기를 읽어내기 때문에 대화가 재미있고 유머도 풍부합니다. 반면 감정이입이 지나쳐 결정을 내릴 때 미안함이 앞서는 일이 잦습니다.\n속마음은 모든 것이 조금 더 다정한 세상이기를 바랍니다. 당신이 먹거리에게까지 보내는 다정함은 당신이 사람에게 쏟는 마음의 크기를 짐작하게 합니다.",
     "en": "If a food-shaped toy is smiling, you feel strangely sorry to eat it. You believe even objects have expressions, and those expressions easily steal your heart. It means your empathy works wider than most people's, which is why those around you often feel understood.",
     "zh": "如果食物造型的玩具在笑，你就莫名觉得不好意思吃它。你相信连物件也有表情，并且很容易被那些表情夺走心神。这说明你的共情能力比别人覆盖得更广，所以你身边的人常常觉得被理解。",
     "ja": "食べ物の形のおもちゃが笑っていると、なんだか食べるのが申し訳なくなる人です。物にも表情があると信じ、その表情に簡単に心を奪われますね。共感力が人より広く働くということで、だからあなたのそばにいる人は、よく理解されていると感じます。",
@@ -6824,7 +6841,8 @@ window.QUIZ = {
    },
    "opp": "scary",
    "match": "tiny",
-   "rarity": 1.9
+   "rarity": 1.9,
+   "need": "comfort"
   },
   {
    "id": "wall",
@@ -6846,7 +6864,7 @@ window.QUIZ = {
     "es": "un experto en mirar paredes"
    },
    "inf": {
-    "ko": "남의 집에 놀러 가서도 벽에 걸린 그림이나 액자를 한참 바라보다 대화를 놓친 적이 있으시지요. 혼자 가만히 바라보는 시간에서 오히려 에너지를 얻습니다. 사람들 사이에서 지친 마음을 조용히 충전하는 방식이고, 당신은 그 방식을 이미 알고 있습니다.",
+    "ko": "당신은 한 곳을 오래 바라보며 생각에 잠기는 시간이 필요한 사람입니다. 벽에 걸린 것 하나가 공간의 분위기를 바꾸고 마음을 정돈해 준다고 믿으며, 환경이 감정에 미치는 영향을 잘 압니다. 미적 감각과 정서적 민감성이 높은 편입니다.\n사고방식은 사색적이고 의미를 따지는 쪽이어서, 가볍게 넘어가는 대화보다 깊이 있는 대화를 좋아합니다. 혼자만의 공간을 꾸미는 일에서 안정을 느끼며, 그 공간이 곧 자신의 마음 상태를 보여줍니다. 다만 생각이 길어져 행동으로 옮기는 데 시간이 걸릴 때가 있습니다.\n속마음은 자신을 설명해주는 어떤 상징을 곁에 두고 싶어 합니다. 말로는 다 전하지 못하는 나를 벽 위의 물건이 대신 말해줄 때 마음이 놓입니다.",
     "en": "Even at someone else's home, you've stared at a picture or frame on the wall so long you missed the conversation. You actually gain energy from time spent gazing quietly alone. It's your way of quietly recharging a heart worn out by people, and you already know it.",
     "zh": "就算去别人家做客，你也有过盯着墙上的画或相框看了半天，结果错过了谈话的时候。你反而能从独自静静凝视的时间里获得能量。这是你在人群里悄悄给疲惫的心充电的方式，而你早已懂得。",
     "ja": "人の家に遊びに行っても、壁にかかった絵や額縁を長いこと眺めて会話を聞き逃したことがありますよね。一人で静かに眺める時間から、むしろエネルギーをもらいます。人の中で疲れた心を静かに充電する方法で、あなたはそのやり方をすでに知っています。",
@@ -6854,7 +6872,8 @@ window.QUIZ = {
    },
    "opp": "costume",
    "match": "calm",
-   "rarity": 7.3
+   "rarity": 7.3,
+   "need": "view"
   },
   {
    "id": "human",
@@ -6875,7 +6894,7 @@ window.QUIZ = {
     "es": "un apreciador de la solemnidad que se desmorona"
    },
    "inf": {
-    "ko": "점잖은 자리에서 누군가 엉뚱한 행동을 하면, 웃음을 참느라 어깨가 떨린 적이 있으시지요. 엄숙한 것이 무너지는 순간이 이상하게 사랑스럽습니다. 규칙과 격식이 가끔은 답답하다는 마음이고, 당신은 자유로움이 가장 먼저 올라오는 사람입니다.",
+    "ko": "당신은 격식과 체면의 무게를 누구보다 잘 아는 사람이기에, 그것이 살짝 무너지는 순간에 가장 크게 웃습니다. 점잖은 사람의 엉뚱함은 사람은 누구나 인간적이라는 증거로 느껴져서 안도감을 줍니다. 위선을 싫어하고 진솔함을 사랑하는 성향입니다.\n관계에서는 직급이나 나이보다 사람 자체를 보려는 태도를 지니고 있습니다. 그래서 격 없이 편안하게 지내는 친구가 많지만, 형식을 중시하는 자리에서는 속으로 웃음을 참느라 애를 먹기도 합니다. 때로는 이 솔직함이 오해를 부르기도 합니다.\n속마음은 체면을 내려놓아도 괜찮은 관계를 원합니다. 당신이 웃음으로 가리고 있는 것은 사실 진짜 얼굴로 사랑받고 싶은 마음입니다.",
     "en": "When someone does something absurd in a dignified setting, your shoulders have shaken from holding in laughter. The moment solemnity collapses is strangely lovable to you. It means rules and formality sometimes feel stuffy, and freedom is the first thing that rises up in you.",
     "zh": "在庄重的场合里，有人做出离谱的举动时，你有过憋笑憋到肩膀发抖的经历。庄严崩塌的那一刻，不知为何格外可爱。这说明规矩和礼数有时让你觉得憋闷，而自由是你心里最先冒出来的东西。",
     "ja": "かしこまった場で誰かが突拍子もないことをすると、笑いをこらえて肩が震えたことがありますよね。厳かなものが崩れる瞬間が、なぜか愛おしい。決まりや格式がときどき窮屈だという気持ちで、あなたは自由がいちばん先に顔を出す人です。",
@@ -6883,7 +6902,8 @@ window.QUIZ = {
    },
    "opp": "animal",
    "match": "prank",
-   "rarity": 2.9
+   "rarity": 2.9,
+   "need": "laugh"
   },
   {
    "id": "tiny",
@@ -6903,7 +6923,7 @@ window.QUIZ = {
     "es": "un adicto a las cosas pequeñas"
    },
    "inf": {
-    "ko": "손바닥만 한 것 앞에서 눈이 반짝이고, 작을수록 더 소중해 보이지 않습니까? 서랍 속에 작은 물건 하나쯤은 꼭 숨겨두고 가끔 꺼내 보시지요. 세세한 것을 놓치지 않는 눈을 가졌다는 뜻이고, 당신은 큰 것보다 작은 디테일에서 행복을 발견하는 사람입니다.",
+    "ko": "당신은 작은 것에서 큰 기쁨을 얻는 집중력 있는 사람입니다. 손바닥에 올라오는 크기의 세계는 통제할 수 있고, 안전하고, 온전히 내 것처럼 느껴지기 때문입니다. 세상이 너무 크게 느껴질 때 마음을 가라앉히는 방법을 알고 있다는 것입니다.\n성격은 섬세하고 디테일에 강해서 남들이 놓치는 부분을 알아봅니다. 완성도 높은 일 처리가 장점이고, 작은 변화에도 민감하게 반응합니다. 다만 사소한 것에 신경이 쏠려 큰 그림을 놓치거나, 작은 걱정이 필요 이상으로 커지는 일이 있습니다.\n속마음은 감당 가능한 크기의 세상을 원합니다. 작은 것을 아끼는 마음은 곧 자신의 평온을 지키려는 현명한 방어입니다.",
     "en": "Your eyes light up before something palm-sized, and doesn't the smaller it is, the more precious it seems? You surely hide at least one tiny object in a drawer and take it out now and then. It means you have an eye that misses no detail, and you find happiness in small details rather than big things.",
     "zh": "面对巴掌大的东西，你的眼睛会发亮，越小是不是越显得珍贵？抽屉里你一定藏着至少一件小东西，偶尔拿出来看看。这说明你有一双不放过细节的眼睛，比起大的东西，你更能在小细节里发现幸福。",
     "ja": "手のひらサイズのものの前で目が輝き、小さいほど大切に見えませんか？引き出しの中には小さな物を一つ隠しておいて、ときどき取り出して眺めるでしょう。細かいことを見逃さない目を持っているということで、大きなものより小さなディテールに幸せを見つける人です。",
@@ -6911,7 +6931,8 @@ window.QUIZ = {
    },
    "opp": "tough",
    "match": "food",
-   "rarity": 4.2
+   "rarity": 4.2,
+   "need": "view"
   },
   {
    "id": "useful",
@@ -6932,7 +6953,7 @@ window.QUIZ = {
     "es": "un romántico práctico"
    },
    "inf": {
-    "ko": "쓸모없는 것을 좋아한다면서도, 마음 한구석에서는 '그래도 아주 조금은 쓸모가 있으면 좋겠다'고 속삭이는 분입니다. 낭만을 사랑하지만 현실도 놓지 않으시지요. 그 균형 감각이 당신의 힘이고, 쓸데없는 것도 당신 손에서는 은근히 쓸모 있어집니다.",
+    "ko": "당신은 낭만을 즐기면서도 마음 한구석에서 현실 감각이 작동하는 균형 잡힌 사람입니다. 쓸모없는 것에서도 아주 조금의 쓸모를 찾아내는 것은, 즐거움과 합리성 사이에서 스스로를 설득하는 방식이 몸에 배어 있다는 뜻입니다.\n사고방식은 실리적이고 계획적이며, 감정에 휩쓸리기보다 한 번 더 따져보는 편입니다. 그래서 주변에서는 믿고 맡길 수 있는 사람으로 통합니다. 다만 즐거운 일에도 명분이 있어야 마음이 편하기 때문에 순수하게 즐기는 일이 서툴 수 있습니다.\n속마음은 아무 이유 없이 좋아해도 된다는 허락을 원합니다. 오늘만큼은 쓸모를 따지지 않고 그냥 좋아하는 연습을 해보시기를 권합니다.",
     "en": "You say you like useless things, yet a corner of your mind whispers 'it'd be nice if it were at least a little useful.' You love romance but never let go of reality. That sense of balance is your strength, and even useless things quietly become useful in your hands.",
     "zh": "你嘴上说喜欢没用的东西，心里一角却在小声说：“不过要是能有一点点用就好了。”你热爱浪漫，却也不丢下现实。这份平衡感就是你的力量，连没用的东西到你手里，也悄悄变得有用起来。",
     "ja": "役に立たないものが好きと言いながら、心の片隅では「それでもほんの少しは役に立ってほしい」とささやく人です。ロマンを愛しつつ、現実も手放しません。そのバランス感覚があなたの力で、役に立たないものも、あなたの手にかかるとひそかに役立ちます。",
@@ -6940,7 +6961,8 @@ window.QUIZ = {
    },
    "opp": "keep",
    "match": "craft",
-   "rarity": 0.5
+   "rarity": 0.5,
+   "need": "free"
   },
   {
    "id": "hide",
@@ -6960,7 +6982,7 @@ window.QUIZ = {
     "es": "un aspirante al anonimato"
    },
    "inf": {
-    "ko": "가끔은 아무도 나를 모르는 곳에서 이름 없이 하루만 지내고 싶으시지요. 평소에 기대받는 역할을 꽤 열심히 해내는 분일수록 그런 마음이 듭니다. 정체를 숨기고 싶다는 건 책임감이 그만큼 무거웠다는 뜻이고, 잠깐 가면을 쓰는 건 충분히 쉬어도 된다는 신호입니다.",
+    "ko": "당신은 때때로 세상의 시선에서 사라지고 싶은 마음을 가진 사람입니다. 이는 소심해서가 아니라, 늘 보여지고 평가받는 일에 너무 많은 에너지를 쓰고 있기 때문입니다. 감수성이 풍부하고 타인의 시선을 민감하게 의식하는 성향입니다.\n겉으로는 사회성이 좋아 보여도, 혼자만의 공간에서 비로소 편안해지는 타입입니다. 가면을 쓰고 있어야 더 자유로워지는 역설도 있습니다. 그래서 속마음을 쉽게 드러내지 않지만, 한번 마음을 연 사람에게는 의외로 솔직합니다.\n속마음은 누구도 나를 알아보지 못하는 곳에서 잠시 쉬고 싶습니다. 숨는 것은 도망이 아니라 다시 나로 돌아오기 위한 재충전이라는 점을 기억하셨으면 합니다.",
     "en": "Sometimes you'd like to spend one day nameless, somewhere nobody knows you. The harder someone works at the role expected of them, the more they feel that way. Wanting to hide your identity means the weight of responsibility has been heavy, and putting on a mask for a while is a sign you're allowed to rest.",
     "zh": "有时你想在一个没人认识你的地方，无名无姓地过上一天。越是平时认真扮演被期待角色的人，越会有这样的心情。想隐藏身份，说明责任感一直很沉重，暂时戴上面具，是在告诉你可以好好歇一歇。",
     "ja": "ときどき、誰も自分を知らない場所で、名前のないまま一日だけ過ごしたくなりますよね。普段、期待される役割を一生懸命こなす人ほど、そう思うものです。正体を隠したいというのは責任感がそれだけ重かったということで、しばらく仮面をかぶるのは、十分休んでいいというサインです。",
@@ -6968,7 +6990,101 @@ window.QUIZ = {
    },
    "opp": "prank",
    "match": "calm",
-   "rarity": 0.6
+   "rarity": 0.6,
+   "need": "cool"
   }
- ]
+ ],
+ "needs": {
+  "cool": {
+   "ko": "당신에겐 머리를 식히는 시간이 필요합니다.",
+   "en": "What you need is a little time to cool your head.",
+   "zh": "你需要的是一点让头脑降温的时间。",
+   "ja": "あなたに必要なのは、頭を冷やす時間です。",
+   "es": "Lo que necesitas es un rato para enfriar la cabeza."
+  },
+  "stim": {
+   "ko": "당신에겐 따분한 일상을 달래줄 자극이 필요합니다.",
+   "en": "What you need is a spark to soothe a dull routine.",
+   "zh": "你需要的是一点刺激，来安抚乏味的日常。",
+   "ja": "あなたに必要なのは、退屈な日常をなだめる刺激です。",
+   "es": "Lo que necesitas es un estímulo que calme una rutina aburrida."
+  },
+  "laugh": {
+   "ko": "당신에겐 아무 이유 없이 크게 웃을 일이 필요합니다.",
+   "en": "What you need is something to laugh at for no reason at all.",
+   "zh": "你需要的是一件毫无理由就能大笑的事。",
+   "ja": "あなたに必要なのは、理由もなく大笑いできる何かです。",
+   "es": "Lo que necesitas es algo de lo que reírte sin ningún motivo."
+  },
+  "comfort": {
+   "ko": "당신에겐 말없이 기대어도 되는 존재가 필요합니다.",
+   "en": "What you need is something you can lean on without a word.",
+   "zh": "你需要的是一个可以不用开口就能依靠的存在。",
+   "ja": "あなたに必要なのは、何も言わずにもたれかかれる存在です。",
+   "es": "Lo que necesitas es algo en lo que apoyarte sin decir nada."
+  },
+  "play": {
+   "ko": "당신에겐 아무 목적 없이 손을 움직이는 시간이 필요합니다.",
+   "en": "What you need is time to move your hands with no purpose at all.",
+   "zh": "你需要的是一段不带任何目的、只是动动手的时间。",
+   "ja": "あなたに必要なのは、目的もなく手を動かす時間です。",
+   "es": "Lo que necesitas es un tiempo para mover las manos sin ningún propósito."
+  },
+  "move": {
+   "ko": "당신에겐 책상에서 일어나 뛰어놀 핑계가 필요합니다.",
+   "en": "What you need is an excuse to leave the desk and go play.",
+   "zh": "你需要的是一个离开书桌、出去玩的借口。",
+   "ja": "あなたに必要なのは、机を離れて遊びに出る口実です。",
+   "es": "Lo que necesitas es una excusa para dejar el escritorio e ir a jugar."
+  },
+  "role": {
+   "ko": "당신에겐 잠시 다른 누군가가 되어볼 기회가 필요합니다.",
+   "en": "What you need is a chance to be someone else for a while.",
+   "zh": "你需要的是一个暂时成为另一个人的机会。",
+   "ja": "あなたに必要なのは、しばらく別の誰かになれる機会です。",
+   "es": "Lo que necesitas es la oportunidad de ser otra persona por un rato."
+  },
+  "wonder": {
+   "ko": "당신에겐 세상이 아직 신비롭다는 작은 증거가 필요합니다.",
+   "en": "What you need is small proof that the world is still mysterious.",
+   "zh": "你需要的是一点小小的证据，证明这个世界依然神秘。",
+   "ja": "あなたに必要なのは、世界はまだ不思議だという小さな証拠です。",
+   "es": "Lo que necesitas es una pequeña prueba de que el mundo sigue siendo misterioso."
+  },
+  "sound": {
+   "ko": "당신에겐 귓가를 채워줄 작은 소리가 필요합니다.",
+   "en": "What you need is a small sound to fill your ears.",
+   "zh": "你需要的是一个能填满耳畔的小小声音。",
+   "ja": "あなたに必要なのは、耳元を満たしてくれる小さな音です。",
+   "es": "Lo que necesitas es un pequeño sonido que llene tus oídos."
+  },
+  "free": {
+   "ko": "당신에겐 쓸모를 따지지 않고 좋아해도 된다는 허락이 필요합니다.",
+   "en": "What you need is permission to like something without asking what it is for.",
+   "zh": "你需要的是一份许可：不问有什么用，也可以喜欢。",
+   "ja": "あなたに必要なのは、役に立つかどうかを問わずに好きになっていいという許しです。",
+   "es": "Lo que necesitas es permiso para querer algo sin preguntar para qué sirve."
+  },
+  "view": {
+   "ko": "당신에겐 눈길이 머물 작은 풍경이 필요합니다.",
+   "en": "What you need is a small view for your eyes to rest on.",
+   "zh": "你需要的是一处能让目光停留的小小风景。",
+   "ja": "あなたに必要なのは、視線が留まる小さな風景です。",
+   "es": "Lo que necesitas es un pequeño paisaje donde descansar la vista."
+  },
+  "welcome": {
+   "ko": "당신에겐 이상하고 어설퍼도 환영받는 자리가 필요합니다.",
+   "en": "What you need is a place where being odd and clumsy is welcome.",
+   "zh": "你需要的是一个古怪又笨拙也被欢迎的地方。",
+   "ja": "あなたに必要なのは、変でぎこちなくても歓迎される居場所です。",
+   "es": "Lo que necesitas es un lugar donde ser raro y torpe sea bienvenido."
+  },
+  "sturdy": {
+   "ko": "당신에겐 오늘 하루 단단히 붙잡아 줄 든든한 무언가가 필요합니다.",
+   "en": "What you need is something sturdy to hold on to today.",
+   "zh": "你需要的是今天能牢牢抓住的、可靠的东西。",
+   "ja": "あなたに必要なのは、今日をしっかり支えてくれる頼もしい何かです。",
+   "es": "Lo que necesitas es algo firme a lo que agarrarte hoy."
+  }
+ }
 };

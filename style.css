@@ -206,3 +206,7 @@ a.btn { display: flex; align-items: center; justify-content: center; text-decora
 .prog i { display: block; height: 100%; background: var(--ink); border-radius: 2px; transition: width .5s ease; }
 .btn.shopt.on { background: var(--gold); border-color: var(--gold); color: var(--gold-ink); font-weight: 700; }
 .btn.shopt.on::before { content: "✓ "; }
+.bubble.long { font-size: clamp(15px, 4.2vw, 17px); line-height: 1.75; min-height: 0; }
+.bubble.long .gap { height: 6px; }
+.card .lead.need { color: var(--ink); font: 600 clamp(16px, 4.4vw, 18px)/1.5 var(--serif); letter-spacing: 0; margin-bottom: 10px; }
+.card .lead.need { display: block; }

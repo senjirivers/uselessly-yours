@@ -233,12 +233,12 @@
     st.mode = "guess"; st.guess = top;
     var pr = profile(top); st.traits = pr.slice(0, 3);
     var me = pr[0].tr, opp = traitById(me.opp), mat = traitById(me.match);
-    var text = s(me.rarity < 5 ? "rarityOpen" : "rarityOpen2").replace("{p}", me.rarity) + " " + s("kwFmt").replace("{kw}", T(me.kw)) + " " + T(me.inf);
+    var text = s(me.rarity < 5 ? "rarityOpen" : "rarityOpen2").replace("{p}", me.rarity) + " " + s("kwFmt").replace("{kw}", T(me.kw)) + "\n" + T(me.inf);
     draw(topbar("") + '<div class="stage compact">' + img("presenting") + "</div>" +
-      '<div class="bubble" aria-live="polite"><span id="bub"></span></div>' +
+      '<div class="bubble long" aria-live="polite"><span id="bub"></span></div>' +
       '<div class="hold" id="gask"><div class="rel">' + relCard(s("oppLabel"), opp, s("oppNote")) + relCard(s("matchLabel"), mat, s("matchNote")) + '</div><p class="leadline plain">' + esc(s("guessAsk")) + "</p>" +
       '<div class="answers"><button class="btn" data-gans="yes">' + esc(s("guessYes")) + '</button><button class="btn" data-gans="no">' + esc(s("guessNo")) + "</button></div></div>");
-    typeInto(document.getElementById("bub"), text, function () { var g = document.getElementById("gask"); if (g) g.classList.add("show"); });
+    typeInto(document.getElementById("bub"), text, function () { var g = document.getElementById("gask"); if (g) g.classList.add("show"); }, 9);
   }
   function guess2(ans) {
     st.mode = "guess2"; st.gans = ans;
@@ -265,6 +265,7 @@
       '<p class="why">' + esc(T(x.p.line)) + "</p>" +
       '<a class="btn" href="' + esc(url(x.p)) + '" target="_blank" rel="sponsored noopener noreferrer">' + esc(s("resultBuy")) + "</a></div>";
   }
+  function needLine(tr) { var n = tr && tr.need && Q.needs && Q.needs[tr.need]; return n ? T(n) : ""; }
   function result(main) {
     st.mode = "result";
     var r = ranked(); if (!main) main = r[0];
@@ -274,7 +275,7 @@
     var secret = r.filter(function (x) { return x.p.id !== main.p.id; })[0];
     var p = main.p, fc = friendCase(st.traits);
     var html = '<div class="stage big">' + img("gift") + "</div>" +
-      '<div class="card"><span class="lead">' + esc(s("resultLead")) + "</span>" +
+      '<div class="card"><span class="lead need">' + esc(needLine(st.traits[0] && st.traits[0].tr) || s("resultLead")) + "</span>" +
       "<h2>" + esc(T(p.name)) + "</h2>" +
       (p.img ? '<img class="pimg" src="' + esc(p.img) + '" alt="' + esc(T(p.name)) + '">' : "") +
       '<p class="why">' + esc(T(p.line)) + "</p>" +
