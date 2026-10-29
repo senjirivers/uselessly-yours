@@ -13,4 +13,4 @@
 - 색/글꼴: `style.css` 맨 위 `:root`
 
 ## 배포
-- 이 저장소의 `main` 브랜치에 올리면 Netlify가 자동으로 https://uselesslyyours.netlify.app 에 반영합니다.
+- 이 저장소의 `main` 브랜치에 올리면 Cloudflare가 자동으로 https://uselessly-yours.yoonwantsgroove.workers.dev 에 반영합니다.

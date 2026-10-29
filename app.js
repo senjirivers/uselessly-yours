@@ -335,7 +335,7 @@
       if (lines.length > 1) { x.font = "700 92px " + serif; lines = wrapLines(x, kw, 900); y = 1510; }
       lines.forEach(function (ln, k) { x.fillText(ln, 540, y + k * 118); });
       x.fillStyle = "#6b6b6b"; x.font = "400 38px " + sans; x.fillText(s("cardRare").replace("{p}", me.rarity), 540, 1745);
-      var dom = (location.host || "uselesslyyours.netlify.app").replace(/^www\./, ""), dpx = 34;
+      var dom = (location.host || "uselessly-yours.yoonwantsgroove.workers.dev").replace(/^www\./, ""), dpx = 34;
       x.fillStyle = "#8a8a8a"; x.font = "400 " + dpx + "px " + sans;
       while (x.measureText(dom).width > 760 && dpx > 20) { dpx -= 2; x.font = "400 " + dpx + "px " + sans; }
       x.fillText(dom, 540, 1815);
