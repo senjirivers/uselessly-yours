@@ -3500,17 +3500,17 @@ window.QUIZ = {
    "stage": 3
   },
   {
-   "id": "c_being",
+   "id": "c_face2",
    "text": {
-    "ko": "책상 위에 누군가 살게 된다면, 어떤 존재가 좋겠습니까?",
-    "en": "If something were going to live on your desk, what would you want it to be?",
-    "zh": "如果书桌上要住进一位新成员，你希望是什么？",
-    "ja": "机の上に誰かが住みつくなら、どんな存在がいいですか？",
-    "es": "Si algo fuera a vivir en tu escritorio, ¿qué te gustaría que fuera?",
-    "pt": "Se algo fosse morar na sua mesa, o que você gostaria que fosse?",
-    "fr": "Si quelque chose devait vivre sur votre bureau, que voudriez-vous que ce soit ?",
-    "de": "Wenn etwas auf Ihrem Schreibtisch wohnen sollte, was wünschen Sie sich?",
-    "th": "ถ้ามีอะไรสักอย่างมาอยู่บนโต๊ะของคุณ คุณอยากให้เป็นอะไร?"
+    "ko": "곁에 둘 물건의 표정은 어느 쪽이 좋겠습니까?",
+    "en": "Which expression would you want on the thing beside you?",
+    "zh": "放在身边的东西，你想要它是什么表情？",
+    "ja": "そばに置く物には、どんな表情がいいですか？",
+    "es": "¿Qué expresión querrías que tuviera el objeto que tengas cerca?",
+    "pt": "Qual expressão você gostaria que o objeto ao seu lado tivesse?",
+    "fr": "Quelle expression voudriez-vous à l'objet près de vous ?",
+    "de": "Welchen Gesichtsausdruck soll der Gegenstand neben Ihnen haben?",
+    "th": "คุณอยากให้ของที่วางไว้ข้างตัวมีสีหน้าแบบไหน?"
    },
    "stage": 1,
    "yes": [],
@@ -3518,61 +3518,56 @@ window.QUIZ = {
    "options": [
     {
      "text": {
-      "ko": "작은 동물이나 생물",
-      "en": "A small animal or creature",
-      "zh": "小动物或小生物",
-      "ja": "小さな動物や生き物",
-      "es": "Un animalito o criatura",
-      "pt": "Um bichinho ou criatura pequena",
-      "fr": "Un petit animal ou une petite créature",
-      "de": "Ein kleines Tier oder Geschöpf",
-      "th": "สัตว์ตัวเล็กหรือสิ่งมีชีวิตจิ๋ว"
+      "ko": "세상 다 귀찮은 듯한 무표정",
+      "en": "A blank face, tired of the whole world",
+      "zh": "对一切都嫌麻烦的面无表情",
+      "ja": "世の中すべてが面倒そうな無表情",
+      "es": "Cara inexpresiva, harta de todo",
+      "pt": "Cara vazia, cansada do mundo todo",
+      "fr": "Un visage de marbre, las de tout",
+      "de": "Ein ausdrucksloses Gesicht, der Welt überdrüssig",
+      "th": "หน้านิ่งเหมือนเบื่อโลกทั้งใบ"
      },
      "tags": [
-      "animal",
-      "living",
+      "funny_face",
+      "zen",
+      "statue"
+     ]
+    },
+    {
+     "text": {
+      "ko": "억울하고 깜짝 놀란 얼굴",
+      "en": "A wronged, startled face",
+      "zh": "又委屈又吓一跳的脸",
+      "ja": "理不尽にびっくりした顔",
+      "es": "Una cara agraviada y sobresaltada",
+      "pt": "Uma cara injustiçada e assustada",
+      "fr": "Un visage outré et surpris",
+      "de": "Ein empörtes, erschrockenes Gesicht",
+      "th": "หน้าตาน้อยใจและตกใจ"
+     },
+     "tags": [
+      "funny_face",
+      "cartoon",
+      "scary"
+     ]
+    },
+    {
+     "text": {
+      "ko": "은은하게 웃고 있는 얼굴",
+      "en": "A gently smiling face",
+      "zh": "淡淡微笑的脸",
+      "ja": "ほのかに微笑む顔",
+      "es": "Una cara con una sonrisa suave",
+      "pt": "Uma cara com um sorriso suave",
+      "fr": "Un visage au doux sourire",
+      "de": "Ein sanft lächelndes Gesicht",
+      "th": "ใบหน้าที่ยิ้มอ่อนๆ"
+     },
+     "tags": [
       "cute",
-      "frog",
-      "cat"
-     ]
-    },
-    {
-     "text": {
-      "ko": "사람 모양의 작은 인물",
-      "en": "A tiny person-shaped figure",
-      "zh": "人形的小人物",
-      "ja": "人の形をした小さな人物",
-      "es": "Una figurita con forma humana",
-      "pt": "Uma figurinha minúscula em forma de gente",
-      "fr": "Une minuscule figurine en forme de personne",
-      "de": "Eine winzige menschenförmige Figur",
-      "th": "ฟิกเกอร์คนตัวจิ๋ว"
-     },
-     "tags": [
-      "human",
-      "statue",
-      "west",
-      "job",
-      "costume"
-     ]
-    },
-    {
-     "text": {
-      "ko": "정체를 알 수 없는 이상한 존재",
-      "en": "Some strange being of unknown identity",
-      "zh": "来历不明的奇怪存在",
-      "ja": "正体不明の変な存在",
-      "es": "Un ser extraño de identidad desconocida",
-      "pt": "Algum ser estranho de identidade desconhecida",
-      "fr": "Un être étrange à l'identité inconnue",
-      "de": "Ein seltsames Wesen unbekannter Herkunft",
-      "th": "สิ่งแปลก ๆ ที่ไม่รู้ว่าเป็นตัวอะไร"
-     },
-     "tags": [
-      "alien",
-      "scary",
-      "anatomy",
-      "funny_face"
+      "god",
+      "east"
      ]
     }
    ]
