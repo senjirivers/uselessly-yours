@@ -92,7 +92,7 @@
   }
 
   // 이미 쓰는 쇼핑몰의 상품은 신규 가입 수수료가 없어서, 해본 곳의 상품은 거의 안 나오게 가중치를 줍니다.
-  var SHOPS = [["temu", "Temu"], ["aliexpress", "AliExpress"], ["amazon", "Amazon"], ["shein", "SHEIN"]];
+  var SHOPS = [["temu", "Temu"], ["aliexpress", "AliExpress"], ["amazon", "Amazon"], ["etsy", "Etsy"]];
   function shop() {
     st.mode = "shop";
     render({
