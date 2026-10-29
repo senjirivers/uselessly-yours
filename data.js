@@ -4328,28 +4328,26 @@ window.QUIZ = {
   {
    "id": 43,
    "tags": [
-    "monkey",
-    "animal",
-    "living",
     "sound",
     "scary",
-    "useful"
+    "useful",
+    "ceramic"
    ],
    "name": {
-    "ko": "오랑우탄의 형상을 한 비명",
-    "en": "A Scream in the Shape of an Orangutan",
-    "zh": "长成猩猩的尖叫",
-    "ja": "オランウータンの姿をした悲鳴",
-    "es": "Un grito con forma de orangután"
+    "ko": "이빨을 다 드러내고 웃는 붉은 토기 휘슬",
+    "en": "A Red Clay Whistle Grinning With Every Tooth",
+    "zh": "露出满口牙齿咧嘴笑的红陶哨",
+    "ja": "歯をむき出しに笑う赤い土笛",
+    "es": "Un silbato de barro rojo que sonríe con todos los dientes"
    },
    "line": {
-    "ko": "비명에도 얼굴이 있어야 한다고 믿으십니다.",
-    "en": "You believe even a scream should have a face.",
-    "zh": "你相信连尖叫也该有一张脸。",
-    "ja": "悲鳴にも顔があるべきだと信じておられます。",
-    "es": "Crees que hasta un grito debe tener cara."
+    "ko": "무서운 얼굴이 사실은 웃고 있다는 것을 알아보시는 분이시군요.",
+    "en": "You can tell that a scary face is actually smiling.",
+    "zh": "你看得出，吓人的脸其实在笑。",
+    "ja": "怖い顔が実は笑っていると気づける方ですね。",
+    "es": "Sabes ver que una cara aterradora en realidad está sonriendo."
    },
-   "origName": "아즈텍 데스 휘슬 오랑우탄",
+   "origName": "붉은 토기 아즈텍 데스 휘슬",
    "url": "https://temu.to/k/ghm480s8akx",
    "urlByLang": {},
    "img": "assets/products/43.webp",
@@ -4699,25 +4697,25 @@ window.QUIZ = {
     "cat",
     "animal",
     "living",
-    "plush",
     "cute",
-    "funny_face"
+    "funny_face",
+    "statue"
    ],
    "name": {
-    "ko": "여든 해를 산 듯한 표정의 고양이 인형",
-    "en": "A Cat Plush Who Looks Eighty Years Old",
-    "zh": "一脸活了八十年的猫咪玩偶",
-    "ja": "八十年生きたような顔の猫のぬいぐるみ",
-    "es": "Un gato de peluche que parece tener ochenta años"
+    "ko": "주먹을 쥐고 폼을 잡는 아기 고양이",
+    "en": "A Kitten Striking a Tough Pose",
+    "zh": "摆出架势的小猫咪",
+    "ja": "ファイティングポーズをとる子猫",
+    "es": "Un gatito en pose de pelea"
    },
    "line": {
-    "ko": "오래 살아본 표정을 한 것에게 위로를 받는 분이시군요.",
-    "en": "You are comforted by faces that look like they have lived long.",
-    "zh": "你会被一脸沧桑的存在安慰到。",
-    "ja": "長く生きたような顔に、慰められる方ですね。",
-    "es": "Te consuelan los rostros que parecen haber vivido mucho."
+    "ko": "작고 순해 보이는데 속으로는 한가락 한다고 믿고 싶은 분이시군요.",
+    "en": "You want to believe that something small and gentle-looking can still hold its own.",
+    "zh": "你愿意相信，看起来小而温顺的存在，其实也有两下子。",
+    "ja": "小さくて優しそうなのに、実は腕が立つと信じたい方ですね。",
+    "es": "Quieres creer que algo pequeño y dulce también sabe defenderse."
    },
-   "origName": "80세 고양이 봉제 인형",
+   "origName": "아기 고양이 포즈 피규어",
    "url": "https://temu.to/k/gludcc6fsk7",
    "urlByLang": {},
    "img": "assets/products/55.webp",
