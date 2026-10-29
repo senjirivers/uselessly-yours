@@ -692,7 +692,7 @@ window.QUIZ = {
   }
  },
  "analytics": {
-  "id": "",
+  "id": "b879d6da-1b32-4120-b0f4-367e273fa58f",
   "src": "https://cloud.umami.is/script.js"
  },
  "music": {
