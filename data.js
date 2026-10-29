@@ -387,6 +387,10 @@ window.QUIZ = {
    "replyNo": "Esperaba que dijeras eso. Aun así, jamás me he equivocado, y está a punto de demostrarse."
   }
  },
+ "analytics": {
+  "id": "",
+  "src": "https://cloud.umami.is/script.js"
+ },
  "music": {
   "src": "assets/music/bgm.mp3",
   "volume": 0.35

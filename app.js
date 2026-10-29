@@ -37,6 +37,14 @@
   }
   function musicBtn() { return Q.music && Q.music.src ? '<button class="mute" id="mute" data-mute="1" aria-pressed="' + (muted ? "true" : "false") + '">' + esc(muted ? s("musicOff") : s("musicOn")) + "</button>" : ""; }
 
+  // 방문 통계: data.js 의 analytics.id 가 있을 때만 켜지고, 개인정보 없이 어떤 상품이 나왔는지 같은 횟수만 셉니다.
+  (function () {
+    var an = Q.analytics; if (!an || !an.id) return;
+    var sc = document.createElement("script"); sc.defer = true; sc.src = an.src || "https://cloud.umami.is/script.js";
+    sc.setAttribute("data-website-id", an.id); sc.setAttribute("data-do-not-track", "true"); document.head.appendChild(sc);
+  })();
+  function track(name, data) { try { if (window.umami && window.umami.track) window.umami.track(name, data || {}); } catch (e) {} }
+
   function fresh() { return { w: Q.products.map(function (p) { return p.prior || 1; }), asked: [], hist: [], guesses: 0, lastGuessAt: -9, log: [], mode: "intro", cur: null, guess: null, main: null }; }
   function T(o) { return o && typeof o === "object" ? (o[lang] != null ? o[lang] : o.ko) : o; }
   function s(k) { var d = Q.strings[lang] || Q.strings.ko; return d[k] != null ? d[k] : Q.strings.ko[k]; }
@@ -274,7 +282,7 @@
   function secretHtml(x) {
     return '<div class="card" id="secret" hidden><span class="lead">' + esc(s("secretLead")) + "</span><h2>" + esc(T(x.p.name)) + "</h2>" +
       '<p class="why">' + esc(T(x.p.line)) + "</p>" +
-      '<a class="btn" href="' + esc(url(x.p)) + '" target="_blank" rel="sponsored noopener noreferrer">' + esc(s("resultBuy")) + "</a></div>";
+      '<a class="btn" data-pid="' + x.p.id + '" data-kind="secret" href="' + esc(url(x.p)) + '" target="_blank" rel="sponsored noopener noreferrer">' + esc(s("resultBuy")) + "</a></div>";
   }
   function needLine(tr) { var n = tr && tr.need && Q.needs && Q.needs[tr.need]; return n ? T(n) : ""; }
   function result(main) {
@@ -283,6 +291,7 @@
     if (!main) { Q.products.forEach(function (_, i) { st.w[i] = 1; }); r = ranked(); main = r[0]; }
     st.main = main;
     if (!st.traits || !st.traits.length) st.traits = profile(main).slice(0, 3);
+    track("result", { product: main.p.id, trait: st.traits[0].tr.id, lang: lang });
     var secret = r.filter(function (x) { return x.p.id !== main.p.id; })[0];
     var p = main.p, fc = friendCase(st.traits);
     var html = '<div class="stage big">' + img("gift") + "</div>" +
@@ -290,7 +299,7 @@
       "<h2>" + esc(T(p.name)) + "</h2>" +
       (p.img ? '<img class="pimg" src="' + esc(p.img) + '" alt="' + esc(T(p.name)) + '">' : "") +
       '<p class="why">' + esc(T(p.line)) + "</p>" +
-      '<a class="btn primary" href="' + esc(url(p)) + '" target="_blank" rel="sponsored noopener noreferrer">' + esc(s("resultBuy")) + "</a>" +
+      '<a class="btn primary" data-pid="' + p.id + '" data-kind="main" href="' + esc(url(p)) + '" target="_blank" rel="sponsored noopener noreferrer">' + esc(s("resultBuy")) + "</a>" +
       (S.showDisclosure === false ? "" : '<p class="note">' + esc(s("disclosure")) + "</p>") + "</div>" +
       (secret ? '<button class="btn wide" data-secret="1">' + esc(s("secretBtn")) + "</button>" + secretHtml(secret) : "") +
       (fc ? '<div class="cmp"><h3>' + esc(s("cmpTitle")) + "</h3><p>" + esc(s("friendMine")) + ": <strong>" + esc(T(fc.f0.kw)) + "</strong></p><p>" + esc(s(fc.key)) + "</p></div>" : "") +
@@ -303,6 +312,7 @@
     return location.href.split("#")[0] + "#f=" + st.traits.map(function (x) { return x.idx; }).join(".");
   }
   function sendFriend(btn) {
+    track("friend_send", { lang: lang });
     var me = st.traits[0].tr, text = s("friendText").replace("{kw}", T(me.kw)), u = friendUrl();
     if (navigator.share) { navigator.share({ text: text, url: u }).catch(function () {}); return; }
     try { navigator.clipboard.writeText(text + "\n" + u).then(function () { toast(s("copiedToast")); }, function () { toast(u); }); } catch (e) { toast(u); }
@@ -320,6 +330,7 @@
     return lines;
   }
   function makeCard() {
+    track("card_make", { lang: lang });
     var wrap = document.getElementById("cardwrap"); if (!wrap || !st.traits) return;
     var me = st.traits[0].tr, kw = T(me.kw), serif = getComputedStyle(document.documentElement).getPropertyValue("--serif") || "serif";
     var sans = getComputedStyle(document.documentElement).getPropertyValue("--sans") || "sans-serif";
@@ -363,6 +374,7 @@
   function cardBlob(cb) { st.card.toBlob(cb, "image/png"); }
   function saveCard() {
     if (!st.card) return;
+    track("card_save", { lang: lang });
     cardBlob(function (b) {
       var f = new File([b], "uselessly-yours.png", { type: "image/png" });
       var ios = /iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
@@ -379,6 +391,7 @@
   }
   function shareCard() {
     if (!st.card) return;
+    track("card_share", { lang: lang });
     cardBlob(function (b) {
       var f = new File([b], "uselessly-yours.png", { type: "image/png" });
       if (navigator.canShare && navigator.canShare({ files: [f] })) navigator.share({ files: [f], text: s("friendText").replace("{kw}", T(st.traits[0].tr.kw)), url: friendUrl() }).catch(function () {});
@@ -474,11 +487,12 @@
   }
 
   app.addEventListener("click", function (e) {
-    if (e.target.closest("a[rel~=sponsored]")) { stopMusicForLink(); return; }
+    var lk = e.target.closest("a[rel~=sponsored]");
+    if (lk) { track("buy", { product: lk.dataset.pid || "", kind: lk.dataset.kind || "", lang: lang }); stopMusicForLink(); return; }
     var b = e.target.closest("button"); if (!b) return;
     if (b.dataset.globe) { var m = document.getElementById("langmenu"); m.hidden = !m.hidden; b.setAttribute("aria-expanded", m.hidden ? "false" : "true"); return; }
     if (b.dataset.lang) return setLang(b.dataset.lang);
-    if (b.dataset.pick) { st.mode = "intro"; return setLang(b.dataset.pick); }
+    if (b.dataset.pick) { track("lang", { lang: b.dataset.pick }); st.mode = "intro"; return setLang(b.dataset.pick); }
     if (b.dataset.secret) { var sc = document.getElementById("secret"); sc.hidden = false; b.hidden = true; return; }
     if (b.dataset.card) return makeCard();
     if (b.dataset.savecard) return saveCard();
