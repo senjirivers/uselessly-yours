@@ -29,6 +29,12 @@
     if (bgm) { bgm.muted = muted; if (!muted) { var p = bgm.play(); if (p && p.catch) p.catch(function () {}); } }
     var b = document.getElementById("mute"); if (b) { b.textContent = muted ? s("musicOff") : s("musicOn"); b.setAttribute("aria-pressed", muted ? "true" : "false"); }
   }
+  // 상품 페이지로 넘어갈 때는 음악을 멈춥니다. 저장된 음소거 설정은 건드리지 않습니다.
+  function stopMusicForLink() {
+    if (bgm) { try { bgm.pause(); } catch (e) {} }
+    muted = true;
+    var b = document.getElementById("mute"); if (b) { b.textContent = s("musicOff"); b.setAttribute("aria-pressed", "true"); }
+  }
   function musicBtn() { return Q.music && Q.music.src ? '<button class="mute" id="mute" data-mute="1" aria-pressed="' + (muted ? "true" : "false") + '">' + esc(muted ? s("musicOff") : s("musicOn")) + "</button>" : ""; }
 
   function fresh() { return { w: Q.products.map(function (p) { return p.prior || 1; }), asked: [], hist: [], guesses: 0, lastGuessAt: -9, log: [], mode: "intro", cur: null, guess: null, main: null }; }
@@ -450,6 +456,7 @@
   }
 
   app.addEventListener("click", function (e) {
+    if (e.target.closest("a[rel~=sponsored]")) { stopMusicForLink(); return; }
     var b = e.target.closest("button"); if (!b) return;
     if (b.dataset.globe) { var m = document.getElementById("langmenu"); m.hidden = !m.hidden; b.setAttribute("aria-expanded", m.hidden ? "false" : "true"); return; }
     if (b.dataset.lang) return setLang(b.dataset.lang);
