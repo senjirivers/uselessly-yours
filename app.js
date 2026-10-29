@@ -341,7 +341,19 @@
   function cardBlob(cb) { st.card.toBlob(cb, "image/png"); }
   function saveCard() {
     if (!st.card) return;
-    cardBlob(function (b) { var a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = "uselessly-yours.png"; document.body.appendChild(a); a.click(); a.remove(); });
+    cardBlob(function (b) {
+      var f = new File([b], "uselessly-yours.png", { type: "image/png" });
+      var ios = /iP(hone|ad|od)/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+      // iOS Safari는 다운로드 속성이 불안정해서 공유 시트의 "이미지 저장"을 씁니다.
+      if (ios && navigator.canShare && navigator.canShare({ files: [f] })) {
+        navigator.share({ files: [f] }).catch(function (e) { if (e && e.name !== "AbortError") toast(s("saveHint")); });
+        return;
+      }
+      var u = URL.createObjectURL(b), a = document.createElement("a");
+      a.href = u; a.download = "uselessly-yours.png"; a.rel = "noopener"; document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(u); }, 10000);
+      toast(s("saveHint"));
+    });
   }
   function shareCard() {
     if (!st.card) return;
