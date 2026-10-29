@@ -2359,15 +2359,15 @@ window.QUIZ = {
   {
    "id": "c_pet",
    "text": {
-    "ko": "책상 옆에서 함께 산다면 어떤 동물이 좋겠습니까?",
-    "en": "If an animal lived beside your desk, which would you want?",
-    "zh": "如果书桌旁养一只动物，你想要哪种？",
-    "ja": "机のそばで動物と暮らすなら、どれがいいですか？",
-    "es": "Si un animal viviera junto a tu escritorio, ¿cuál querrías?",
-    "pt": "Se um animal vivesse ao lado da sua mesa, qual você gostaria?",
-    "fr": "Si un animal vivait près de votre bureau, lequel voudriez-vous ?",
-    "de": "Wenn ein Tier neben Ihrem Schreibtisch wohnen würde, welches wünschen Sie sich?",
-    "th": "ถ้ามีสัตว์มาอยู่ข้างโต๊ะ คุณอยากได้ตัวไหน?"
+    "ko": "동물 친구를 한 마리 만난다면 어떤 쪽이 끌립니까?",
+    "en": "If you could meet one animal friend, which would draw you in?",
+    "zh": "如果能遇见一位动物朋友，你会被哪种吸引？",
+    "ja": "動物の友達に一匹出会えるなら、どれに惹かれますか？",
+    "es": "Si pudieras conocer a un amigo animal, ¿cuál te atraería?",
+    "pt": "Se você pudesse conhecer um amigo animal, qual o atrairia?",
+    "fr": "Si vous pouviez rencontrer un ami animal, lequel vous attirerait ?",
+    "de": "Wenn Sie einen tierischen Freund treffen könnten, welcher würde Sie anziehen?",
+    "th": "ถ้าได้พบเพื่อนสัตว์สักตัว คุณจะสนใจตัวไหน?"
    },
    "stage": 1,
    "yes": [],
