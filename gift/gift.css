@@ -1,9 +1,13 @@
-/* 선물 추천기 — 색과 글꼴은 본 사이트(/style.css)와 같은 흑백을 그대로 씁니다. */
+/* 선물 추천기 — 틀은 /style.css, 색은 굳이 필요한 물건 추천기(가성비맨)와 같은 밝은 회색 바탕입니다. */
+:root {
+  --bg: #dedbd3; --panel: #f4f2ec; --line: #b4b0a5; --ink: #0d0d0d; --muted: #5c5950;
+  --gold: #0d0d0d; --gold-ink: #f4f2ec;
+}
 body { padding-top: 0; }
 .cp-notice {
   position: sticky; top: 0; z-index: 20;
   margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))) 12px;
-  padding: 10px 16px; background: var(--ink); color: #fff;
+  padding: 10px 16px; background: var(--ink); color: var(--panel);
   font: 500 12.5px/1.5 var(--sans); text-align: center;
 }
 .butler { animation-duration: 3.5s; }
@@ -13,6 +17,6 @@ body { padding-top: 0; }
 .progress i { display: block; height: 100%; background: var(--ink); }
 .gcard { border: 1px dashed var(--ink); border-radius: 12px; padding: 14px; background: var(--panel); font: 500 16px/1.6 var(--serif); }
 .gcard .lead { display: block; color: var(--muted); font: 400 12.5px/1.4 var(--sans); margin-bottom: 4px; }
-.ph { display: flex; align-items: center; justify-content: center; aspect-ratio: 4/3; border-radius: 10px; background: #f2f2f2; color: var(--muted); font-size: 13px; }
+.ph { display: flex; align-items: center; justify-content: center; aspect-ratio: 4/3; border-radius: 10px; background: var(--bg); color: var(--muted); font-size: 13px; }
 span.btn { display: flex; align-items: center; justify-content: center; opacity: .7; }
 .progress + .stage { height: 170px; }
