@@ -52,10 +52,11 @@ window.GIFT = {
       { text: "형제자매", tags: ["sibling"] },
       { text: "선생님·은사", tags: ["teacher"] }, { text: "아이", tags: ["kid"] } ] },
     { id: "sex", pre: "취향에는 성별이 없다고들 합니다.\n그런데 세상의 진열대는 아직 그 말을 믿지 않는 모양입니다.", text: "그분의 성별은요?", options: [
-      { text: "여성", tags: ["female"] }, { text: "남성", tags: ["male"] }, { text: "굳이 따지지 않을게요", tags: [] } ] },
+      { text: "여성", tags: ["female"], ex: ["onlymale"] }, { text: "남성", tags: ["male"], ex: ["onlyfemale"] },
+      { text: "잘 모르겠어요", tags: [], ex: ["onlymale", "onlyfemale"] } ] },
     { id: "age", pre: "시간은 사람을 조금씩 다른 사람으로 바꿔 놓습니다.\n스무 살에 갖고 싶던 것을 마흔에 받으면, 잠깐 추억이 떠올라 반가울 수도 있겠죠.\n하지만 대부분은 서랍 한구석에 조용히 박히게 됩니다.", text: "그분은 몇 살쯤인가요?", options: [
       { text: "10대", tags: ["a10"] }, { text: "20대", tags: ["a20"] }, { text: "30대", tags: ["a30"] },
-      { text: "40~50대", tags: ["a40"] }, { text: "60대 이상", tags: ["a60"] } ] },
+      { text: "40~50대", tags: ["a40"] }, { text: "60대 이상", tags: ["a60"] }, { text: "잘 모르겠어요", tags: [] } ] },
     { id: "occ", pre: "모든 날이 특별하다면 특별한 날은 없겠죠.\n그래서 우리는 날짜에 이름을 붙이고, 그 이름을 핑계 삼아 마음을 꺼냅니다.", text: "이번 핑계는 무엇인가요?", options: [
       { text: "생일", tags: ["birthday"] }, { text: "기념일", tags: ["anniv"] }, { text: "집들이", tags: ["housewarm"] },
       { text: "승진·이직·합격", tags: ["promo"] }, { text: "출산·육아", tags: ["baby"] }, { text: "병문안·위로", tags: ["comfort"] },
@@ -63,20 +64,21 @@ window.GIFT = {
     { id: "budget", pre: "마음에는 값이 없다고들 합니다.\n그런데 이상하게도 선물에는 늘 가격표가 붙어 있죠. 정직하게 정해봅시다.", text: "예산은 얼마인가요?", options: [
       { text: "1만 원 안팎 (1.5만 원까지)", max: 15000 }, { text: "1.5~2.5만 원", min: 15000, max: 25000 },
       { text: "2.5~3.5만 원", min: 25000, max: 35000 }, { text: "3.5만 원 이상", min: 35000 } ] },
-    { id: "avoid", pre: "선물의 실패는 대개 싫어하는 것을 건넸을 때 일어납니다.\n좋아하는 것을 맞히는 일보다, 싫어하는 것을 피하는 일이 더 쉽죠.", text: "그분이 피하는 것이 있나요?", options: [
+    { id: "avoid", pre: "선물의 실패는 대개 싫어하는 것을 건넸을 때 일어납니다.\n모르신다면 모른다고 하세요. 취향을 타는 것은 조용히 빼겠습니다.", text: "그분이 피하는 것이 있나요?", options: [
       { text: "진한 향은 질색해요", tags: [], ex: ["scent"] }, { text: "단 음식은 잘 안 먹어요", tags: [], ex: ["sweet"] },
-      { text: "카페인을 안 마셔요", tags: [], ex: ["caffeine"] }, { text: "특별히 없어요", tags: [] }, { text: "잘 모르겠어요", tags: [] } ] },
+      { text: "카페인을 안 마셔요", tags: [], ex: ["caffeine"] }, { text: "특별히 없어요", tags: [] },
+      { text: "잘 모르겠어요", tags: [], ex: ["scent", "sweet", "caffeine"] } ] },
     { id: "pet", pre: "말 못 하는 가족에게 쓰는 돈은 아깝지 않다고들 합니다.\n하지만 가족이 아닌 사람에게 급식기를 선물하면 사정이 달라집니다.", text: "그분은 반려동물과 함께 사나요?", options: [
       { text: "네", tags: ["pet"] }, { text: "아니요", tags: [] }, { text: "잘 모르겠어요", tags: [] } ] },
     { id: "sport", pre: "몸을 움직이는 사람은 도구에서 티가 납니다.\n양말 한 켤레의 차이는 달리는 사람만 압니다.", text: "그분은 운동을 꾸준히 하나요?", options: [
-      { text: "네, 꾸준히", tags: ["sport"] }, { text: "가끔", tags: [] }, { text: "거의 안 해요", tags: [] } ] },
+      { text: "네, 꾸준히", tags: ["sport"] }, { text: "가끔", tags: [] }, { text: "거의 안 해요", tags: [] }, { text: "잘 모르겠어요", tags: [] } ] },
     { id: "play", pre: "어떤 물건은 취미가 있는 사람에게만 선물이 됩니다.\n나머지에게는 서랍 속 공간 차지에 가깝습니다.", text: "그분이 푹 빠진 취미가 있다면요?", options: [
-      { text: "게임", tags: ["game"] }, { text: "사진·필름", tags: ["photo"] }, { text: "둘 다 아니에요", tags: [] } ] },
+      { text: "게임", tags: ["game"] }, { text: "사진·필름", tags: ["photo"] }, { text: "둘 다 아니에요", tags: [] }, { text: "잘 모르겠어요", tags: [] } ] },
     { id: "has", pre: "다 가진 사람에게도 모자란 것은 있습니다.\n쓰면 사라지는 것들이죠.", text: "그분은 이미 웬만한 건 다 가진 편인가요?", options: [
       { text: "네, 다 있어요", tags: ["consumable"] }, { text: "아니요", tags: [] }, { text: "잘 모르겠어요", tags: [] } ] },
     { id: "react", pre: "선물은 결국 한 장면을 위해 존재합니다.\n포장지가 찢어지는, 그 몇 초.", text: "그 몇 초 동안 어떤 얼굴을 보고 싶나요?", options: [
       { text: "\"오 이거 진짜 필요했어\"", tags: ["useful"] }, { text: "\"헐 감동…\"", tags: ["touching"] },
-      { text: "\"ㅋㅋㅋㅋ 뭐야\"", tags: ["funny"] }, { text: "\"고급지다\"", tags: ["fancy"] } ] }
+      { text: "\"ㅋㅋㅋㅋ 뭐야\"", tags: ["funny"] }, { text: "\"고급지다\"", tags: ["fancy"] }, { text: "잘 모르겠어요", tags: [] } ] }
   ],
   /* 질문별 가중치: 관계·상황·반응이 크게, 나머지는 작게. */
   gate: ["pet", "sport", "game", "photo"],
@@ -116,12 +118,12 @@ window.GIFT = {
     { name: "화산석 화분 미니 바오밥나무", line: "16,000원짜리 나무가 천 년을 사는 이름을 달고 있습니다.", price: 16000, url: "https://link.coupang.com/a/igF8NMI9HE", img: "/assets/gift/products/20.webp", tags: ["friend", "coworker", "crush", "a20", "a30", "housewarm", "promo", "random", "birthday", "solo", "office", "home", "touching", "funny"] },
     { name: "수경식물 테이블야자 라반화병 세트", line: "물만 주면 되는 가장 느슨한 책임.", price: 22000, url: "https://link.coupang.com/a/igGaOKKXiS", img: "/assets/gift/products/21.webp", tags: ["friend", "coworker", "a20", "a30", "a40", "housewarm", "promo", "birthday", "random", "solo", "office", "home", "touching", "useful"] },
     { name: "신라명과 셀레브르쿠키", line: "포장이 먼저 말을 걸고 쿠키가 이어서 말합니다.", price: 17000, url: "https://link.coupang.com/a/igHB5DiNWu", img: "/assets/gift/products/22.webp", tags: ["sweet", "friend", "coworker", "crush", "sibling", "female", "a20", "a30", "a40", "birthday", "random", "holiday", "promo", "office", "student", "homeday", "consumable", "touching", "fancy"] },
-    { name: "CEP 남성 러닝 삭스", line: "달리는 사람의 발목에게 건네는 가장 조용한 응원.", price: 33000, url: "https://link.coupang.com/a/igIzIaVGuG", img: "/assets/gift/products/23.webp", tags: ["friend", "sibling", "coworker", "male", "a20", "a30", "a40", "birthday", "promo", "holiday", "random", "physical", "office", "sport", "consumable", "useful", "fancy"] },
-    { name: "CEP 남성 올데이 리커버리 미드컷 삭스", line: "달린 뒤의 발은 보상받을 자격이 있습니다.", price: 39000, url: "https://link.coupang.com/a/igIGOmeQtE", img: "/assets/gift/products/24.webp", tags: ["friend", "sibling", "coworker", "male", "a20", "a30", "a40", "birthday", "promo", "holiday", "random", "physical", "office", "sport", "consumable", "useful", "fancy", "touching"] },
-    { name: "CEP 여성 더 런 로우컷 삭스", line: "달리기를 시작한 사람은 양말부터 진지해집니다.", price: 35000, url: "https://link.coupang.com/a/igIMJO67vU", img: "/assets/gift/products/25.webp", tags: ["friend", "sibling", "coworker", "female", "a20", "a30", "a40", "birthday", "promo", "holiday", "random", "physical", "office", "sport", "consumable", "useful", "fancy"] },
+    { name: "CEP 남성 러닝 삭스", line: "달리는 사람의 발목에게 건네는 가장 조용한 응원.", price: 33000, url: "https://link.coupang.com/a/igIzIaVGuG", img: "/assets/gift/products/23.webp", tags: ["onlymale", "friend", "sibling", "coworker", "male", "a20", "a30", "a40", "birthday", "promo", "holiday", "random", "physical", "office", "sport", "consumable", "useful", "fancy"] },
+    { name: "CEP 남성 올데이 리커버리 미드컷 삭스", line: "달린 뒤의 발은 보상받을 자격이 있습니다.", price: 39000, url: "https://link.coupang.com/a/igIGOmeQtE", img: "/assets/gift/products/24.webp", tags: ["onlymale", "friend", "sibling", "coworker", "male", "a20", "a30", "a40", "birthday", "promo", "holiday", "random", "physical", "office", "sport", "consumable", "useful", "fancy", "touching"] },
+    { name: "CEP 여성 더 런 로우컷 삭스", line: "달리기를 시작한 사람은 양말부터 진지해집니다.", price: 35000, url: "https://link.coupang.com/a/igIMJO67vU", img: "/assets/gift/products/25.webp", tags: ["onlyfemale", "friend", "sibling", "coworker", "female", "a20", "a30", "a40", "birthday", "promo", "holiday", "random", "physical", "office", "sport", "consumable", "useful", "fancy"] },
     { name: "나이키 빅마우스 물병 블랙", line: "물은 하루에 몇 번 기억해 주기를 기다립니다.", price: 8000, url: "https://link.coupang.com/a/igIRzASWQ0", img: "/assets/gift/products/26.webp", tags: ["friend", "sibling", "coworker", "crush", "a10", "a20", "a30", "birthday", "random", "promo", "student", "office", "physical", "sport", "travel", "useful"] },
     { name: "아그파 컬러 일회용카메라", line: "필름은 결과를 기다리는 시간까지 선물에 포함시킵니다.", price: 25000, url: "https://link.coupang.com/a/igJmxzZSOi", img: "/assets/gift/products/27.webp", tags: ["friend", "sibling", "crush", "a10", "a20", "a30", "birthday", "random", "anniv", "holiday", "student", "travel", "photo", "funny", "touching", "fancy"] },
-    { name: "나이키 컴프레션 반팔", line: "운동하는 사람에게 땀은 옷을 고르는 이유입니다.", price: 32000, url: "https://link.coupang.com/a/igJuqag1S1", img: "/assets/gift/products/28.webp", tags: ["friend", "sibling", "coworker", "male", "a20", "a30", "a40", "birthday", "promo", "holiday", "physical", "office", "sport", "useful", "fancy"] },
+    { name: "나이키 컴프레션 반팔", line: "운동하는 사람에게 땀은 옷을 고르는 이유입니다.", price: 32000, url: "https://link.coupang.com/a/igJuqag1S1", img: "/assets/gift/products/28.webp", tags: ["onlymale", "friend", "sibling", "coworker", "male", "a20", "a30", "a40", "birthday", "promo", "holiday", "physical", "office", "sport", "useful", "fancy"] },
     { name: "디클펫 반려동물 자동급식기", line: "집을 비우는 시간에도 마음은 밥그릇 앞에 있습니다.", price: 56000, url: "https://link.coupang.com/a/igJFL35rb2", img: "/assets/gift/products/29.webp", tags: ["friend", "sibling", "coworker", "a20", "a30", "a40", "birthday", "housewarm", "holiday", "solo", "couple", "family", "office", "pet", "useful", "touching"] },
     { name: "페블펫 3중여과 자동급수기", line: "물이 늘 신선하다는 사실은 말 못 하는 가족에게 가장 큰 배려입니다.", price: 19900, url: "https://link.coupang.com/a/igJV9KFYAe", img: "/assets/gift/products/30.webp", tags: ["friend", "sibling", "coworker", "a20", "a30", "a40", "birthday", "housewarm", "holiday", "random", "solo", "couple", "family", "office", "pet", "useful", "touching"] },
     { name: "메카닉 G1 게임패드", line: "손에 쥐는 순간 반응이 달라지는 물건이 있습니다.", price: 29000, url: "https://link.coupang.com/a/igJ8p45Hzw", img: "/assets/gift/products/31.webp", tags: ["friend", "sibling", "coworker", "male", "a10", "a20", "a30", "birthday", "random", "promo", "student", "homeday", "home", "game", "useful", "fancy", "funny"] }
