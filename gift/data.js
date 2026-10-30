@@ -72,7 +72,7 @@ window.GIFT = {
     { id: "hobby", pre: "쉬는 시간에 무엇을 하는지는\n그 사람이 스스로에게 주는 선물입니다.", text: "그분은 쉬는 날 주로 무엇을 하나요?", options: [
       { text: "영화·드라마·독서·음악 (집콕)", tags: ["home"] }, { text: "요리·베이킹·홈카페", tags: ["cook"] },
       { text: "운동·등산", tags: ["sport"] }, { text: "여행·캠핑", tags: ["travel"] },
-      { text: "게임·보드게임", tags: ["game"] }, { text: "덕질·굿즈 모으기", tags: ["fandom"] },
+      { text: "게임·보드게임", tags: ["game"] },
       { text: "꾸미기·뷰티·패션", tags: ["beauty"] }, { text: "사진·감성 기록", tags: ["photo"] },
       { text: "반려동물과 시간 보내기", tags: ["pet"] }, { text: "쉬는 날에도 일함", tags: ["work"] },
       { text: "딱히 없어 보여요", tags: [] } ] },
