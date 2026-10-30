@@ -70,9 +70,12 @@ window.GIFT = {
       { text: "학교", tags: ["student"] }, { text: "회사·사무실", tags: ["office"] }, { text: "몸을 쓰는 일터", tags: ["physical"] },
       { text: "집 (살림·육아·재택)", tags: ["homeday"] }, { text: "은퇴했거나 쉬는 중", tags: ["retired"] } ] },
     { id: "hobby", pre: "쉬는 시간에 무엇을 하는지는\n그 사람이 스스로에게 주는 선물입니다.", text: "그분은 쉬는 날 주로 무엇을 하나요?", options: [
-      { text: "집에서 뒹굴", tags: ["home"] }, { text: "요리·카페", tags: ["cook"] }, { text: "운동·등산", tags: ["sport"] },
-      { text: "게임·덕질", tags: ["game"] }, { text: "꾸미기·뷰티", tags: ["beauty"] }, { text: "여행·캠핑", tags: ["travel"] },
-      { text: "쉬는 날에도 일함", tags: ["work"] } ] },
+      { text: "영화·드라마·독서·음악 (집콕)", tags: ["home"] }, { text: "요리·베이킹·홈카페", tags: ["cook"] },
+      { text: "운동·등산", tags: ["sport"] }, { text: "여행·캠핑", tags: ["travel"] },
+      { text: "게임·보드게임", tags: ["game"] }, { text: "덕질·굿즈 모으기", tags: ["fandom"] },
+      { text: "꾸미기·뷰티·패션", tags: ["beauty"] }, { text: "사진·감성 기록", tags: ["photo"] },
+      { text: "반려동물과 시간 보내기", tags: ["pet"] }, { text: "쉬는 날에도 일함", tags: ["work"] },
+      { text: "딱히 없어 보여요", tags: [] } ] },
     { id: "has", pre: "다 가진 사람에게도 모자란 것은 있습니다.\n쓰면 사라지는 것들이죠.", text: "그분은 이미 웬만한 건 다 가진 편인가요?", options: [
       { text: "네, 다 있어요", tags: ["consumable"] }, { text: "아니요", tags: [] }, { text: "잘 모르겠어요", tags: [] } ] },
     { id: "react", pre: "선물은 결국 한 장면을 위해 존재합니다.\n포장지가 찢어지는, 그 몇 초.", text: "그 몇 초 동안 어떤 얼굴을 보고 싶나요?", options: [
@@ -80,7 +83,7 @@ window.GIFT = {
       { text: "\"ㅋㅋㅋㅋ 뭐야\"", tags: ["funny"] }, { text: "\"고급지다\"", tags: ["fancy"] } ] }
   ],
   /* 질문별 가중치: 관계·상황·반응이 크게, 나머지는 작게. */
-  weights: { rel: 3, sex: 1.5, age: 1.5, occ: 3, live: 1.5, day: 1.5, hobby: 2, has: 2, react: 2.5 },
+  weights: { rel: 3, sex: 1.5, age: 1.5, occ: 3, live: 1.5, day: 1.5, hobby: 3.5, has: 2, react: 2.5 },
   /* 카드 문구: 상황 태그별. {가} 같은 치환 없이 그대로 씁니다. */
   cards: {
     birthday: ["생일 축하해. 올해도 내가 계산해 보니 넌 남는 장사야.", "태어나줘서 고마워. 이건 내 인생 최고의 투자였어."],
@@ -115,6 +118,15 @@ window.GIFT = {
     { name: "헉슬리 룸 스프레이 모로칸가드너", line: "공간에 취향을 뿌립니다.", price: 25000, url: "https://link.coupang.com/a/igFkg23HNI", img: "/assets/gift/products/19.webp", tags: ["friend", "coworker", "crush", "a20", "a30", "housewarm", "birthday", "random", "solo", "home", "minimal", "consumable", "fancy", "useful"] },
     { name: "화산석 화분 미니 바오밥나무", line: "16,000원짜리 나무가 천 년을 사는 이름을 달고 있습니다.", price: 16000, url: "https://link.coupang.com/a/igF8NMI9HE", img: "/assets/gift/products/20.webp", tags: ["friend", "coworker", "crush", "a20", "a30", "housewarm", "promo", "random", "birthday", "solo", "office", "home", "touching", "funny"] },
     { name: "수경식물 테이블야자 라반화병 세트", line: "물만 주면 되는 가장 느슨한 책임.", price: 22000, url: "https://link.coupang.com/a/igGaOKKXiS", img: "/assets/gift/products/21.webp", tags: ["friend", "coworker", "a20", "a30", "a40", "housewarm", "promo", "birthday", "random", "solo", "office", "home", "touching", "useful"] },
-    { name: "신라명과 셀레브르쿠키", line: "포장이 먼저 말을 걸고 쿠키가 이어서 말합니다.", price: 17000, url: "https://link.coupang.com/a/igHB5DiNWu", img: "/assets/gift/products/22.webp", tags: ["friend", "coworker", "crush", "sibling", "female", "a20", "a30", "a40", "birthday", "random", "holiday", "promo", "office", "student", "homeday", "consumable", "touching", "fancy"] }
+    { name: "신라명과 셀레브르쿠키", line: "포장이 먼저 말을 걸고 쿠키가 이어서 말합니다.", price: 17000, url: "https://link.coupang.com/a/igHB5DiNWu", img: "/assets/gift/products/22.webp", tags: ["friend", "coworker", "crush", "sibling", "female", "a20", "a30", "a40", "birthday", "random", "holiday", "promo", "office", "student", "homeday", "consumable", "touching", "fancy"] },
+    { name: "CEP 남성 러닝 삭스", line: "달리는 사람의 발목에게 건네는 가장 조용한 응원.", price: 33000, url: "https://link.coupang.com/a/igIzIaVGuG", img: "/assets/gift/products/23.webp", tags: ["friend", "sibling", "coworker", "male", "a20", "a30", "a40", "birthday", "promo", "holiday", "random", "physical", "office", "sport", "consumable", "useful", "fancy"] },
+    { name: "CEP 남성 올데이 리커버리 미드컷 삭스", line: "달린 뒤의 발은 보상받을 자격이 있습니다.", price: 39000, url: "https://link.coupang.com/a/igIGOmeQtE", img: "/assets/gift/products/24.webp", tags: ["friend", "sibling", "coworker", "male", "a20", "a30", "a40", "birthday", "promo", "holiday", "random", "physical", "office", "sport", "consumable", "useful", "fancy", "touching"] },
+    { name: "CEP 여성 더 런 로우컷 삭스", line: "달리기를 시작한 사람은 양말부터 진지해집니다.", price: 35000, url: "https://link.coupang.com/a/igIMJO67vU", img: "/assets/gift/products/25.webp", tags: ["friend", "sibling", "coworker", "female", "a20", "a30", "a40", "birthday", "promo", "holiday", "random", "physical", "office", "sport", "consumable", "useful", "fancy"] },
+    { name: "나이키 빅마우스 물병 블랙", line: "물은 하루에 몇 번 기억해 주기를 기다립니다.", price: 8000, url: "https://link.coupang.com/a/igIRzASWQ0", img: "/assets/gift/products/26.webp", tags: ["friend", "sibling", "coworker", "crush", "a10", "a20", "a30", "birthday", "random", "promo", "student", "office", "physical", "sport", "travel", "useful"] },
+    { name: "아그파 컬러 일회용카메라", line: "필름은 결과를 기다리는 시간까지 선물에 포함시킵니다.", price: 25000, url: "https://link.coupang.com/a/igJmxzZSOi", img: "/assets/gift/products/27.webp", tags: ["friend", "sibling", "crush", "a10", "a20", "a30", "birthday", "random", "anniv", "holiday", "student", "travel", "photo", "funny", "touching", "fancy"] },
+    { name: "나이키 컴프레션 반팔", line: "운동하는 사람에게 땀은 옷을 고르는 이유입니다.", price: 32000, url: "https://link.coupang.com/a/igJuqag1S1", img: "/assets/gift/products/28.webp", tags: ["friend", "sibling", "coworker", "male", "a20", "a30", "a40", "birthday", "promo", "holiday", "physical", "office", "sport", "useful", "fancy"] },
+    { name: "디클펫 반려동물 자동급식기", line: "집을 비우는 시간에도 마음은 밥그릇 앞에 있습니다.", price: 56000, url: "https://link.coupang.com/a/igJFL35rb2", img: "/assets/gift/products/29.webp", tags: ["friend", "sibling", "coworker", "a20", "a30", "a40", "birthday", "housewarm", "holiday", "solo", "couple", "family", "office", "pet", "useful", "touching"] },
+    { name: "페블펫 3중여과 자동급수기", line: "물이 늘 신선하다는 사실은 말 못 하는 가족에게 가장 큰 배려입니다.", price: 19900, url: "https://link.coupang.com/a/igJV9KFYAe", img: "/assets/gift/products/30.webp", tags: ["friend", "sibling", "coworker", "a20", "a30", "a40", "birthday", "housewarm", "holiday", "random", "solo", "couple", "family", "office", "pet", "useful", "touching"] },
+    { name: "메카닉 G1 게임패드", line: "손에 쥐는 순간 반응이 달라지는 물건이 있습니다.", price: 29000, url: "https://link.coupang.com/a/igJ8p45Hzw", img: "/assets/gift/products/31.webp", tags: ["friend", "sibling", "coworker", "male", "a10", "a20", "a30", "birthday", "random", "promo", "student", "homeday", "home", "game", "useful", "fancy", "funny"] }
   ]
 };
