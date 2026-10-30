@@ -25,7 +25,7 @@
   function ask() {
     var qq = G.questions[st.i], pct = Math.round(st.i / G.questions.length * 100);
     app.innerHTML = top() + '<div class="progress"><i style="width:' + pct + '%"></i></div>' + img(st.i % 2 ? "chin" : "stand") +
-      '<div class="bubble"><span class="lead">' + (st.i + 1) + " / " + G.questions.length + "</span>" + esc(qq.text) + (qq.note ? '<span class="qnote">' + esc(qq.note) + "</span>" : "") + "</div>" +
+      '<div class="bubble"><span class="lead">' + (st.i + 1) + " / " + G.questions.length + "</span>" + (qq.pre ? '<span class="qpre">' + esc(qq.pre).replace(/\n/g, "<br>") + "</span>" : "") + '<strong class="qtext">' + esc(qq.text) + "</strong></div>" +
       '<div class="choices">' + qq.options.map(function (o, k) { return '<button class="btn" data-opt="' + k + '">' + esc(o.text) + "</button>"; }).join("") +
       (st.i ? '<button class="btn link" data-back="1">이전 질문</button>' : "") + "</div>";
   }

@@ -45,37 +45,42 @@ window.GIFT = {
   },
   /* 질문 순서대로 나옵니다. budget 질문은 options 에 min/max 가 있고 필터로 씁니다. */
   questions: [
-    { id: "rel", text: "누구에게 마음을 건네려 하나요?", note: "관계가 선물의 무게를 정합니다.", options: [
+    { id: "rel", pre: "선물은 물건보다 먼저 거리를 말합니다.\n너무 가까우면 부담이 되고, 너무 멀면 예의가 되죠.", text: "그분은 당신에게 어떤 사람인가요?", options: [
       { text: "연인", tags: ["lover"] }, { text: "썸 타는 사람", tags: ["crush"] },
       { text: "친구", tags: ["friend"] }, { text: "직장 동료·상사", tags: ["coworker"] },
       { text: "엄마·아빠", tags: ["parent"] }, { text: "형제자매", tags: ["sibling"] },
       { text: "선생님·은사", tags: ["teacher"] }, { text: "아이", tags: ["kid"] } ] },
-    { id: "age", text: "그분은 몇 살쯤인가요?", note: "나이는 취향의 절반을 설명합니다. 나머지 절반은 아무도 모르고요.", options: [
+    { id: "sex", pre: "취향에는 성별이 없다고들 합니다.\n그런데 세상의 진열대는 아직 그 말을 믿지 않는 모양입니다.", text: "그분의 성별은요?", options: [
+      { text: "여성", tags: ["female"] }, { text: "남성", tags: ["male"] }, { text: "굳이 따지지 않을게요", tags: [] } ] },
+    { id: "age", pre: "시간은 사람을 조금씩 다른 사람으로 바꿔 놓습니다.\n스무 살에 갖고 싶던 것을 마흔에 받으면, 그건 선물이 아니라 추억이 되죠.", text: "그분은 몇 살쯤인가요?", options: [
       { text: "10대", tags: ["a10"] }, { text: "20대", tags: ["a20"] }, { text: "30대", tags: ["a30"] },
       { text: "40~50대", tags: ["a40"] }, { text: "60대 이상", tags: ["a60"] } ] },
-    { id: "occ", text: "무슨 날인가요?", note: "사람은 핑계가 있어야 마음을 꺼냅니다. 이번 핑계는 무엇인가요?", options: [
+    { id: "occ", pre: "모든 날이 특별하다면 특별한 날은 없겠죠.\n그래서 우리는 날짜에 이름을 붙이고, 그 이름을 핑계 삼아 마음을 꺼냅니다.", text: "이번 핑계는 무엇인가요?", options: [
       { text: "생일", tags: ["birthday"] }, { text: "기념일", tags: ["anniv"] }, { text: "집들이", tags: ["housewarm"] },
       { text: "승진·이직·합격", tags: ["promo"] }, { text: "출산·육아", tags: ["baby"] }, { text: "병문안·위로", tags: ["comfort"] },
       { text: "명절·감사", tags: ["holiday"] }, { text: "그냥 (이유 없는 선물)", tags: ["random"] } ] },
-    { id: "budget", text: "예산은 얼마인가요?", note: "마음에는 값을 매길 수 없다지만, 선물에는 매겨야 합니다.", options: [
+    { id: "budget", pre: "마음에는 값이 없다고들 합니다.\n그런데 이상하게도 선물에는 늘 가격표가 붙어 있죠. 정직하게 정해봅시다.", text: "예산은 얼마인가요?", options: [
       { text: "1만 원 이하", max: 10000 }, { text: "1~3만 원", min: 10000, max: 30000 },
       { text: "3~5만 원", min: 30000, max: 50000 }, { text: "5~10만 원", min: 50000, max: 100000 },
       { text: "10만 원 이상", min: 100000 } ] },
-    { id: "hobby", text: "그분은 쉬는 날 뭐 하나요?", note: "사람은 쉬는 방식으로 자신을 드러냅니다.", options: [
+    { id: "live", pre: "사람의 하루는 함께 사는 사람들의 모양을 닮아갑니다.\n혼자의 방과 여럿의 집은 필요한 것이 다르죠.", text: "그분은 누구와 살고 있나요?", options: [
+      { text: "혼자", tags: ["solo"] }, { text: "부모님·가족과", tags: ["family"] }, { text: "연인·배우자와", tags: ["couple"] },
+      { text: "아이를 키우는 중", tags: ["parenting"] }, { text: "잘 모르겠어요", tags: [] } ] },
+    { id: "day", pre: "우리는 하루의 대부분을 보내는 곳을 조금씩 닮아갑니다.\n책상을 닮은 사람이 있고, 길을 닮은 사람이 있죠.", text: "그분의 낮은 주로 어디서 흘러가나요?", options: [
+      { text: "학교", tags: ["student"] }, { text: "회사·사무실", tags: ["office"] }, { text: "몸을 쓰는 일터", tags: ["physical"] },
+      { text: "집 (살림·육아·재택)", tags: ["homeday"] }, { text: "은퇴했거나 쉬는 중", tags: ["retired"] } ] },
+    { id: "hobby", pre: "쉬는 시간에 무엇을 하는지는\n그 사람이 스스로에게 주는 선물입니다.", text: "그분은 쉬는 날 주로 무엇을 하나요?", options: [
       { text: "집에서 뒹굴", tags: ["home"] }, { text: "요리·카페", tags: ["cook"] }, { text: "운동·등산", tags: ["sport"] },
       { text: "게임·덕질", tags: ["game"] }, { text: "꾸미기·뷰티", tags: ["beauty"] }, { text: "여행·캠핑", tags: ["travel"] },
-      { text: "일만 함", tags: ["work"] } ] },
-    { id: "space", text: "그분 방이나 책상은 어떤 느낌인가요?", note: "방은 그 사람이 매일 고른 것들의 합입니다.", options: [
-      { text: "물건이 거의 없음", tags: ["minimal", "consumable"] }, { text: "귀여운 것 가득", tags: ["cute"] },
-      { text: "전자기기 가득", tags: ["tech"] }, { text: "식물·인테리어", tags: ["plant"] }, { text: "모르겠음", tags: [] } ] },
-    { id: "react", text: "받고 어떤 반응이었으면 하나요?", note: "모든 선물은 결국 한 장면을 위해 존재합니다.", options: [
+      { text: "쉬는 날에도 일함", tags: ["work"] } ] },
+    { id: "has", pre: "다 가진 사람에게도 모자란 것은 있습니다.\n쓰면 사라지는 것들이죠.", text: "그분은 이미 웬만한 건 다 가진 편인가요?", options: [
+      { text: "네, 다 있어요", tags: ["consumable"] }, { text: "아니요", tags: [] }, { text: "잘 모르겠어요", tags: [] } ] },
+    { id: "react", pre: "선물은 결국 한 장면을 위해 존재합니다.\n포장지가 찢어지는, 그 몇 초.", text: "그 몇 초 동안 어떤 얼굴을 보고 싶나요?", options: [
       { text: "\"오 이거 진짜 필요했어\"", tags: ["useful"] }, { text: "\"헐 감동…\"", tags: ["touching"] },
-      { text: "\"ㅋㅋㅋㅋ 뭐야\"", tags: ["funny"] }, { text: "\"고급지다\"", tags: ["fancy"] } ] },
-    { id: "has", text: "그분은 이미 웬만한 건 다 가진 사람인가요?", note: "다 가진 사람에게도 모자란 건 있습니다. 사라지는 것들이요.", options: [
-      { text: "네, 다 있어요", tags: ["consumable"] }, { text: "아니요", tags: [] }, { text: "모르겠어요", tags: [] } ] }
+      { text: "\"ㅋㅋㅋㅋ 뭐야\"", tags: ["funny"] }, { text: "\"고급지다\"", tags: ["fancy"] } ] }
   ],
-  /* 질문별 가중치: 관계·상황·반응이 크게, 나이·공간은 작게. */
-  weights: { rel: 3, age: 1.5, occ: 3, hobby: 2, space: 1, react: 2.5, has: 2 },
+  /* 질문별 가중치: 관계·상황·반응이 크게, 나머지는 작게. */
+  weights: { rel: 3, sex: 1.5, age: 1.5, occ: 3, live: 1.5, day: 1.5, hobby: 2, has: 2, react: 2.5 },
   /* 카드 문구: 상황 태그별. {가} 같은 치환 없이 그대로 씁니다. */
   cards: {
     birthday: ["생일 축하해. 올해도 내가 계산해 보니 넌 남는 장사야.", "태어나줘서 고마워. 이건 내 인생 최고의 투자였어."],
@@ -89,25 +94,25 @@ window.GIFT = {
   },
   /* 임시 상품. 실제 상품이 오면 통째로 바꿉니다. */
   products: [
-    { name: "드립백 커피 선물세트", line: "아침마다 당신을 떠올리게 하는 가장 무난한 방법.", price: 9900, url: "", img: "", tags: ["coworker", "teacher", "friend", "a30", "a40", "random", "holiday", "promo", "cook", "work", "minimal", "consumable", "useful"] },
-    { name: "수제 쿠키 상자", line: "먹으면 사라지니 짐이 안 됩니다.", price: 8900, url: "", img: "", tags: ["friend", "coworker", "crush", "a20", "a30", "random", "birthday", "cook", "cute", "consumable", "touching"] },
-    { name: "핸드크림 선물세트", line: "실패할 수 없는 선물계의 국밥.", price: 15900, url: "", img: "", tags: ["friend", "coworker", "teacher", "sibling", "a20", "a30", "a40", "birthday", "holiday", "beauty", "consumable", "useful"] },
-    { name: "웃긴 양말 5종", line: "발끝까지 웃게 해드립니다.", price: 12900, url: "", img: "", tags: ["friend", "sibling", "a10", "a20", "birthday", "random", "home", "cute", "consumable", "funny"] },
-    { name: "온열 눈 찜질기", line: "일만 하는 그분의 눈에 휴가를.", price: 24900, url: "", img: "", tags: ["coworker", "parent", "friend", "a30", "a40", "a60", "promo", "comfort", "work", "home", "tech", "useful"] },
-    { name: "디퓨저 선물세트", line: "새집 냄새 대신 당신 센스 냄새.", price: 29900, url: "", img: "", tags: ["friend", "coworker", "lover", "a20", "a30", "housewarm", "plant", "minimal", "consumable", "fancy", "touching"] },
-    { name: "멀티 충전 케이블 2개 세트", line: "충전선은 몇 개가 있어도 늘 모자랍니다.", price: 14900, url: "", img: "", tags: ["friend", "sibling", "coworker", "a10", "a20", "a30", "birthday", "promo", "random", "game", "work", "tech", "consumable", "useful"] },
-    { name: "목 마사지기", line: "효도는 목에서부터.", price: 49900, url: "", img: "", tags: ["parent", "teacher", "coworker", "a40", "a60", "holiday", "birthday", "comfort", "home", "work", "useful", "touching"] },
-    { name: "여행용 파우치 세트", line: "다음 여행 짐 싸는 날 당신이 생각납니다.", price: 19900, url: "", img: "", tags: ["friend", "lover", "sibling", "a20", "a30", "birthday", "travel", "minimal", "useful"] },
-    { name: "대형 곰인형", line: "부피 대비 감동이 압도적입니다.", price: 45000, url: "", img: "", tags: ["lover", "crush", "kid", "a10", "a20", "anniv", "birthday", "cute", "funny", "touching"] },
-    { name: "그림책 세트", line: "읽어주는 사람까지 행복해지는 선물.", price: 32000, url: "", img: "", tags: ["kid", "baby", "plant", "minimal", "touching"] },
-    { name: "극세사 담요", line: "위로를 실물로 드립니다.", price: 19900, url: "", img: "", tags: ["friend", "lover", "parent", "a20", "a60", "comfort", "home", "cute", "touching"] },
-    { name: "과일청 선물세트", line: "다 가진 분께도 빈 자리는 있습니다. 냉장고에.", price: 36000, url: "", img: "", tags: ["parent", "teacher", "coworker", "a40", "a60", "holiday", "housewarm", "comfort", "cook", "consumable", "useful"] },
-    { name: "한우 선물세트", line: "명절의 정답은 소고기입니다.", price: 129000, url: "", img: "", tags: ["parent", "teacher", "coworker", "a40", "a60", "holiday", "promo", "cook", "consumable", "fancy"] },
-    { name: "가죽 카드지갑", line: "꺼낼 때마다 당신이 떠오르는 지갑.", price: 79000, url: "", img: "", tags: ["lover", "parent", "a20", "a30", "a40", "anniv", "birthday", "promo", "work", "minimal", "fancy", "touching"] },
-    { name: "호텔식 고급 수건 세트", line: "수건은 몇 장이 있어도 좋은 걸로 손이 갑니다.", price: 59000, url: "", img: "", tags: ["parent", "lover", "friend", "a30", "a40", "a60", "housewarm", "holiday", "anniv", "home", "minimal", "consumable", "fancy", "useful"] },
-    { name: "실크 잠옷", line: "매일 밤 입는 고급스러움.", price: 119000, url: "", img: "", tags: ["lover", "parent", "a20", "a30", "a40", "anniv", "birthday", "home", "beauty", "fancy", "touching"] },
-    { name: "똥 모양 쿠션", line: "받는 순간 웃음은 보장, 쓰임은 미보장.", price: 14900, url: "", img: "", tags: ["friend", "sibling", "kid", "a10", "a20", "random", "birthday", "home", "cute", "funny"] },
-    { name: "미니 화분", line: "물만 주면 되는 저렴한 행복.", price: 7900, url: "", img: "", tags: ["friend", "coworker", "teacher", "a20", "a30", "housewarm", "random", "plant", "minimal", "touching"] },
-    { name: "캐릭터 머그컵", line: "머그컵은 늘 하나 더 있어도 됩니다.", price: 12900, url: "", img: "", tags: ["friend", "sibling", "coworker", "a10", "a20", "a30", "birthday", "random", "cook", "cute", "game", "funny"] }
+    { name: "드립백 커피 선물세트", line: "아침마다 당신을 떠올리게 하는 가장 무난한 방법.", price: 9900, url: "", img: "", tags: ["office", "retired", "coworker", "teacher", "friend", "a30", "a40", "random", "holiday", "promo", "cook", "work", "minimal", "consumable", "useful"] },
+    { name: "수제 쿠키 상자", line: "먹으면 사라지니 짐이 안 됩니다.", price: 8900, url: "", img: "", tags: ["female", "student", "friend", "coworker", "crush", "a20", "a30", "random", "birthday", "cook", "cute", "consumable", "touching"] },
+    { name: "핸드크림 선물세트", line: "실패할 수 없는 선물계의 국밥.", price: 15900, url: "", img: "", tags: ["female", "office", "physical", "friend", "coworker", "teacher", "sibling", "a20", "a30", "a40", "birthday", "holiday", "beauty", "consumable", "useful"] },
+    { name: "웃긴 양말 5종", line: "발끝까지 웃게 해드립니다.", price: 12900, url: "", img: "", tags: ["male", "student", "friend", "sibling", "a10", "a20", "birthday", "random", "home", "cute", "consumable", "funny"] },
+    { name: "온열 눈 찜질기", line: "일만 하는 그분의 눈에 휴가를.", price: 24900, url: "", img: "", tags: ["office", "student", "coworker", "parent", "friend", "a30", "a40", "a60", "promo", "comfort", "work", "home", "tech", "useful"] },
+    { name: "디퓨저 선물세트", line: "새집 냄새 대신 당신 센스 냄새.", price: 29900, url: "", img: "", tags: ["female", "solo", "couple", "friend", "coworker", "lover", "a20", "a30", "housewarm", "plant", "minimal", "consumable", "fancy", "touching"] },
+    { name: "멀티 충전 케이블 2개 세트", line: "충전선은 몇 개가 있어도 늘 모자랍니다.", price: 14900, url: "", img: "", tags: ["male", "student", "office", "friend", "sibling", "coworker", "a10", "a20", "a30", "birthday", "promo", "random", "game", "work", "tech", "consumable", "useful"] },
+    { name: "목 마사지기", line: "효도는 목에서부터.", price: 49900, url: "", img: "", tags: ["office", "physical", "retired", "homeday", "parent", "teacher", "coworker", "a40", "a60", "holiday", "birthday", "comfort", "home", "work", "useful", "touching"] },
+    { name: "여행용 파우치 세트", line: "다음 여행 짐 싸는 날 당신이 생각납니다.", price: 19900, url: "", img: "", tags: ["female", "friend", "lover", "sibling", "a20", "a30", "birthday", "travel", "minimal", "useful"] },
+    { name: "대형 곰인형", line: "부피 대비 감동이 압도적입니다.", price: 45000, url: "", img: "", tags: ["female", "lover", "crush", "kid", "a10", "a20", "anniv", "birthday", "cute", "funny", "touching"] },
+    { name: "그림책 세트", line: "읽어주는 사람까지 행복해지는 선물.", price: 32000, url: "", img: "", tags: ["parenting", "kid", "baby", "plant", "minimal", "touching"] },
+    { name: "극세사 담요", line: "위로를 실물로 드립니다.", price: 19900, url: "", img: "", tags: ["solo", "female", "friend", "lover", "parent", "a20", "a60", "comfort", "home", "cute", "touching"] },
+    { name: "과일청 선물세트", line: "다 가진 분께도 빈 자리는 있습니다. 냉장고에.", price: 36000, url: "", img: "", tags: ["family", "retired", "homeday", "parent", "teacher", "coworker", "a40", "a60", "holiday", "housewarm", "comfort", "cook", "consumable", "useful"] },
+    { name: "한우 선물세트", line: "명절의 정답은 소고기입니다.", price: 129000, url: "", img: "", tags: ["family", "parenting", "male", "parent", "teacher", "coworker", "a40", "a60", "holiday", "promo", "cook", "consumable", "fancy"] },
+    { name: "가죽 카드지갑", line: "꺼낼 때마다 당신이 떠오르는 지갑.", price: 79000, url: "", img: "", tags: ["male", "office", "lover", "parent", "a20", "a30", "a40", "anniv", "birthday", "promo", "work", "minimal", "fancy", "touching"] },
+    { name: "호텔식 고급 수건 세트", line: "수건은 몇 장이 있어도 좋은 걸로 손이 갑니다.", price: 59000, url: "", img: "", tags: ["couple", "family", "solo", "parent", "lover", "friend", "a30", "a40", "a60", "housewarm", "holiday", "anniv", "home", "minimal", "consumable", "fancy", "useful"] },
+    { name: "실크 잠옷", line: "매일 밤 입는 고급스러움.", price: 119000, url: "", img: "", tags: ["female", "couple", "lover", "parent", "a20", "a30", "a40", "anniv", "birthday", "home", "beauty", "fancy", "touching"] },
+    { name: "똥 모양 쿠션", line: "받는 순간 웃음은 보장, 쓰임은 미보장.", price: 14900, url: "", img: "", tags: ["student", "solo", "friend", "sibling", "kid", "a10", "a20", "random", "birthday", "home", "cute", "funny"] },
+    { name: "미니 화분", line: "물만 주면 되는 저렴한 행복.", price: 7900, url: "", img: "", tags: ["solo", "office", "female", "friend", "coworker", "teacher", "a20", "a30", "housewarm", "random", "plant", "minimal", "touching"] },
+    { name: "캐릭터 머그컵", line: "머그컵은 늘 하나 더 있어도 됩니다.", price: 12900, url: "", img: "", tags: ["student", "office", "friend", "sibling", "coworker", "a10", "a20", "a30", "birthday", "random", "cook", "cute", "game", "funny"] }
   ]
 };
