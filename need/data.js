@@ -4,8 +4,8 @@ window.NEED = {
  settings: { askCount: 12, minEvidence: 2, singleEvidenceFactor: 0.5, ownPower: 1.5, ahaBase: 0.6, ahaGain: 0.8, alsoCount: 3 },
  analytics: { id: "b879d6da-1b32-4120-b0f4-367e273fa58f", src: "https://cloud.umami.is/script.js" },
  strings: {
-  title: "Usefully Yours", headline: "나도 몰랐던, 진짜 필요한 물건",
-  tagline: "평범한 질문 몇 개면 됩니다. 당신 하루의 구멍을 찾아서, 1만원 안팎으로 메워드려요.",
+  title: "Uselessly Yours", headline: "굳이 필요한 물건 추천기",
+  tagline: "나도 몰랐던, 진짜 필요한 물건. 평범한 질문 몇 개로 당신 하루의 구멍을 찾아서 1만원 안팎으로 메워드려요.",
   intro: "가성비맨입니다. 오늘도 한 명의 시민을 낭비로부터 구하러 왔어요. 아무 설명 없이 그냥 평소처럼 답해 주세요.",
   start: "시작할게요", back: "한 칸 전으로", qn: "{n} / {m}",
   thinking: ["영수증 계산 중…", "하루 동선 훑는 중…", "구멍 찾는 중…"],
