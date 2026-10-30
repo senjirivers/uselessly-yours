@@ -1,7 +1,7 @@
 // 가성비맨 퀴즈의 질문, 상품, 문구는 이 파일에서 바꿉니다. (상품은 products-draft.json → build-data.js 로 합칩니다)
 // 질문의 선택지 하나가 "불편 신호"(signals)에 점수를 줍니다. mult 는 그 신호를 깎는 배율입니다(예: 요리를 안 하면 주방 신호 x0.4).
 window.NEED = {
- settings: { askCount: 12, minEvidence: 2, singleEvidenceFactor: 0.5, ownPower: 1.5, ahaBase: 0.6, ahaGain: 0.8, alsoCount: 3 },
+ settings: { askCount: 12, minEvidence: 2, singleEvidenceFactor: 0.5, ownPower: 1.5, ahaBase: 0.3, ahaGain: 1.4, alsoCount: 3 },
  analytics: { id: "b879d6da-1b32-4120-b0f4-367e273fa58f", src: "https://cloud.umami.is/script.js" },
  strings: {
   title: "Uselessly Yours", headline: "굳이 필요한 물건 추천기",

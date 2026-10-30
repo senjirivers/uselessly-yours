@@ -1,7 +1,7 @@
 // 가성비맨 퀴즈의 질문, 상품, 문구는 이 파일에서 바꿉니다. (상품은 products-draft.json → build-data.js 로 합칩니다)
 // 질문의 선택지 하나가 "불편 신호"(signals)에 점수를 줍니다. mult 는 그 신호를 깎는 배율입니다(예: 요리를 안 하면 주방 신호 x0.4).
 window.NEED = {
- settings: { askCount: 12, minEvidence: 2, singleEvidenceFactor: 0.5, ownPower: 1.5, ahaBase: 0.6, ahaGain: 0.8, alsoCount: 3 },
+ settings: { askCount: 12, minEvidence: 2, singleEvidenceFactor: 0.5, ownPower: 1.5, ahaBase: 0.3, ahaGain: 1.4, alsoCount: 3 },
  analytics: { id: "b879d6da-1b32-4120-b0f4-367e273fa58f", src: "https://cloud.umami.is/script.js" },
  strings: {
   title: "Uselessly Yours", headline: "굳이 필요한 물건 추천기",
@@ -97,7 +97,7 @@ window.NEED = {
    "lost": 0.5
   },
   "own": 0.1,
-  "aha": 0.9,
+  "aha": 0.95,
   "url": "",
   "img": ""
  },
@@ -110,7 +110,7 @@ window.NEED = {
    "drop": 0.6
   },
   "own": 0.15,
-  "aha": 0.8,
+  "aha": 0.7,
   "url": "",
   "img": ""
  },
@@ -135,7 +135,7 @@ window.NEED = {
    "tight": 1
   },
   "own": 0.2,
-  "aha": 0.8,
+  "aha": 0.7,
   "url": "",
   "img": ""
  },
@@ -148,7 +148,7 @@ window.NEED = {
    "chore": 0.8
   },
   "own": 0.35,
-  "aha": 0.6,
+  "aha": 0.55,
   "url": "",
   "img": ""
  },
@@ -173,7 +173,7 @@ window.NEED = {
    "chore": 0.4
   },
   "own": 0.25,
-  "aha": 0.7,
+  "aha": 0.8,
   "url": "",
   "img": ""
  },
@@ -185,7 +185,7 @@ window.NEED = {
    "cook": 1
   },
   "own": 0.15,
-  "aha": 0.7,
+  "aha": 0.8,
   "url": "",
   "img": ""
  },
@@ -198,7 +198,7 @@ window.NEED = {
    "tangle": 0.7
   },
   "own": 0.2,
-  "aha": 0.7,
+  "aha": 0.6,
   "url": "",
   "img": ""
  },
@@ -211,7 +211,7 @@ window.NEED = {
    "bag": 0.5
   },
   "own": 0.3,
-  "aha": 0.7,
+  "aha": 0.6,
   "url": "",
   "img": ""
  },
@@ -237,7 +237,7 @@ window.NEED = {
    "drop": 0.4
   },
   "own": 0.3,
-  "aha": 0.7,
+  "aha": 0.6,
   "url": "",
   "img": ""
  },
@@ -250,7 +250,7 @@ window.NEED = {
    "dust": 0.4
   },
   "own": 0.2,
-  "aha": 0.8,
+  "aha": 0.85,
   "url": "",
   "img": ""
  },
@@ -265,7 +265,8 @@ window.NEED = {
   "own": 0.45,
   "aha": 0.4,
   "url": "",
-  "img": ""
+  "img": "",
+  "active": false
  },
  {
   "id": 16,
@@ -278,7 +279,8 @@ window.NEED = {
   "own": 0.5,
   "aha": 0.4,
   "url": "",
-  "img": ""
+  "img": "",
+  "active": false
  },
  {
   "id": 17,
@@ -291,7 +293,8 @@ window.NEED = {
   "own": 0.5,
   "aha": 0.4,
   "url": "",
-  "img": ""
+  "img": "",
+  "active": false
  },
  {
   "id": 18,
@@ -304,7 +307,8 @@ window.NEED = {
   "own": 0.35,
   "aha": 0.5,
   "url": "",
-  "img": ""
+  "img": "",
+  "active": false
  },
  {
   "id": 19,
@@ -317,7 +321,8 @@ window.NEED = {
   "own": 0.45,
   "aha": 0.4,
   "url": "",
-  "img": ""
+  "img": "",
+  "active": false
  },
  {
   "id": 20,
@@ -327,7 +332,7 @@ window.NEED = {
    "smell": 1
   },
   "own": 0.2,
-  "aha": 0.7,
+  "aha": 0.6,
   "url": "",
   "img": ""
  },
@@ -340,7 +345,7 @@ window.NEED = {
    "tangle": 0.5
   },
   "own": 0.3,
-  "aha": 0.6,
+  "aha": 0.55,
   "url": "",
   "img": ""
  },
@@ -366,7 +371,7 @@ window.NEED = {
    "lost": 1
   },
   "own": 0.2,
-  "aha": 0.7,
+  "aha": 0.6,
   "url": "",
   "img": ""
  },
@@ -379,7 +384,7 @@ window.NEED = {
    "drop": 0.3
   },
   "own": 0.35,
-  "aha": 0.6,
+  "aha": 0.5,
   "url": "",
   "img": ""
  },
@@ -407,7 +412,8 @@ window.NEED = {
   "own": 0.35,
   "aha": 0.5,
   "url": "",
-  "img": ""
+  "img": "",
+  "active": false
  },
  {
   "id": 27,
@@ -418,7 +424,7 @@ window.NEED = {
    "wet": 0.5
   },
   "own": 0.2,
-  "aha": 0.7,
+  "aha": 0.75,
   "url": "",
   "img": ""
  },
@@ -431,7 +437,7 @@ window.NEED = {
    "tight": 0.5
   },
   "own": 0.2,
-  "aha": 0.6,
+  "aha": 0.65,
   "url": "",
   "img": ""
  },
@@ -444,7 +450,7 @@ window.NEED = {
    "travel": 0.7
   },
   "own": 0.15,
-  "aha": 0.9,
+  "aha": 0.8,
   "url": "",
   "img": ""
  },
@@ -472,7 +478,8 @@ window.NEED = {
   "own": 0.3,
   "aha": 0.5,
   "url": "",
-  "img": ""
+  "img": "",
+  "active": false
  },
  {
   "id": 32,
@@ -509,7 +516,7 @@ window.NEED = {
    "dust": 0.5
   },
   "own": 0.15,
-  "aha": 0.8,
+  "aha": 0.9,
   "url": "",
   "img": ""
  },
@@ -535,7 +542,7 @@ window.NEED = {
    "cook": 0.3
   },
   "own": 0.3,
-  "aha": 0.6,
+  "aha": 0.55,
   "url": "",
   "img": ""
  },
@@ -548,7 +555,7 @@ window.NEED = {
    "cables": 0.5
   },
   "own": 0.3,
-  "aha": 0.6,
+  "aha": 0.5,
   "url": "",
   "img": ""
  },
@@ -562,7 +569,8 @@ window.NEED = {
   "own": 0.35,
   "aha": 0.5,
   "url": "",
-  "img": ""
+  "img": "",
+  "active": false
  },
  {
   "id": 39,
@@ -573,7 +581,7 @@ window.NEED = {
    "dust": 0.2
   },
   "own": 0.15,
-  "aha": 0.7,
+  "aha": 0.5,
   "url": "",
   "img": ""
  },
@@ -586,7 +594,7 @@ window.NEED = {
    "bag": 0.6
   },
   "own": 0.2,
-  "aha": 0.7,
+  "aha": 0.55,
   "url": "",
   "img": ""
  },
@@ -612,7 +620,7 @@ window.NEED = {
    "chore": 0.6
   },
   "own": 0.3,
-  "aha": 0.7,
+  "aha": 0.85,
   "url": "",
   "img": ""
  },
@@ -627,7 +635,8 @@ window.NEED = {
   "own": 0.5,
   "aha": 0.4,
   "url": "",
-  "img": ""
+  "img": "",
+  "active": false
  },
  {
   "id": 44,
@@ -638,7 +647,7 @@ window.NEED = {
    "tight": 0.5
   },
   "own": 0.15,
-  "aha": 0.8,
+  "aha": 0.85,
   "url": "",
   "img": ""
  },
@@ -651,7 +660,7 @@ window.NEED = {
    "hands": 0.4
   },
   "own": 0.2,
-  "aha": 0.8,
+  "aha": 0.9,
   "url": "",
   "img": ""
  },
@@ -677,7 +686,7 @@ window.NEED = {
    "smell": 0.5
   },
   "own": 0.1,
-  "aha": 0.8,
+  "aha": 0.95,
   "url": "",
   "img": ""
  },
@@ -692,7 +701,8 @@ window.NEED = {
   "own": 0.35,
   "aha": 0.5,
   "url": "",
-  "img": ""
+  "img": "",
+  "active": false
  },
  {
   "id": 49,
@@ -703,7 +713,7 @@ window.NEED = {
    "tight": 0.5
   },
   "own": 0.2,
-  "aha": 0.7,
+  "aha": 0.65,
   "url": "",
   "img": ""
  },
@@ -716,7 +726,7 @@ window.NEED = {
    "bag": 0.4
   },
   "own": 0.3,
-  "aha": 0.6,
+  "aha": 0.55,
   "url": "",
   "img": ""
  },
@@ -729,7 +739,7 @@ window.NEED = {
    "laundry": 0.4
   },
   "own": 0.15,
-  "aha": 0.8,
+  "aha": 0.75,
   "url": "",
   "img": ""
  },
@@ -741,7 +751,7 @@ window.NEED = {
    "tight": 0.8
   },
   "own": 0.2,
-  "aha": 0.7,
+  "aha": 0.55,
   "url": "",
   "img": ""
  },
@@ -753,7 +763,7 @@ window.NEED = {
    "tight": 1
   },
   "own": 0.15,
-  "aha": 0.8,
+  "aha": 0.9,
   "url": "",
   "img": ""
  },
@@ -768,7 +778,8 @@ window.NEED = {
   "own": 0.35,
   "aha": 0.5,
   "url": "",
-  "img": ""
+  "img": "",
+  "active": false
  },
  {
   "id": 55,
@@ -778,7 +789,7 @@ window.NEED = {
    "chore": 0.8
   },
   "own": 0.15,
-  "aha": 0.8,
+  "aha": 0.85,
   "url": "",
   "img": ""
  },
@@ -804,7 +815,7 @@ window.NEED = {
    "cook": 0.4
   },
   "own": 0.25,
-  "aha": 0.6,
+  "aha": 0.8,
   "url": "",
   "img": ""
  },
@@ -819,7 +830,8 @@ window.NEED = {
   "own": 0.45,
   "aha": 0.4,
   "url": "",
-  "img": ""
+  "img": "",
+  "active": false
  },
  {
   "id": 59,
