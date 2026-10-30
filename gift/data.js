@@ -47,9 +47,9 @@ window.GIFT = {
   /* 질문 순서대로 나옵니다. budget 질문은 options 에 min/max 가 있고 필터로 씁니다. */
   questions: [
     { id: "rel", pre: "선물은 물건보다 먼저 거리를 말합니다.\n너무 가까우면 부담이 되고, 너무 멀면 예의가 되죠.", text: "그분은 당신에게 어떤 사람인가요?", options: [
-      { text: "연인", tags: ["lover"] }, { text: "썸 타는 사람", tags: ["crush"] },
+      { text: "썸 타는 사람", tags: ["crush"] },
       { text: "친구", tags: ["friend"] }, { text: "직장 동료·상사", tags: ["coworker"] },
-      { text: "엄마·아빠", tags: ["parent"] }, { text: "형제자매", tags: ["sibling"] },
+      { text: "형제자매", tags: ["sibling"] },
       { text: "선생님·은사", tags: ["teacher"] }, { text: "아이", tags: ["kid"] } ] },
     { id: "sex", pre: "취향에는 성별이 없다고들 합니다.\n그런데 세상의 진열대는 아직 그 말을 믿지 않는 모양입니다.", text: "그분의 성별은요?", options: [
       { text: "여성", tags: ["female"] }, { text: "남성", tags: ["male"] }, { text: "굳이 따지지 않을게요", tags: [] } ] },
