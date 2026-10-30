@@ -1,13 +1,4 @@
-/* 선물 추천기 — 가성비맨 색(파랑+노랑). 기본 틀은 /style.css 를 그대로 씁니다. */
-:root {
-  --ink: #12306b;
-  --muted: #5a6b8c;
-  --line: #c9d3e8;
-  --gold: #ffd23f;      /* 포인트: 노랑 버튼 */
-  --gold-ink: #12306b;
-  --bg: #f6f9ff;
-  --panel: #ffffff;
-}
+/* 선물 추천기 — 색과 글꼴은 본 사이트(/style.css)와 같은 흑백을 그대로 씁니다. */
 body { padding-top: 0; }
 .cp-notice {
   position: sticky; top: 0; z-index: 20;
@@ -19,10 +10,9 @@ body { padding-top: 0; }
 .choices { display: flex; flex-direction: column; gap: 8px; margin-bottom: auto; }
 .choices .btn { text-align: left; background: var(--panel); }
 .progress { height: 6px; border-radius: 99px; background: var(--line); overflow: hidden; }
-.progress i { display: block; height: 100%; background: var(--gold); }
-.card.main { border-width: 2px; }
-.gcard { border: 1px dashed var(--ink); border-radius: 12px; padding: 14px; background: #fffbe6; font: 500 16px/1.6 var(--serif); }
+.progress i { display: block; height: 100%; background: var(--ink); }
+.gcard { border: 1px dashed var(--ink); border-radius: 12px; padding: 14px; background: var(--panel); font: 500 16px/1.6 var(--serif); }
 .gcard .lead { display: block; color: var(--muted); font: 400 12.5px/1.4 var(--sans); margin-bottom: 4px; }
-.ph { display: flex; align-items: center; justify-content: center; aspect-ratio: 4/3; border-radius: 10px; background: #eef2fb; color: var(--muted); font-size: 13px; }
+.ph { display: flex; align-items: center; justify-content: center; aspect-ratio: 4/3; border-radius: 10px; background: #f2f2f2; color: var(--muted); font-size: 13px; }
 span.btn { display: flex; align-items: center; justify-content: center; opacity: .7; }
 .progress + .stage { height: 170px; }
