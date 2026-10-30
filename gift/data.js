@@ -69,13 +69,6 @@ window.GIFT = {
     { id: "day", pre: "우리는 하루의 대부분을 보내는 곳을 조금씩 닮아갑니다.\n책상을 닮은 사람이 있고, 길을 닮은 사람이 있죠.", text: "그분의 낮은 주로 어디서 흘러가나요?", options: [
       { text: "학교", tags: ["student"] }, { text: "회사·사무실", tags: ["office"] }, { text: "몸을 쓰는 일터", tags: ["physical"] },
       { text: "집 (살림·육아·재택)", tags: ["homeday"] }, { text: "은퇴했거나 쉬는 중", tags: ["retired"] } ] },
-    { id: "hobby", pre: "쉬는 시간에 무엇을 하는지는\n그 사람이 스스로에게 주는 선물입니다.", text: "그분은 쉬는 날 주로 무엇을 하나요?", options: [
-      { text: "영화·드라마·독서·음악 (집콕)", tags: ["home"] }, { text: "요리·베이킹·홈카페", tags: ["cook"] },
-      { text: "운동·등산", tags: ["sport"] }, { text: "여행·캠핑", tags: ["travel"] },
-      { text: "게임·보드게임", tags: ["game"] },
-      { text: "꾸미기·뷰티·패션", tags: ["beauty"] }, { text: "사진·감성 기록", tags: ["photo"] },
-      { text: "반려동물과 시간 보내기", tags: ["pet"] }, { text: "쉬는 날에도 일함", tags: ["work"] },
-      { text: "딱히 없어 보여요", tags: [] } ] },
     { id: "has", pre: "다 가진 사람에게도 모자란 것은 있습니다.\n쓰면 사라지는 것들이죠.", text: "그분은 이미 웬만한 건 다 가진 편인가요?", options: [
       { text: "네, 다 있어요", tags: ["consumable"] }, { text: "아니요", tags: [] }, { text: "잘 모르겠어요", tags: [] } ] },
     { id: "react", pre: "선물은 결국 한 장면을 위해 존재합니다.\n포장지가 찢어지는, 그 몇 초.", text: "그 몇 초 동안 어떤 얼굴을 보고 싶나요?", options: [
@@ -83,7 +76,7 @@ window.GIFT = {
       { text: "\"ㅋㅋㅋㅋ 뭐야\"", tags: ["funny"] }, { text: "\"고급지다\"", tags: ["fancy"] } ] }
   ],
   /* 질문별 가중치: 관계·상황·반응이 크게, 나머지는 작게. */
-  weights: { rel: 3, sex: 1.5, age: 1.5, occ: 3, live: 1.5, day: 1.5, hobby: 3.5, has: 2, react: 2.5 },
+  weights: { rel: 3, sex: 1.5, age: 1.5, occ: 3, live: 1.5, day: 1.5, has: 2, react: 2.5 },
   /* 카드 문구: 상황 태그별. {가} 같은 치환 없이 그대로 씁니다. */
   cards: {
     birthday: ["생일 축하해. 올해도 내가 계산해 보니 넌 남는 장사야.", "태어나줘서 고마워. 이건 내 인생 최고의 투자였어."],
