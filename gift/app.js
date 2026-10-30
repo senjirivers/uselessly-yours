@@ -41,10 +41,16 @@
   }
   // 예산으로 거른 뒤, 고른 선택지의 태그와 겹칠 때마다 질문 가중치만큼 점수를 줍니다.
   function rank() {
-    var b = picked("budget");
+    var b = picked("budget"), S = [], EX = [];
+    G.questions.forEach(function (x) { var o = x.options[st.ans[x.id]]; if (!o) return; S = S.concat(o.tags || []); EX = EX.concat(o.ex || []); });
+    // 피하는 것(ex)은 빼고, 반려동물·운동·게임·사진 같은 취미용 상품은 그 답을 고른 사람에게만 보여줍니다.
+    var ok = G.products.filter(function (p) {
+      if (p.tags.some(function (t) { return EX.indexOf(t) > -1; })) return false;
+      return (G.gate || []).every(function (g) { return p.tags.indexOf(g) < 0 || S.indexOf(g) > -1; });
+    });
     function dist(p) { return b.min != null && p.price < b.min ? b.min - p.price : b.max != null && p.price > b.max ? p.price - b.max : 0; }
     // 예산 안에 상품이 3개보다 적으면 가장 가까운 가격의 상품으로 채웁니다.
-    var pool = G.products.slice().sort(function (x, y) { return dist(x) - dist(y); });
+    var pool = ok.slice().sort(function (x, y) { return dist(x) - dist(y); });
     pool = pool.filter(function (p, i) { return dist(p) === 0 || i < 3; });
     return pool
       .map(function (p) {
