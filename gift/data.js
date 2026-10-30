@@ -3,19 +3,37 @@
 window.GIFT = {
   settings: { alternates: 2 },
   strings: {
-    title: "선물 추천기",
-    intro: "누구에게, 얼마로, 무슨 날인지만 알려주세요.\n돈은 아끼고 마음은 남기는 선물 하나, 제가 계산해 드리겠습니다.",
-    start: "계산 시작",
-    calc: "계산 중입니다. 영수증을 뽑고 있어요.",
-    resultLead: "가성비맨의 계산 결과",
-    alsoTitle: "이것도 남는 장사입니다",
+    title: "회의적인 선물 시뮬레이터",
+    intro: "선물이요? 글쎄요. 대부분은 생각보다 덜 좋아합니다.\n사기 전에 받는 순간부터 돌려보죠. 받는 분에 대해 몇 가지만 알려주세요.",
+    start: "시뮬레이션 시작",
+    calc: "받는 분의 반응을 시뮬레이션하는 중입니다. 너무 기대하진 마세요.",
+    simLead: "시뮬레이션 #{n}",
+    meter: "예상 만족도 (보수적으로)",
+    verdictHigh: "…인정합니다. 이건 좋아하겠네요.",
+    verdictMid: "나쁘지 않아요. 큰 기대는 하지 마시고요.",
+    verdictLow: "솔직히 말씀드려도 될까요. 다른 걸 보시죠.",
+    take: "이걸로 할게요",
+    next: "다른 거 줘보기",
+    owned: "이미 갖고 있을 것 같아요",
+    doneLead: "선물 완성",
+    alsoTitle: "아깝게 탈락한 후보",
     cardTitle: "카드에 이렇게 써 보세요",
+    otherCard: "다른 문구",
     buy: "쿠팡에서 보기",
     retry: "다른 사람 선물도 고르기",
     share: "링크 복사",
     copied: "복사했어요",
     noLink: "링크 준비 중",
+    noMore: "더 돌려볼 선물이 없어요. 까다로운 분이시군요. 예산을 바꿔볼까요?",
     none: "예산 안에 맞는 선물이 아직 없어요. 예산을 한 칸 올려볼까요?"
+  },
+  /* 받는 사람 반응 대본: 상품의 반응 태그(useful, touching, funny, fancy)별 [행동, 정적, 대사]. 만족도가 낮으면 low 를 씁니다. */
+  reactions: {
+    useful: [["포장을 뜯는다.", "2초간 진지하게 살펴본다.", "「오 이거 진짜 필요했는데?」"], ["상자를 열자마자 바로 꺼내 본다.", "고개를 끄덕인다.", "「이거 내일부터 쓴다」"]],
+    touching: [["포장을 조심스럽게 뜯는다.", "말이 없다. 눈이 살짝 촉촉하다.", "「…이런 걸 어떻게 알았어」"], ["카드부터 읽는다.", "한참 웃는다.", "「아 뭐야, 감동이잖아」"]],
+    funny: [["포장을 뜯는다.", "3초 정적.", "「ㅋㅋㅋㅋㅋ 아 뭐야 진짜」 (사진부터 찍는다)"], ["뭔지 확인한다.", "웃음을 참는다. 실패한다.", "「이거 단톡방에 올린다」"]],
+    fancy: [["상자부터 만져본다.", "로고를 확인한다.", "「너 이거 좀 쓴 거 아니야?」"], ["포장지를 아껴서 뜯는다.", "조용히 감탄한다.", "「와… 고급지다」"]],
+    low: [["포장을 뜯는다.", "1초 정적.", "「아… 고마워」 (웃고는 있다)"], ["상자를 열어본다.", "고개를 살짝 갸웃한다.", "「오… 이건 어디에 쓰는 거야?」"]]
   },
   /* 질문 순서대로 나옵니다. budget 질문은 options 에 min/max 가 있고 필터로 씁니다. */
   questions: [
@@ -52,36 +70,36 @@ window.GIFT = {
   weights: { rel: 3, age: 1.5, occ: 3, hobby: 2, space: 1, react: 2.5, has: 2 },
   /* 카드 문구: 상황 태그별. {가} 같은 치환 없이 그대로 씁니다. */
   cards: {
-    birthday: ["생일 축하해. 올해도 내가 계산해 보니 넌 남는 장사야.", "태어나줘서 고마워. 이건 가성비 최고의 투자였어."],
+    birthday: ["생일 축하해. 올해도 내가 계산해 보니 넌 남는 장사야.", "태어나줘서 고마워. 이건 내 인생 최고의 투자였어."],
     anniv: ["오늘까지 함께한 날들, 단가로 따지면 공짜나 다름없어.", "앞으로도 1+1처럼 붙어 다니자."],
     housewarm: ["새집에서는 좋은 일만 적립되길.", "월세는 못 내주지만 이건 내줄게."],
     promo: ["축하해. 이제 밥은 네가 사는 거다.", "고생 많았어. 투자한 만큼 돌려받는 중이네."],
-    baby: ["작은 사람이 생긴 걸 축하해. 잠은… 응원할게.", "육아에 가성비는 없지만 이건 좀 있어."],
+    baby: ["작은 사람이 생긴 걸 축하해. 잠은… 응원할게.", "육아에 정답은 없지만 이건 꽤 정답이야."],
     comfort: ["빨리 나아. 아픈 건 하나도 남는 게 없어.", "오늘은 아무것도 안 해도 되는 날이야."],
     holiday: ["늘 고마워요. 말로 하기 쑥스러워서 이걸로 대신해요.", "올해도 잘 부탁드립니다. 진심 100%, 할인 없음."],
     random: ["그냥. 이유 없는 선물이 제일 비싼 거래.", "지나가다 네 생각 나서. 무료 배송이었어."]
   },
   /* 임시 상품. 실제 상품이 오면 통째로 바꿉니다. */
   products: [
-    { name: "드립백 커피 선물세트", line: "아침마다 당신을 떠올리게 하는 가장 싼 방법.", price: 9900, url: "", img: "", tags: ["coworker", "teacher", "friend", "a30", "a40", "random", "holiday", "promo", "cook", "work", "minimal", "consumable", "useful"] },
+    { name: "드립백 커피 선물세트", line: "아침마다 당신을 떠올리게 하는 가장 무난한 방법.", price: 9900, url: "", img: "", tags: ["coworker", "teacher", "friend", "a30", "a40", "random", "holiday", "promo", "cook", "work", "minimal", "consumable", "useful"] },
     { name: "수제 쿠키 상자", line: "먹으면 사라지니 짐이 안 됩니다.", price: 8900, url: "", img: "", tags: ["friend", "coworker", "crush", "a20", "a30", "random", "birthday", "cook", "cute", "consumable", "touching"] },
     { name: "핸드크림 선물세트", line: "실패할 수 없는 선물계의 국밥.", price: 15900, url: "", img: "", tags: ["friend", "coworker", "teacher", "sibling", "a20", "a30", "a40", "birthday", "holiday", "beauty", "consumable", "useful"] },
-    { name: "웃긴 양말 5종", line: "발끝까지 웃게 해드립니다.", price: 12900, url: "", img: "", tags: ["friend", "sibling", "a10", "a20", "birthday", "random", "home", "cute", "funny"] },
+    { name: "웃긴 양말 5종", line: "발끝까지 웃게 해드립니다.", price: 12900, url: "", img: "", tags: ["friend", "sibling", "a10", "a20", "birthday", "random", "home", "cute", "consumable", "funny"] },
     { name: "온열 눈 찜질기", line: "일만 하는 그분의 눈에 휴가를.", price: 24900, url: "", img: "", tags: ["coworker", "parent", "friend", "a30", "a40", "a60", "promo", "comfort", "work", "home", "tech", "useful"] },
-    { name: "디퓨저 선물세트", line: "새집 냄새 대신 당신 센스 냄새.", price: 29900, url: "", img: "", tags: ["friend", "coworker", "lover", "a20", "a30", "housewarm", "plant", "minimal", "fancy", "touching"] },
-    { name: "무선 충전 거치대", line: "책상 위에서 매일 쓰이는 선물.", price: 34900, url: "", img: "", tags: ["friend", "sibling", "coworker", "lover", "a20", "a30", "birthday", "promo", "game", "work", "tech", "useful"] },
+    { name: "디퓨저 선물세트", line: "새집 냄새 대신 당신 센스 냄새.", price: 29900, url: "", img: "", tags: ["friend", "coworker", "lover", "a20", "a30", "housewarm", "plant", "minimal", "consumable", "fancy", "touching"] },
+    { name: "멀티 충전 케이블 2개 세트", line: "충전선은 몇 개가 있어도 늘 모자랍니다.", price: 14900, url: "", img: "", tags: ["friend", "sibling", "coworker", "a10", "a20", "a30", "birthday", "promo", "random", "game", "work", "tech", "consumable", "useful"] },
     { name: "목 마사지기", line: "효도는 목에서부터.", price: 49900, url: "", img: "", tags: ["parent", "teacher", "coworker", "a40", "a60", "holiday", "birthday", "comfort", "home", "work", "useful", "touching"] },
-    { name: "캠핑 랜턴", line: "어둠 속에서도 당신 생각이 나게.", price: 39000, url: "", img: "", tags: ["friend", "lover", "sibling", "a20", "a30", "birthday", "travel", "sport", "tech", "useful"] },
+    { name: "여행용 파우치 세트", line: "다음 여행 짐 싸는 날 당신이 생각납니다.", price: 19900, url: "", img: "", tags: ["friend", "lover", "sibling", "a20", "a30", "birthday", "travel", "minimal", "useful"] },
     { name: "대형 곰인형", line: "부피 대비 감동이 압도적입니다.", price: 45000, url: "", img: "", tags: ["lover", "crush", "kid", "a10", "a20", "anniv", "birthday", "cute", "funny", "touching"] },
-    { name: "원목 장난감 세트", line: "부모님도 인스타에 올리고 싶은 장난감.", price: 32000, url: "", img: "", tags: ["kid", "baby", "plant", "minimal", "touching"] },
+    { name: "그림책 세트", line: "읽어주는 사람까지 행복해지는 선물.", price: 32000, url: "", img: "", tags: ["kid", "baby", "plant", "minimal", "touching"] },
     { name: "극세사 담요", line: "위로를 실물로 드립니다.", price: 19900, url: "", img: "", tags: ["friend", "lover", "parent", "a20", "a60", "comfort", "home", "cute", "touching"] },
     { name: "과일청 선물세트", line: "다 가진 분께도 빈 자리는 있습니다. 냉장고에.", price: 36000, url: "", img: "", tags: ["parent", "teacher", "coworker", "a40", "a60", "holiday", "housewarm", "comfort", "cook", "consumable", "useful"] },
     { name: "한우 선물세트", line: "명절의 정답은 소고기입니다.", price: 129000, url: "", img: "", tags: ["parent", "teacher", "coworker", "a40", "a60", "holiday", "promo", "cook", "consumable", "fancy"] },
     { name: "가죽 카드지갑", line: "꺼낼 때마다 당신이 떠오르는 지갑.", price: 79000, url: "", img: "", tags: ["lover", "parent", "a20", "a30", "a40", "anniv", "birthday", "promo", "work", "minimal", "fancy", "touching"] },
-    { name: "블루투스 스피커", line: "그분의 방에 BGM을 깔아드립니다.", price: 59000, url: "", img: "", tags: ["friend", "sibling", "lover", "a10", "a20", "birthday", "housewarm", "game", "home", "tech", "useful"] },
-    { name: "전동 칫솔", line: "매일 두 번, 3분씩 고마워하게 됩니다.", price: 119000, url: "", img: "", tags: ["lover", "parent", "sibling", "a20", "a30", "a40", "birthday", "anniv", "minimal", "tech", "useful", "fancy"] },
+    { name: "호텔식 고급 수건 세트", line: "수건은 몇 장이 있어도 좋은 걸로 손이 갑니다.", price: 59000, url: "", img: "", tags: ["parent", "lover", "friend", "a30", "a40", "a60", "housewarm", "holiday", "anniv", "home", "minimal", "consumable", "fancy", "useful"] },
+    { name: "실크 잠옷", line: "매일 밤 입는 고급스러움.", price: 119000, url: "", img: "", tags: ["lover", "parent", "a20", "a30", "a40", "anniv", "birthday", "home", "beauty", "fancy", "touching"] },
     { name: "똥 모양 쿠션", line: "받는 순간 웃음은 보장, 쓰임은 미보장.", price: 14900, url: "", img: "", tags: ["friend", "sibling", "kid", "a10", "a20", "random", "birthday", "home", "cute", "funny"] },
     { name: "미니 화분", line: "물만 주면 되는 저렴한 행복.", price: 7900, url: "", img: "", tags: ["friend", "coworker", "teacher", "a20", "a30", "housewarm", "random", "plant", "minimal", "touching"] },
-    { name: "게이밍 장패드", line: "책상 전체가 선물이 됩니다.", price: 19900, url: "", img: "", tags: ["friend", "sibling", "lover", "a10", "a20", "birthday", "game", "tech", "useful", "funny"] }
+    { name: "캐릭터 머그컵", line: "머그컵은 늘 하나 더 있어도 됩니다.", price: 12900, url: "", img: "", tags: ["friend", "sibling", "coworker", "a10", "a20", "a30", "birthday", "random", "cook", "cute", "game", "funny"] }
   ]
 };

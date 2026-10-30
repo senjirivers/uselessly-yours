@@ -12,7 +12,8 @@ body { padding-top: 0; }
 }
 .butler { animation-duration: 3.5s; }
 .choices { display: flex; flex-direction: column; gap: 8px; margin-bottom: auto; }
-.choices .btn { text-align: left; background: var(--panel); }
+.choices .btn:not(.primary):not(.link) { text-align: left; background: var(--panel); }
+.choices .btn.primary { text-align: center; }
 .progress { height: 6px; border-radius: 99px; background: var(--line); overflow: hidden; }
 .progress i { display: block; height: 100%; background: var(--ink); }
 .gcard { border: 1px dashed var(--ink); border-radius: 12px; padding: 14px; background: var(--panel); font: 500 16px/1.6 var(--serif); }
@@ -20,3 +21,12 @@ body { padding-top: 0; }
 .ph { display: flex; align-items: center; justify-content: center; aspect-ratio: 4/3; border-radius: 10px; background: var(--bg); color: var(--muted); font-size: 13px; }
 span.btn { display: flex; align-items: center; justify-content: center; opacity: .7; }
 .progress + .stage { height: 170px; }
+.script { margin: 4px 0 0; padding: 12px 14px; list-style: none; border-top: 1px dashed var(--line); display: flex; flex-direction: column; gap: 6px; font: 400 15.5px/1.6 var(--serif); }
+.script li, .meter, .verdict { animation: fadein .5s ease both; }
+.script li:last-child { font-weight: 700; }
+.meter { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 6px 10px; font-size: 13px; color: var(--muted); }
+.meter b { font: 700 22px/1 var(--serif); color: var(--ink); }
+.meter i { grid-column: 1 / -1; display: block; height: 8px; border-radius: 99px; background: var(--bg); overflow: hidden; }
+.meter u { display: block; height: 100%; background: var(--ink); text-decoration: none; }
+.gcard .btn.link { display: block; min-height: 32px; padding: 0; margin-top: 4px; }
+@media (prefers-reduced-motion: reduce) { .script li, .meter, .verdict { animation: none; } }
