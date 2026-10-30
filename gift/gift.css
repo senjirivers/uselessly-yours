@@ -30,3 +30,4 @@ span.btn { display: flex; align-items: center; justify-content: center; opacity:
 .meter u { display: block; height: 100%; background: var(--ink); text-decoration: none; }
 .gcard .btn.link { display: block; min-height: 32px; padding: 0; margin-top: 4px; }
 @media (prefers-reduced-motion: reduce) { .script li, .meter, .verdict { animation: none; } }
+.qnote { display: block; margin-top: 10px; color: var(--muted); font: 400 14px/1.6 var(--serif); }

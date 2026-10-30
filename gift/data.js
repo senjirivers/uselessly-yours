@@ -4,14 +4,22 @@ window.GIFT = {
   settings: { alternates: 2 },
   strings: {
     title: "회의적인 선물 시뮬레이터",
-    intro: "선물이요? 글쎄요. 대부분은 생각보다 덜 좋아합니다.\n사기 전에 받는 순간부터 돌려보죠. 받는 분에 대해 몇 가지만 알려주세요.",
+    intro: [
+      "선물이란 무엇일까요.\n마음을 물건의 모양으로 접어서 건네는 일이라고들 합니다.",
+      "아름다운 말이죠. 하지만 솔직해집시다.\n생일이니까, 명절이니까, 다들 하니까. 선물의 절반은 마음이고, 나머지 절반은 관례입니다.",
+      "관례가 나쁜 건 아닙니다. 마음은 늘 핑계가 있어야 밖으로 나오니까요.\n문제는 받는 사람이 그 둘을 정확히 구분한다는 겁니다.",
+      "그래서 저는 회의합니다.\n이 선물이 정말 기쁨이 될지, 아니면 서랍 속 세 번째 머그컵이 될지.",
+      "사기 전에, 받는 순간을 먼저 돌려봅시다.\n마음이 관례에 묻히지 않도록. 자, 골라봅시다."
+    ],
+    more: "계속 들어보기",
+    skip: "바로 시작",
     start: "시뮬레이션 시작",
-    calc: "받는 분의 반응을 시뮬레이션하는 중입니다. 너무 기대하진 마세요.",
+    calc: "받는 순간을 미리 돌려보는 중입니다.\n기대는 실망의 선불이니, 조금만 하세요.",
     simLead: "시뮬레이션 #{n}",
     meter: "예상 만족도 (보수적으로)",
-    verdictHigh: "…인정합니다. 이건 좋아하겠네요.",
-    verdictMid: "나쁘지 않아요. 큰 기대는 하지 마시고요.",
-    verdictLow: "솔직히 말씀드려도 될까요. 다른 걸 보시죠.",
+    verdictHigh: "…인정합니다. 이번엔 관례가 아니라 마음이 도착하겠네요.",
+    verdictMid: "나쁘지 않아요. 관례와 마음의 딱 중간쯤입니다.",
+    verdictLow: "솔직히 말씀드리면, 이건 마음보다 관례에 가깝습니다.",
     take: "이걸로 할게요",
     next: "다른 거 줘보기",
     owned: "이미 갖고 있을 것 같아요",
@@ -37,33 +45,33 @@ window.GIFT = {
   },
   /* 질문 순서대로 나옵니다. budget 질문은 options 에 min/max 가 있고 필터로 씁니다. */
   questions: [
-    { id: "rel", text: "누구에게 주나요?", options: [
+    { id: "rel", text: "누구에게 마음을 건네려 하나요?", note: "관계가 선물의 무게를 정합니다.", options: [
       { text: "연인", tags: ["lover"] }, { text: "썸 타는 사람", tags: ["crush"] },
       { text: "친구", tags: ["friend"] }, { text: "직장 동료·상사", tags: ["coworker"] },
       { text: "엄마·아빠", tags: ["parent"] }, { text: "형제자매", tags: ["sibling"] },
       { text: "선생님·은사", tags: ["teacher"] }, { text: "아이", tags: ["kid"] } ] },
-    { id: "age", text: "그분은 몇 살쯤인가요?", options: [
+    { id: "age", text: "그분은 몇 살쯤인가요?", note: "나이는 취향의 절반을 설명합니다. 나머지 절반은 아무도 모르고요.", options: [
       { text: "10대", tags: ["a10"] }, { text: "20대", tags: ["a20"] }, { text: "30대", tags: ["a30"] },
       { text: "40~50대", tags: ["a40"] }, { text: "60대 이상", tags: ["a60"] } ] },
-    { id: "occ", text: "무슨 날인가요?", options: [
+    { id: "occ", text: "무슨 날인가요?", note: "사람은 핑계가 있어야 마음을 꺼냅니다. 이번 핑계는 무엇인가요?", options: [
       { text: "생일", tags: ["birthday"] }, { text: "기념일", tags: ["anniv"] }, { text: "집들이", tags: ["housewarm"] },
       { text: "승진·이직·합격", tags: ["promo"] }, { text: "출산·육아", tags: ["baby"] }, { text: "병문안·위로", tags: ["comfort"] },
       { text: "명절·감사", tags: ["holiday"] }, { text: "그냥 (이유 없는 선물)", tags: ["random"] } ] },
-    { id: "budget", text: "예산은 얼마인가요?", options: [
+    { id: "budget", text: "예산은 얼마인가요?", note: "마음에는 값을 매길 수 없다지만, 선물에는 매겨야 합니다.", options: [
       { text: "1만 원 이하", max: 10000 }, { text: "1~3만 원", min: 10000, max: 30000 },
       { text: "3~5만 원", min: 30000, max: 50000 }, { text: "5~10만 원", min: 50000, max: 100000 },
       { text: "10만 원 이상", min: 100000 } ] },
-    { id: "hobby", text: "그분은 쉬는 날 뭐 하나요?", options: [
+    { id: "hobby", text: "그분은 쉬는 날 뭐 하나요?", note: "사람은 쉬는 방식으로 자신을 드러냅니다.", options: [
       { text: "집에서 뒹굴", tags: ["home"] }, { text: "요리·카페", tags: ["cook"] }, { text: "운동·등산", tags: ["sport"] },
       { text: "게임·덕질", tags: ["game"] }, { text: "꾸미기·뷰티", tags: ["beauty"] }, { text: "여행·캠핑", tags: ["travel"] },
       { text: "일만 함", tags: ["work"] } ] },
-    { id: "space", text: "그분 방이나 책상은 어떤 느낌인가요?", options: [
+    { id: "space", text: "그분 방이나 책상은 어떤 느낌인가요?", note: "방은 그 사람이 매일 고른 것들의 합입니다.", options: [
       { text: "물건이 거의 없음", tags: ["minimal", "consumable"] }, { text: "귀여운 것 가득", tags: ["cute"] },
       { text: "전자기기 가득", tags: ["tech"] }, { text: "식물·인테리어", tags: ["plant"] }, { text: "모르겠음", tags: [] } ] },
-    { id: "react", text: "받고 어떤 반응이었으면 하나요?", options: [
+    { id: "react", text: "받고 어떤 반응이었으면 하나요?", note: "모든 선물은 결국 한 장면을 위해 존재합니다.", options: [
       { text: "\"오 이거 진짜 필요했어\"", tags: ["useful"] }, { text: "\"헐 감동…\"", tags: ["touching"] },
       { text: "\"ㅋㅋㅋㅋ 뭐야\"", tags: ["funny"] }, { text: "\"고급지다\"", tags: ["fancy"] } ] },
-    { id: "has", text: "그분은 이미 웬만한 건 다 가진 사람인가요?", options: [
+    { id: "has", text: "그분은 이미 웬만한 건 다 가진 사람인가요?", note: "다 가진 사람에게도 모자란 건 있습니다. 사라지는 것들이요.", options: [
       { text: "네, 다 있어요", tags: ["consumable"] }, { text: "아니요", tags: [] }, { text: "모르겠어요", tags: [] } ] }
   ],
   /* 질문별 가중치: 관계·상황·반응이 크게, 나이·공간은 작게. */

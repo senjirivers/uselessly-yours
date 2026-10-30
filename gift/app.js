@@ -11,15 +11,21 @@
   function rnd(a) { return a[Math.floor(Math.random() * a.length)]; }
 
   function intro() {
-    st = { i: 0, ans: {}, list: [], k: 0, max: 1 };
-    app.innerHTML = top() + '<div class="intro">' + img("stand") +
-      '<div class="bubble">' + esc(S.intro).replace(/\n/g, "<br>") + "</div>" +
-      '<button class="btn primary" data-start="1">' + esc(S.start) + "</button></div>";
+    st = { i: 0, ans: {}, list: [], k: 0, max: 1, page: 0 };
+    talk();
+  }
+  // 시작 전 독백: 몇 장에 나눠서 한 장씩 넘깁니다.
+  function talk() {
+    var last = st.page >= S.intro.length - 1;
+    app.innerHTML = top() + '<div class="intro">' + img(st.page % 2 ? "chin" : "stand") +
+      '<div class="bubble"><span class="lead">' + (st.page + 1) + " / " + S.intro.length + "</span>" + esc(S.intro[st.page]).replace(/\n/g, "<br>") + "</div>" +
+      (last ? '<button class="btn primary" data-start="1">' + esc(S.start) + "</button>"
+        : '<button class="btn primary" data-more="1">' + esc(S.more) + '</button><button class="btn link" data-start="1">' + esc(S.skip) + "</button>") + "</div>";
   }
   function ask() {
     var qq = G.questions[st.i], pct = Math.round(st.i / G.questions.length * 100);
     app.innerHTML = top() + '<div class="progress"><i style="width:' + pct + '%"></i></div>' + img(st.i % 2 ? "chin" : "stand") +
-      '<div class="bubble"><span class="lead">' + (st.i + 1) + " / " + G.questions.length + "</span>" + esc(qq.text) + "</div>" +
+      '<div class="bubble"><span class="lead">' + (st.i + 1) + " / " + G.questions.length + "</span>" + esc(qq.text) + (qq.note ? '<span class="qnote">' + esc(qq.note) + "</span>" : "") + "</div>" +
       '<div class="choices">' + qq.options.map(function (o, k) { return '<button class="btn" data-opt="' + k + '">' + esc(o.text) + "</button>"; }).join("") +
       (st.i ? '<button class="btn link" data-back="1">이전 질문</button>' : "") + "</div>";
   }
@@ -30,7 +36,7 @@
     st.list = rank(); st.k = 0;
     st.max = G.questions.reduce(function (a, x) { var o = x.options[st.ans[x.id]]; return a + (o && o.tags && o.tags.length ? (G.weights[x.id] || 1) : 0); }, 0) || 1;
     if (!st.list.length) return empty(S.none);
-    app.innerHTML = top() + img("calc") + '<div class="bubble">' + esc(S.calc) + "</div>";
+    app.innerHTML = top() + img("calc") + '<div class="bubble">' + esc(S.calc).replace(/\n/g, "<br>") + "</div>";
     setTimeout(sim, 1400);
   }
   // 예산으로 거른 뒤, 고른 선택지의 태그와 겹칠 때마다 질문 가중치만큼 점수를 줍니다.
@@ -97,6 +103,7 @@
     var d = t.dataset;
     if (d.retry) return intro();
     if (d.start) return ask();
+    if (d.more) { st.page++; return talk(); }
     if (d.opt != null) return pick(parseInt(d.opt, 10));
     if (d.back) { st.i = Math.max(0, st.i - 1); return ask(); }
     if (d.reask) return ask();
