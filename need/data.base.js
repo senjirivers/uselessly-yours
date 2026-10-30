@@ -1,7 +1,7 @@
 // 가성비맨 퀴즈의 질문, 상품, 문구는 이 파일에서 바꿉니다. (상품은 products-draft.json → build-data.js 로 합칩니다)
 // 질문의 선택지 하나가 "불편 신호"(signals)에 점수를 줍니다. mult 는 그 신호를 깎는 배율입니다(예: 요리를 안 하면 주방 신호 x0.4).
 window.NEED = {
- settings: { askCount: 12, minEvidence: 2, singleEvidenceFactor: 0.5, ownPower: 1.5, ahaBase: 0.3, ahaGain: 1.4, alsoCount: 3 },
+ settings: { askCount: 13, minEvidence: 2, singleEvidenceFactor: 0.5, ownPower: 1.5, ahaBase: 0.3, ahaGain: 1.4, alsoCount: 3 },
  analytics: { id: "b879d6da-1b32-4120-b0f4-367e273fa58f", src: "https://cloud.umami.is/script.js" },
  strings: {
   title: "Uselessly Yours", headline: "굳이 필요한 물건 추천기",
@@ -33,11 +33,13 @@ window.NEED = {
   { id: "rest", text: "쉬는 날 가장 오래 머무는 곳은?", options: [
     { text: "침대", sig: { drop: 0.8, tangle: 0.4 } }, { text: "소파", sig: { lost: 0.8, drop: 0.4 } }, { text: "책상 앞", sig: { cables: 1, desk: 1 } } ] },
   { id: "dinner", text: "저녁은 보통 어떻게 해결하나요?", options: [
-    { text: "거의 배달", sig: {}, mult: { cook: 0.4 } }, { text: "대충 데워 먹는다", sig: { cook: 1.1 } }, { text: "직접 해 먹는다", sig: { chore: 0.8, cook: 0.5 } } ] },
+    { text: "거의 배달", sig: {}, mult: { cook: 0.4 } }, { text: "대충 데워 먹는다", sig: { cook: 1.1 } }, { text: "직접 해 먹는다", sig: { chore: 0.8, cook: 0.5, hands: 0.5 } } ] },
   { id: "laundry", text: "빨래할 때 가장 귀찮은 순간은?", options: [
     { text: "널 곳을 찾을 때", sig: { laundry: 1, tight: 0.6, wet: 0.4 } }, { text: "개켜서 넣을 때", sig: { laundry: 0.6, tight: 0.6 } }, { text: "양말 짝을 맞출 때", sig: { laundry: 1, lost: 0.7 } }, { text: "딱히 귀찮지 않다", sig: {} } ] },
   { id: "search", text: "최근 한 달, 뭔가 찾느라 집을 뒤진 적이 있다면?", options: [
     { text: "거의 매주", sig: { lost: 1.3 } }, { text: "가끔", sig: { lost: 0.7 } }, { text: "거의 없다", sig: {} } ] },
+  { id: "trash", text: "음식물이나 쓰레기를 버릴 때, 보통 어떻게 하나요?", options: [
+    { text: "손에 든 채 발로 뚜껑을 연다", sig: { hands: 1, smell: 0.4 } }, { text: "모아 두었다가 한꺼번에 버린다", sig: { smell: 1 } }, { text: "생기면 바로바로 버린다", sig: {} } ] },
   { id: "bath", text: "샤워를 마치고 욕실을 둘러보면?", options: [
     { text: "물기가 남아 있다", sig: { wet: 1, smell: 0.4 } }, { text: "머리카락이 보인다", sig: { dust: 1, chore: 0.6 } }, { text: "꽤 깔끔하다", sig: {} } ] },
   { id: "season", text: "더 힘든 계절은?", options: [
