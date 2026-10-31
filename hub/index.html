@@ -17,8 +17,10 @@
   .tests { display: flex; flex-direction: column; gap: 16px; margin-top: 10px; }
   .test { display: block; background: var(--panel); border: 1px solid var(--ink); border-radius: 14px; padding: 16px; color: inherit; text-decoration: none; }
   .test-head { display: flex; gap: 14px; align-items: flex-end; }
-  .test-head img { flex: none; height: 150px; width: auto; }
-  .test h2 { margin: 0 0 6px; font: 700 19px/1.3 var(--serif); }
+  .pic { flex: none; width: 112px; height: 150px; display: flex; align-items: flex-end; justify-content: center; }
+  .pic img { height: 150px; width: auto; max-width: 100%; object-fit: contain; filter: brightness(0); opacity: .92; }
+  .test-head > div { align-self: flex-end; min-width: 0; }
+  .test h2 { word-break: keep-all; text-wrap: balance; margin: 0 0 6px; font: 700 19px/1.3 var(--serif); }
   .test p { margin: 0; font: 500 14.5px/1.6 var(--serif); color: var(--muted); }
   .test .btn { margin-top: 14px; pointer-events: none; display: flex; align-items: center; justify-content: center; width: 100%; box-sizing: border-box; }
   .test[hidden] { display: none; }
@@ -35,14 +37,14 @@
   <div class="tests">
     <a class="test" data-id="useless" href="/">
       <div class="test-head">
-        <img src="/assets/butler/presenting.webp" alt="" width="112" height="150">
+        <span class="pic"><img src="/assets/butler/presenting.webp" alt=""></span>
         <div><h2>쓸데없는 물건 추천기</h2><p>쓸데없지만 마음 깊은 곳에서는 원하던 물건을 찾아드립니다.</p></div>
       </div>
       <span class="btn primary">해보겠습니다</span>
     </a>
     <a class="test" data-id="gift" href="/gift/">
       <div class="test-head">
-        <img src="/assets/gasungbi/stand.webp" alt="" width="59" height="150">
+        <span class="pic"><img src="/assets/gasungbi/silhouette.webp" alt=""></span>
         <div><h2>급할 때 쓰는 선물 시뮬레이터</h2><p>선물은 해야 하는데 뭘 줘야 할지 모르시겠습니까? 제가 대신 골라드리겠습니다. 저도 귀찮지만.</p></div>
       </div>
       <span class="btn primary">해보겠습니다</span>
