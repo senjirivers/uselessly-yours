@@ -317,7 +317,8 @@
       (secret ? '<button class="btn wide" data-secret="1">' + esc(s("secretBtn")) + "</button>" + secretHtml(secret) : "") +
       (fc ? '<div class="cmp"><h3>' + esc(s("cmpTitle")) + "</h3><p>" + esc(s("friendMine")) + ": <strong>" + esc(T(fc.f0.kw)) + "</strong></p><p>" + esc(s(fc.key)) + "</p></div>" : "") +
       '<div class="cardwrap" id="cardwrap"><button class="btn wide" data-card="1">' + esc(s("makeCard")) + "</button></div>" +
-      '<div class="actions"><button class="btn" data-again="1">' + esc(s("again")) + '</button><button class="btn primary" data-sendfriend="1">' + LINK + " " + esc(s("sendFriend")) + "</button></div>";
+      '<div class="actions"><button class="btn" data-again="1">' + esc(s("again")) + '</button><button class="btn primary" data-sendfriend="1">' + LINK + " " + esc(s("sendFriend")) + "</button></div>" +
+      (lang === "ko" ? '<a class="btn strong" href="/hub/?from=useless">' + esc(s("otherTests")) + "</a>" : "");
     draw(topbar("") + html);
   }
 

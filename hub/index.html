@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>다른 테스트 해보기 · Uselessly Yours</title>
+<meta name="description" content="Uselessly Yours 의 다른 테스트들">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@500;700&display=swap">
+<link rel="stylesheet" href="/style.css">
+<style>
+  :root { --bg: #dedbd3; --panel: #f4f2ec; --line: #b4b0a5; --ink: #0d0d0d; --muted: #5c5950; --gold: #0d0d0d; --gold-ink: #f4f2ec; }
+  body { padding-top: 0; }
+  .hub-title { margin: 8px 0 2px; font: 700 clamp(24px, 7.6vw, 34px)/1.25 var(--serif); letter-spacing: -.02em; }
+  .hub-lead { margin: 0 0 6px; color: var(--muted); font: 500 15px/1.6 var(--serif); }
+  .tests { display: flex; flex-direction: column; gap: 16px; margin-top: 10px; }
+  .test { display: block; background: var(--panel); border: 1px solid var(--ink); border-radius: 14px; padding: 16px; color: inherit; text-decoration: none; }
+  .test-head { display: flex; gap: 14px; align-items: flex-end; }
+  .test-head img { flex: none; height: 150px; width: auto; }
+  .test h2 { margin: 0 0 6px; font: 700 19px/1.3 var(--serif); }
+  .test p { margin: 0; font: 500 14.5px/1.6 var(--serif); color: var(--muted); }
+  .thumbs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 14px 0; }
+  .thumbs img { width: 100%; aspect-ratio: 1; object-fit: cover; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); }
+  .test .btn { pointer-events: none; display: flex; align-items: center; justify-content: center; width: 100%; box-sizing: border-box; }
+  .test[hidden] { display: none; }
+  .back { text-align: center; margin-top: 4px; }
+</style>
+</head>
+<body>
+<main class="app" id="app">
+  <div class="top"><a class="brand" href="/hub/" style="text-decoration:none">Uselessly Yours</a></div>
+  <div>
+    <h1 class="hub-title">다른 테스트 해보기</h1>
+    <p class="hub-lead">같은 곳에서 만든 다른 시뮬레이터입니다.</p>
+  </div>
+  <div class="tests">
+    <a class="test" data-id="useless" href="/">
+      <div class="test-head">
+        <img src="/assets/butler/presenting.webp" alt="" width="112" height="150">
+        <div><h2>쓸데없는 물건 추천기</h2><p>쓸데없지만 마음 깊은 곳에서는 원하던 물건을 찾아드립니다.</p></div>
+      </div>
+      <div class="thumbs"><img src="/assets/products/3.webp" alt="" loading="lazy"><img src="/assets/products/10.webp" alt="" loading="lazy"><img src="/assets/products/48.webp" alt="" loading="lazy"><img src="/assets/products/90.webp" alt="" loading="lazy"></div>
+      <span class="btn primary">해보겠습니다</span>
+    </a>
+    <a class="test" data-id="gift" href="/gift/">
+      <div class="test-head">
+        <img src="/assets/gasungbi/stand.webp" alt="" width="59" height="150">
+        <div><h2>급할 때 쓰는 선물 시뮬레이터</h2><p>선물은 해야 하는데 뭘 줘야 할지 모르시겠습니까? 제가 대신 골라드리겠습니다. 저도 귀찮지만.</p></div>
+      </div>
+      <div class="thumbs"><img src="/assets/gift/products/33.webp" alt="" loading="lazy"><img src="/assets/gift/products/35.webp" alt="" loading="lazy"><img src="/assets/gift/products/36.webp" alt="" loading="lazy"><img src="/assets/gift/products/38.webp" alt="" loading="lazy"></div>
+      <span class="btn primary">해보겠습니다</span>
+    </a>
+  </div>
+</main>
+<script>
+  // /hub/?from=gift 로 들어오면 방금 한 테스트는 목록에서 뺍니다.
+  var from = new URLSearchParams(location.search).get("from");
+  if (from) { var el = document.querySelector('.test[data-id="' + from.replace(/[^a-z]/g, "") + '"]'); if (el) el.hidden = true; }
+</script>
+</body>
+</html>

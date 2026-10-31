@@ -41,6 +41,7 @@ window.QUIZ = {
    "resultBuy": "물건 보러가기",
    "alsoLead": "이런 것도 마음에 드실지 모릅니다.",
    "again": "다시 해보겠습니다",
+   "otherTests": "다른 테스트 해보기",
    "shareShort": "공유하기",
    "copiedShort": "링크 복사됨",
    "copiedToast": "복사 완료",
