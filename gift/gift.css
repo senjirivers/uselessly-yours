@@ -59,3 +59,4 @@ span.btn { display: flex; align-items: center; justify-content: center; opacity:
 .stamp { width: 96px; height: 96px; color: #0d0d0d; opacity: .6; transform: rotate(-11deg); font-family: var(--sans); display: block; }
 .intro { justify-content: flex-start; padding-top: max(20px, 7dvh); }
 .intro .stage { margin-top: 0; }
+.intro-title { white-space: normal; word-break: keep-all; text-wrap: balance; }
